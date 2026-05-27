@@ -99,6 +99,8 @@ type Run struct {
 	Status       string       `json:"status"`
 	Conclusion   string       `json:"conclusion"`
 	RunNumber    int          `json:"run_number"`
+	Event        string       `json:"event"`
+	HeadBranch   string       `json:"head_branch"`
 	CreatedAt    time.Time    `json:"created_at"`
 	UpdatedAt    time.Time    `json:"updated_at"`
 	RunStartedAt time.Time    `json:"run_started_at"`
