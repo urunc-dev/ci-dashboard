@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T01:21:45.299739645Z",
+  "generated_at": "2026-06-05T01:11:16.890550671Z",
   "repo": "urunc-dev/urunc",
   "overall_health": 88.57142857142857,
   "workflows": [
@@ -3149,127 +3149,237 @@
       "total_runs": 20,
       "failed_runs": 5,
       "failure_rate": 25,
-      "avg_duration_secs": 1184.4,
+      "avg_duration_secs": 1192.95,
       "weather_history": [
         "success",
         "success",
         "success",
+        "failure",
+        "failure",
         "success",
-        "failure",
-        "failure",
         "success"
       ],
       "last_run": {
-        "id": 26857913074,
+        "id": 26923920217,
         "name": "urunc CI (nightly)",
         "status": "completed",
         "conclusion": "success",
-        "run_number": 228,
-        "created_at": "2026-06-03T01:20:32Z",
-        "updated_at": "2026-06-03T01:42:44Z",
-        "run_started_at": "2026-06-03T01:20:32Z",
-        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26857913074",
+        "run_number": 229,
+        "created_at": "2026-06-04T01:20:41Z",
+        "updated_at": "2026-06-04T01:42:52Z",
+        "run_started_at": "2026-06-04T01:20:41Z",
+        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26923920217",
         "jobs": [
           {
             "name": "Build / build (amd64, ubuntu-22.04)",
             "conclusion": "success",
-            "duration_sec": 62,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26857913074/job/79204876916"
+            "duration_sec": 66,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26923920217/job/79430006840"
           },
           {
             "name": "Unit tests / unit-test (arm64, ubuntu-22.04-arm)",
             "conclusion": "success",
-            "duration_sec": 47,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26857913074/job/79204876920"
+            "duration_sec": 30,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26923920217/job/79430006848"
+          },
+          {
+            "name": "Unit tests / unit-test (amd64, ubuntu-22.04)",
+            "conclusion": "success",
+            "duration_sec": 43,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26923920217/job/79430006856"
           },
           {
             "name": "Build / build (arm64, ubuntu-22.04-arm)",
             "conclusion": "success",
             "duration_sec": 47,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26857913074/job/79204876921"
-          },
-          {
-            "name": "Unit tests / unit-test (amd64, ubuntu-22.04)",
-            "conclusion": "success",
-            "duration_sec": 41,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26857913074/job/79204876926"
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26923920217/job/79430006886"
           },
           {
             "name": "urunc-deploy test / urunc-deploy (arm64, ubuntu-22.04-arm)",
             "conclusion": "success",
-            "duration_sec": 103,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26857913074/job/79204981883"
-          },
-          {
-            "name": "Kubernetes test / Kubernetes test (amd64, ubuntu-22.04)",
-            "conclusion": "success",
-            "duration_sec": 303,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26857913074/job/79204981887"
+            "duration_sec": 105,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26923920217/job/79430131179"
           },
           {
             "name": "Kubernetes test / Kubernetes test (arm64, ubuntu-22.04-arm)",
             "conclusion": "success",
-            "duration_sec": 291,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26857913074/job/79204981900"
+            "duration_sec": 285,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26923920217/job/79430131182"
           },
           {
-            "name": "urunc-deploy test / urunc-deploy (amd64, ubuntu-22.04)",
+            "name": "Kubernetes test / Kubernetes test (amd64, ubuntu-22.04)",
             "conclusion": "success",
-            "duration_sec": 83,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26857913074/job/79204981904"
+            "duration_sec": 347,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26923920217/job/79430131218"
           },
           {
             "name": "E2E test / VM test (amd64, test_docker)",
             "conclusion": "success",
-            "duration_sec": 493,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26857913074/job/79204981952"
+            "duration_sec": 492,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26923920217/job/79430131219"
+          },
+          {
+            "name": "urunc-deploy test / urunc-deploy (amd64, ubuntu-22.04)",
+            "conclusion": "success",
+            "duration_sec": 70,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26923920217/job/79430131222"
           },
           {
             "name": "E2E test / VM test (arm64, test_ctr)",
             "conclusion": "success",
-            "duration_sec": 986,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26857913074/job/79204981954"
-          },
-          {
-            "name": "E2E test / VM test (arm64, test_crictl)",
-            "conclusion": "success",
-            "duration_sec": 456,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26857913074/job/79204981973"
-          },
-          {
-            "name": "E2E test / VM test (amd64, test_nerdctl)",
-            "conclusion": "success",
-            "duration_sec": 1265,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26857913074/job/79204981980"
-          },
-          {
-            "name": "E2E test / VM test (amd64, test_ctr)",
-            "conclusion": "success",
-            "duration_sec": 1010,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26857913074/job/79204981991"
-          },
-          {
-            "name": "E2E test / VM test (arm64, test_docker)",
-            "conclusion": "success",
-            "duration_sec": 449,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26857913074/job/79204981992"
+            "duration_sec": 1013,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26923920217/job/79430131229"
           },
           {
             "name": "E2E test / VM test (arm64, test_nerdctl)",
             "conclusion": "success",
-            "duration_sec": 1153,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26857913074/job/79204981999"
+            "duration_sec": 1191,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26923920217/job/79430131233"
+          },
+          {
+            "name": "E2E test / VM test (amd64, test_nerdctl)",
+            "conclusion": "success",
+            "duration_sec": 1259,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26923920217/job/79430131238"
+          },
+          {
+            "name": "E2E test / VM test (arm64, test_docker)",
+            "conclusion": "success",
+            "duration_sec": 438,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26923920217/job/79430131257"
+          },
+          {
+            "name": "E2E test / VM test (amd64, test_ctr)",
+            "conclusion": "success",
+            "duration_sec": 1031,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26923920217/job/79430131258"
+          },
+          {
+            "name": "E2E test / VM test (arm64, test_crictl)",
+            "conclusion": "success",
+            "duration_sec": 500,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26923920217/job/79430131259"
           },
           {
             "name": "E2E test / VM test (amd64, test_crictl)",
             "conclusion": "success",
-            "duration_sec": 533,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26857913074/job/79204982014"
+            "duration_sec": 508,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26923920217/job/79430131261"
           }
         ],
         "run_attempt": 1
       },
       "recent_runs": [
+        {
+          "id": 26923920217,
+          "name": "urunc CI (nightly)",
+          "status": "completed",
+          "conclusion": "success",
+          "run_number": 229,
+          "created_at": "2026-06-04T01:20:41Z",
+          "updated_at": "2026-06-04T01:42:52Z",
+          "run_started_at": "2026-06-04T01:20:41Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26923920217",
+          "jobs": [
+            {
+              "name": "Build / build (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 66,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26923920217/job/79430006840"
+            },
+            {
+              "name": "Unit tests / unit-test (arm64, ubuntu-22.04-arm)",
+              "conclusion": "success",
+              "duration_sec": 30,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26923920217/job/79430006848"
+            },
+            {
+              "name": "Unit tests / unit-test (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 43,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26923920217/job/79430006856"
+            },
+            {
+              "name": "Build / build (arm64, ubuntu-22.04-arm)",
+              "conclusion": "success",
+              "duration_sec": 47,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26923920217/job/79430006886"
+            },
+            {
+              "name": "urunc-deploy test / urunc-deploy (arm64, ubuntu-22.04-arm)",
+              "conclusion": "success",
+              "duration_sec": 105,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26923920217/job/79430131179"
+            },
+            {
+              "name": "Kubernetes test / Kubernetes test (arm64, ubuntu-22.04-arm)",
+              "conclusion": "success",
+              "duration_sec": 285,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26923920217/job/79430131182"
+            },
+            {
+              "name": "Kubernetes test / Kubernetes test (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 347,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26923920217/job/79430131218"
+            },
+            {
+              "name": "E2E test / VM test (amd64, test_docker)",
+              "conclusion": "success",
+              "duration_sec": 492,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26923920217/job/79430131219"
+            },
+            {
+              "name": "urunc-deploy test / urunc-deploy (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 70,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26923920217/job/79430131222"
+            },
+            {
+              "name": "E2E test / VM test (arm64, test_ctr)",
+              "conclusion": "success",
+              "duration_sec": 1013,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26923920217/job/79430131229"
+            },
+            {
+              "name": "E2E test / VM test (arm64, test_nerdctl)",
+              "conclusion": "success",
+              "duration_sec": 1191,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26923920217/job/79430131233"
+            },
+            {
+              "name": "E2E test / VM test (amd64, test_nerdctl)",
+              "conclusion": "success",
+              "duration_sec": 1259,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26923920217/job/79430131238"
+            },
+            {
+              "name": "E2E test / VM test (arm64, test_docker)",
+              "conclusion": "success",
+              "duration_sec": 438,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26923920217/job/79430131257"
+            },
+            {
+              "name": "E2E test / VM test (amd64, test_ctr)",
+              "conclusion": "success",
+              "duration_sec": 1031,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26923920217/job/79430131258"
+            },
+            {
+              "name": "E2E test / VM test (arm64, test_crictl)",
+              "conclusion": "success",
+              "duration_sec": 500,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26923920217/job/79430131259"
+            },
+            {
+              "name": "E2E test / VM test (amd64, test_crictl)",
+              "conclusion": "success",
+              "duration_sec": 508,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26923920217/job/79430131261"
+            }
+          ],
+          "run_attempt": 1
+        },
         {
           "id": 26857913074,
           "name": "urunc CI (nightly)",
@@ -5406,116 +5516,6 @@
               "conclusion": "success",
               "duration_sec": 368,
               "html_url": "https://github.com/urunc-dev/urunc/actions/runs/25948555438/job/76281765179"
-            }
-          ],
-          "run_attempt": 1
-        },
-        {
-          "id": 25894452218,
-          "name": "urunc CI (nightly)",
-          "status": "completed",
-          "conclusion": "success",
-          "run_number": 209,
-          "created_at": "2026-05-15T01:02:07Z",
-          "updated_at": "2026-05-15T01:21:27Z",
-          "run_started_at": "2026-05-15T01:02:07Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/25894452218",
-          "jobs": [
-            {
-              "name": "Unit tests / unit-test (amd64, ubuntu-22.04)",
-              "conclusion": "success",
-              "duration_sec": 40,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/25894452218/job/76104472875"
-            },
-            {
-              "name": "Unit tests / unit-test (arm64, ubuntu-22.04-arm)",
-              "conclusion": "success",
-              "duration_sec": 27,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/25894452218/job/76104472877"
-            },
-            {
-              "name": "Build / build (amd64, ubuntu-22.04)",
-              "conclusion": "success",
-              "duration_sec": 54,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/25894452218/job/76104472880"
-            },
-            {
-              "name": "Build / build (arm64, ubuntu-22.04-arm)",
-              "conclusion": "success",
-              "duration_sec": 50,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/25894452218/job/76104472885"
-            },
-            {
-              "name": "Kubernetes test / Kubernetes test (arm64, ubuntu-22.04-arm)",
-              "conclusion": "success",
-              "duration_sec": 318,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/25894452218/job/76104558395"
-            },
-            {
-              "name": "Kubernetes test / Kubernetes test (amd64, ubuntu-22.04)",
-              "conclusion": "success",
-              "duration_sec": 345,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/25894452218/job/76104558409"
-            },
-            {
-              "name": "urunc-deploy test / urunc-deploy (amd64, ubuntu-22.04)",
-              "conclusion": "success",
-              "duration_sec": 78,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/25894452218/job/76104558419"
-            },
-            {
-              "name": "urunc-deploy test / urunc-deploy (arm64, ubuntu-22.04-arm)",
-              "conclusion": "success",
-              "duration_sec": 105,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/25894452218/job/76104558430"
-            },
-            {
-              "name": "E2E test / VM test (arm64, test_crictl)",
-              "conclusion": "success",
-              "duration_sec": 520,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/25894452218/job/76104558458"
-            },
-            {
-              "name": "E2E test / VM test (amd64, test_crictl)",
-              "conclusion": "success",
-              "duration_sec": 946,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/25894452218/job/76104558459"
-            },
-            {
-              "name": "E2E test / VM test (amd64, test_ctr)",
-              "conclusion": "success",
-              "duration_sec": 861,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/25894452218/job/76104558461"
-            },
-            {
-              "name": "E2E test / VM test (arm64, test_nerdctl)",
-              "conclusion": "success",
-              "duration_sec": 999,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/25894452218/job/76104558462"
-            },
-            {
-              "name": "E2E test / VM test (arm64, test_ctr)",
-              "conclusion": "success",
-              "duration_sec": 778,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/25894452218/job/76104558464"
-            },
-            {
-              "name": "E2E test / VM test (arm64, test_docker)",
-              "conclusion": "success",
-              "duration_sec": 451,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/25894452218/job/76104558468"
-            },
-            {
-              "name": "E2E test / VM test (amd64, test_nerdctl)",
-              "conclusion": "success",
-              "duration_sec": 1100,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/25894452218/job/76104558482"
-            },
-            {
-              "name": "E2E test / VM test (amd64, test_docker)",
-              "conclusion": "success",
-              "duration_sec": 370,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/25894452218/job/76104558495"
             }
           ],
           "run_attempt": 1
@@ -9022,7 +9022,7 @@
       "total_runs": 20,
       "failed_runs": 0,
       "failure_rate": 0,
-      "avg_duration_secs": 17.15,
+      "avg_duration_secs": 17.3,
       "weather_history": [
         "success",
         "success",
@@ -9033,26 +9033,46 @@
         "success"
       ],
       "last_run": {
-        "id": 26922262905,
+        "id": 26987848073,
         "name": "Automatically close stale PRs",
         "status": "completed",
         "conclusion": "success",
-        "run_number": 452,
-        "created_at": "2026-06-04T00:35:46Z",
-        "updated_at": "2026-06-04T00:36:05Z",
-        "run_started_at": "2026-06-04T00:35:46Z",
-        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26922262905",
+        "run_number": 453,
+        "created_at": "2026-06-05T00:27:54Z",
+        "updated_at": "2026-06-05T00:28:12Z",
+        "run_started_at": "2026-06-05T00:27:54Z",
+        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26987848073",
         "jobs": [
           {
             "name": "stale",
             "conclusion": "success",
-            "duration_sec": 15,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26922262905/job/79424991135"
+            "duration_sec": 14,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26987848073/job/79641287135"
           }
         ],
         "run_attempt": 1
       },
       "recent_runs": [
+        {
+          "id": 26987848073,
+          "name": "Automatically close stale PRs",
+          "status": "completed",
+          "conclusion": "success",
+          "run_number": 453,
+          "created_at": "2026-06-05T00:27:54Z",
+          "updated_at": "2026-06-05T00:28:12Z",
+          "run_started_at": "2026-06-05T00:27:54Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26987848073",
+          "jobs": [
+            {
+              "name": "stale",
+              "conclusion": "success",
+              "duration_sec": 14,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26987848073/job/79641287135"
+            }
+          ],
+          "run_attempt": 1
+        },
         {
           "id": 26922262905,
           "name": "Automatically close stale PRs",
@@ -9429,26 +9449,6 @@
               "conclusion": "success",
               "duration_sec": 13,
               "html_url": "https://github.com/urunc-dev/urunc/actions/runs/25976765637/job/76358113366"
-            }
-          ],
-          "run_attempt": 1
-        },
-        {
-          "id": 25947646968,
-          "name": "Automatically close stale PRs",
-          "status": "completed",
-          "conclusion": "success",
-          "run_number": 433,
-          "created_at": "2026-05-16T00:20:11Z",
-          "updated_at": "2026-05-16T00:20:26Z",
-          "run_started_at": "2026-05-16T00:20:11Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/25947646968",
-          "jobs": [
-            {
-              "name": "stale",
-              "conclusion": "success",
-              "duration_sec": 12,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/25947646968/job/76278962038"
             }
           ],
           "run_attempt": 1
