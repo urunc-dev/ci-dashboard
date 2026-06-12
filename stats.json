@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-11T01:14:34.758541536Z",
+  "generated_at": "2026-06-12T01:17:29.244199142Z",
   "repo": "urunc-dev/urunc",
-  "overall_health": 88.0952380952381,
+  "overall_health": 88.33333333333333,
   "workflows": [
     {
       "name": "add-git-trailers",
@@ -3133,137 +3133,237 @@
       "total_runs": 20,
       "failed_runs": 6,
       "failure_rate": 30,
-      "avg_duration_secs": 1230.05,
+      "avg_duration_secs": 1263.6,
       "weather_history": [
-        "success",
         "success",
         "success",
         "failure",
         "success",
         "success",
-        "failure"
+        "failure",
+        "success"
       ],
       "last_run": {
-        "id": 27246380997,
+        "id": 27317118432,
         "name": "urunc CI (nightly)",
         "status": "completed",
-        "conclusion": "failure",
-        "run_number": 235,
-        "created_at": "2026-06-10T01:12:17Z",
-        "updated_at": "2026-06-10T01:35:37Z",
-        "run_started_at": "2026-06-10T01:12:17Z",
-        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27246380997",
+        "conclusion": "success",
+        "run_number": 236,
+        "created_at": "2026-06-11T01:13:47Z",
+        "updated_at": "2026-06-11T01:34:08Z",
+        "run_started_at": "2026-06-11T01:13:47Z",
+        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27317118432",
         "jobs": [
-          {
-            "name": "Build / build (amd64, ubuntu-22.04)",
-            "conclusion": "success",
-            "duration_sec": 64,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27246380997/job/80461236178"
-          },
-          {
-            "name": "Unit tests / unit-test (amd64, ubuntu-22.04)",
-            "conclusion": "success",
-            "duration_sec": 45,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27246380997/job/80461236197"
-          },
           {
             "name": "Unit tests / unit-test (arm64, ubuntu-22.04-arm)",
             "conclusion": "success",
-            "duration_sec": 31,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27246380997/job/80461236205"
+            "duration_sec": 28,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27317118432/job/80700041853"
           },
           {
             "name": "Build / build (arm64, ubuntu-22.04-arm)",
             "conclusion": "success",
-            "duration_sec": 52,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27246380997/job/80461236237"
+            "duration_sec": 53,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27317118432/job/80700041854"
           },
           {
-            "name": "Kubernetes test / Kubernetes test (arm64, ubuntu-22.04-arm)",
+            "name": "Build / build (amd64, ubuntu-22.04)",
             "conclusion": "success",
-            "duration_sec": 297,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27246380997/job/80461353003"
+            "duration_sec": 65,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27317118432/job/80700041876"
+          },
+          {
+            "name": "Unit tests / unit-test (amd64, ubuntu-22.04)",
+            "conclusion": "success",
+            "duration_sec": 41,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27317118432/job/80700041894"
+          },
+          {
+            "name": "urunc-deploy test / urunc-deploy (arm64, ubuntu-22.04-arm)",
+            "conclusion": "success",
+            "duration_sec": 105,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27317118432/job/80700164469"
           },
           {
             "name": "Kubernetes test / Kubernetes test (amd64, ubuntu-22.04)",
             "conclusion": "success",
             "duration_sec": 306,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27246380997/job/80461353007"
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27317118432/job/80700164470"
+          },
+          {
+            "name": "Kubernetes test / Kubernetes test (arm64, ubuntu-22.04-arm)",
+            "conclusion": "success",
+            "duration_sec": 304,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27317118432/job/80700164479"
           },
           {
             "name": "urunc-deploy test / urunc-deploy (amd64, ubuntu-22.04)",
             "conclusion": "success",
-            "duration_sec": 81,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27246380997/job/80461353027"
-          },
-          {
-            "name": "urunc-deploy test / urunc-deploy (arm64, ubuntu-22.04-arm)",
-            "conclusion": "success",
-            "duration_sec": 119,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27246380997/job/80461353035"
-          },
-          {
-            "name": "E2E test / VM test (amd64, test_ctr)",
-            "conclusion": "success",
-            "duration_sec": 866,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27246380997/job/80461353084"
-          },
-          {
-            "name": "E2E test / VM test (amd64, test_docker)",
-            "conclusion": "success",
-            "duration_sec": 411,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27246380997/job/80461353091"
-          },
-          {
-            "name": "E2E test / VM test (amd64, test_nerdctl)",
-            "conclusion": "failure",
-            "duration_sec": 1330,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27246380997/job/80461353094"
-          },
-          {
-            "name": "E2E test / VM test (amd64, test_crictl)",
-            "conclusion": "success",
-            "duration_sec": 488,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27246380997/job/80461353095"
+            "duration_sec": 79,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27317118432/job/80700164491"
           },
           {
             "name": "E2E test / VM test (arm64, test_nerdctl)",
             "conclusion": "success",
-            "duration_sec": 1298,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27246380997/job/80461353103"
+            "duration_sec": 1079,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27317118432/job/80700164513"
           },
           {
-            "name": "E2E test / VM test (arm64, test_ctr)",
+            "name": "E2E test / VM test (amd64, test_docker)",
             "conclusion": "success",
-            "duration_sec": 963,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27246380997/job/80461353112"
+            "duration_sec": 502,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27317118432/job/80700164522"
           },
           {
             "name": "E2E test / VM test (arm64, test_crictl)",
             "conclusion": "success",
-            "duration_sec": 454,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27246380997/job/80461353121"
+            "duration_sec": 434,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27317118432/job/80700164526"
+          },
+          {
+            "name": "E2E test / VM test (amd64, test_ctr)",
+            "conclusion": "success",
+            "duration_sec": 978,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27317118432/job/80700164535"
+          },
+          {
+            "name": "E2E test / VM test (amd64, test_nerdctl)",
+            "conclusion": "success",
+            "duration_sec": 1151,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27317118432/job/80700164537"
           },
           {
             "name": "E2E test / VM test (arm64, test_docker)",
             "conclusion": "success",
-            "duration_sec": 415,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27246380997/job/80461353124"
-          }
-        ],
-        "failed_jobs": [
+            "duration_sec": 407,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27317118432/job/80700164538"
+          },
           {
-            "id": 80461353094,
-            "name": "E2E test / VM test (amd64, test_nerdctl)",
-            "conclusion": "failure",
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27246380997/job/80461353094",
-            "log_snippet": "[Crash / Timeout] — 6 signal(s) found\n────────────────────────────────────────────────\n-\u003e Crash / Timeout\n  panic: test timed out after 20m0s\n-\u003e Test Failure\n  Expected success, but got an error:\n  FAIL\tgithub.com/urunc-dev/urunc/tests/e2e\t1200.014s\n-\u003e Build Failure\n  elapsed: 179.2s                                                                   total:  4.5 Mi (25.9 KiB/s)time=\"2026-06-10T01:31:39Z\" level=fatal msg=\"failed to copy: read tcp 10.1.1.112:42628-\u003e84.254.1.240:443: read: connection timed out\" -- exit status 1. Retrying in 2s...\n  make: *** [Makefile:276: test_nerdctl] Error 1\n  ##[error]Process completed with exit code 2.",
-            "raw_log": "go mod verify\nall modules verified\n##[group]Run # Set up Go environment properly\n# Set up Go environment properly\nexport GOROOT=$(go env GOROOT)\nexport PATH=\"$GOROOT/bin:$PATH\"\ngo version\ngo env GOROOT\nif [ \"amd64\" = \"arm64\" ]; then\nsudo -E env \"PATH=$PATH\" \"GOROOT=$GOROOT\" make test_nerdctl_Spt\nelse\nsudo -E env \"PATH=$PATH\" \"GOROOT=$GOROOT\" make test_nerdctl\nfi\nshell: /usr/bin/bash -e {0}\nenv:\nGOTOOLCHAIN: local\n##[endgroup]\ngo version go1.25.4 linux/amd64\nTesting nerdctl\n=== RUN   TestE2E\nRunning Suite: E2E Suite - /home/runner/work/urunc/urunc/tests/e2e\n==================================================================\nRandom Seed: 1781054132\n2026-06-10T01:15:32.3241543Z\nWill run 27 of 72 specs\nSSSSSSSSSSSSSSSSSSSSSSSSSSSS\n------------------------------\nNerdctl foreground containers unikernel containers Hvt-rumprun-capture-hello\n/home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56\n2026/06/10 01:15:32 Pulling image: harbor.nbfc.io/nubificus/urunc/net-qemu-mirage:latest\n2026/06/10 01:15:39 Pulling image: harbor.nbfc.io/nubificus/urunc/redis-qemu-unikraft-initrd:latest\n2026/06/10 01:15:48 Pulling image: harbor.nbfc.io/nubificus/urunc/nginx-qemu-linux-raw:latest\n2026/06/10 01:16:44 Pulling image: harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\n2026/06/10 01:16:52 Pulling image: harbor.nbfc.io/nubificus/urunc/nginx-cloud-hypervisor-linux-raw:latest\n2026/06/10 01:21:37 Pulling image: harbor.nbfc.io/nubificus/urunc/redis-hvt-rumprun-block:latest\n2026/06/10 01:22:08 Pulling image: harbor.nbfc.io/nubificus/urunc/redis-spt-rumprun-raw:latest\n2026/06/10 01:22:33 Pulling image: harbor.nbfc.io/nubificus/urunc/hello-server-qemu-mewz:latest\n2026/06/10 01:22:42 Pulling image: harbor.nbfc.io/nubificus/urunc/busybox-qemu-linux-raw:latest\n2026/06/10 01:22:58 Pulling image: harbor.nbfc.io/nubificus/urunc/busybox-firecracker-linux-raw:latest\n2026/06/10 01:27:39 Pulling image: harbor.nbfc.io/nubificus/urunc/hello-hvt-rumprun:latest\n2026/06/10 01:28:01 Pulling image: harbor.nbfc.io/nubificus/urunc/hello-spt-rumprun:latest\n2026/06/10 01:28:26 Pulling image: harbor.nbfc.io/nubificus/urunc/redis-hvt-rumprun-raw:latest\n2026/06/10 01:28:29 Pulling image: harbor.nbfc.io/nubificus/urunc/nginx-firecracker-linux-raw:latest\n2026/06/10 01:28:39 Pulling image: harbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest\nAttempt 1/5 failed to pull harbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest: Pull: harbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest: resolving      |--------------------------------------|\nelapsed: 0.1 s                                                            total:   0.0 B (0.0 B/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest: resolving      |--------------------------------------|\nelapsed: 0.2 s                                                            total:   0.0 B (0.0 B/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest: resolving      |--------------------------------------|\nelapsed: 0.3 s                                                            total:   0.0 B (0.0 B/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest: resolving      |--------------------------------------|\nelapsed: 0.4 s                                                            total:   0.0 B (0.0 B/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest: resolving      |--------------------------------------|\nelapsed: 0.5 s                                                            total:   0.0 B (0.0 B/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest: resolving      |--------------------------------------|\nelapsed: 0.6 s                                                            total:   0.0 B (0.0 B/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest: resolving      |--------------------------------------|\nelapsed: 0.7 s                                                            total:   0.0 B (0.0 B/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest: resolving      |--------------------------------------|\nelapsed: 0.8 s                                                            total:   0.0 B (0.0 B/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest:         resolved       |++++++++++++++++++++++++++++++++++++++|\nmanifest-sha256:8d37d1cb81072ae119e53b1b40855a25a77ba364e5501855e7d4b8c4a6677699: downloading    |--------------------------------------|    0.0 B/2.5 KiB\nelapsed: 0.9 s                                                                    total:   0.0 B (0.0 B/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest:         resolved       |++++++++++++++++++++++++++++++++++++++|\nmanifest-sha256:8d37d1cb81072ae119e53b1b40855a25a77ba364e5501855e7d4b8c4a6677699: downloading    |--------------------------------------|    0.0 B/2.5 KiB\nelapsed: 1.0 s                                                                    total:   0.0 B (0.0 B/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest:         resolved       |++++++++++++++++++++++++++++++++++++++|\nmanifest-sha256:8d37d1cb81072ae119e53b1b40855a25a77ba364e5501855e7d4b8c4a6677699: downloading    |--------------------------------------|    0.0 B/2.5 KiB\nelapsed: 1.1 s                                                                    total:   0.0 B (0.0 B/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest:         resolved       |++++++++++++++++++++++++++++++++++++++|\nmanifest-sha256:8d37d1cb81072ae119e53b1b40855a25a77ba364e5501855e7d4b8c4a6677699: downloading    |--------------------------------------|    0.0 B/2.5 KiB\nelapsed: 1.2 s                                                                    total:   0.0 B (0.0 B/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest:         resolved       |++++++++++++++++++++++++++++++++++++++|\nmanifest-sha256:8d37d1cb81072ae119e53b1b40855a25a77ba364e5501855e7d4b8c4a6677699: downloading    |--------------------------------------|    0.0 B/2.5 KiB\nelapsed: 1.3 s                                                                    total:   0.0 B (0.0 B/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest:         resolved       |++++++++++++++++++++++++++++++++++++++|\nmanifest-sha256:8d37d1cb81072ae119e53b1b40855a25a77ba364e5501855e7d4b8c4a6677699: downloading    |--------------------------------------|    0.0 B/2.5 KiB\nelapsed: 1.4 s                                                                    total:   0.0 B (0.0 B/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest:         resolved       |++++++++++++++++++++++++++++++++++++++|\nmanifest-sha256:8d37d1cb81072ae119e53b1b40855a25a77ba364e5501855e7d4b8c4a6677699: downloading    |--------------------------------------|    0.0 B/2.5 KiB\nelapsed: 1.5 s                                                                    total:   0.0 B (0.0 B/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest:         resolved       |++++++++++++++++++++++++++++++++++++++|\nmanifest-sha256:8d37d1cb81072ae119e53b1b40855a25a77ba364e5501855e7d4b8c4a6677699: downloading    |--------------------------------------|    0.0 B/2.5 KiB\nelapsed: 1.6 s                                                                    total:   0.0 B (0.0 B/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest:         resolved       |++++++++++++++++++++++++++++++++++++++|\nmanifest-sha256:8d37d1cb81072ae119e53b1b40855a25a77ba364e5501855e7d4b8c4a6677699: downloading    |--------------------------------------|    0.0 B/2.5 KiB\nelapsed: 1.7 s                                                                    total:   0.0 B (0.0 B/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest:         resolved       |++++++++++++++++++++++++++++++++++++++|\nmanifest-sha256:8d37d1cb81072ae119e53b1b40855a25a77ba364e5501855e7d4b8c4a6677699: downloading    |--------------------------------------|    0.0 B/2.5 KiB\nelapsed: 1.8 s                                                                    total:   0.0 B (0.0 B/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest:         resolved       |++++++++++++++++++++++++++++++++++++++|\nmanifest-sha256:8d37d1cb81072ae119e53b1b40855a25a77ba364e5501855e7d4b8c4a6677699: downloading    |--------------------------------------|    0.0 B/2.5 KiB\nelapsed: 1.9 s                                                                    total:   0.0 B (0.0 B/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest:         resolved       |++++++++++++++++++++++++++++++++++++++|\nmanifest-sha256:8d37d1cb81072ae119e53b1b40855a25a77ba364e5501855e7d4b8c4a6677699: done           |++++++++++++++++++++++++++++++++++++++|\nconfig-sha256:5896c343da7b8c6eab875ffa76098b07bb5bc97908388b575d69d9aee9ca8447:   downloading    |--------------------------------------|    0.0 B/2.5 KiB\nelapsed: 2.0 s                                                                    total:  2.5 Ki (1.3 KiB/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest:         resolved       |++++++++++++++++++++++++++++++++++++++|\nmanifest-sha256:8d37d1cb81072ae119e53b1b40855a25a77ba364e5501855e7d4b8c4a6677699: done           |++++++++++++++++++++++++++++++++++++++|\nconfig-sha256:5896c343da7b8c6eab875ffa76098b07bb5bc97908388b575d69d9aee9ca8447:   downloading    |--------------------------------------|    0.0 B/2.5 KiB\nelapsed: 2.1 s                                                                    total:  2.5 Ki (1.2 KiB/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest:         resolved       |++++++++++++++++++++++++++++++++++++++|\nmanifest-sha256:8d37d1cb81072ae119e53b1b40855a25a77ba364e5501855e7d4b8c4a6677699: done           |++++++++++++++++++++++++++++++++++++++|\nconfig-sha256:5896c343da7b8c6eab875ffa76098b07bb5bc97908388b575d69d9aee9ca8447:   downloading    |--------------------------------------|    0.0 B/2.5 KiB\nelapsed: 2.2 s                                                                    total:  2.5 Ki (1.2 KiB/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest:         resolved       |++++++++++++++++++++++++++++++++++++++|\nmanifest-sha256:8d37d1cb81072ae119e53b1b40855a25a77ba364e5501855e7d4b8c4a6677699: done           |++++++++++++++++++++++++++++++++++++++|\nconfig-sha256:5896c343da7b8c6eab875ffa76098b07bb5bc97908388b575d69d9aee9ca8447:   done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:9d984f186a761173758e6dbed4c81a9216850e7f7ee3f19a35284482a4159719:    downloading    |--------------------------------------|    0.0 B/247.0 B\nlayer-sha256:cfcb77044fb2b6564f9a8056292ef6f175f7dc6976812d491993832099e13d2f:    downloading    |--------------------------------------|    0.0 B/97.0 B\nlayer-sha256:34d6ad8518df4c5d686428f0ce85d4a15edab1d4c3ab7d6346cfdc884fb65bbf:    downloading    |--------------------------------------|    0.0 B/1.0 KiB\nlayer-sha256:0711019d839d725d2fdab04df4446f33a451921f31abfda95a4442855e962597:    downloading    |--------------------------------------|    0.0 B/92.0 B\nlayer-sha256:b2db9d4effda6690ab46f9f8d410421d5629f7b7d9fa5828b78c6e34bc3895ce:    downloading    |--------------------------------------|    0.0 B/360.8 KiB\nlayer-sha256:22784152a3d1084547979cf157bce0cf9694fa4dc3da7a600e5a08bc91f2673d:    downloading    |--------------------------------------|    0.0 B/119.5 MiB\nlayer-sha256:9039d04041c185e08c103b8426fad3c80d8482f6dbbdc701627685a950598d26:    downloading    |--------------------------------------|    0.0 B/649.1 KiB\nlayer-sha256:32baa8044d0aa5cac14c811cfc72a7ac53c583ee3f9de8dc157262aad61025aa:    downloading    |--------------------------------------|    0.0 B/94.0 B\nlayer-sha256:5a1ca78eb3ff38946dc8a7c5c9f30bdda7eaaf62105d606d48cba4dd46e25a3b:    downloading    |--------------------------------------|    0.0 B/153.0 B\nlayer-sha256:22c05cfdd521f14d1fd901498b33bbee73fffe9e707c3d8c7919ab21de603cb0:    downloading    |--------------------------------------|    0.0 B/147.0 B\nlayer-sha256:14c7663fc09e0a9fcfee884afb75debc2794c566e7943b6509f2482009304401:    downloading    |--------------------------------------|    0.0 B/1.5 MiB\nelapsed: 2.3 s                                                                    total:  5.0 Ki (2.2 KiB/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest:         resolved       |++++++++++++++++++++++++++++++++++++++|\nmanifest-sha256:8d37d1cb81072ae119e53b1b40855a25a77ba364e5501855e7d4b8c4a6677699: done           |++++++++++++++++++++++++++++++++++++++|\nconfig-sha256:5896c343da7b8c6eab875ffa76098b07bb5bc97908388b575d69d9aee9ca8447:   done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:9d984f186a761173758e6dbed4c81a9216850e7f7ee3f19a35284482a4159719:    downloading    |--------------------------------------|    0.0 B/247.0 B\nlayer-sha256:cfcb77044fb2b6564f9a8056292ef6f175f7dc6976812d491993832099e13d2f:    downloading    |--------------------------------------|    0.0 B/97.0 B\nlayer-sha256:34d6ad8518df4c5d686428f0ce85d4a15edab1d4c3ab7d6346cfdc884fb65bbf:    downloading    |--------------------------------------|    0.0 B/1.0 KiB\nlayer-sha256:0711019d839d725d2fdab04df4446f33a451921f31abfda95a4442855e962597:    downloading    |--------------------------------------|    0.0 B/92.0 B\nlayer-sha256:b2db9d4effda6690ab46f9f8d410421d5629f7b7d9fa5828b78c6e34bc3895ce:    downloading    |--------------------------------------|    0.0 B/360.8 KiB\nlayer-sha256:22784152a3d1084547979cf157bce0cf9694fa4dc3da7a600e5a08bc91f2673d:    downloading    |--------------------------------------|    0.0 B/119.5 MiB\nlayer-sha256:9039d04041c185e08c103b8426fad3c80d8482f6dbbdc701627685a950598d26:    downloading    |--------------------------------------|    0.0 B/649.1 KiB\nlayer-sha256:32baa8044d0aa5cac14c811cfc72a7ac53c583ee3f9de8dc157262aad61025aa:    downloading    |--------------------------------------|    0.0 B/94.0 B\nlayer-sha256:5a1ca78eb3ff38946dc8a7c5c9f30bdda7eaaf62105d606d48cba4dd46e25a3b:    downloading    |--------------------------------------|    0.0 B/153.0 B\nlayer-sha256:22c05cfdd521f14d1fd901498b33bbee73fffe9e707c3d8c7919ab21de603cb0:    downloading    |--------------------------------------|    0.0 B/147.0 B\nlayer-sha256:14c7663fc09e0a9fcfee884afb75debc2794c566e7943b6509f2482009304401:    downloading    |--------------------------------------|    0.0 B/1.5 MiB\nelapsed: 2.4 s                                                                    total:  5.0 Ki (2.1 KiB/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest:         resolved       |++++++++++++++++++++++++++++++++++++++|\nmanifest-sha256:8d37d1cb81072ae119e53b1b40855a25a77ba364e5501855e7d4b8c4a6677699: done           |++++++++++++++++++++++++++++++++++++++|\nconfig-sha256:5896c343da7b8c6eab875ffa76098b07bb5bc97908388b575d69d9aee9ca8447:   done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:9d984f186a761173758e6dbed4c81a9216850e7f7ee3f19a35284482a4159719:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:cfcb77044fb2b6564f9a8056292ef6f175f7dc6976812d491993832099e13d2f:    downloading    |--------------------------------------|    0.0 B/97.0 B\nlayer-sha256:34d6ad8518df4c5d686428f0ce85d4a15edab1d4c3ab7d6346cfdc884fb65bbf:    downloading    |--------------------------------------|    0.0 B/1.0 KiB\nlayer-sha256:0711019d839d725d2fdab04df4446f33a451921f31abfda95a4442855e962597:    downloading    |--------------------------------------|    0.0 B/92.0 B\nlayer-sha256:b2db9d4effda6690ab46f9f8d410421d5629f7b7d9fa5828b78c6e34bc3895ce:    downloading    |--------------------------------------|    0.0 B/360.8 KiB\nlayer-sha256:22784152a3d1084547979cf157bce0cf9694fa4dc3da7a600e5a08bc91f2673d:    downloading    |--------------------------------------|    0.0 B/119.5 MiB\nlayer-sha256:9039d04041c185e08c103b8426fad3c80d8482f6dbbdc701627685a950598d26:    downloading    |--------------------------------------|    0.0 B/649.1 KiB\nlayer-sha256:32baa8044d0aa5cac14c811cfc72a7ac53c583ee3f9de8dc157262aad61025aa:    downloading    |--------------------------------------|    0.0 B/94.0 B\nlayer-sha256:5a1ca78eb3ff38946dc8a7c5c9f30bdda7eaaf62105d606d48cba4dd46e25a3b:    downloading    |--------------------------------------|    0.0 B/153.0 B\nlayer-sha256:22c05cfdd521f14d1fd901498b33bbee73fffe9e707c3d8c7919ab21de603cb0:    downloading    |--------------------------------------|    0.0 B/147.0 B\nlayer-sha256:14c7663fc09e0a9fcfee884afb75debc2794c566e7943b6509f2482009304401:    downloading    |--------------------------------------|    0.0 B/1.5 MiB\nelapsed: 2.5 s                                                                    total:  5.3 Ki (2.1 KiB/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest:         resolved       |++++++++++++++++++++++++++++++++++++++|\nmanifest-sha256:8d37d1cb81072ae119e53b1b40855a25a77ba364e5501855e7d4b8c4a6677699: done           |++++++++++++++++++++++++++++++++++++++|\nconfig-sha256:5896c343da7b8c6eab875ffa76098b07bb5bc97908388b575d69d9aee9ca8447:   done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:9d984f186a761173758e6dbed4c81a9216850e7f7ee3f19a35284482a4159719:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:cfcb77044fb2b6564f9a8056292ef6f175f7dc6976812d491993832099e13d2f:    downloading    |--------------------------------------|    0.0 B/97.0 B\nlayer-sha256:34d6ad8518df4c5d686428f0ce85d4a15edab1d4c3ab7d6346cfdc884fb65bbf:    downloading    |--------------------------------------|    0.0 B/1.0 KiB\nlayer-sha256:0711019d839d725d2fdab04df4446f33a451921f31abfda95a4442855e962597:    downloading    |--------------------------------------|    0.0 B/92.0 B\nlayer-sha256:b2db9d4effda6690ab46f9f8d410421d5629f7b7d9fa5828b78c6e34bc3895ce:    downloading    |--------------------------------------|    0.0 B/360.8 KiB\nlayer-sha256:22784152a3d1084547979cf157bce0cf9694fa4dc3da7a600e5a08bc91f2673d:    downloading    |--------------------------------------|    0.0 B/119.5 MiB\nlayer-sha256:9039d04041c185e08c103b8426fad3c80d8482f6dbbdc701627685a950598d26:    downloading    |--------------------------------------|    0.0 B/649.1 KiB\nlayer-sha256:32baa8044d0aa5cac14c811cfc72a7ac53c583ee3f9de8dc157262aad61025aa:    downloading    |--------------------------------------|    0.0 B/94.0 B\nlayer-sha256:5a1ca78eb3ff38946dc8a7c5c9f30bdda7eaaf62105d606d48cba4dd46e25a3b:    downloading    |--------------------------------------|    0.0 B/153.0 B\nlayer-sha256:22c05cfdd521f14d1fd901498b33bbee73fffe9e707c3d8c7919ab21de603cb0:    downloading    |--------------------------------------|    0.0 B/147.0 B\nlayer-sha256:14c7663fc09e0a9fcfee884afb75debc2794c566e7943b6509f2482009304401:    downloading    |--------------------------------------|    0.0 B/1.5 MiB\nelapsed: 2.6 s                                                                    total:  5.3 Ki (2.0 KiB/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest:         resolved       |++++++++++++++++++++++++++++++++++++++|\nmanifest-sha256:8d37d1cb81072ae119e53b1b40855a25a77ba364e5501855e7d4b8c4a6677699: done           |++++++++++++++++++++++++++++++++++++++|\nconfig-sha256:5896c343da7b8c6eab875ffa76098b07bb5bc97908388b575d69d9aee9ca8447:   done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:9d984f186a761173758e6dbed4c81a9216850e7f7ee3f19a35284482a4159719:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:cfcb77044fb2b6564f9a8056292ef6f175f7dc6976812d491993832099e13d2f:    downloading    |--------------------------------------|    0.0 B/97.0 B\nlayer-sha256:34d6ad8518df4c5d686428f0ce85d4a15edab1d4c3ab7d6346cfdc884fb65bbf:    downloading    |--------------------------------------|    0.0 B/1.0 KiB\nlayer-sha256:0711019d839d725d2fdab04df4446f33a451921f31abfda95a4442855e962597:    downloading    |--------------------------------------|    0.0 B/92.0 B\nlayer-sha256:b2db9d4effda6690ab46f9f8d410421d5629f7b7d9fa5828b78c6e34bc3895ce:    downloading    |--------------------------------------|    0.0 B/360.8 KiB\nlayer-sha256:22784152a3d1084547979cf157bce0cf9694fa4dc3da7a600e5a08bc91f2673d:    downloading    |--------------------------------------|    0.0 B/119.5 MiB\nlayer-sha256:9039d04041c185e08c103b8426fad3c80d8482f6dbbdc701627685a950598d26:    downloading    |--------------------------------------|    0.0 B/649.1 KiB\nlayer-sha256:32baa8044d0aa5cac14c811cfc72a7ac53c583ee3f9de8dc157262aad61025aa:    downloading    |--------------------------------------|    0.0 B/94.0 B\nlayer-sha256:5a1ca78eb3ff38946dc8a7c5c9f30bdda7eaaf62105d606d48cba4dd46e25a3b:    downloading    |--------------------------------------|    0.0 B/153.0 B\nlayer-sha256:22c05cfdd521f14d1fd901498b33bbee73fffe9e707c3d8c7919ab21de603cb0:    downloading    |--------------------------------------|    0.0 B/147.0 B\nlayer-sha256:14c7663fc09e0a9fcfee884afb75debc2794c566e7943b6509f2482009304401:    downloading    |--------------------------------------|    0.0 B/1.5 MiB\nelapsed: 2.7 s                                                                    total:  5.3 Ki (2.0 KiB/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest:         resolved       |++++++++++++++++++++++++++++++++++++++|\nmanifest-sha256:8d37d1cb81072ae119e53b1b40855a25a77ba364e5501855e7d4b8c4a6677699: done           |++++++++++++++++++++++++++++++++++++++|\nconfig-sha256:5896c343da7b8c6eab875ffa76098b07bb5bc97908388b575d69d9aee9ca8447:   done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:9d984f186a761173758e6dbed4c81a9216850e7f7ee3f19a35284482a4159719:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:cfcb77044fb2b6564f9a8056292ef6f175f7dc6976812d491993832099e13d2f:    downloading    |--------------------------------------|    0.0 B/97.0 B\nlayer-sha256:34d6ad8518df4c5d686428f0ce85d4a15edab1d4c3ab7d6346cfdc884fb65bbf:    downloading    |--------------------------------------|    0.0 B/1.0 KiB\nlayer-sha256:0711019d839d725d2fdab04df4446f33a451921f31abfda95a4442855e962597:    downloading    |--------------------------------------|    0.0 B/92.0 B\nlayer-sha256:b2db9d4effda6690ab46f9f8d410421d5629f7b7d9fa5828b78c6e34bc3895ce:    downloading    |--------------------------------------|    0.0 B/360.8 KiB\nlayer-sha256:22784152a3d1084547979cf157bce0cf9694fa4dc3da7a600e5a08bc91f2673d:    downloading    |--------------------------------------|    0.0 B/119.5 MiB\nlayer-sha256:9039d04041c185e08c103b8426fad3c80d8482f6dbbdc701627685a950598d26:    downloading    |--------------------------------------|    0.0 B/649.1 KiB\nlayer-sha256:32baa8044d0aa5cac14c811cfc72a7ac53c583ee3f9de8dc157262aad61025aa:    downloading    |--------------------------------------|    0.0 B/94.0 B\nlayer-sha256:5a1ca78eb3ff38946dc8a7c5c9f30bdda7eaaf62105d606d48cba4dd46e25a3b:    downloading    |--------------------------------------|    0.0 B/153.0 B\nlayer-sha256:22c05cfdd521f14d1fd901498b33bbee73fffe9e707c3d8c7919ab21de603cb0:    downloading    |--------------------------------------|    0.0 B/147.0 B\nlayer-sha256:14c7663fc09e0a9fcfee884afb75debc2794c566e7943b6509f2482009304401:    downloading    |--------------------------------------|    0.0 B/1.5 MiB\nelapsed: 2.8 s                                                                    total:  5.3 Ki (1.9 KiB/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest:         resolved       |++++++++++++++++++++++++++++++++++++++|\nmanifest-sha256:8d37d1cb81072ae119e53b1b40855a25a77ba364e5501855e7d4b8c4a6677699: done           |++++++++++++++++++++++++++++++++++++++|\nconfig-sha256:5896c343da7b8c6eab875ffa76098b07bb5bc97908388b575d69d9aee9ca8447:   done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:9d984f186a761173758e6dbed4c81a9216850e7f7ee3f19a35284482a4159719:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:cfcb77044fb2b6564f9a8056292ef6f175f7dc6976812d491993832099e13d2f:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:34d6ad8518df4c5d686428f0ce85d4a15edab1d4c3ab7d6346cfdc884fb65bbf:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:0711019d839d725d2fdab04df4446f33a451921f31abfda95a4442855e962597:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:b2db9d4effda6690ab46f9f8d410421d5629f7b7d9fa5828b78c6e34bc3895ce:    downloading    |--------------------------------------|    0.0 B/360.8 KiB\nlayer-sha256:22784152a3d1084547979cf157bce0cf9694fa4dc3da7a600e5a08bc91f2673d:    downloading    |--------------------------------------|    0.0 B/119.5 MiB\nlayer-sha256:9039d04041c185e08c103b8426fad3c80d8482f6dbbdc701627685a950598d26:    downloading    |--------------------------------------|    0.0 B/649.1 KiB\nlayer-sha256:32baa8044d0aa5cac14c811cfc72a7ac53c583ee3f9de8dc157262aad61025aa:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:5a1ca78eb3ff38946dc8a7c5c9f30bdda7eaaf62105d606d48cba4dd46e25a3b:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:22c05cfdd521f14d1fd901498b33bbee73fffe9e707c3d8c7919ab21de603cb0:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:14c7663fc09e0a9fcfee884afb75debc2794c566e7943b6509f2482009304401:    downloading    |--------------------------------------|    0.0 B/1.5 MiB\nelapsed: 2.9 s                                                                    total:  6.9 Ki (2.4 KiB/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest:         resolved       |++++++++++++++++++++++++++++++++++++++|\nmanifest-sha256:8d37d1cb81072ae119e53b1b40855a25a77ba364e5501855e7d4b8c4a6677699: done           |++++++++++++++++++++++++++++++++++++++|\nconfig-sha256:5896c343da7b8c6eab875ffa76098b07bb5bc97908388b575d69d9aee9ca8447:   done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:9d984f186a761173758e6dbed4c81a9216850e7f7ee3f19a35284482a4159719:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:cfcb77044fb2b6564f9a8056292ef6f175f7dc6976812d491993832099e13d2f:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:34d6ad8518df4c5d686428f0ce85d4a15edab1d4c3ab7d6346cfdc884fb65bbf:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:0711019d839d725d2fdab04df4446f33a451921f31abfda95a4442855e962597:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:b2db9d4effda6690ab46f9f8d410421d5629f7b7d9fa5828b78c6e34bc3895ce:    downloading    |--------------------------------------|    0.0 B/360.8 KiB\nlayer-sha256:22784152a3d1084547979cf157bce0cf9694fa4dc3da7a600e5a08bc91f2673d:    downloading    |--------------------------------------|    0.0 B/119.5 MiB\nlayer-sha256:9039d04041c185e08c103b8426fad3c80d8482f6dbbdc701627685a950598d26:    downloading    |--------------------------------------|    0.0 B/649.1 KiB\nlayer-sha256:32baa8044d0aa5cac14c811cfc72a7ac53c583ee3f9de8dc157262aad61025aa:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:5a1ca78eb3ff38946dc8a7c5c9f30bdda7eaaf62105d606d48cba4dd46e25a3b:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:22c05cfdd521f14d1fd901498b33bbee73fffe9e707c3d8c7919ab21de603cb0:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:14c7663fc09e0a9fcfee884afb75debc2794c566e7943b6509f2482009304401:    downloading    |--------------------------------------|    0.0 B/1.5 MiB\nelapsed: 3.0 s                                                                    total:  6.9 Ki (2.3 KiB/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest:         resolved       |++++++++++++++++++++++++++++++++++++++|\nmanifest-sha256:8d37d1cb81072ae119e53b1b40855a25a77ba364e5501855e7d4b8c4a6677699: done           |++++++++++++++++++++++++++++++++++++++|\nconfig-sha256:5896c343da7b8c6eab875ffa76098b07bb5bc97908388b575d69d9aee9ca8447:   done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:9d984f186a761173758e6dbed4c81a9216850e7f7ee3f19a35284482a4159719:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:cfcb77044fb2b6564f9a8056292ef6f175f7dc6976812d491993832099e13d2f:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:34d6ad8518df4c5d686428f0ce85d4a15edab1d4c3ab7d6346cfdc884fb65bbf:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:0711019d839d725d2fdab04df4446f33a451921f31abfda95a4442855e962597:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:b2db9d4effda6690ab46f9f8d410421d5629f7b7d9fa5828b78c6e34bc3895ce:    downloading    |--------------------------------------|    0.0 B/360.8 KiB\nlayer-sha256:22784152a3d1084547979cf157bce0cf9694fa4dc3da7a600e5a08bc91f2673d:    downloading    |--------------------------------------|    0.0 B/119.5 MiB\nlayer-sha256:9039d04041c185e08c103b8426fad3c80d8482f6dbbdc701627685a950598d26:    downloading    |--------------------------------------|    0.0 B/649.1 KiB\nlayer-sha256:32baa8044d0aa5cac14c811cfc72a7ac53c583ee3f9de8dc157262aad61025aa:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:5a1ca78eb3ff38946dc8a7c5c9f30bdda7eaaf62105d606d48cba4dd46e25a3b:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:22c05cfdd521f14d1fd901498b33bbee73fffe9e707c3d8c7919ab21de603cb0:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:14c7663fc09e0a9fcfee884afb75debc2794c566e7943b6509f2482009304401:    downloading    |--------------------------------------|    0.0 B/1.5 MiB\nelapsed: 3.1 s                                                                    total:  6.9 Ki (2.2 KiB/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest:         resolved       |++++++++++++++++++++++++++++++++++++++|\nmanifest-sha256:8d37d1cb81072ae119e53b1b40855a25a77ba364e5501855e7d4b8c4a6677699: done           |++++++++++++++++++++++++++++++++++++++|\nconfig-sha256:5896c343da7b8c6eab875ffa76098b07bb5bc97908388b575d69d9aee9ca8447:   done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:9d984f186a761173758e6dbed4c81a9216850e7f7ee3f19a35284482a4159719:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:cfcb77044fb2b6564f9a8056292ef6f175f7dc6976812d491993832099e13d2f:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:34d6ad8518df4c5d686428f0ce85d4a15edab1d4c3ab7d6346cfdc884fb65bbf:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:0711019d839d725d2fdab04df4446f33a451921f31abfda95a4442855e962597:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:b2db9d4effda6690ab46f9f8d410421d5629f7b7d9fa5828b78c6e34bc3895ce:    downloading    |--------------------------------------|    0.0 B/360.8 KiB\nlayer-sha256:22784152a3d1084547979cf157bce0cf9694fa4dc3da7a600e5a08bc91f2673d:    downloading    |--------------------------------------|    0.0 B/119.5 MiB\nlayer-sha256:9039d04041c185e08c103b8426fad3c80d8482f6dbbdc701627685a950598d26:    downloading    |--------------------------------------|    0.0 B/649.1 KiB\nlayer-sha256:32baa8044d0aa5cac14c811cfc72a7ac53c583ee3f9de8dc157262aad61025aa:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:5a1ca78eb3ff38946dc8a7c5c9f30bdda7eaaf62105d606d48cba4dd46e25a3b:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:22c05cfdd521f14d1fd901498b33bbee73fffe9e707c3d8c7919ab21de603cb0:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:14c7663fc09e0a9fcfee884afb75debc2794c566e7943b6509f2482009304401:    downloading    |--------------------------------------|    0.0 B/1.5 MiB\nelapsed: 3.2 s                                                                    total:  6.9 Ki (2.1 KiB/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest:         resolved       |++++++++++++++++++++++++++++++++++++++|\nmanifest-sha256:8d37d1cb81072ae119e53b1b40855a25a77ba364e5501855e7d4b8c4a6677699: done           |++++++++++++++++++++++++++++++++++++++|\nconfig-sha256:5896c343da7b8c6eab875ffa76098b07bb5bc97908388b575d69d9aee9ca8447:   done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:9d984f186a761173758e6dbed4c81a9216850e7f7ee3f19a35284482a4159719:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:cfcb77044fb2b6564f9a8056292ef6f175f7dc6976812d491993832099e13d2f:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:34d6ad8518df4c5d686428f0ce85d4a15edab1d4c3ab7d6346cfdc884fb65bbf:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:0711019d839d725d2fdab04df4446f33a451921f31abfda95a4442855e962597:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:b2db9d4effda6690ab46f9f8d410421d5629f7b7d9fa5828b78c6e34bc3895ce:    downloading    |--------------------------------------|    0.0 B/360.8 KiB\nlayer-sha256:22784152a3d1084547979cf157bce0cf9694fa4dc3da7a600e5a08bc91f2673d:    downloading    |--------------------------------------|    0.0 B/119.5 MiB\nlayer-sha256:9039d04041c185e08c103b8426fad3c80d8482f6dbbdc701627685a950598d26:    downloading    |--------------------------------------|    0.0 B/649.1 KiB\nlayer-sha256:32baa8044d0aa5cac14c811cfc72a7ac53c583ee3f9de8dc157262aad61025aa:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:5a1ca78eb3ff38946dc8a7c5c9f30bdda7eaaf62105d606d48cba4dd46e25a3b:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:22c05cfdd521f14d1fd901498b33bbee73fffe9e707c3d8c7919ab21de603cb0:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:14c7663fc09e0a9fcfee884afb75debc2794c566e7943b6509f2482009304401:    downloading    |--------------------------------------|    0.0 B/1.5 MiB\nelapsed: 3.3 s                                                                    total:  6.9 Ki (2.1 KiB/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest:         resolved       |++++++++++++++++++++++++++++++++++++++|\nmanifest-sha256:8d37d1cb81072ae119e53b1b40855a25a77ba364e5501855e7d4b8c4a6677699: done           |++++++++++++++++++++++++++++++++++++++|\nconfig-sha256:5896c343da7b8c6eab875ffa76098b07bb5bc97908388b575d69d9aee9ca8447:   done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:9d984f186a761173758e6dbed4c81a9216850e7f7ee3f19a35284482a4159719:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:cfcb77044fb2b6564f9a8056292ef6f175f7dc6976812d491993832099e13d2f:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:34d6ad8518df4c5d686428f0ce85d4a15edab1d4c3ab7d6346cfdc884fb65bbf:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:0711019d839d725d2fdab04df4446f33a451921f31abfda95a4442855e962597:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:b2db9d4effda6690ab46f9f8d410421d5629f7b7d9fa5828b78c6e34bc3895ce:    downloading    |--------------------------------------|    0.0 B/360.8 KiB\nlayer-sha256:22784152a3d1084547979cf157bce0cf9694fa4dc3da7a600e5a08bc91f2673d:    downloading    |--------------------------------------|    0.0 B/119.5 MiB\nlayer-sha256:9039d04041c185e08c103b8426fad3c80d8482f6dbbdc701627685a950598d26:    downloading    |--------------------------------------|    0.0 B/649.1 KiB\nlayer-sha256:32baa8044d0aa5cac14c811cfc72a7ac53c583ee3f9de8dc157262aad61025aa:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:5a1ca78eb3ff38946dc8a7c5c9f30bdda7eaaf62105d606d48cba4dd46e25a3b:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:22c05cfdd521f14d1fd901498b33bbee73fffe9e707c3d8c7919ab21de603cb0:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:14c7663fc09e0a9fcfee884afb75debc2794c566e7943b6509f2482009304401:    downloading    |--------------------------------------|    0.0 B/1.5 MiB\nelapsed: 3.4 s                                                                    total:  6.9 Ki (2.0 KiB/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest:         resolved       |++++++++++++++++++++++++++++++++++++++|\nmanifest-sha256:8d37d1cb81072ae119e53b1b40855a25a77ba364e5501855e7d4b8c4a6677699: done           |++++++++++++++++++++++++++++++++++++++|\nconfig-sha256:5896c343da7b8c6eab875ffa76098b07bb5bc97908388b575d69d9aee9ca8447:   done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:9d984f186a761173758e6dbed4c81a9216850e7f7ee3f19a35284482a4159719:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:cfcb77044fb2b6564f9a8056292ef6f175f7dc6976812d491993832099e13d2f:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:34d6ad8518df4c5d686428f0ce85d4a15edab1d4c3ab7d6346cfdc884fb65bbf:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:0711019d839d725d2fdab04df4446f33a451921f31abfda95a4442855e962597:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:b2db9d4effda6690ab46f9f8d410421d5629f7b7d9fa5828b78c6e34bc3895ce:    downloading    |--------------------------------------|    0.0 B/360.8 KiB\nlayer-sha256:22784152a3d1084547979cf157bce0cf9694fa4dc3da7a600e5a08bc91f2673d:    downloading    |--------------------------------------|    0.0 B/119.5 MiB\nlayer-sha256:9039d04041c185e08c103b8426fad3c80d8482f6dbbdc701627685a950598d26:    downloading    |--------------------------------------|    0.0 B/649.1 KiB\nlayer-sha256:32baa8044d0aa5cac14c811cfc72a7ac53c583ee3f9de8dc157262aad61025aa:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:5a1ca78eb3ff38946dc8a7c5c9f30bdda7eaaf62105d606d48cba4dd46e25a3b:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:22c05cfdd521f14d1fd901498b33bbee73fffe9e707c3d8c7919ab21de603cb0:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:14c7663fc09e0a9fcfee884afb75debc2794c566e7943b6509f2482009304401:    downloading    |--------------------------------------|    0.0 B/1.5 MiB\nelapsed: 3.5 s                                                                    total:  6.9 Ki (2.0 KiB/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest:         resolved       |++++++++++++++++++++++++++++++++++++++|\nmanifest-sha256:8d37d1cb81072ae119e53b1b40855a25a77ba364e5501855e7d4b8c4a6677699: done           |++++++++++++++++++++++++++++++++++++++|\nconfig-sha256:5896c343da7b8c6eab875ffa76098b07bb5bc97908388b575d69d9aee9ca8447:   done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:9d984f186a761173758e6dbed4c81a9216850e7f7ee3f19a35284482a4159719:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:cfcb77044fb2b6564f9a8056292ef6f175f7dc6976812d491993832099e13d2f:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:34d6ad8518df4c5d686428f0ce85d4a15edab1d4c3ab7d6346cfdc884fb65bbf:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:0711019d839d725d2fdab04df4446f33a451921f31abfda95a4442855e962597:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:b2db9d4effda6690ab46f9f8d410421d5629f7b7d9fa5828b78c6e34bc3895ce:    downloading    |--------------------------------------|    0.0 B/360.8 KiB\nlayer-sha256:22784152a3d1084547979cf157bce0cf9694fa4dc3da7a600e5a08bc91f2673d:    downloading    |--------------------------------------|    0.0 B/119.5 MiB\nlayer-sha256:9039d04041c185e08c103b8426fad3c80d8482f6dbbdc701627685a950598d26:    downloading    |--------------------------------------|    0.0 B/649.1 KiB\nlayer-sha256:32baa8044d0aa5cac14c811cfc72a7ac53c583ee3f9de8dc157262aad61025aa:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:5a1ca78eb3ff38946dc8a7c5c9f30bdda7eaaf62105d606d48cba4dd46e25a3b:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:22c05cfdd521f14d1fd901498b33bbee73fffe9e707c3d8c7919ab21de603cb0:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:14c7663fc09e0a9fcfee884afb75debc2794c566e7943b6509f2482009304401:    downloading    |--------------------------------------|    0.0 B/1.5 MiB\nelapsed: 3.6 s                                                                    total:  6.9 Ki (1.9 KiB/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest:         resolved       |++++++++++++++++++++++++++++++++++++++|\nmanifest-sha256:8d37d1cb81072ae119e53b1b40855a25a77ba364e5501855e7d4b8c4a6677699: done           |++++++++++++++++++++++++++++++++++++++|\nconfig-sha256:5896c343da7b8c6eab875ffa76098b07bb5bc97908388b575d69d9aee9ca8447:   done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:9d984f186a761173758e6dbed4c81a9216850e7f7ee3f19a35284482a4159719:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:cfcb77044fb2b6564f9a8056292ef6f175f7dc6976812d491993832099e13d2f:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:34d6ad8518df4c5d686428f0ce85d4a15edab1d4c3ab7d6346cfdc884fb65bbf:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:0711019d839d725d2fdab04df4446f33a451921f31abfda95a4442855e962597:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:b2db9d4effda6690ab46f9f8d410421d5629f7b7d9fa5828b78c6e34bc3895ce:    downloading    |--------------------------------------|    0.0 B/360.8 KiB\nlayer-sha256:22784152a3d1084547979cf157bce0cf9694fa4dc3da7a600e5a08bc91f2673d:    downloading    |--------------------------------------|    0.0 B/119.5 MiB\nlayer-sha256:9039d04041c185e08c103b8426fad3c80d8482f6dbbdc701627685a950598d26:    downloading    |--------------------------------------|    0.0 B/649.1 KiB\nlayer-sha256:32baa8044d0aa5cac14c811cfc72a7ac53c583ee3f9de8dc157262aad61025aa:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:5a1ca78eb3ff38946dc8a7c5c9f30bdda7eaaf62105d606d48cba4dd46e25a3b:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:22c05cfdd521f14d1fd901498b33bbee73fffe9e707c3d8c7919ab21de603cb0:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:14c7663fc09e0a9fcfee884afb75debc2794c566e7943b6509f2482009304401:    downloading    |--------------------------------------|    0.0 B/1.5 MiB\nelapsed: 3.7 s                                                                    total:  6.9 Ki (1.9 KiB/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest:         resolved       |++++++++++++++++++++++++++++++++++++++|\nmanifest-sha256:8d37d1cb81072ae119e53b1b40855a25a77ba364e5501855e7d4b8c4a6677699: done           |++++++++++++++++++++++++++++++++++++++|\nconfig-sha256:5896c343da7b8c6eab875ffa76098b07bb5bc97908388b575d69d9aee9ca8447:   done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:9d984f186a761173758e6dbed4c81a9216850e7f7ee3f19a35284482a4159719:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:cfcb77044fb2b6564f9a8056292ef6f175f7dc6976812d491993832099e13d2f:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:34d6ad8518df4c5d686428f0ce85d4a15edab1d4c3ab7d6346cfdc884fb65bbf:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:0711019d839d725d2fdab04df4446f33a451921f31abfda95a4442855e962597:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:b2db9d4effda6690ab46f9f8d410421d5629f7b7d9fa5828b78c6e34bc3895ce:    downloading    |--------------------------------------|    0.0 B/360.8 KiB\nlayer-sha256:22784152a3d1084547979cf157bce0cf9694fa4dc3da7a600e5a08bc91f2673d:    downloading    |--------------------------------------|    0.0 B/119.5 MiB\nlayer-sha256:9039d04041c185e08c103b8426fad3c80d8482f6dbbdc701627685a950598d26:    downloading    |--------------------------------------|    0.0 B/649.1 KiB\nlayer-sha256:32baa8044d0aa5cac14c811cfc72a7ac53c583ee3f9de8dc157262aad61025aa:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:5a1ca78eb3ff38946dc8a7c5c9f30bdda7eaaf62105d606d48cba4dd46e25a3b:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:22c05cfdd521f14d1fd901498b33bbee73fffe9e707c3d8c7919ab21de603cb0:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:14c7663fc09e0a9fcfee884afb75debc2794c566e7943b6509f2482009304401:    downloading    |--------------------------------------|    0.0 B/1.5 MiB\nelapsed: 3.8 s                                                                    total:  6.9 Ki (1.8 KiB/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest:         resolved       |++++++++++++++++++++++++++++++++++++++|\nmanifest-sha256:8d37d1cb81072ae119e53b1b40855a25a77ba364e5501855e7d4b8c4a6677699: done           |++++++++++++++++++++++++++++++++++++++|\nconfig-sha256:5896c343da7b8c6eab875ffa76098b07bb5bc97908388b575d69d9aee9ca8447:   done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:9d984f186a761173758e6dbed4c81a9216850e7f7ee3f19a35284482a4159719:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:cfcb77044fb2b6564f9a8056292ef6f175f7dc6976812d491993832099e13d2f:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:34d6ad8518df4c5d686428f0ce85d4a15edab1d4c3ab7d6346cfdc884fb65bbf:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:0711019d839d725d2fdab04df4446f33a451921f31abfda95a4442855e962597:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:b2db9d4effda6690ab46f9f8d410421d5629f7b7d9fa5828b78c6e34bc3895ce:    downloading    |--------------------------------------|    0.0 B/360.8 KiB\nlayer-sha256:22784152a3d1084547979cf157bce0cf9694fa4dc3da7a600e5a08bc91f2673d:    downloading    |--------------------------------------|    0.0 B/119.5 MiB\nlayer-sha256:9039d04041c185e08c103b8426fad3c80d8482f6dbbdc701627685a950598d26:    downloading    |--------------------------------------|    0.0 B/649.1 KiB\nlayer-sha256:32baa8044d0aa5cac14c811cfc72a7ac53c583ee3f9de8dc157262aad61025aa:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:5a1ca78eb3ff38946dc8a7c5c9f30bdda7eaaf62105d606d48cba4dd46e25a3b:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:22c05cfdd521f14d1fd901498b33bbee73fffe9e707c3d8c7919ab21de603cb0:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:14c7663fc09e0a9fcfee884afb75debc2794c566e7943b6509f2482009304401:    downloading    |--------------------------------------|    0.0 B/1.5 MiB\nelapsed: 3.9 s                                                                    total:  6.9 Ki (1.8 KiB/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest:         resolved       |++++++++++++++++++++++++++++++++++++++|\nmanifest-sha256:8d37d1cb81072ae119e53b1b40855a25a77ba364e5501855e7d4b8c4a6677699: done           |++++++++++++++++++++++++++++++++++++++|\nconfig-sha256:5896c343da7b8c6eab875ffa76098b07bb5bc97908388b575d69d9aee9ca8447:   done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:9d984f186a761173758e6dbed4c81a9216850e7f7ee3f19a35284482a4159719:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:cfcb77044fb2b6564f9a8056292ef6f175f7dc6976812d491993832099e13d2f:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:34d6ad8518df4c5d686428f0ce85d4a15edab1d4c3ab7d6346cfdc884fb65bbf:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:0711019d839d725d2fdab04df4446f33a451921f31abfda95a4442855e962597:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:b2db9d4effda6690ab46f9f8d410421d5629f7b7d9fa5828b78c6e34bc3895ce:    downloading    |--------------------------------------|    0.0 B/360.8 KiB\nlayer-sha256:22784152a3d1084547979cf157bce0cf9694fa4dc3da7a600e5a08bc91f2673d:    downloading    |--------------------------------------|    0.0 B/119.5 MiB\nlayer-sha256:9039d04041c185e08c103b8426fad3c80d8482f6dbbdc701627685a950598d26:    downloading    |--------------------------------------|    0.0 B/649.1 KiB\nlayer-sha256:32baa8044d0aa5cac14c811cfc72a7ac53c583ee3f9de8dc157262aad61025aa:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:5a1ca78eb3ff38946dc8a7c5c9f30bdda7eaaf62105d606d48cba4dd46e25a3b:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:22c05cfdd521f14d1fd901498b33bbee73fffe9e707c3d8c7919ab21de603cb0:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:14c7663fc09e0a9fcfee884afb75debc2794c566e7943b6509f2482009304401:    downloading    |--------------------------------------|    0.0 B/1.5 MiB\nelapsed: 4.0 s                                                                    total:  6.9 Ki (1.7 KiB/s)\nharbor.nbfc.io/nubificus/urunc/busybox-cloud-hypervisor-linux-raw:latest:         resolved       |++++++++++++++++++++++++++++++++++++++|\nmanifest-sha256:8d37d1cb81072ae119e53b1b40855a25a77ba364e5501855e7d4b8c4a6677699: done           |++++++++++++++++++++++++++++++++++++++|\nconfig-sha256:5896c343da7b8c6eab875ffa76098b07bb5bc97908388b575d69d9aee9ca8447:   done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:9d984f186a761173758e6dbed4c81a9216850e7f7ee3f19a35284482a4159719:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:cfcb77044fb2b6564f9a8056292ef6f175f7dc6976812d491993832099e13d2f:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:34d6ad8518df4c5d686428f0ce85d4a15edab1d4c3ab7d6346cfdc884fb65bbf:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-sha256:0711019d839d725d2fdab04df4446f33a451921f31abfda95a4442855e962597:    done           |++++++++++++++++++++++++++++++++++++++|\nlayer-s\n\n[truncated at 50KB — see full log at: https://api.github.com/repos/urunc-dev/urunc/actions/jobs/80461353094/logs]"
+            "name": "E2E test / VM test (arm64, test_ctr)",
+            "conclusion": "success",
+            "duration_sec": 879,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27317118432/job/80700164539"
+          },
+          {
+            "name": "E2E test / VM test (amd64, test_crictl)",
+            "conclusion": "success",
+            "duration_sec": 495,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27317118432/job/80700164553"
           }
         ],
         "run_attempt": 1
       },
       "recent_runs": [
+        {
+          "id": 27317118432,
+          "name": "urunc CI (nightly)",
+          "status": "completed",
+          "conclusion": "success",
+          "run_number": 236,
+          "created_at": "2026-06-11T01:13:47Z",
+          "updated_at": "2026-06-11T01:34:08Z",
+          "run_started_at": "2026-06-11T01:13:47Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27317118432",
+          "jobs": [
+            {
+              "name": "Unit tests / unit-test (arm64, ubuntu-22.04-arm)",
+              "conclusion": "success",
+              "duration_sec": 28,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27317118432/job/80700041853"
+            },
+            {
+              "name": "Build / build (arm64, ubuntu-22.04-arm)",
+              "conclusion": "success",
+              "duration_sec": 53,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27317118432/job/80700041854"
+            },
+            {
+              "name": "Build / build (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 65,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27317118432/job/80700041876"
+            },
+            {
+              "name": "Unit tests / unit-test (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 41,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27317118432/job/80700041894"
+            },
+            {
+              "name": "urunc-deploy test / urunc-deploy (arm64, ubuntu-22.04-arm)",
+              "conclusion": "success",
+              "duration_sec": 105,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27317118432/job/80700164469"
+            },
+            {
+              "name": "Kubernetes test / Kubernetes test (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 306,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27317118432/job/80700164470"
+            },
+            {
+              "name": "Kubernetes test / Kubernetes test (arm64, ubuntu-22.04-arm)",
+              "conclusion": "success",
+              "duration_sec": 304,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27317118432/job/80700164479"
+            },
+            {
+              "name": "urunc-deploy test / urunc-deploy (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 79,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27317118432/job/80700164491"
+            },
+            {
+              "name": "E2E test / VM test (arm64, test_nerdctl)",
+              "conclusion": "success",
+              "duration_sec": 1079,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27317118432/job/80700164513"
+            },
+            {
+              "name": "E2E test / VM test (amd64, test_docker)",
+              "conclusion": "success",
+              "duration_sec": 502,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27317118432/job/80700164522"
+            },
+            {
+              "name": "E2E test / VM test (arm64, test_crictl)",
+              "conclusion": "success",
+              "duration_sec": 434,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27317118432/job/80700164526"
+            },
+            {
+              "name": "E2E test / VM test (amd64, test_ctr)",
+              "conclusion": "success",
+              "duration_sec": 978,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27317118432/job/80700164535"
+            },
+            {
+              "name": "E2E test / VM test (amd64, test_nerdctl)",
+              "conclusion": "success",
+              "duration_sec": 1151,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27317118432/job/80700164537"
+            },
+            {
+              "name": "E2E test / VM test (arm64, test_docker)",
+              "conclusion": "success",
+              "duration_sec": 407,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27317118432/job/80700164538"
+            },
+            {
+              "name": "E2E test / VM test (arm64, test_ctr)",
+              "conclusion": "success",
+              "duration_sec": 879,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27317118432/job/80700164539"
+            },
+            {
+              "name": "E2E test / VM test (amd64, test_crictl)",
+              "conclusion": "success",
+              "duration_sec": 495,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27317118432/job/80700164553"
+            }
+          ],
+          "run_attempt": 1
+        },
         {
           "id": 27246380997,
           "name": "urunc CI (nightly)",
@@ -5413,116 +5513,6 @@
             }
           ],
           "run_attempt": 1
-        },
-        {
-          "id": 26262402426,
-          "name": "urunc CI (nightly)",
-          "status": "completed",
-          "conclusion": "success",
-          "run_number": 216,
-          "created_at": "2026-05-22T01:07:05Z",
-          "updated_at": "2026-05-24T15:35:46Z",
-          "run_started_at": "2026-05-24T15:26:36Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26262402426",
-          "jobs": [
-            {
-              "name": "Unit tests / unit-test (amd64, ubuntu-22.04)",
-              "conclusion": "success",
-              "duration_sec": 41,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26262402426/job/77607726971"
-            },
-            {
-              "name": "Unit tests / unit-test (arm64, ubuntu-22.04-arm)",
-              "conclusion": "success",
-              "duration_sec": 35,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26262402426/job/77607727016"
-            },
-            {
-              "name": "Build / build (arm64, ubuntu-22.04-arm)",
-              "conclusion": "success",
-              "duration_sec": 40,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26262402426/job/77607727021"
-            },
-            {
-              "name": "Build / build (amd64, ubuntu-22.04)",
-              "conclusion": "success",
-              "duration_sec": 69,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26262402426/job/77607727127"
-            },
-            {
-              "name": "urunc-deploy test / urunc-deploy (arm64, ubuntu-22.04-arm)",
-              "conclusion": "success",
-              "duration_sec": 116,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26262402426/job/77607727206"
-            },
-            {
-              "name": "E2E test / VM test (amd64, test_nerdctl)",
-              "conclusion": "success",
-              "duration_sec": 545,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26262402426/job/77607727212"
-            },
-            {
-              "name": "E2E test / VM test (amd64, test_docker)",
-              "conclusion": "success",
-              "duration_sec": 382,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26262402426/job/77607727250"
-            },
-            {
-              "name": "E2E test / VM test (arm64, test_ctr)",
-              "conclusion": "success",
-              "duration_sec": 880,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26262402426/job/77607727252"
-            },
-            {
-              "name": "urunc-deploy test / urunc-deploy (amd64, ubuntu-22.04)",
-              "conclusion": "success",
-              "duration_sec": 72,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26262402426/job/77607727257"
-            },
-            {
-              "name": "E2E test / VM test (amd64, test_ctr)",
-              "conclusion": "success",
-              "duration_sec": 953,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26262402426/job/77607727264"
-            },
-            {
-              "name": "E2E test / VM test (arm64, test_nerdctl)",
-              "conclusion": "success",
-              "duration_sec": 1027,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26262402426/job/77607727269"
-            },
-            {
-              "name": "Kubernetes test / Kubernetes test (arm64, ubuntu-22.04-arm)",
-              "conclusion": "success",
-              "duration_sec": 318,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26262402426/job/77607727295"
-            },
-            {
-              "name": "E2E test / VM test (amd64, test_crictl)",
-              "conclusion": "success",
-              "duration_sec": 1080,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26262402426/job/77607727308"
-            },
-            {
-              "name": "E2E test / VM test (arm64, test_crictl)",
-              "conclusion": "success",
-              "duration_sec": 538,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26262402426/job/77607727330"
-            },
-            {
-              "name": "Kubernetes test / Kubernetes test (amd64, ubuntu-22.04)",
-              "conclusion": "success",
-              "duration_sec": 303,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26262402426/job/77607727340"
-            },
-            {
-              "name": "E2E test / VM test (arm64, test_docker)",
-              "conclusion": "success",
-              "duration_sec": 348,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26262402426/job/77607727466"
-            }
-          ],
-          "run_attempt": 3
         }
       ]
     },
@@ -5532,147 +5522,427 @@
       "critical": true,
       "required": false,
       "total_runs": 20,
-      "failed_runs": 2,
-      "failure_rate": 10,
-      "avg_duration_secs": 230.5,
+      "failed_runs": 1,
+      "failure_rate": 5,
+      "avg_duration_secs": 307,
       "weather_history": [
-        "failure",
-        "success",
-        "success",
-        "success",
         "success",
         "unknown",
+        "success",
+        "success",
+        "action_required",
+        "action_required",
         "success"
       ],
       "last_run": {
-        "id": 27259468593,
+        "id": 27353982731,
         "name": "urunc CI",
         "status": "completed",
         "conclusion": "success",
-        "run_number": 2069,
-        "created_at": "2026-06-10T07:08:02Z",
-        "updated_at": "2026-06-10T07:29:52Z",
-        "run_started_at": "2026-06-10T07:08:02Z",
-        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27259468593",
+        "run_number": 2073,
+        "created_at": "2026-06-11T14:26:41Z",
+        "updated_at": "2026-06-11T14:50:19Z",
+        "run_started_at": "2026-06-11T14:26:41Z",
+        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731",
         "jobs": [
           {
             "name": "check-labels",
             "conclusion": "success",
-            "duration_sec": 10,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27259468593/job/80501406725"
+            "duration_sec": 13,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731/job/80823145103"
           },
           {
-            "name": "ci-on-push / Build / build (amd64, ubuntu-22.04)",
+            "name": "ci-on-push / Unit tests / unit-test (amd64, ubuntu-22.04)",
             "conclusion": "success",
-            "duration_sec": 58,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27259468593/job/80501437523"
+            "duration_sec": 44,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731/job/80823207623"
+          },
+          {
+            "name": "ci-on-push / Unit tests / unit-test (arm64, ubuntu-22.04-arm)",
+            "conclusion": "success",
+            "duration_sec": 29,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731/job/80823207672"
           },
           {
             "name": "ci-on-push / Lint Files \u0026 commits / Check License Headers (amd64, ubuntu-22.04)",
             "conclusion": "success",
-            "duration_sec": 45,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27259468593/job/80501437557"
-          },
-          {
-            "name": "ci-on-push / Lint Files \u0026 commits / Lint Commit Messages (amd64, ubuntu-22.04)",
-            "conclusion": "success",
-            "duration_sec": 28,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27259468593/job/80501437566"
+            "duration_sec": 43,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731/job/80823207707"
           },
           {
             "name": "ci-on-push / Lint code / lint (amd64, ubuntu-22.04)",
             "conclusion": "success",
-            "duration_sec": 58,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27259468593/job/80501437570"
+            "duration_sec": 63,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731/job/80823207716"
+          },
+          {
+            "name": "ci-on-push / Build / build (arm64, ubuntu-22.04-arm)",
+            "conclusion": "success",
+            "duration_sec": 54,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731/job/80823207777"
           },
           {
             "name": "ci-on-push / Lint Files \u0026 commits / Spell Check Repo (amd64, ubuntu-22.04)",
             "conclusion": "success",
             "duration_sec": 22,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27259468593/job/80501437572"
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731/job/80823207880"
           },
           {
-            "name": "ci-on-push / Unit tests / unit-test (arm64, ubuntu-22.04-arm)",
+            "name": "ci-on-push / Lint Files \u0026 commits / Lint Commit Messages (amd64, ubuntu-22.04)",
             "conclusion": "success",
-            "duration_sec": 36,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27259468593/job/80501437575"
+            "duration_sec": 31,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731/job/80823207904"
           },
           {
-            "name": "ci-on-push / Unit tests / unit-test (amd64, ubuntu-22.04)",
+            "name": "ci-on-push / Build / build (amd64, ubuntu-22.04)",
             "conclusion": "success",
-            "duration_sec": 42,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27259468593/job/80501437604"
-          },
-          {
-            "name": "ci-on-push / Build / build (arm64, ubuntu-22.04-arm)",
-            "conclusion": "success",
-            "duration_sec": 49,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27259468593/job/80501437605"
-          },
-          {
-            "name": "ci-on-push / Kubernetes test / Kubernetes test (amd64, ubuntu-22.04)",
-            "conclusion": "success",
-            "duration_sec": 306,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27259468593/job/80501587288"
+            "duration_sec": 70,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731/job/80823207993"
           },
           {
             "name": "ci-on-push / Kubernetes test / Kubernetes test (arm64, ubuntu-22.04-arm)",
             "conclusion": "success",
-            "duration_sec": 296,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27259468593/job/80501587310"
+            "duration_sec": 297,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731/job/80823551594"
+          },
+          {
+            "name": "ci-on-push / Kubernetes test / Kubernetes test (amd64, ubuntu-22.04)",
+            "conclusion": "success",
+            "duration_sec": 325,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731/job/80823551674"
           },
           {
             "name": "ci-on-push / E2E test / VM test (amd64, test_crictl)",
             "conclusion": "success",
-            "duration_sec": 492,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27259468593/job/80501587361"
-          },
-          {
-            "name": "ci-on-push / E2E test / VM test (arm64, test_ctr)",
-            "conclusion": "success",
-            "duration_sec": 1005,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27259468593/job/80501587388"
-          },
-          {
-            "name": "ci-on-push / E2E test / VM test (amd64, test_docker)",
-            "conclusion": "success",
-            "duration_sec": 506,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27259468593/job/80501587401"
-          },
-          {
-            "name": "ci-on-push / E2E test / VM test (arm64, test_nerdctl)",
-            "conclusion": "success",
-            "duration_sec": 1156,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27259468593/job/80501587406"
+            "duration_sec": 505,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731/job/80823551768"
           },
           {
             "name": "ci-on-push / E2E test / VM test (amd64, test_ctr)",
             "conclusion": "success",
-            "duration_sec": 1004,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27259468593/job/80501587407"
+            "duration_sec": 931,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731/job/80823551774"
+          },
+          {
+            "name": "ci-on-push / E2E test / VM test (amd64, test_docker)",
+            "conclusion": "success",
+            "duration_sec": 531,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731/job/80823551802"
+          },
+          {
+            "name": "ci-on-push / E2E test / VM test (arm64, test_nerdctl)",
+            "conclusion": "success",
+            "duration_sec": 1178,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731/job/80823551819"
           },
           {
             "name": "ci-on-push / E2E test / VM test (arm64, test_crictl)",
             "conclusion": "success",
-            "duration_sec": 432,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27259468593/job/80501587422"
+            "duration_sec": 494,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731/job/80823551840"
           },
           {
             "name": "ci-on-push / E2E test / VM test (amd64, test_nerdctl)",
             "conclusion": "success",
-            "duration_sec": 1233,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27259468593/job/80501587432"
+            "duration_sec": 1265,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731/job/80823551861"
+          },
+          {
+            "name": "ci-on-push / E2E test / VM test (arm64, test_ctr)",
+            "conclusion": "success",
+            "duration_sec": 1099,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731/job/80823551890"
           },
           {
             "name": "ci-on-push / E2E test / VM test (arm64, test_docker)",
             "conclusion": "success",
-            "duration_sec": 445,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27259468593/job/80501587516"
+            "duration_sec": 404,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731/job/80823551922"
           }
         ],
         "run_attempt": 1
       },
       "recent_runs": [
+        {
+          "id": 27353982731,
+          "name": "urunc CI",
+          "status": "completed",
+          "conclusion": "success",
+          "run_number": 2073,
+          "created_at": "2026-06-11T14:26:41Z",
+          "updated_at": "2026-06-11T14:50:19Z",
+          "run_started_at": "2026-06-11T14:26:41Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731",
+          "jobs": [
+            {
+              "name": "check-labels",
+              "conclusion": "success",
+              "duration_sec": 13,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731/job/80823145103"
+            },
+            {
+              "name": "ci-on-push / Unit tests / unit-test (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 44,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731/job/80823207623"
+            },
+            {
+              "name": "ci-on-push / Unit tests / unit-test (arm64, ubuntu-22.04-arm)",
+              "conclusion": "success",
+              "duration_sec": 29,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731/job/80823207672"
+            },
+            {
+              "name": "ci-on-push / Lint Files \u0026 commits / Check License Headers (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 43,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731/job/80823207707"
+            },
+            {
+              "name": "ci-on-push / Lint code / lint (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 63,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731/job/80823207716"
+            },
+            {
+              "name": "ci-on-push / Build / build (arm64, ubuntu-22.04-arm)",
+              "conclusion": "success",
+              "duration_sec": 54,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731/job/80823207777"
+            },
+            {
+              "name": "ci-on-push / Lint Files \u0026 commits / Spell Check Repo (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 22,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731/job/80823207880"
+            },
+            {
+              "name": "ci-on-push / Lint Files \u0026 commits / Lint Commit Messages (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 31,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731/job/80823207904"
+            },
+            {
+              "name": "ci-on-push / Build / build (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 70,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731/job/80823207993"
+            },
+            {
+              "name": "ci-on-push / Kubernetes test / Kubernetes test (arm64, ubuntu-22.04-arm)",
+              "conclusion": "success",
+              "duration_sec": 297,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731/job/80823551594"
+            },
+            {
+              "name": "ci-on-push / Kubernetes test / Kubernetes test (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 325,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731/job/80823551674"
+            },
+            {
+              "name": "ci-on-push / E2E test / VM test (amd64, test_crictl)",
+              "conclusion": "success",
+              "duration_sec": 505,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731/job/80823551768"
+            },
+            {
+              "name": "ci-on-push / E2E test / VM test (amd64, test_ctr)",
+              "conclusion": "success",
+              "duration_sec": 931,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731/job/80823551774"
+            },
+            {
+              "name": "ci-on-push / E2E test / VM test (amd64, test_docker)",
+              "conclusion": "success",
+              "duration_sec": 531,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731/job/80823551802"
+            },
+            {
+              "name": "ci-on-push / E2E test / VM test (arm64, test_nerdctl)",
+              "conclusion": "success",
+              "duration_sec": 1178,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731/job/80823551819"
+            },
+            {
+              "name": "ci-on-push / E2E test / VM test (arm64, test_crictl)",
+              "conclusion": "success",
+              "duration_sec": 494,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731/job/80823551840"
+            },
+            {
+              "name": "ci-on-push / E2E test / VM test (amd64, test_nerdctl)",
+              "conclusion": "success",
+              "duration_sec": 1265,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731/job/80823551861"
+            },
+            {
+              "name": "ci-on-push / E2E test / VM test (arm64, test_ctr)",
+              "conclusion": "success",
+              "duration_sec": 1099,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731/job/80823551890"
+            },
+            {
+              "name": "ci-on-push / E2E test / VM test (arm64, test_docker)",
+              "conclusion": "success",
+              "duration_sec": 404,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982731/job/80823551922"
+            }
+          ],
+          "run_attempt": 1
+        },
+        {
+          "id": 27342122465,
+          "name": "urunc CI",
+          "status": "completed",
+          "conclusion": "action_required",
+          "run_number": 2072,
+          "created_at": "2026-06-11T10:59:43Z",
+          "updated_at": "2026-06-11T10:59:43Z",
+          "run_started_at": "2026-06-11T10:59:43Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27342122465",
+          "run_attempt": 1
+        },
+        {
+          "id": 27341635678,
+          "name": "urunc CI",
+          "status": "completed",
+          "conclusion": "action_required",
+          "run_number": 2071,
+          "created_at": "2026-06-11T10:49:55Z",
+          "updated_at": "2026-06-11T10:49:55Z",
+          "run_started_at": "2026-06-11T10:49:55Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27341635678",
+          "run_attempt": 1
+        },
+        {
+          "id": 27337871264,
+          "name": "urunc CI",
+          "status": "completed",
+          "conclusion": "success",
+          "run_number": 2070,
+          "created_at": "2026-06-11T09:38:06Z",
+          "updated_at": "2026-06-11T10:57:40Z",
+          "run_started_at": "2026-06-11T10:52:29Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27337871264",
+          "jobs": [
+            {
+              "name": "check-labels",
+              "conclusion": "success",
+              "duration_sec": 14,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27337871264/job/80780122522"
+            },
+            {
+              "name": "ci-on-push / Kubernetes test / Kubernetes test (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 305,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27337871264/job/80780122584"
+            },
+            {
+              "name": "ci-on-push / Lint Files \u0026 commits / Check License Headers (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 49,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27337871264/job/80780123022"
+            },
+            {
+              "name": "ci-on-push / E2E test / VM test (amd64, test_ctr)",
+              "conclusion": "success",
+              "duration_sec": 905,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27337871264/job/80780123030"
+            },
+            {
+              "name": "ci-on-push / Build / build (arm64, ubuntu-22.04-arm)",
+              "conclusion": "success",
+              "duration_sec": 47,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27337871264/job/80780123116"
+            },
+            {
+              "name": "ci-on-push / Unit tests / unit-test (arm64, ubuntu-22.04-arm)",
+              "conclusion": "success",
+              "duration_sec": 30,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27337871264/job/80780123177"
+            },
+            {
+              "name": "ci-on-push / E2E test / VM test (arm64, test_ctr)",
+              "conclusion": "success",
+              "duration_sec": 904,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27337871264/job/80780123202"
+            },
+            {
+              "name": "ci-on-push / Build / build (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 67,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27337871264/job/80780123205"
+            },
+            {
+              "name": "ci-on-push / Lint Files \u0026 commits / Lint Commit Messages (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 26,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27337871264/job/80780123248"
+            },
+            {
+              "name": "ci-on-push / Lint code / lint (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 61,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27337871264/job/80780123252"
+            },
+            {
+              "name": "ci-on-push / E2E test / VM test (amd64, test_docker)",
+              "conclusion": "success",
+              "duration_sec": 485,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27337871264/job/80780123279"
+            },
+            {
+              "name": "ci-on-push / Unit tests / unit-test (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 42,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27337871264/job/80780123319"
+            },
+            {
+              "name": "ci-on-push / Lint Files \u0026 commits / Spell Check Repo (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 24,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27337871264/job/80780123321"
+            },
+            {
+              "name": "ci-on-push / E2E test / VM test (amd64, test_nerdctl)",
+              "conclusion": "success",
+              "duration_sec": 1267,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27337871264/job/80780123606"
+            },
+            {
+              "name": "ci-on-push / E2E test / VM test (arm64, test_nerdctl)",
+              "conclusion": "success",
+              "duration_sec": 1091,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27337871264/job/80780123663"
+            },
+            {
+              "name": "ci-on-push / Kubernetes test / Kubernetes test (arm64, ubuntu-22.04-arm)",
+              "conclusion": "success",
+              "duration_sec": 347,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27337871264/job/80780123752"
+            },
+            {
+              "name": "ci-on-push / E2E test / VM test (arm64, test_docker)",
+              "conclusion": "success",
+              "duration_sec": 386,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27337871264/job/80780123905"
+            },
+            {
+              "name": "ci-on-push / E2E test / VM test (arm64, test_crictl)",
+              "conclusion": "success",
+              "duration_sec": 457,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27337871264/job/80780123907"
+            },
+            {
+              "name": "ci-on-push / E2E test / VM test (amd64, test_crictl)",
+              "conclusion": "success",
+              "duration_sec": 414,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27337871264/job/80780123922"
+            }
+          ],
+          "run_attempt": 2
+        },
         {
           "id": 27259468593,
           "name": "urunc CI",
@@ -6552,264 +6822,6 @@
           "run_started_at": "2026-06-03T20:48:57Z",
           "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26912114643",
           "run_attempt": 1
-        },
-        {
-          "id": 26886700381,
-          "name": "urunc CI",
-          "status": "completed",
-          "conclusion": "failure",
-          "run_number": 2053,
-          "created_at": "2026-06-03T13:05:42Z",
-          "updated_at": "2026-06-03T13:08:38Z",
-          "run_started_at": "2026-06-03T13:05:42Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886700381",
-          "jobs": [
-            {
-              "name": "check-labels",
-              "conclusion": "success",
-              "duration_sec": 11,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886700381/job/79300876539"
-            },
-            {
-              "name": "ci-on-push / Lint code / lint (amd64, ubuntu-22.04)",
-              "conclusion": "failure",
-              "duration_sec": 23,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886700381/job/79300923773"
-            },
-            {
-              "name": "ci-on-push / Lint Files \u0026 commits / Lint Commit Messages (amd64, ubuntu-22.04)",
-              "conclusion": "success",
-              "duration_sec": 24,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886700381/job/79300923801"
-            },
-            {
-              "name": "ci-on-push / Lint Files \u0026 commits / Spell Check Repo (amd64, ubuntu-22.04)",
-              "conclusion": "success",
-              "duration_sec": 25,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886700381/job/79300923805"
-            },
-            {
-              "name": "ci-on-push / Unit tests / unit-test (arm64, ubuntu-22.04-arm)",
-              "conclusion": "failure",
-              "duration_sec": 17,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886700381/job/79300923826"
-            },
-            {
-              "name": "ci-on-push / Unit tests / unit-test (amd64, ubuntu-22.04)",
-              "conclusion": "failure",
-              "duration_sec": 25,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886700381/job/79300923870"
-            },
-            {
-              "name": "ci-on-push / Lint Files \u0026 commits / Check License Headers (amd64, ubuntu-22.04)",
-              "conclusion": "success",
-              "duration_sec": 49,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886700381/job/79300923881"
-            },
-            {
-              "name": "ci-on-push / Build / build (amd64, ubuntu-22.04)",
-              "conclusion": "failure",
-              "duration_sec": 22,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886700381/job/79300923888"
-            },
-            {
-              "name": "ci-on-push / Build / build (arm64, ubuntu-22.04-arm)",
-              "conclusion": "failure",
-              "duration_sec": 19,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886700381/job/79300924069"
-            },
-            {
-              "name": "ci-on-push / Kubernetes test / Kubernetes test (amd64, ubuntu-22.04)",
-              "conclusion": "failure",
-              "duration_sec": 68,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886700381/job/79301010460"
-            },
-            {
-              "name": "ci-on-push / Kubernetes test / Kubernetes test (arm64, ubuntu-22.04-arm)",
-              "conclusion": "failure",
-              "duration_sec": 128,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886700381/job/79301010500"
-            },
-            {
-              "name": "ci-on-push / E2E test / VM test (amd64, test_crictl)",
-              "conclusion": "cancelled",
-              "duration_sec": 89,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886700381/job/79301010590"
-            },
-            {
-              "name": "ci-on-push / E2E test / VM test (amd64, test_ctr)",
-              "conclusion": "cancelled",
-              "duration_sec": 86,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886700381/job/79301010602"
-            },
-            {
-              "name": "ci-on-push / E2E test / VM test (arm64, test_crictl)",
-              "conclusion": "cancelled",
-              "duration_sec": 78,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886700381/job/79301010617"
-            },
-            {
-              "name": "ci-on-push / E2E test / VM test (arm64, test_nerdctl)",
-              "conclusion": "cancelled",
-              "duration_sec": 90,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886700381/job/79301010678"
-            },
-            {
-              "name": "ci-on-push / E2E test / VM test (arm64, test_ctr)",
-              "conclusion": "cancelled",
-              "duration_sec": 79,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886700381/job/79301010711"
-            },
-            {
-              "name": "ci-on-push / E2E test / VM test (amd64, test_docker)",
-              "conclusion": "failure",
-              "duration_sec": 79,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886700381/job/79301010731"
-            },
-            {
-              "name": "ci-on-push / E2E test / VM test (amd64, test_nerdctl)",
-              "conclusion": "cancelled",
-              "duration_sec": 87,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886700381/job/79301010756"
-            },
-            {
-              "name": "ci-on-push / E2E test / VM test (arm64, test_docker)",
-              "conclusion": "cancelled",
-              "duration_sec": 90,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886700381/job/79301010793"
-            }
-          ],
-          "failed_jobs": [
-            {
-              "id": 79300923773,
-              "name": "ci-on-push / Lint code / lint (amd64, ubuntu-22.04)",
-              "conclusion": "failure",
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886700381/job/79300923773",
-              "log_snippet": "[Build Failure] — 1 signal(s) found\n────────────────────────────────────────────────\n-\u003e Build Failure\n  ##[error]golangci-lint exit with code 3",
-              "raw_log": "Added go to the path\nSuccessfully set up Go version 1.25.4\ngo version go1.25.4 linux/amd64\n2026-06-03T13:06:18.1229624Z\n##[group]go env\nAR='ar'\nCC='gcc'\nCGO_CFLAGS='-O2 -g'\nCGO_CPPFLAGS=''\nCGO_CXXFLAGS='-O2 -g'\nCGO_ENABLED='1'\nCGO_FFLAGS='-O2 -g'\nCGO_LDFLAGS='-O2 -g'\nCXX='g++'\nGCCGO='gccgo'\nGO111MODULE=''\nGOAMD64='v1'\nGOARCH='amd64'\nGOAUTH='netrc'\nGOBIN=''\nGOCACHE='/home/runner/.cache/go-build'\nGOCACHEPROG=''\nGODEBUG=''\nGOENV='/home/runner/.config/go/env'\nGOEXE=''\nGOEXPERIMENT=''\nGOFIPS140='off'\nGOFLAGS=''\nGOGCCFLAGS='-fPIC -m64 -pthread -Wl,--no-gc-sections -fmessage-length=0 -ffile-prefix-map=/tmp/go-build1907689944=/tmp/go-build -gno-record-gcc-switches'\nGOHOSTARCH='amd64'\nGOHOSTOS='linux'\nGOINSECURE=''\nGOMOD='/home/runner/work/urunc/urunc/go.mod'\nGOMODCACHE='/home/runner/go/pkg/mod'\nGONOPROXY=''\nGONOSUMDB=''\nGOOS='linux'\nGOPATH='/home/runner/go'\nGOPRIVATE=''\nGOPROXY='https://proxy.golang.org,direct'\nGOSUMDB='sum.golang.org'\nGOTELEMETRY='local'\nGOTELEMETRYDIR='/home/runner/.config/go/telemetry'\nGOTMPDIR=''\nGOTOOLCHAIN='local'\nGOVCS=''\nGOVERSION='go1.25.4'\nGOWORK=''\nPKG_CONFIG='pkg-config'\n2026-06-03T13:06:18.2584507Z\n##[endgroup]\n##[group]Run golangci/golangci-lint-action@4afd733a84b1f43292c63897423277bb7f4313a9\nwith:\nversion: v2.7\nonly-new-issues: true\ninstall-mode: binary\ngithub-token: ***\nverify: true\nskip-cache: false\nskip-save-cache: false\nproblem-matchers: false\ncache-invalidation-interval: 7\nenv:\nGOTOOLCHAIN: local\n##[endgroup]\n##[group]prepare environment\nChecking for go.mod: go.mod\nCache not found for input keys: golangci-lint.cache-Linux-2943-9a034f99f18cbdf589af8c6ddf0f18537b1b0f23, golangci-lint.cache-Linux-2943-\nFinding needed golangci-lint version...\nRequested golangci-lint 'v2.7', using 'v2.7.2', calculation took 18ms\nInstallation mode: binary\nInstalling golangci-lint binary v2.7.2...\nDownloading binary https://github.com/golangci/golangci-lint/releases/download/v2.7.2/golangci-lint-2.7.2-linux-amd64.tar.gz ...\n[command]/usr/bin/tar xz --overwrite --warning=no-unknown-keyword --overwrite -C /home/runner -f /home/runner/work/_temp/755f4c4c-42e9-4bed-9f77-164dc755bf42\nInstalled golangci-lint into /home/runner/golangci-lint-2.7.2-linux-amd64/golangci-lint in 604ms\nWriting patch to /tmp/tmp-2524-7LVnXjMQwQ8T/pull.patch\nPrepared env in 1153ms\n##[endgroup]\n##[group]run golangci-lint\nonly new issues on pull_request: /tmp/tmp-2524-7LVnXjMQwQ8T/pull.patch\nRunning [/home/runner/golangci-lint-2.7.2-linux-amd64/golangci-lint config path] in [/home/runner/work/urunc/urunc] ...\nRunning [/home/runner/golangci-lint-2.7.2-linux-amd64/golangci-lint run --new-from-patch=/tmp/tmp-2524-7LVnXjMQwQ8T/pull.patch --new=false --new-from-rev= --new-from-merge-base=] in [/home/runner/work/urunc/urunc] ...\nError: can't load config: the Go language version (go1.25) used to build golangci-lint is lower than the targeted Go version (1.26.2)\nThe command is terminated due to an error: can't load config: the Go language version (go1.25) used to build golangci-lint is lower than the targeted Go version (1.26.2)\n2026-06-03T13:06:19.8742269Z\n##[error]golangci-lint exit with code 3"
-            },
-            {
-              "id": 79300923826,
-              "name": "ci-on-push / Unit tests / unit-test (arm64, ubuntu-22.04-arm)",
-              "conclusion": "failure",
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886700381/job/79300923826",
-              "log_snippet": "[Build Failure] — 2 signal(s) found\n────────────────────────────────────────────────\n-\u003e Build Failure\n  make: *** [Makefile:245: test_unikontainers] Error 1\n  ##[error]Process completed with exit code 2.",
-              "raw_log": "Added go to the path\nSuccessfully set up Go version 1.25.4\ngo version go1.25.4 linux/arm64\n2026-06-03T13:06:16.1779489Z\n##[group]go env\nAR='ar'\nCC='gcc'\nCGO_CFLAGS='-O2 -g'\nCGO_CPPFLAGS=''\nCGO_CXXFLAGS='-O2 -g'\nCGO_ENABLED='1'\nCGO_FFLAGS='-O2 -g'\nCGO_LDFLAGS='-O2 -g'\nCXX='g++'\nGCCGO='gccgo'\nGO111MODULE=''\nGOARCH='arm64'\nGOARM64='v8.0'\nGOAUTH='netrc'\nGOBIN=''\nGOCACHE='/home/runner/.cache/go-build'\nGOCACHEPROG=''\nGODEBUG=''\nGOENV='/home/runner/.config/go/env'\nGOEXE=''\nGOEXPERIMENT=''\nGOFIPS140='off'\nGOFLAGS=''\nGOGCCFLAGS='-fPIC -pthread -Wl,--no-gc-sections -fmessage-length=0 -ffile-prefix-map=/tmp/go-build2078290744=/tmp/go-build -gno-record-gcc-switches'\nGOHOSTARCH='arm64'\nGOHOSTOS='linux'\nGOINSECURE=''\nGOMOD='/home/runner/work/urunc/urunc/go.mod'\nGOMODCACHE='/home/runner/go/pkg/mod'\nGONOPROXY=''\nGONOSUMDB=''\nGOOS='linux'\nGOPATH='/home/runner/go'\nGOPRIVATE=''\nGOPROXY='https://proxy.golang.org,direct'\nGOSUMDB='sum.golang.org'\nGOTELEMETRY='local'\nGOTELEMETRYDIR='/home/runner/.config/go/telemetry'\nGOTMPDIR=''\nGOTOOLCHAIN='local'\nGOVCS=''\nGOVERSION='go1.25.4'\nGOWORK=''\nPKG_CONFIG='pkg-config'\n2026-06-03T13:06:16.7848690Z\n##[endgroup]\n##[group]Run make unittest\nmake unittest\nshell: /usr/bin/bash -e {0}\nenv:\nGOTOOLCHAIN: local\n##[endgroup]\nUnit testing in unikontainers\ngo: go.mod requires go \u003e= 1.26.2 (running go 1.25.4; GOTOOLCHAIN=local)\nmake: *** [Makefile:245: test_unikontainers] Error 1\n##[error]Process completed with exit code 2."
-            },
-            {
-              "id": 79300923870,
-              "name": "ci-on-push / Unit tests / unit-test (amd64, ubuntu-22.04)",
-              "conclusion": "failure",
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886700381/job/79300923870",
-              "log_snippet": "[Build Failure] — 2 signal(s) found\n────────────────────────────────────────────────\n-\u003e Build Failure\n  make: *** [Makefile:245: test_unikontainers] Error 1\n  ##[error]Process completed with exit code 2.",
-              "raw_log": "Added go to the path\nSuccessfully set up Go version 1.25.4\ngo version go1.25.4 linux/amd64\n2026-06-03T13:06:19.9277136Z\n##[group]go env\nAR='ar'\nCC='gcc'\nCGO_CFLAGS='-O2 -g'\nCGO_CPPFLAGS=''\nCGO_CXXFLAGS='-O2 -g'\nCGO_ENABLED='1'\nCGO_FFLAGS='-O2 -g'\nCGO_LDFLAGS='-O2 -g'\nCXX='g++'\nGCCGO='gccgo'\nGO111MODULE=''\nGOAMD64='v1'\nGOARCH='amd64'\nGOAUTH='netrc'\nGOBIN=''\nGOCACHE='/home/runner/.cache/go-build'\nGOCACHEPROG=''\nGODEBUG=''\nGOENV='/home/runner/.config/go/env'\nGOEXE=''\nGOEXPERIMENT=''\nGOFIPS140='off'\nGOFLAGS=''\nGOGCCFLAGS='-fPIC -m64 -pthread -Wl,--no-gc-sections -fmessage-length=0 -ffile-prefix-map=/tmp/go-build2570616755=/tmp/go-build -gno-record-gcc-switches'\nGOHOSTARCH='amd64'\nGOHOSTOS='linux'\nGOINSECURE=''\nGOMOD='/home/runner/work/urunc/urunc/go.mod'\nGOMODCACHE='/home/runner/go/pkg/mod'\nGONOPROXY=''\nGONOSUMDB=''\nGOOS='linux'\nGOPATH='/home/runner/go'\nGOPRIVATE=''\nGOPROXY='https://proxy.golang.org,direct'\nGOSUMDB='sum.golang.org'\nGOTELEMETRY='local'\nGOTELEMETRYDIR='/home/runner/.config/go/telemetry'\nGOTMPDIR=''\nGOTOOLCHAIN='local'\nGOVCS=''\nGOVERSION='go1.25.4'\nGOWORK=''\nPKG_CONFIG='pkg-config'\n2026-06-03T13:06:20.4929922Z\n##[endgroup]\n##[group]Run make unittest\nmake unittest\nshell: /usr/bin/bash -e {0}\nenv:\nGOTOOLCHAIN: local\n##[endgroup]\nUnit testing in unikontainers\ngo: go.mod requires go \u003e= 1.26.2 (running go 1.25.4; GOTOOLCHAIN=local)\nmake: *** [Makefile:245: test_unikontainers] Error 1\n##[error]Process completed with exit code 2."
-            },
-            {
-              "id": 79300923888,
-              "name": "ci-on-push / Build / build (amd64, ubuntu-22.04)",
-              "conclusion": "failure",
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886700381/job/79300923888",
-              "log_snippet": "[Build Failure] — 2 signal(s) found\n────────────────────────────────────────────────\n-\u003e Build Failure\n  make: *** [Makefile:158: /home/runner/work/urunc/urunc/vendor] Error 1\n  ##[error]Process completed with exit code 2.",
-              "raw_log": "Added go to the path\nSuccessfully set up Go version 1.25.4\ngo version go1.25.4 linux/amd64\n2026-06-03T13:06:18.1621664Z\n##[group]go env\nAR='ar'\nCC='gcc'\nCGO_CFLAGS='-O2 -g'\nCGO_CPPFLAGS=''\nCGO_CXXFLAGS='-O2 -g'\nCGO_ENABLED='1'\nCGO_FFLAGS='-O2 -g'\nCGO_LDFLAGS='-O2 -g'\nCXX='g++'\nGCCGO='gccgo'\nGO111MODULE=''\nGOAMD64='v1'\nGOARCH='amd64'\nGOAUTH='netrc'\nGOBIN=''\nGOCACHE='/home/runner/.cache/go-build'\nGOCACHEPROG=''\nGODEBUG=''\nGOENV='/home/runner/.config/go/env'\nGOEXE=''\nGOEXPERIMENT=''\nGOFIPS140='off'\nGOFLAGS=''\nGOGCCFLAGS='-fPIC -m64 -pthread -Wl,--no-gc-sections -fmessage-length=0 -ffile-prefix-map=/tmp/go-build1694500011=/tmp/go-build -gno-record-gcc-switches'\nGOHOSTARCH='amd64'\nGOHOSTOS='linux'\nGOINSECURE=''\nGOMOD='/home/runner/work/urunc/urunc/go.mod'\nGOMODCACHE='/home/runner/go/pkg/mod'\nGONOPROXY=''\nGONOSUMDB=''\nGOOS='linux'\nGOPATH='/home/runner/go'\nGOPRIVATE=''\nGOPROXY='https://proxy.golang.org,direct'\nGOSUMDB='sum.golang.org'\nGOTELEMETRY='local'\nGOTELEMETRYDIR='/home/runner/.config/go/telemetry'\nGOTMPDIR=''\nGOTOOLCHAIN='local'\nGOVCS=''\nGOVERSION='go1.25.4'\nGOWORK=''\nPKG_CONFIG='pkg-config'\n2026-06-03T13:06:18.3085968Z\n##[endgroup]\n##[group]Run go version\ngo version\nshell: /usr/bin/bash -e {0}\nenv:\nGOTOOLCHAIN: local\n##[endgroup]\ngo version go1.25.4 linux/amd64\n##[group]Run if [ \"$EVENT_NAME\" == \"pull_request\" ]; then\nif [ \"$EVENT_NAME\" == \"pull_request\" ]; then\nif [ \"$IS_MERGED\" == \"true\" ]; then\nsha=\"$GITHUB_SHA\"\nbranch=\"$PR_BASE_REF\"\necho \"PR merged. SHA: ${sha}, Branch: ${branch}\"\nelse\nsha=\"$PR_HEAD_SHA\"\nbranch=\"$PR_HEAD_REF\"\necho \"PR not yet merged. SHA: ${sha}, Branch: ${branch}\"\nfi\nelse\nsha=\"$GITHUB_SHA\"\nbranch=\"$REF_NAME\"\necho \"$EVENT_NAME event. SHA: ${sha}, Branch: ${branch}\"\nfi\necho \"sha=${sha}\" \u003e\u003e \"$GITHUB_OUTPUT\"\necho \"branch=${branch}\" \u003e\u003e \"$GITHUB_OUTPUT\"\nshell: /usr/bin/bash -e {0}\nenv:\nGOTOOLCHAIN: local\nEVENT_NAME: pull_request\nIS_MERGED: false\nGITHUB_SHA: 533b5ef9bdb418a4f9f4738521349ffccdc101a0\nPR_HEAD_SHA: 91bdf17e667c24a13072557988603bfef2f870e4\nPR_HEAD_REF: dependabot/go_modules/backend-5778edfc58\nPR_BASE_REF: main\nREF_NAME: 670/merge\n##[endgroup]\nPR not yet merged. SHA: 91bdf17e667c24a13072557988603bfef2f870e4, Branch: dependabot/go_modules/backend-5778edfc58\n##[group]Run make\nmake\nshell: /usr/bin/bash -e {0}\nenv:\nGOTOOLCHAIN: local\n##[endgroup]\ngo mod tidy\ngo: go.mod requires go \u003e= 1.26.2 (running go 1.25.4; GOTOOLCHAIN=local)\nmake: *** [Makefile:158: /home/runner/work/urunc/urunc/vendor] Error 1\n##[error]Process completed with exit code 2."
-            },
-            {
-              "id": 79300924069,
-              "name": "ci-on-push / Build / build (arm64, ubuntu-22.04-arm)",
-              "conclusion": "failure",
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886700381/job/79300924069",
-              "log_snippet": "[Build Failure] — 2 signal(s) found\n────────────────────────────────────────────────\n-\u003e Build Failure\n  make: *** [Makefile:158: /home/runner/work/urunc/urunc/vendor] Error 1\n  ##[error]Process completed with exit code 2.",
-              "raw_log": "Added go to the path\nSuccessfully set up Go version 1.25.4\ngo version go1.25.4 linux/arm64\n2026-06-03T13:06:17.5771543Z\n##[group]go env\nAR='ar'\nCC='gcc'\nCGO_CFLAGS='-O2 -g'\nCGO_CPPFLAGS=''\nCGO_CXXFLAGS='-O2 -g'\nCGO_ENABLED='1'\nCGO_FFLAGS='-O2 -g'\nCGO_LDFLAGS='-O2 -g'\nCXX='g++'\nGCCGO='gccgo'\nGO111MODULE=''\nGOARCH='arm64'\nGOARM64='v8.0'\nGOAUTH='netrc'\nGOBIN=''\nGOCACHE='/home/runner/.cache/go-build'\nGOCACHEPROG=''\nGODEBUG=''\nGOENV='/home/runner/.config/go/env'\nGOEXE=''\nGOEXPERIMENT=''\nGOFIPS140='off'\nGOFLAGS=''\nGOGCCFLAGS='-fPIC -pthread -Wl,--no-gc-sections -fmessage-length=0 -ffile-prefix-map=/tmp/go-build474995820=/tmp/go-build -gno-record-gcc-switches'\nGOHOSTARCH='arm64'\nGOHOSTOS='linux'\nGOINSECURE=''\nGOMOD='/home/runner/work/urunc/urunc/go.mod'\nGOMODCACHE='/home/runner/go/pkg/mod'\nGONOPROXY=''\nGONOSUMDB=''\nGOOS='linux'\nGOPATH='/home/runner/go'\nGOPRIVATE=''\nGOPROXY='https://proxy.golang.org,direct'\nGOSUMDB='sum.golang.org'\nGOTELEMETRY='local'\nGOTELEMETRYDIR='/home/runner/.config/go/telemetry'\nGOTMPDIR=''\nGOTOOLCHAIN='local'\nGOVCS=''\nGOVERSION='go1.25.4'\nGOWORK=''\nPKG_CONFIG='pkg-config'\n2026-06-03T13:06:18.1701888Z\n##[endgroup]\n##[group]Run go version\ngo version\nshell: /usr/bin/bash -e {0}\nenv:\nGOTOOLCHAIN: local\n##[endgroup]\ngo version go1.25.4 linux/arm64\n##[group]Run if [ \"$EVENT_NAME\" == \"pull_request\" ]; then\nif [ \"$EVENT_NAME\" == \"pull_request\" ]; then\nif [ \"$IS_MERGED\" == \"true\" ]; then\nsha=\"$GITHUB_SHA\"\nbranch=\"$PR_BASE_REF\"\necho \"PR merged. SHA: ${sha}, Branch: ${branch}\"\nelse\nsha=\"$PR_HEAD_SHA\"\nbranch=\"$PR_HEAD_REF\"\necho \"PR not yet merged. SHA: ${sha}, Branch: ${branch}\"\nfi\nelse\nsha=\"$GITHUB_SHA\"\nbranch=\"$REF_NAME\"\necho \"$EVENT_NAME event. SHA: ${sha}, Branch: ${branch}\"\nfi\necho \"sha=${sha}\" \u003e\u003e \"$GITHUB_OUTPUT\"\necho \"branch=${branch}\" \u003e\u003e \"$GITHUB_OUTPUT\"\nshell: /usr/bin/bash -e {0}\nenv:\nGOTOOLCHAIN: local\nEVENT_NAME: pull_request\nIS_MERGED: false\nGITHUB_SHA: 533b5ef9bdb418a4f9f4738521349ffccdc101a0\nPR_HEAD_SHA: 91bdf17e667c24a13072557988603bfef2f870e4\nPR_HEAD_REF: dependabot/go_modules/backend-5778edfc58\nPR_BASE_REF: main\nREF_NAME: 670/merge\n##[endgroup]\nPR not yet merged. SHA: 91bdf17e667c24a13072557988603bfef2f870e4, Branch: dependabot/go_modules/backend-5778edfc58\n##[group]Run make\nmake\nshell: /usr/bin/bash -e {0}\nenv:\nGOTOOLCHAIN: local\n##[endgroup]\ngo mod tidy\ngo: go.mod requires go \u003e= 1.26.2 (running go 1.25.4; GOTOOLCHAIN=local)\nmake: *** [Makefile:158: /home/runner/work/urunc/urunc/vendor] Error 1\n##[error]Process completed with exit code 2."
-            },
-            {
-              "id": 79301010460,
-              "name": "ci-on-push / Kubernetes test / Kubernetes test (amd64, ubuntu-22.04)",
-              "conclusion": "failure",
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886700381/job/79301010460",
-              "log_snippet": "[Build Failure] — 1 signal(s) found\n────────────────────────────────────────────────\n-\u003e Build Failure\n  ##[error]Unable to download artifact(s): Artifact not found for name: urunc_static_amd64-26886700381",
-              "raw_log": "Setting up libwebp7:amd64 (1.2.4-0.2+deb12u1) ...\nSetting up libubsan1:amd64 (12.2.0-14+deb12u1) ...\nSetting up libnuma1:amd64 (2.0.16-1) ...\nSetting up libnsl-dev:amd64 (1.3.0-2) ...\nSetting up libcrypt-dev:amd64 (1:4.4.33-2) ...\nSetting up libtiff6:amd64 (4.5.0-6+deb12u4) ...\nSetting up libasan8:amd64 (12.2.0-14+deb12u1) ...\nSetting up gpgconf (2.2.40-1.1+deb12u2) ...\nSetting up libcurl4:amd64 (7.88.1-10+deb12u14) ...\nSetting up git-man (1:2.39.5-0+deb12u3) ...\nSetting up libx11-6:amd64 (2:1.8.4-2+deb12u2) ...\nSetting up curl (7.88.1-10+deb12u14) ...\nSetting up libtsan2:amd64 (12.2.0-14+deb12u1) ...\nSetting up libbinutils:amd64 (2.40-2) ...\nSetting up libfido2-1:amd64 (1.12.0-2+b1) ...\nSetting up libisl23:amd64 (0.25-1.1) ...\nSetting up libde265-0:amd64 (1.0.11-1+deb12u2) ...\nSetting up libc-dev-bin (2.36-9+deb12u14) ...\nSetting up openssl (3.0.20-1~deb12u1) ...\nSetting up libyuv0:amd64 (0.0~git20230123.b2528b0-1) ...\nSetting up libcc1-0:amd64 (12.2.0-14+deb12u1) ...\nSetting up libxmuu1:amd64 (2:1.1.3-3) ...\nSetting up liblocale-gettext-perl (1.07-5) ...\nSetting up gpg (2.2.40-1.1+deb12u2) ...\nSetting up liblsan0:amd64 (12.2.0-14+deb12u1) ...\nSetting up libitm1:amd64 (12.2.0-14+deb12u1) ...\nSetting up libgdbm6:amd64 (1.23-3) ...\nSetting up gnupg-utils (2.2.40-1.1+deb12u2) ...\nSetting up libctf0:amd64 (2.40-2) ...\nSetting up pinentry-curses (1.2.1-1) ...\nSetting up manpages-dev (6.03-2) ...\nSetting up cpp-12 (12.2.0-14+deb12u1) ...\nSetting up gpg-agent (2.2.40-1.1+deb12u2) ...\nCreated symlink /etc/systemd/user/sockets.target.wants/gpg-agent-browser.socket → /usr/lib/systemd/user/gpg-agent-browser.socket.\n2026-06-03T13:07:28.3369733Z\nCreated symlink /etc/systemd/user/sockets.target.wants/gpg-agent-extra.socket → /usr/lib/systemd/user/gpg-agent-extra.socket.\n2026-06-03T13:07:28.3372212Z\nCreated symlink /etc/systemd/user/sockets.target.wants/gpg-agent-ssh.socket → /usr/lib/systemd/user/gpg-agent-ssh.socket.\n2026-06-03T13:07:28.4530185Z\nCreated symlink /etc/systemd/user/sockets.target.wants/gpg-agent.socket → /usr/lib/systemd/user/gpg-agent.socket.\n2026-06-03T13:07:28.5675345Z\nSetting up libxpm4:amd64 (1:3.5.12-1.1+deb12u1) ...\nSetting up libavif15:amd64 (0.11.1-1+deb12u1) ...\nSetting up fontconfig-config (2.14.1-4) ...\ndebconf: unable to initialize frontend: Dialog\ndebconf: (TERM is not set, so the dialog frontend is not usable.)\ndebconf: falling back to frontend: Readline\ndebconf: unable to initialize frontend: Readline\ndebconf: (This frontend requires a controlling tty.)\ndebconf: falling back to frontend: Teletype\nSetting up openssh-client (1:9.2p1-2+deb12u10) ...\nSetting up gpgsm (2.2.40-1.1+deb12u2) ...\nSetting up libxext6:amd64 (2:1.3.4-1+b1) ...\nSetting up pkgconf:amd64 (1.8.1-1) ...\nSetting up dirmngr (2.2.40-1.1+deb12u2) ...\nCreated symlink /etc/systemd/user/sockets.target.wants/dirmngr.socket → /usr/lib/systemd/user/dirmngr.socket.\n2026-06-03T13:07:28.9875119Z\nSetting up libgprofng0:amd64 (2.40-2) ...\nSetting up libfreetype6:amd64 (2.12.1+dfsg-5+deb12u4) ...\nSetting up libgcc-12-dev:amd64 (12.2.0-14+deb12u1) ...\nSetting up pkg-config:amd64 (1.8.1-1) ...\nSetting up libgdbm-compat4:amd64 (1.23-3) ...\nSetting up libx265-199:amd64 (3.5-2+b1) ...\nSetting up gpg-wks-server (2.2.40-1.1+deb12u2) ...\nSetting up xauth (1:1.1.2-1) ...\nSetting up cpp (4:12.2.0-3) ...\nSetting up libc6-dev:amd64 (2.36-9+deb12u14) ...\nSetting up libfontconfig1:amd64 (2.14.1-4) ...\nSetting up libperl5.36:amd64 (5.36.0-7+deb12u3) ...\nSetting up binutils-x86-64-linux-gnu (2.40-2) ...\nSetting up gpg-wks-client (2.2.40-1.1+deb12u2) ...\nSetting up libstdc++-12-dev:amd64 (12.2.0-14+deb12u1) ...\nSetting up libheif1:amd64 (1.15.1-1+deb12u1) ...\nSetting up binutils (2.40-2) ...\nSetting up perl (5.36.0-7+deb12u3) ...\nSetting up gcc-12 (12.2.0-14+deb12u1) ...\nSetting up libgd3:amd64 (2.3.3-9) ...\nSetting up libdpkg-perl (1.21.23) ...\nSetting up gnupg (2.2.40-1.1+deb12u2) ...\nSetting up libc-devtools (2.36-9+deb12u14) ...\nSetting up g++-12 (12.2.0-14+deb12u1) ...\nSetting up libfile-fcntllock-perl (0.22-4+b1) ...\nSetting up libalgorithm-diff-perl (1.201-1) ...\nSetting up gcc (4:12.2.0-3) ...\nSetting up dpkg-dev (1.21.23) ...\nSetting up liberror-perl (0.17029-2) ...\nSetting up git (1:2.39.5-0+deb12u3) ...\nSetting up g++ (4:12.2.0-3) ...\nupdate-alternatives: using /usr/bin/g++ to provide /usr/bin/c++ (c++) in auto mode\nSetting up build-essential (12.9) ...\nSetting up libalgorithm-diff-xs-perl:amd64 (0.04-8+b1) ...\nSetting up libalgorithm-merge-perl (0.08-5) ...\nProcessing triggers for libc-bin (2.36-9+deb12u14) ...\n##[group]Run docker exec urunc-test-control-plane bash -c '\ndocker exec urunc-test-control-plane bash -c '\nif ! which runc; then\nwget -q https://github.com/opencontainers/runc/releases/download/v1.3.0/runc.$(dpkg --print-architecture)\ninstall -m 755 runc.$(dpkg --print-architecture) /usr/local/sbin/runc\nrm -f ./runc.$(dpkg --print-architecture)\nfi\n'\nshell: /usr/bin/bash -e {0}\n##[endgroup]\n/usr/local/sbin/runc\n##[group]Run docker exec urunc-test-control-plane bash -c '\ndocker exec urunc-test-control-plane bash -c '\nsystemctl status containerd || containerd \u0026\nmkdir -p /etc/containerd\ncontainerd config default \u003e /etc/containerd/config.toml\n'\nshell: /usr/bin/bash -e {0}\n##[endgroup]\n● containerd.service - containerd container runtime\nLoaded: loaded (/etc/systemd/system/containerd.service; enabled; preset: enabled)\nActive: active (running) since Wed 2026-06-03 13:07:00 UTC; 29s ago\nDocs: https://containerd.io\nMain PID: 111 (containerd)\nTasks: 92\nMemory: 670.1M\nCPU: 6.498s\nCGroup: /system.slice/containerd.service\n├─111 /usr/local/bin/containerd\n├─267 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id 543bafbb53945cbf82780862c0f02a2659c8c8ef82d6e796808c38100874d195 -address /run/containerd/containerd.sock\n├─285 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id e7592349c6e45123901645a86bad85285f17fb3be3fae803ae8c84d81073cb21 -address /run/containerd/containerd.sock\n├─295 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id 1daac6db29723dd28a1950267bcb6a596016656609fa4c854e04732fe6459038 -address /run/containerd/containerd.sock\n├─324 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id 8ef862c03b70c1148f289afb601badf8db157b68c7546b3132f7c0e0e9a48044 -address /run/containerd/containerd.sock\n├─946 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id 8d93821406b386a4533df0eef7d536eddc26fd6cc5f7f899a03177b2a321c338 -address /run/containerd/containerd.sock\n└─970 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id 88c7b9b78c517734db6bb2f88c629f966173e5eafbd1770454fa2f3ac51809b3 -address /run/containerd/containerd.sock\n2026-06-03T13:07:29.3156443Z\nJun 03 13:07:18 urunc-test-control-plane containerd[111]: time=\"2026-06-03T13:07:18.889503048Z\" level=info msg=\"CreateContainer within sandbox \\\"88c7b9b78c517734db6bb2f88c629f966173e5eafbd1770454fa2f3ac51809b3\\\" for \u0026ContainerMetadata{Name:kindnet-cni,Attempt:0,} returns container id \\\"fcd399645ffd03917b4b881a611c8d9bfbef70dfebbd620277c7e8446648ffb6\\\"\"\nJun 03 13:07:18 urunc-test-control-plane containerd[111]: time=\"2026-06-03T13:07:18.891916596Z\" level=info msg=\"StartContainer for \\\"fcd399645ffd03917b4b881a611c8d9bfbef70dfebbd620277c7e8446648ffb6\\\"\"\nJun 03 13:07:18 urunc-test-control-plane containerd[111]: time=\"2026-06-03T13:07:18.893565774Z\" level=info msg=\"connecting to shim fcd399645ffd03917b4b881a611c8d9bfbef70dfebbd620277c7e8446648ffb6\" address=\"unix:///run/containerd/s/63df4d7af51df14db7cabd64bf762d146bd8a44997e132005eecf83e6ee2cc41\" protocol=ttrpc version=3\nJun 03 13:07:19 urunc-test-control-plane containerd[111]: time=\"2026-06-03T13:07:19.496940555Z\" level=info msg=\"StartContainer for \\\"fcd399645ffd03917b4b881a611c8d9bfbef70dfebbd620277c7e8446648ffb6\\\" returns successfully\"\nJun 03 13:07:20 urunc-test-control-plane containerd[111]: time=\"2026-06-03T13:07:20.171782530Z\" level=info msg=\"plugin \\\"external:10-kube-network-policies[1347]\\\" registered as \\\"10-kube-network-policies\\\"\"\nJun 03 13:07:20 urunc-test-control-plane containerd[111]: time=\"2026-06-03T13:07:20.179545559Z\" level=info msg=\"Synchronizing NRI (plugin) with current runtime state\"\nJun 03 13:07:20 urunc-test-control-plane containerd[111]: time=\"2026-06-03T13:07:20.190717540Z\" level=info msg=\"synchronizing plugin 10-kube-network-policies\"\nJun 03 13:07:20 urunc-test-control-plane containerd[111]: time=\"2026-06-03T13:07:20.370826665Z\" level=info msg=\"plugin invocation order\"\nJun 03 13:07:20 urunc-test-control-plane containerd[111]: time=\"2026-06-03T13:07:20.370871500Z\" level=info msg=\"  #1: \\\"10-kube-network-policies\\\" (external:10-kube-network-policies[1347])\"\nJun 03 13:07:20 urunc-test-control-plane containerd[111]: time=\"2026-06-03T13:07:20.370885225Z\" level=info msg=\"plugin \\\"10-kube-network-policies\\\" connected and synchronized\"\n##[group]Run docker exec urunc-test-control-plane bash -c \\\ndocker exec urunc-test-control-plane bash -c \\\n'sed -i \"s/snapshotter = \\\"devmapper\\\"/snapshotter = \\\"overlayfs\\\"/g\" /etc/containerd/config.toml'\nshell: /usr/bin/bash -e {0}\n##[endgroup]\n##[group]Run actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c\nwith:\nname: urunc_static_amd64-26886700381\npath: ./artifacts\nmerge-multiple: false\nrepository: urunc-dev/urunc\nrun-id: 26886700381\nskip-decompress: false\ndigest-mismatch: error\n##[endgroup]\nDownloading single artifact\n##[error]Unable to download artifact(s): Artifact not found for name: urunc_static_amd64-26886700381"
-            },
-            {
-              "id": 79301010500,
-              "name": "ci-on-push / Kubernetes test / Kubernetes test (arm64, ubuntu-22.04-arm)",
-              "conclusion": "failure",
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886700381/job/79301010500",
-              "log_snippet": "[Build Failure] — 1 signal(s) found\n────────────────────────────────────────────────\n-\u003e Build Failure\n  ##[error]Unable to download artifact(s): Artifact not found for name: urunc_static_arm64-26886700381",
-              "raw_log": "Created symlink /etc/systemd/user/sockets.target.wants/gpg-agent-extra.socket → /usr/lib/systemd/user/gpg-agent-extra.socket.\n2026-06-03T13:08:19.0240742Z\nCreated symlink /etc/systemd/user/sockets.target.wants/gpg-agent-ssh.socket → /usr/lib/systemd/user/gpg-agent-ssh.socket.\n2026-06-03T13:08:19.1000264Z\nCreated symlink /etc/systemd/user/sockets.target.wants/gpg-agent.socket → /usr/lib/systemd/user/gpg-agent.socket.\n2026-06-03T13:08:19.1759610Z\nSetting up libxpm4:arm64 (1:3.5.12-1.1+deb12u1) ...\nSetting up libavif15:arm64 (0.11.1-1+deb12u1) ...\nSetting up fontconfig-config (2.14.1-4) ...\ndebconf: unable to initialize frontend: Dialog\ndebconf: (TERM is not set, so the dialog frontend is not usable.)\ndebconf: falling back to frontend: Readline\ndebconf: unable to initialize frontend: Readline\ndebconf: (This frontend requires a controlling tty.)\ndebconf: falling back to frontend: Teletype\nSetting up openssh-client (1:9.2p1-2+deb12u10) ...\nSetting up gpgsm (2.2.40-1.1+deb12u2) ...\nSetting up libxext6:arm64 (2:1.3.4-1+b1) ...\nSetting up pkgconf:arm64 (1.8.1-1) ...\nSetting up dirmngr (2.2.40-1.1+deb12u2) ...\nCreated symlink /etc/systemd/user/sockets.target.wants/dirmngr.socket → /usr/lib/systemd/user/dirmngr.socket.\n2026-06-03T13:08:19.6773505Z\nSetting up libgprofng0:arm64 (2.40-2) ...\nSetting up libfreetype6:arm64 (2.12.1+dfsg-5+deb12u4) ...\nSetting up libgcc-12-dev:arm64 (12.2.0-14+deb12u1) ...\nSetting up pkg-config:arm64 (1.8.1-1) ...\nSetting up libgdbm-compat4:arm64 (1.23-3) ...\nSetting up libx265-199:arm64 (3.5-2+b1) ...\nSetting up gpg-wks-server (2.2.40-1.1+deb12u2) ...\nSetting up xauth (1:1.1.2-1) ...\nSetting up cpp (4:12.2.0-3) ...\nSetting up libc6-dev:arm64 (2.36-9+deb12u14) ...\nSetting up libfontconfig1:arm64 (2.14.1-4) ...\nSetting up libperl5.36:arm64 (5.36.0-7+deb12u3) ...\nSetting up gpg-wks-client (2.2.40-1.1+deb12u2) ...\nSetting up libstdc++-12-dev:arm64 (12.2.0-14+deb12u1) ...\nSetting up libheif1:arm64 (1.15.1-1+deb12u1) ...\nSetting up binutils-aarch64-linux-gnu (2.40-2) ...\nSetting up binutils (2.40-2) ...\nSetting up perl (5.36.0-7+deb12u3) ...\nSetting up gcc-12 (12.2.0-14+deb12u1) ...\nSetting up libgd3:arm64 (2.3.3-9) ...\nSetting up libdpkg-perl (1.21.23) ...\nSetting up gnupg (2.2.40-1.1+deb12u2) ...\nSetting up libc-devtools (2.36-9+deb12u14) ...\nSetting up g++-12 (12.2.0-14+deb12u1) ...\nSetting up libfile-fcntllock-perl (0.22-4+b1) ...\nSetting up libalgorithm-diff-perl (1.201-1) ...\nSetting up gcc (4:12.2.0-3) ...\nSetting up dpkg-dev (1.21.23) ...\nSetting up liberror-perl (0.17029-2) ...\nSetting up git (1:2.39.5-0+deb12u3) ...\nSetting up g++ (4:12.2.0-3) ...\nupdate-alternatives: using /usr/bin/g++ to provide /usr/bin/c++ (c++) in auto mode\nSetting up build-essential (12.9) ...\nSetting up libalgorithm-diff-xs-perl:arm64 (0.04-8+b1) ...\nSetting up libalgorithm-merge-perl (0.08-5) ...\nProcessing triggers for libc-bin (2.36-9+deb12u14) ...\n##[group]Run docker exec urunc-test-control-plane bash -c '\ndocker exec urunc-test-control-plane bash -c '\nif ! which runc; then\nwget -q https://github.com/opencontainers/runc/releases/download/v1.3.0/runc.$(dpkg --print-architecture)\ninstall -m 755 runc.$(dpkg --print-architecture) /usr/local/sbin/runc\nrm -f ./runc.$(dpkg --print-architecture)\nfi\n'\nshell: /usr/bin/bash -e {0}\n##[endgroup]\n/usr/local/sbin/runc\n##[group]Run docker exec urunc-test-control-plane bash -c '\ndocker exec urunc-test-control-plane bash -c '\nsystemctl status containerd || containerd \u0026\nmkdir -p /etc/containerd\ncontainerd config default \u003e /etc/containerd/config.toml\n'\nshell: /usr/bin/bash -e {0}\n##[endgroup]\n● containerd.service - containerd container runtime\nLoaded: loaded (/etc/systemd/system/containerd.service; enabled; preset: enabled)\nActive: active (running) since Wed 2026-06-03 13:07:41 UTC; 38s ago\nDocs: https://containerd.io\nMain PID: 112 (containerd)\nTasks: 127\nMemory: 793.8M\nCPU: 5.258s\nCGroup: /system.slice/containerd.service\n├─ 112 /usr/local/bin/containerd\n├─ 268 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id dfb5c3f39ed8a75ef480ec0c91c36e4e3cffbdc9483ead16e8d23b972f7ba197 -address /run/containerd/containerd.sock\n├─ 299 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id 633e6a9d0f46c153d46216d7b1b93f8184480e32fe81ee42bdb5477be742171d -address /run/containerd/containerd.sock\n├─ 332 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id 8323556bda527028f3d7059e4bc6b1740acbaaff6a35c4820b5e2e4ab9936b81 -address /run/containerd/containerd.sock\n├─ 365 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id 5698f6d04de25815a2680e3f0cf372fcf1cbffc6807c56dc2dd0b4c8730086f1 -address /run/containerd/containerd.sock\n├─ 972 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id 5e3ac4dcb774462a37d3e5522c2bcfb9a82a3a84ac01748038f540e77aa72d3a -address /run/containerd/containerd.sock\n├─ 990 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id 2fe8a3c063585eac2a2eed2aad3798565400bfeb8abbe8fce1aba625d3422a8c -address /run/containerd/containerd.sock\n├─2276 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id 48376153df41f9d041d4bae38088928e15bab6f26925b0f3a8618107bc4c20b3 -address /run/containerd/containerd.sock\n├─2312 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id 458cb215956918aafbeb63fa49511789d9e5d748430736a52f63e75553045171 -address /run/containerd/containerd.sock\n└─2325 /usr/local/bin/containerd-shim-runc-v2 -namespace k8s.io -id e94512385b27a1d0cab50abb4e27a831e066b34c1342f3793c41f04b2faf2da5 -address /run/containerd/containerd.sock\n2026-06-03T13:08:20.6476554Z\nJun 03 13:08:13 urunc-test-control-plane containerd[112]: time=\"2026-06-03T13:08:13.987710512Z\" level=info msg=\"CreateContainer within sandbox \\\"458cb215956918aafbeb63fa49511789d9e5d748430736a52f63e75553045171\\\" for \u0026ContainerMetadata{Name:coredns,Attempt:0,} returns container id \\\"55381df6447eb5adcc3c97dd8bd2c3576a7262cc346962839a0aa7abbf2e25c1\\\"\"\nJun 03 13:08:13 urunc-test-control-plane containerd[112]: time=\"2026-06-03T13:08:13.988138126Z\" level=info msg=\"StartContainer for \\\"55381df6447eb5adcc3c97dd8bd2c3576a7262cc346962839a0aa7abbf2e25c1\\\"\"\nJun 03 13:08:13 urunc-test-control-plane containerd[112]: time=\"2026-06-03T13:08:13.992748261Z\" level=info msg=\"connecting to shim 55381df6447eb5adcc3c97dd8bd2c3576a7262cc346962839a0aa7abbf2e25c1\" address=\"unix:///run/containerd/s/4db0fabfa4f781e04334d9d88f0927cf1c7578df7393b05c6f8187850846cbe6\" protocol=ttrpc version=3\nJun 03 13:08:14 urunc-test-control-plane containerd[112]: time=\"2026-06-03T13:08:14.068751394Z\" level=info msg=\"Container 2cce4a746a27faf61ee2e06eae941fe3de6cd5d420658334aa511609afcb12f2: CDI devices from CRI Config.CDIDevices: []\"\nJun 03 13:08:14 urunc-test-control-plane containerd[112]: time=\"2026-06-03T13:08:14.081066413Z\" level=info msg=\"StartContainer for \\\"0b724e15fd861eecd6e53b231a9ebf62afdd0096d41da7b2427332f2d0f3f27e\\\" returns successfully\"\nJun 03 13:08:14 urunc-test-control-plane containerd[112]: time=\"2026-06-03T13:08:14.086211629Z\" level=info msg=\"CreateContainer within sandbox \\\"48376153df41f9d041d4bae38088928e15bab6f26925b0f3a8618107bc4c20b3\\\" for \u0026ContainerMetadata{Name:local-path-provisioner,Attempt:0,} returns container id \\\"2cce4a746a27faf61ee2e06eae941fe3de6cd5d420658334aa511609afcb12f2\\\"\"\nJun 03 13:08:14 urunc-test-control-plane containerd[112]: time=\"2026-06-03T13:08:14.086596249Z\" level=info msg=\"StartContainer for \\\"2cce4a746a27faf61ee2e06eae941fe3de6cd5d420658334aa511609afcb12f2\\\"\"\nJun 03 13:08:14 urunc-test-control-plane containerd[112]: time=\"2026-06-03T13:08:14.087416700Z\" level=info msg=\"connecting to shim 2cce4a746a27faf61ee2e06eae941fe3de6cd5d420658334aa511609afcb12f2\" address=\"unix:///run/containerd/s/4c307413ff85e3ec6ad40a1589c6d59c4e2de87e9c655b41b04effcb0873efc0\" protocol=ttrpc version=3\nJun 03 13:08:14 urunc-test-control-plane containerd[112]: time=\"2026-06-03T13:08:14.101694103Z\" level=info msg=\"StartContainer for \\\"55381df6447eb5adcc3c97dd8bd2c3576a7262cc346962839a0aa7abbf2e25c1\\\" returns successfully\"\nJun 03 13:08:14 urunc-test-control-plane containerd[112]: time=\"2026-06-03T13:08:14.178737319Z\" level=info msg=\"StartContainer for \\\"2cce4a746a27faf61ee2e06eae941fe3de6cd5d420658334aa511609afcb12f2\\\" returns successfully\"\n##[group]Run docker exec urunc-test-control-plane bash -c \\\ndocker exec urunc-test-control-plane bash -c \\\n'sed -i \"s/snapshotter = \\\"devmapper\\\"/snapshotter = \\\"overlayfs\\\"/g\" /etc/containerd/config.toml'\nshell: /usr/bin/bash -e {0}\n##[endgroup]\n##[group]Run actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c\nwith:\nname: urunc_static_arm64-26886700381\npath: ./artifacts\nmerge-multiple: false\nrepository: urunc-dev/urunc\nrun-id: 26886700381\nskip-decompress: false\ndigest-mismatch: error\n##[endgroup]\nDownloading single artifact\n##[error]Unable to download artifact(s): Artifact not found for name: urunc_static_arm64-26886700381"
-            },
-            {
-              "id": 79301010731,
-              "name": "ci-on-push / E2E test / VM test (amd64, test_docker)",
-              "conclusion": "failure",
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886700381/job/79301010731",
-              "log_snippet": "[Build Failure] — 1 signal(s) found\n────────────────────────────────────────────────\n-\u003e Build Failure\n  ##[error]Unable to download artifact(s): Artifact not found for name: urunc_static_amd64-26886700381",
-              "raw_log": "SUBST test_output.xl\n/tmp/ccCrHYwu.s: Assembler messages:\n/tmp/ccCrHYwu.s:750: Warning: setting incorrect section attributes for .rodata\nmake[2]: Leaving directory '/home/runner/work/urunc/urunc/solo5/tests/test_output'\nELFTOOL manifest.c\nELFTOOL manifest.c\nCC manifest.o\n/tmp/ccln5V6I.s: Assembler messages:\n/tmp/ccln5V6I.s:750: Warning: setting incorrect section attributes for .rodata\nCC manifest.o\nELFTOOL manifest.c\nCC manifest.o\nCCLD test_rnow.stub\nCCLD test_rnow.hvt\nMAKE test_ssp\nmake[2]: Entering directory '/home/runner/work/urunc/urunc/solo5/tests/test_ssp'\nCC test_ssp.o\nCCLD test_rnow.spt\nCCLD test_rnox.stub\nCCLD test_rnow.virtio\nCCLD test_rnox.hvt\nCCLD test_seccomp.stub\nCCLD test_rnow.muen\nCCLD test_rnox.spt\nCCLD test_seccomp.spt\nCCLD test_rnox.virtio\nCCLD test_rnow.xen\nmake[2]: Leaving directory '/home/runner/work/urunc/urunc/solo5/tests/test_seccomp'\nMAKE test_time\nmake[2]: Entering directory '/home/runner/work/urunc/urunc/solo5/tests/test_time'\nCC test_time.o\nCCLD test_rnox.muen\nELFTOOL manifest.c\nSUBST test_rnow.xl\nCC manifest.o\nmake[2]: Leaving directory '/home/runner/work/urunc/urunc/solo5/tests/test_rnow'\nCCLD test_rnox.xen\nELFTOOL manifest.c\nCC manifest.o\nCCLD test_ssp.stub\nSUBST test_rnox.xl\nmake[2]: Leaving directory '/home/runner/work/urunc/urunc/solo5/tests/test_rnox'\nCCLD test_ssp.hvt\nCCLD test_ssp.spt\nCCLD test_ssp.virtio\nCCLD test_ssp.muen\nMAKE test_tls\nmake[2]: Entering directory '/home/runner/work/urunc/urunc/solo5/tests/test_tls'\nCC test_tls.o\nELFTOOL manifest.c\nCCLD test_ssp.xen\nMAKE test_wnox\nmake[2]: Entering directory '/home/runner/work/urunc/urunc/solo5/tests/test_wnox'\nCC test_wnox.o\nSUBST test_ssp.xl\nmake[2]: Leaving directory '/home/runner/work/urunc/urunc/solo5/tests/test_ssp'\nCC manifest.o\nMAKE test_xnor\nmake[2]: Entering directory '/home/runner/work/urunc/urunc/solo5/tests/test_xnor'\nCC test_xnor.o\nCCLD test_tls.stub\nCCLD test_tls.hvt\n/tmp/cck6KNzC.s: Assembler messages:\n/tmp/cck6KNzC.s:750: Warning: ignoring changed section attributes for .data\n/tmp/cck6KNzC.s:757: Warning: dwarf line number information for .data ignored\n/tmp/cck6KNzC.s:760: Warning: dwarf line number information for .data ignored\n/tmp/cck6KNzC.s:761: Warning: dwarf line number information for .data ignored\nELFTOOL manifest.c\nCC manifest.o\nCCLD test_tls.spt\nELFTOOL manifest.c\nCC manifest.o\nCCLD test_wnox.stub\nCCLD test_xnor.stub\nCCLD test_wnox.hvt\nCCLD test_tls.virtio\nCCLD test_xnor.hvt\nCCLD test_wnox.spt\nCCLD test_time.stub\nCCLD test_tls.muen\nCCLD test_xnor.spt\nCCLD test_wnox.virtio\nCCLD test_tls.xen\nCCLD test_time.hvt\nCCLD test_xnor.virtio\nCCLD test_wnox.muen\nSUBST test_tls.xl\nCCLD test_xnor.muen\nmake[2]: Leaving directory '/home/runner/work/urunc/urunc/solo5/tests/test_tls'\nCCLD test_time.spt\nMAKE test_xnow\nmake[2]: Entering directory '/home/runner/work/urunc/urunc/solo5/tests/test_xnow'\nCCLD test_wnox.xen\nCC test_xnow.o\nCCLD test_xnor.xen\nCCLD test_time.virtio\nSUBST test_wnox.xl\nmake[2]: Leaving directory '/home/runner/work/urunc/urunc/solo5/tests/test_wnox'\nMAKE test_zeropage\nmake[2]: Entering directory '/home/runner/work/urunc/urunc/solo5/tests/test_zeropage'\nCC test_zeropage.o\nSUBST test_xnor.xl\nmake[2]: Leaving directory '/home/runner/work/urunc/urunc/solo5/tests/test_xnor'\nELFTOOL manifest.c\nCC manifest.o\nCCLD test_time.muen\nCCLD test_time.xen\nELFTOOL manifest.c\nCC manifest.o\nSUBST test_time.xl\nmake[2]: Leaving directory '/home/runner/work/urunc/urunc/solo5/tests/test_time'\nCCLD test_xnow.stub\nCCLD test_xnow.hvt\nCCLD test_xnow.spt\nCCLD test_zeropage.stub\nCCLD test_zeropage.hvt\nCCLD test_xnow.virtio\nCCLD test_zeropage.spt\nCCLD test_xnow.muen\nCCLD test_xnow.xen\nCCLD test_zeropage.virtio\nCCLD test_zeropage.muen\nCCLD test_zeropage.xen\nSUBST test_xnow.xl\nmake[2]: Leaving directory '/home/runner/work/urunc/urunc/solo5/tests/test_xnow'\nSUBST test_zeropage.xl\nmake[2]: Leaving directory '/home/runner/work/urunc/urunc/solo5/tests/test_zeropage'\nmake[1]: Leaving directory '/home/runner/work/urunc/urunc/solo5/tests'\n##[group]Run actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c\nwith:\nname: urunc_static_amd64-26886700381\npath: ./\nmerge-multiple: false\nrepository: urunc-dev/urunc\nrun-id: 26886700381\nskip-decompress: false\ndigest-mismatch: error\nenv:\nGOTOOLCHAIN: local\n##[endgroup]\nDownloading single artifact\n##[error]Unable to download artifact(s): Artifact not found for name: urunc_static_amd64-26886700381"
-            }
-          ],
-          "run_attempt": 1
-        },
-        {
-          "id": 26886677557,
-          "name": "urunc CI",
-          "status": "completed",
-          "conclusion": "success",
-          "run_number": 2052,
-          "created_at": "2026-06-03T13:05:16Z",
-          "updated_at": "2026-06-03T13:05:33Z",
-          "run_started_at": "2026-06-03T13:05:16Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886677557",
-          "jobs": [
-            {
-              "name": "check-labels",
-              "conclusion": "success",
-              "duration_sec": 11,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886677557/job/79300796457"
-            },
-            {
-              "name": "ci-on-push",
-              "conclusion": "skipped",
-              "duration_sec": 0,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886677557/job/79300844011"
-            }
-          ],
-          "run_attempt": 1
-        },
-        {
-          "id": 26886676716,
-          "name": "urunc CI",
-          "status": "completed",
-          "conclusion": "cancelled",
-          "run_number": 2051,
-          "created_at": "2026-06-03T13:05:15Z",
-          "updated_at": "2026-06-03T13:05:18Z",
-          "run_started_at": "2026-06-03T13:05:15Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886676716",
-          "jobs": [
-            {
-              "name": "check-labels",
-              "conclusion": "cancelled",
-              "duration_sec": 1,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886676716/job/79300790151"
-            },
-            {
-              "name": "ci-on-push",
-              "conclusion": "skipped",
-              "duration_sec": 0,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886676716/job/79300795056"
-            }
-          ],
-          "run_attempt": 1
-        },
-        {
-          "id": 26886676369,
-          "name": "urunc CI",
-          "status": "completed",
-          "conclusion": "cancelled",
-          "run_number": 2050,
-          "created_at": "2026-06-03T13:05:14Z",
-          "updated_at": "2026-06-03T13:05:17Z",
-          "run_started_at": "2026-06-03T13:05:14Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886676369",
-          "run_attempt": 1
         }
       ]
     },
@@ -6821,43 +6833,93 @@
       "total_runs": 20,
       "failed_runs": 0,
       "failure_rate": 0,
-      "avg_duration_secs": 90.7,
+      "avg_duration_secs": 77.8,
       "weather_history": [
         "success",
         "success",
         "success",
         "success",
-        "success",
-        "success",
+        "action_required",
+        "action_required",
         "success"
       ],
       "last_run": {
-        "id": 27261548889,
+        "id": 27353982463,
         "name": "CodeQL",
         "status": "completed",
         "conclusion": "success",
-        "run_number": 1369,
-        "created_at": "2026-06-10T07:50:47Z",
-        "updated_at": "2026-06-10T07:53:06Z",
-        "run_started_at": "2026-06-10T07:50:47Z",
-        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27261548889",
+        "run_number": 1372,
+        "created_at": "2026-06-11T14:26:41Z",
+        "updated_at": "2026-06-11T14:29:03Z",
+        "run_started_at": "2026-06-11T14:26:41Z",
+        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982463",
         "jobs": [
           {
             "name": "Analyze (go)",
             "conclusion": "success",
-            "duration_sec": 137,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27261548889/job/80508245854"
+            "duration_sec": 131,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982463/job/80823144748"
           },
           {
             "name": "Analyze (python)",
             "conclusion": "success",
-            "duration_sec": 65,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27261548889/job/80508245955"
+            "duration_sec": 63,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982463/job/80823144824"
           }
         ],
         "run_attempt": 1
       },
       "recent_runs": [
+        {
+          "id": 27353982463,
+          "name": "CodeQL",
+          "status": "completed",
+          "conclusion": "success",
+          "run_number": 1372,
+          "created_at": "2026-06-11T14:26:41Z",
+          "updated_at": "2026-06-11T14:29:03Z",
+          "run_started_at": "2026-06-11T14:26:41Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982463",
+          "jobs": [
+            {
+              "name": "Analyze (go)",
+              "conclusion": "success",
+              "duration_sec": 131,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982463/job/80823144748"
+            },
+            {
+              "name": "Analyze (python)",
+              "conclusion": "success",
+              "duration_sec": 63,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982463/job/80823144824"
+            }
+          ],
+          "run_attempt": 1
+        },
+        {
+          "id": 27342122448,
+          "name": "CodeQL",
+          "status": "completed",
+          "conclusion": "action_required",
+          "run_number": 1371,
+          "created_at": "2026-06-11T10:59:43Z",
+          "updated_at": "2026-06-11T10:59:43Z",
+          "run_started_at": "2026-06-11T10:59:43Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27342122448",
+          "run_attempt": 1
+        },
+        {
+          "id": 27341635121,
+          "name": "CodeQL",
+          "status": "completed",
+          "conclusion": "action_required",
+          "run_number": 1370,
+          "created_at": "2026-06-11T10:49:55Z",
+          "updated_at": "2026-06-11T10:49:55Z",
+          "run_started_at": "2026-06-11T10:49:55Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27341635121",
+          "run_attempt": 1
+        },
         {
           "id": 27261548889,
           "name": "CodeQL",
@@ -7187,84 +7249,6 @@
             }
           ],
           "run_attempt": 1
-        },
-        {
-          "id": 26886675432,
-          "name": "CodeQL",
-          "status": "completed",
-          "conclusion": "success",
-          "run_number": 1352,
-          "created_at": "2026-06-03T13:05:13Z",
-          "updated_at": "2026-06-03T13:07:31Z",
-          "run_started_at": "2026-06-03T13:05:13Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886675432",
-          "jobs": [
-            {
-              "name": "Analyze (go)",
-              "conclusion": "success",
-              "duration_sec": 128,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886675432/job/79300783665"
-            },
-            {
-              "name": "Analyze (python)",
-              "conclusion": "success",
-              "duration_sec": 72,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886675432/job/79300783715"
-            }
-          ],
-          "run_attempt": 1
-        },
-        {
-          "id": 26886657660,
-          "name": "CodeQL",
-          "status": "completed",
-          "conclusion": "success",
-          "run_number": 1351,
-          "created_at": "2026-06-03T13:04:54Z",
-          "updated_at": "2026-06-03T13:07:06Z",
-          "run_started_at": "2026-06-03T13:04:54Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886657660",
-          "jobs": [
-            {
-              "name": "Analyze (go)",
-              "conclusion": "success",
-              "duration_sec": 128,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886657660/job/79300723027"
-            },
-            {
-              "name": "Analyze (python)",
-              "conclusion": "success",
-              "duration_sec": 66,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886657660/job/79300723076"
-            }
-          ],
-          "run_attempt": 1
-        },
-        {
-          "id": 26886642240,
-          "name": "CodeQL",
-          "status": "completed",
-          "conclusion": "success",
-          "run_number": 1350,
-          "created_at": "2026-06-03T13:04:36Z",
-          "updated_at": "2026-06-03T13:06:46Z",
-          "run_started_at": "2026-06-03T13:04:36Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886642240",
-          "jobs": [
-            {
-              "name": "Analyze (python)",
-              "conclusion": "success",
-              "duration_sec": 66,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886642240/job/79300663719"
-            },
-            {
-              "name": "Analyze (go)",
-              "conclusion": "success",
-              "duration_sec": 119,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886642240/job/79300663869"
-            }
-          ],
-          "run_attempt": 1
         }
       ]
     },
@@ -7276,37 +7260,81 @@
       "total_runs": 20,
       "failed_runs": 0,
       "failure_rate": 0,
-      "avg_duration_secs": 11.1,
+      "avg_duration_secs": 10.5,
       "weather_history": [
-        "action_required",
-        "action_required",
-        "action_required",
         "success",
         "success",
         "success",
+        "success",
+        "action_required",
+        "action_required",
         "success"
       ],
       "last_run": {
-        "id": 27259468273,
+        "id": 27353982471,
         "name": "Dependency Review",
         "status": "completed",
         "conclusion": "success",
-        "run_number": 1152,
-        "created_at": "2026-06-10T07:08:02Z",
-        "updated_at": "2026-06-10T07:08:22Z",
-        "run_started_at": "2026-06-10T07:08:02Z",
-        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27259468273",
+        "run_number": 1155,
+        "created_at": "2026-06-11T14:26:41Z",
+        "updated_at": "2026-06-11T14:27:12Z",
+        "run_started_at": "2026-06-11T14:26:41Z",
+        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982471",
         "jobs": [
           {
             "name": "dependency-review",
             "conclusion": "success",
             "duration_sec": 16,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27259468273/job/80501402380"
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982471/job/80823144246"
           }
         ],
         "run_attempt": 1
       },
       "recent_runs": [
+        {
+          "id": 27353982471,
+          "name": "Dependency Review",
+          "status": "completed",
+          "conclusion": "success",
+          "run_number": 1155,
+          "created_at": "2026-06-11T14:26:41Z",
+          "updated_at": "2026-06-11T14:27:12Z",
+          "run_started_at": "2026-06-11T14:26:41Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982471",
+          "jobs": [
+            {
+              "name": "dependency-review",
+              "conclusion": "success",
+              "duration_sec": 16,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27353982471/job/80823144246"
+            }
+          ],
+          "run_attempt": 1
+        },
+        {
+          "id": 27342122463,
+          "name": "Dependency Review",
+          "status": "completed",
+          "conclusion": "action_required",
+          "run_number": 1154,
+          "created_at": "2026-06-11T10:59:43Z",
+          "updated_at": "2026-06-11T10:59:43Z",
+          "run_started_at": "2026-06-11T10:59:43Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27342122463",
+          "run_attempt": 1
+        },
+        {
+          "id": 27341635172,
+          "name": "Dependency Review",
+          "status": "completed",
+          "conclusion": "action_required",
+          "run_number": 1153,
+          "created_at": "2026-06-11T10:49:55Z",
+          "updated_at": "2026-06-11T10:49:55Z",
+          "run_started_at": "2026-06-11T10:49:55Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27341635172",
+          "run_attempt": 1
+        },
         {
           "id": 27259468273,
           "name": "Dependency Review",
@@ -7579,58 +7607,6 @@
               "conclusion": "success",
               "duration_sec": 14,
               "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886639063/job/79300652063"
-            }
-          ],
-          "run_attempt": 1
-        },
-        {
-          "id": 26886635026,
-          "name": "Dependency Review",
-          "status": "completed",
-          "conclusion": "success",
-          "run_number": 1135,
-          "created_at": "2026-06-03T13:04:28Z",
-          "updated_at": "2026-06-03T13:04:49Z",
-          "run_started_at": "2026-06-03T13:04:28Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886635026",
-          "jobs": [
-            {
-              "name": "dependency-review",
-              "conclusion": "success",
-              "duration_sec": 15,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886635026/job/79300637546"
-            }
-          ],
-          "run_attempt": 1
-        },
-        {
-          "id": 26866128123,
-          "name": "Dependency Review",
-          "status": "completed",
-          "conclusion": "action_required",
-          "run_number": 1134,
-          "created_at": "2026-06-03T05:43:28Z",
-          "updated_at": "2026-06-03T05:43:28Z",
-          "run_started_at": "2026-06-03T05:43:28Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26866128123",
-          "run_attempt": 1
-        },
-        {
-          "id": 26823642337,
-          "name": "Dependency Review",
-          "status": "completed",
-          "conclusion": "success",
-          "run_number": 1133,
-          "created_at": "2026-06-02T13:41:02Z",
-          "updated_at": "2026-06-02T13:41:24Z",
-          "run_started_at": "2026-06-02T13:41:02Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26823642337",
-          "jobs": [
-            {
-              "name": "dependency-review",
-              "conclusion": "success",
-              "duration_sec": 16,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26823642337/job/79084831501"
             }
           ],
           "run_attempt": 1
@@ -8096,37 +8072,57 @@
       "total_runs": 20,
       "failed_runs": 0,
       "failure_rate": 0,
-      "avg_duration_secs": 2.35,
+      "avg_duration_secs": 2.4,
       "weather_history": [
         "skipped",
         "skipped",
         "skipped",
         "skipped",
-        "skipped",
         "success",
+        "skipped",
         "skipped"
       ],
       "last_run": {
-        "id": 27259467511,
+        "id": 27337871083,
         "name": "PR Takeover on Label",
         "status": "completed",
         "conclusion": "skipped",
-        "run_number": 653,
-        "created_at": "2026-06-10T07:08:00Z",
-        "updated_at": "2026-06-10T07:08:02Z",
-        "run_started_at": "2026-06-10T07:08:00Z",
-        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27259467511",
+        "run_number": 654,
+        "created_at": "2026-06-11T09:38:05Z",
+        "updated_at": "2026-06-11T09:38:07Z",
+        "run_started_at": "2026-06-11T09:38:05Z",
+        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27337871083",
         "jobs": [
           {
             "name": "pr-takeover",
             "conclusion": "skipped",
             "duration_sec": 0,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27259467511/job/80501400721"
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27337871083/job/80766700718"
           }
         ],
         "run_attempt": 1
       },
       "recent_runs": [
+        {
+          "id": 27337871083,
+          "name": "PR Takeover on Label",
+          "status": "completed",
+          "conclusion": "skipped",
+          "run_number": 654,
+          "created_at": "2026-06-11T09:38:05Z",
+          "updated_at": "2026-06-11T09:38:07Z",
+          "run_started_at": "2026-06-11T09:38:05Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27337871083",
+          "jobs": [
+            {
+              "name": "pr-takeover",
+              "conclusion": "skipped",
+              "duration_sec": 0,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27337871083/job/80766700718"
+            }
+          ],
+          "run_attempt": 1
+        },
         {
           "id": 27259467511,
           "name": "PR Takeover on Label",
@@ -8503,26 +8499,6 @@
               "conclusion": "skipped",
               "duration_sec": 0,
               "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886638555/job/79300650890"
-            }
-          ],
-          "run_attempt": 1
-        },
-        {
-          "id": 26886637406,
-          "name": "PR Takeover on Label",
-          "status": "completed",
-          "conclusion": "skipped",
-          "run_number": 634,
-          "created_at": "2026-06-03T13:04:31Z",
-          "updated_at": "2026-06-03T13:04:32Z",
-          "run_started_at": "2026-06-03T13:04:31Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886637406",
-          "jobs": [
-            {
-              "name": "pr-takeover",
-              "conclusion": "skipped",
-              "duration_sec": 0,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886637406/job/79300646788"
             }
           ],
           "run_attempt": 1
@@ -9732,7 +9708,7 @@
       "total_runs": 20,
       "failed_runs": 0,
       "failure_rate": 0,
-      "avg_duration_secs": 17.4,
+      "avg_duration_secs": 17.3,
       "weather_history": [
         "success",
         "success",
@@ -9743,26 +9719,46 @@
         "success"
       ],
       "last_run": {
-        "id": 27315562084,
+        "id": 27386471084,
         "name": "Automatically close stale PRs",
         "status": "completed",
         "conclusion": "success",
-        "run_number": 459,
-        "created_at": "2026-06-11T00:31:44Z",
-        "updated_at": "2026-06-11T00:32:01Z",
-        "run_started_at": "2026-06-11T00:31:44Z",
-        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27315562084",
+        "run_number": 460,
+        "created_at": "2026-06-12T00:31:42Z",
+        "updated_at": "2026-06-12T00:31:58Z",
+        "run_started_at": "2026-06-12T00:31:42Z",
+        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27386471084",
         "jobs": [
           {
             "name": "stale",
             "conclusion": "success",
-            "duration_sec": 13,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27315562084/job/80695221425"
+            "duration_sec": 14,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27386471084/job/80934457867"
           }
         ],
         "run_attempt": 1
       },
       "recent_runs": [
+        {
+          "id": 27386471084,
+          "name": "Automatically close stale PRs",
+          "status": "completed",
+          "conclusion": "success",
+          "run_number": 460,
+          "created_at": "2026-06-12T00:31:42Z",
+          "updated_at": "2026-06-12T00:31:58Z",
+          "run_started_at": "2026-06-12T00:31:42Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27386471084",
+          "jobs": [
+            {
+              "name": "stale",
+              "conclusion": "success",
+              "duration_sec": 14,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27386471084/job/80934457867"
+            }
+          ],
+          "run_attempt": 1
+        },
         {
           "id": 27315562084,
           "name": "Automatically close stale PRs",
@@ -10139,26 +10135,6 @@
               "conclusion": "success",
               "duration_sec": 15,
               "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26347365791/job/77559392010"
-            }
-          ],
-          "run_attempt": 1
-        },
-        {
-          "id": 26318296067,
-          "name": "Automatically close stale PRs",
-          "status": "completed",
-          "conclusion": "success",
-          "run_number": 440,
-          "created_at": "2026-05-23T00:23:47Z",
-          "updated_at": "2026-05-23T00:24:05Z",
-          "run_started_at": "2026-05-23T00:23:47Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26318296067",
-          "jobs": [
-            {
-              "name": "stale",
-              "conclusion": "success",
-              "duration_sec": 15,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26318296067/job/77482054775"
             }
           ],
           "run_attempt": 1
