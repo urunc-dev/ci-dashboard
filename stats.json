@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-14T01:17:15.867619178Z",
+  "generated_at": "2026-06-15T01:20:23.440769421Z",
   "repo": "urunc-dev/urunc",
-  "overall_health": 88.33333333333333,
+  "overall_health": 88.57142857142857,
   "workflows": [
     {
       "name": "add-git-trailers",
@@ -3139,129 +3139,239 @@
       "critical": false,
       "required": false,
       "total_runs": 20,
-      "failed_runs": 6,
-      "failure_rate": 30,
-      "avg_duration_secs": 1283,
+      "failed_runs": 5,
+      "failure_rate": 25,
+      "avg_duration_secs": 1315.2,
       "weather_history": [
-        "failure",
         "success",
         "success",
         "failure",
+        "success",
         "success",
         "success",
         "success"
       ],
       "last_run": {
-        "id": 27452143440,
+        "id": 27484499534,
         "name": "urunc CI (nightly)",
         "status": "completed",
         "conclusion": "success",
-        "run_number": 238,
-        "created_at": "2026-06-13T01:15:09Z",
-        "updated_at": "2026-06-13T01:37:14Z",
-        "run_started_at": "2026-06-13T01:15:09Z",
-        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27452143440",
+        "run_number": 239,
+        "created_at": "2026-06-14T01:17:03Z",
+        "updated_at": "2026-06-14T01:39:07Z",
+        "run_started_at": "2026-06-14T01:17:03Z",
+        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27484499534",
         "jobs": [
           {
-            "name": "Build / build (arm64, ubuntu-22.04-arm)",
+            "name": "Unit tests / unit-test (amd64, ubuntu-22.04)",
             "conclusion": "success",
             "duration_sec": 43,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27452143440/job/81149462052"
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27484499534/job/81238079938"
           },
           {
             "name": "Build / build (amd64, ubuntu-22.04)",
             "conclusion": "success",
-            "duration_sec": 62,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27452143440/job/81149462075"
+            "duration_sec": 64,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27484499534/job/81238079942"
           },
           {
             "name": "Unit tests / unit-test (arm64, ubuntu-22.04-arm)",
             "conclusion": "success",
             "duration_sec": 30,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27452143440/job/81149462084"
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27484499534/job/81238079950"
           },
           {
-            "name": "Unit tests / unit-test (amd64, ubuntu-22.04)",
+            "name": "Build / build (arm64, ubuntu-22.04-arm)",
             "conclusion": "success",
-            "duration_sec": 39,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27452143440/job/81149462100"
+            "duration_sec": 46,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27484499534/job/81238079964"
           },
           {
             "name": "urunc-deploy test / urunc-deploy (arm64, ubuntu-22.04-arm)",
             "conclusion": "success",
-            "duration_sec": 120,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27452143440/job/81149545619"
+            "duration_sec": 95,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27484499534/job/81238146800"
           },
           {
             "name": "Kubernetes test / Kubernetes test (arm64, ubuntu-22.04-arm)",
             "conclusion": "success",
-            "duration_sec": 292,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27452143440/job/81149545627"
-          },
-          {
-            "name": "Kubernetes test / Kubernetes test (amd64, ubuntu-22.04)",
-            "conclusion": "success",
-            "duration_sec": 290,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27452143440/job/81149545628"
+            "duration_sec": 295,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27484499534/job/81238146805"
           },
           {
             "name": "urunc-deploy test / urunc-deploy (amd64, ubuntu-22.04)",
             "conclusion": "success",
             "duration_sec": 75,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27452143440/job/81149545636"
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27484499534/job/81238146810"
           },
           {
             "name": "E2E test / VM test (amd64, test_crictl)",
             "conclusion": "success",
-            "duration_sec": 425,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27452143440/job/81149545654"
-          },
-          {
-            "name": "E2E test / VM test (amd64, test_nerdctl)",
-            "conclusion": "success",
-            "duration_sec": 1257,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27452143440/job/81149545661"
+            "duration_sec": 536,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27484499534/job/81238146817"
           },
           {
             "name": "E2E test / VM test (arm64, test_ctr)",
             "conclusion": "success",
-            "duration_sec": 896,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27452143440/job/81149545662"
-          },
-          {
-            "name": "E2E test / VM test (arm64, test_crictl)",
-            "conclusion": "success",
-            "duration_sec": 417,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27452143440/job/81149545670"
+            "duration_sec": 874,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27484499534/job/81238146819"
           },
           {
             "name": "E2E test / VM test (arm64, test_nerdctl)",
             "conclusion": "success",
-            "duration_sec": 1093,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27452143440/job/81149545683"
-          },
-          {
-            "name": "E2E test / VM test (amd64, test_ctr)",
-            "conclusion": "success",
-            "duration_sec": 899,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27452143440/job/81149545684"
+            "duration_sec": 1176,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27484499534/job/81238146820"
           },
           {
             "name": "E2E test / VM test (amd64, test_docker)",
             "conclusion": "success",
-            "duration_sec": 466,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27452143440/job/81149545685"
+            "duration_sec": 582,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27484499534/job/81238146823"
+          },
+          {
+            "name": "E2E test / VM test (amd64, test_nerdctl)",
+            "conclusion": "success",
+            "duration_sec": 1248,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27484499534/job/81238146827"
+          },
+          {
+            "name": "E2E test / VM test (arm64, test_crictl)",
+            "conclusion": "success",
+            "duration_sec": 403,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27484499534/job/81238146829"
+          },
+          {
+            "name": "Kubernetes test / Kubernetes test (amd64, ubuntu-22.04)",
+            "conclusion": "success",
+            "duration_sec": 297,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27484499534/job/81238146831"
+          },
+          {
+            "name": "E2E test / VM test (amd64, test_ctr)",
+            "conclusion": "success",
+            "duration_sec": 919,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27484499534/job/81238146833"
           },
           {
             "name": "E2E test / VM test (arm64, test_docker)",
             "conclusion": "success",
-            "duration_sec": 388,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27452143440/job/81149545690"
+            "duration_sec": 389,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27484499534/job/81238146846"
           }
         ],
         "run_attempt": 1
       },
       "recent_runs": [
+        {
+          "id": 27484499534,
+          "name": "urunc CI (nightly)",
+          "status": "completed",
+          "conclusion": "success",
+          "run_number": 239,
+          "created_at": "2026-06-14T01:17:03Z",
+          "updated_at": "2026-06-14T01:39:07Z",
+          "run_started_at": "2026-06-14T01:17:03Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27484499534",
+          "jobs": [
+            {
+              "name": "Unit tests / unit-test (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 43,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27484499534/job/81238079938"
+            },
+            {
+              "name": "Build / build (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 64,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27484499534/job/81238079942"
+            },
+            {
+              "name": "Unit tests / unit-test (arm64, ubuntu-22.04-arm)",
+              "conclusion": "success",
+              "duration_sec": 30,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27484499534/job/81238079950"
+            },
+            {
+              "name": "Build / build (arm64, ubuntu-22.04-arm)",
+              "conclusion": "success",
+              "duration_sec": 46,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27484499534/job/81238079964"
+            },
+            {
+              "name": "urunc-deploy test / urunc-deploy (arm64, ubuntu-22.04-arm)",
+              "conclusion": "success",
+              "duration_sec": 95,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27484499534/job/81238146800"
+            },
+            {
+              "name": "Kubernetes test / Kubernetes test (arm64, ubuntu-22.04-arm)",
+              "conclusion": "success",
+              "duration_sec": 295,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27484499534/job/81238146805"
+            },
+            {
+              "name": "urunc-deploy test / urunc-deploy (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 75,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27484499534/job/81238146810"
+            },
+            {
+              "name": "E2E test / VM test (amd64, test_crictl)",
+              "conclusion": "success",
+              "duration_sec": 536,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27484499534/job/81238146817"
+            },
+            {
+              "name": "E2E test / VM test (arm64, test_ctr)",
+              "conclusion": "success",
+              "duration_sec": 874,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27484499534/job/81238146819"
+            },
+            {
+              "name": "E2E test / VM test (arm64, test_nerdctl)",
+              "conclusion": "success",
+              "duration_sec": 1176,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27484499534/job/81238146820"
+            },
+            {
+              "name": "E2E test / VM test (amd64, test_docker)",
+              "conclusion": "success",
+              "duration_sec": 582,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27484499534/job/81238146823"
+            },
+            {
+              "name": "E2E test / VM test (amd64, test_nerdctl)",
+              "conclusion": "success",
+              "duration_sec": 1248,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27484499534/job/81238146827"
+            },
+            {
+              "name": "E2E test / VM test (arm64, test_crictl)",
+              "conclusion": "success",
+              "duration_sec": 403,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27484499534/job/81238146829"
+            },
+            {
+              "name": "Kubernetes test / Kubernetes test (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 297,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27484499534/job/81238146831"
+            },
+            {
+              "name": "E2E test / VM test (amd64, test_ctr)",
+              "conclusion": "success",
+              "duration_sec": 919,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27484499534/job/81238146833"
+            },
+            {
+              "name": "E2E test / VM test (arm64, test_docker)",
+              "conclusion": "success",
+              "duration_sec": 389,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27484499534/job/81238146846"
+            }
+          ],
+          "run_attempt": 1
+        },
         {
           "id": 27452143440,
           "name": "urunc CI (nightly)",
@@ -5401,126 +5511,6 @@
             }
           ],
           "run_attempt": 1
-        },
-        {
-          "id": 26378077042,
-          "name": "urunc CI (nightly)",
-          "status": "completed",
-          "conclusion": "failure",
-          "run_number": 219,
-          "created_at": "2026-05-25T01:09:56Z",
-          "updated_at": "2026-05-25T01:21:16Z",
-          "run_started_at": "2026-05-25T01:09:56Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26378077042",
-          "jobs": [
-            {
-              "name": "Unit tests / unit-test (arm64, ubuntu-22.04-arm)",
-              "conclusion": "success",
-              "duration_sec": 28,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26378077042/job/77641955935"
-            },
-            {
-              "name": "Build / build (arm64, ubuntu-22.04-arm)",
-              "conclusion": "success",
-              "duration_sec": 45,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26378077042/job/77641955938"
-            },
-            {
-              "name": "Unit tests / unit-test (amd64, ubuntu-22.04)",
-              "conclusion": "success",
-              "duration_sec": 43,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26378077042/job/77641955945"
-            },
-            {
-              "name": "Build / build (amd64, ubuntu-22.04)",
-              "conclusion": "success",
-              "duration_sec": 67,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26378077042/job/77641955957"
-            },
-            {
-              "name": "Kubernetes test / Kubernetes test (amd64, ubuntu-22.04)",
-              "conclusion": "success",
-              "duration_sec": 310,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26378077042/job/77642035104"
-            },
-            {
-              "name": "Kubernetes test / Kubernetes test (arm64, ubuntu-22.04-arm)",
-              "conclusion": "success",
-              "duration_sec": 293,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26378077042/job/77642035109"
-            },
-            {
-              "name": "urunc-deploy test / urunc-deploy (arm64, ubuntu-22.04-arm)",
-              "conclusion": "success",
-              "duration_sec": 101,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26378077042/job/77642035113"
-            },
-            {
-              "name": "urunc-deploy test / urunc-deploy (amd64, ubuntu-22.04)",
-              "conclusion": "success",
-              "duration_sec": 73,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26378077042/job/77642035121"
-            },
-            {
-              "name": "E2E test / VM test (amd64, test_ctr)",
-              "conclusion": "cancelled",
-              "duration_sec": 607,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26378077042/job/77642035140"
-            },
-            {
-              "name": "E2E test / VM test (arm64, test_ctr)",
-              "conclusion": "cancelled",
-              "duration_sec": 606,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26378077042/job/77642035145"
-            },
-            {
-              "name": "E2E test / VM test (arm64, test_nerdctl)",
-              "conclusion": "cancelled",
-              "duration_sec": 607,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26378077042/job/77642035152"
-            },
-            {
-              "name": "E2E test / VM test (amd64, test_crictl)",
-              "conclusion": "failure",
-              "duration_sec": 591,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26378077042/job/77642035157"
-            },
-            {
-              "name": "E2E test / VM test (amd64, test_nerdctl)",
-              "conclusion": "cancelled",
-              "duration_sec": 608,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26378077042/job/77642035159"
-            },
-            {
-              "name": "E2E test / VM test (amd64, test_docker)",
-              "conclusion": "success",
-              "duration_sec": 462,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26378077042/job/77642035163"
-            },
-            {
-              "name": "E2E test / VM test (arm64, test_crictl)",
-              "conclusion": "success",
-              "duration_sec": 524,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26378077042/job/77642035171"
-            },
-            {
-              "name": "E2E test / VM test (arm64, test_docker)",
-              "conclusion": "success",
-              "duration_sec": 415,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26378077042/job/77642035173"
-            }
-          ],
-          "failed_jobs": [
-            {
-              "id": 77642035157,
-              "name": "E2E test / VM test (amd64, test_crictl)",
-              "conclusion": "failure",
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26378077042/job/77642035157",
-              "log_snippet": "[Network Failure] — 22 signal(s) found\n────────────────────────────────────────────────\n-\u003e Network Failure\n  Attempt 1/5 failed to pull harbor.nbfc.io/nubificus/urunc/redis-hvt-rumprun-raw:latest: E0525 01:13:56.392198   13740 remote_image.go:180] \"PullImage from image service failed\" err=\"rpc error: code = Unknown desc = failed to pull and unpack image \\\"harbor.nbfc.io/nubificus/urunc/redis-hvt-rumprun-raw:latest\\\": failed to copy: read tcp 10.1.0.109:51576-\u003e84.254.1.240:443: read: connection reset by peer\" image=\"harbor.nbfc.io/nubificus/urunc/redis-hvt-rumprun-raw:latest\"\n  time=\"2026-05-25T01:13:56Z\" level=fatal msg=\"pulling image: failed to pull and unpack image \\\"harbor.nbfc.io/nubificus/urunc/redis-hvt-rumprun-raw:latest\\\": failed to copy: read tcp 10.1.0.109:51576-\u003e84.254.1.240:443: read: connection reset by peer\" -- exit status 1. Retrying in 2s...\n  Attempt 1/5 failed to pull harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest: E0525 01:17:23.088625   13858 remote_image.go:180] \"PullImage from image service failed\" err=\"rpc error: code = DeadlineExceeded desc = failed to pull and unpack image \\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\": failed to resolve image: failed to do request: Head \\\"https://harbor.nbfc.io/v2/nubificus/urunc/nginx-firecracker-unikraft-initrd/manifests/latest\\\": dial tcp 84.254.1.240:443: i/o timeout\" image=\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\"\n  time=\"2026-05-25T01:17:23Z\" level=fatal msg=\"pulling image: rpc error: code = DeadlineExceeded desc = failed to pull and unpack image \\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\": failed to resolve image: failed to do request: Head \\\"https://harbor.nbfc.io/v2/nubificus/urunc/nginx-firecracker-unikraft-initrd/manifests/latest\\\": dial tcp 84.254.1.240:443: i/o timeout\" -- exit status 1. Retrying in 2s...\n  Attempt 2/5 failed to pull harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest: E0525 01:18:15.598936   13873 remote_image.go:180] \"PullImage from image service failed\" err=\"rpc error: code = DeadlineExceeded desc = failed to pull and unpack image \\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\": failed to copy: httpReadSeeker: failed open: failed to do request: Get \\\"https://harbor.nbfc.io/v2/nubificus/urunc/nginx-firecracker-unikraft-initrd/manifests/sha256:480eac2ce949f2dbd1c195631883d8de8eea8cb20b4a7c78377efcbb0157ce79\\\": dial tcp 84.254.1.240:443: i/o timeout\" image=\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\"\n  time=\"2026-05-25T01:18:15Z\" level=fatal msg=\"pulling image: rpc error: code = DeadlineExceeded desc = failed to pull and unpack image \\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\": failed to copy: httpReadSeeker: failed open: failed to do request: Get \\\"https://harbor.nbfc.io/v2/nubificus/urunc/nginx-firecracker-unikraft-initrd/manifests/sha256:480eac2ce949f2dbd1c195631883d8de8eea8cb20b4a7c78377efcbb0157ce79\\\": dial tcp 84.254.1.240:443: i/o timeout\" -- exit status 1. Retrying in 2s...\n  Attempt 3/5 failed to pull harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest: E0525 01:19:08.359337   13884 remote_image.go:180] \"PullImage from image service failed\" err=\"rpc error: code = DeadlineExceeded desc = failed to pull and unpack image \\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\": failed to copy: httpReadSeeker: failed open: failed to do request: Get \\\"https://harbor.nbfc.io/v2/nubificus/urunc/nginx-firecracker-unikraft-initrd/manifests/sha256:480eac2ce949f2dbd1c195631883d8de8eea8cb20b4a7c78377efcbb0157ce79\\\": dial tcp 84.254.1.240:443: i/o timeout\" image=\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\"\n  time=\"2026-05-25T01:19:08Z\" level=fatal msg=\"pulling image: rpc error: code = DeadlineExceeded desc = failed to pull and unpack image \\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\": failed to copy: httpReadSeeker: failed open: failed to do request: Get \\\"https://harbor.nbfc.io/v2/nubificus/urunc/nginx-firecracker-unikraft-initrd/manifests/sha256:480eac2ce949f2dbd1c195631883d8de8eea8cb20b4a7c78377efcbb0157ce79\\\": dial tcp 84.254.1.240:443: i/o timeout\" -- exit status 1. Retrying in 2s...\n  Attempt 4/5 failed to pull harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest: E0525 01:20:01.050017   13895 remote_image.go:180] \"PullImage from image service failed\" err=\"rpc error: code = Unknown desc = failed to pull and unpack image \\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\": failed to copy: httpReadSeeker: failed open: failed to do request: Get \\\"https://harbor.nbfc.io/v2/nubificus/urunc/nginx-firecracker-unikraft-initrd/manifests/sha256:480eac2ce949f2dbd1c195631883d8de8eea8cb20b4a7c78377efcbb0157ce79\\\": dial tcp 84.254.1.240:443: i/o timeout\" image=\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\"\n  time=\"2026-05-25T01:20:01Z\" level=fatal msg=\"pulling image: failed to pull and unpack image \\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\": failed to copy: httpReadSeeker: failed open: failed to do request: Get \\\"https://harbor.nbfc.io/v2/nubificus/urunc/nginx-firecracker-unikraft-initrd/manifests/sha256:480eac2ce949f2dbd1c195631883d8de8eea8cb20b4a7c78377efcbb0157ce79\\\": dial tcp 84.254.1.240:443: i/o timeout\" -- exit status 1. Retrying in 2s...\n  Attempt 5/5 failed to pull harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest: E0525 01:20:53.830024   13909 remote_image.go:180] \"PullImage from image service failed\" err=\"rpc error: code = DeadlineExceeded desc = failed to pull and unpack image \\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\": failed to copy: httpReadSeeker: failed open: failed to do request: Get \\\"https://harbor.nbfc.io/v2/nubificus/urunc/nginx-firecracker-unikraft-initrd/manifests/sha256:480eac2ce949f2dbd1c195631883d8de8eea8cb20b4a7c78377efcbb0157ce79\\\": dial tcp 84.254.1.240:443: i/o timeout\" image=\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\"\n  time=\"2026-05-25T01:20:53Z\" level=fatal msg=\"pulling image: rpc error: code = DeadlineExceeded desc = failed to pull and unpack image \\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\": failed to copy: httpReadSeeker: failed open: failed to do request: Get \\\"https://harbor.nbfc.io/v2/nubificus/urunc/nginx-firecracker-unikraft-initrd/manifests/sha256:480eac2ce949f2dbd1c195631883d8de8eea8cb20b4a7c78377efcbb0157ce79\\\": dial tcp 84.254.1.240:443: i/o timeout\" -- exit status 1. Retrying in 2s...\n  failed to pull harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest: failed to pull harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest after 5 attempts: E0525 01:20:53.830024   13909 remote_image.go:180] \"PullImage from image service failed\" err=\"rpc error: code = DeadlineExceeded desc = failed to pull and unpack image \\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\": failed to copy: httpReadSeeker: failed open: failed to do request: Get \\\"https://harbor.nbfc.io/v2/nubificus/urunc/nginx-firecracker-unikraft-initrd/manifests/sha256:480eac2ce949f2dbd1c195631883d8de8eea8cb20b4a7c78377efcbb0157ce79\\\": dial tcp 84.254.1.240:443: i/o timeout\" image=\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\"\n  time=\"2026-05-25T01:20:53Z\" level=fatal msg=\"pulling image: rpc error: code = DeadlineExceeded desc = failed to pull and unpack image \\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\": failed to copy: httpReadSeeker: failed open: failed to do request: Get \\\"https://harbor.nbfc.io/v2/nubificus/urunc/nginx-firecracker-unikraft-initrd/manifests/sha256:480eac2ce949f2dbd1c195631883d8de8eea8cb20b4a7c78377efcbb0157ce79\\\": dial tcp 84.254.1.240:443: i/o timeout\" -- exit status 1\n  msg: \"failed to pull harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest: failed to pull harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest after 5 attempts: E0525 01:20:53.830024   13909 remote_image.go:180] \\\"PullImage from image service failed\\\" err=\\\"rpc error: code = DeadlineExceeded desc = failed to pull and unpack image \\\\\\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\\\\\": failed to copy: httpReadSeeker: failed open: failed to do request: Get \\\\\\\"https://harbor.nbfc.io/v2/nubificus/urunc/nginx-firecracker-unikraft-initrd/manifests/sha256:480eac2ce949f2dbd1c195631883d8de8eea8cb20b4a7c78377efcbb0157ce79\\\\\\\": dial tcp 84.254.1.240:443: i/o timeout\\\" image=\\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\"\\ntime=\\\"2026-05-25T01:20:53Z\\\" level=fatal msg=\\\"pulling image: rpc error: code = DeadlineExceeded desc = failed to pull and unpack image \\\\\\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\\\\\": failed to copy: httpReadSeeker: failed open: failed to do request: Get \\\\\\\"https://harbor.nbfc.io/v2/nubificus/urunc/nginx-firecracker-unikraft-initrd/manifests/sha256:480eac2ce949f2dbd1c195631883d8de8eea8cb20b4a7c78377efcbb0157ce79\\\\\\\": dial tcp 84.254.1.240:443: i/o timeout\\\" -- exit status 1\",\n  msg: \"failed to pull harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest after 5 attempts: E0525 01:20:53.830024   13909 remote_image.go:180] \\\"PullImage from image service failed\\\" err=\\\"rpc error: code = DeadlineExceeded desc = failed to pull and unpack image \\\\\\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\\\\\": failed to copy: httpReadSeeker: failed open: failed to do request: Get \\\\\\\"https://harbor.nbfc.io/v2/nubificus/urunc/nginx-firecracker-unikraft-initrd/manifests/sha256:480eac2ce949f2dbd1c195631883d8de8eea8cb20b4a7c78377efcbb0157ce79\\\\\\\": dial tcp 84.254.1.240:443: i/o timeout\\\" image=\\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\"\\ntime=\\\"2026-05-25T01:20:53Z\\\" level=fatal msg=\\\"pulling image: rpc error: code = DeadlineExceeded desc = failed to pull and unpack image \\\\\\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\\\\\": failed to copy: httpReadSeeker: failed open: failed to do request: Get \\\\\\\"https://harbor.nbfc.io/v2/nubificus/urunc/nginx-firecracker-unikraft-initrd/manifests/sha256:480eac2ce949f2dbd1c195631883d8de8eea8cb20b4a7c78377efcbb0157ce79\\\\\\\": dial tcp 84.254.1.240:443: i/o timeout\\\" -- exit status 1\",\n  s: \"E0525 01:20:53.830024   13909 remote_image.go:180] \\\"PullImage from image service failed\\\" err=\\\"rpc error: code = DeadlineExceeded desc = failed to pull and unpack image \\\\\\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\\\\\": failed to copy: httpReadSeeker: failed open: failed to do request: Get \\\\\\\"https://harbor.nbfc.io/v2/nubificus/urunc/nginx-firecracker-unikraft-initrd/manifests/sha256:480eac2ce949f2dbd1c195631883d8de8eea8cb20b4a7c78377efcbb0157ce79\\\\\\\": dial tcp 84.254.1.240:443: i/o timeout\\\" image=\\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\"\\ntime=\\\"2026-05-25T01:20:53Z\\\" level=fatal msg=\\\"pulling image: rpc error: code = DeadlineExceeded desc = failed to pull and unpack image \\\\\\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\\\\\": failed to copy: httpReadSeeker: failed open: failed to do request: Get \\\\\\\"https://harbor.nbfc.io/v2/nubificus/urunc/nginx-firecracker-unikraft-initrd/manifests/sha256:480eac2ce949f2dbd1c195631883d8de8eea8cb20b4a7c78377efcbb0157ce79\\\\\\\": dial tcp 84.254.1.240:443: i/o timeout\\\" -- exit status 1\",\n-\u003e Test Failure\n  Unexpected error:\n  --- FAIL: TestE2E (488.15s)\n  FAIL\tgithub.com/urunc-dev/urunc/tests/e2e\t488.162s\n-\u003e Build Failure\n  make: *** [Makefile:284: test_crictl] Error 1\n  ##[error]Process completed with exit code 2.",
-              "raw_log": "all modules verified\n##[group]Run # Set up Go environment properly\n# Set up Go environment properly\nexport GOROOT=$(go env GOROOT)\nexport PATH=\"$GOROOT/bin:$PATH\"\ngo version\ngo env GOROOT\nif [ \"amd64\" = \"arm64\" ]; then\nsudo -E env \"PATH=$PATH\" \"GOROOT=$GOROOT\" make test_crictl_Spt\nelse\nsudo -E env \"PATH=$PATH\" \"GOROOT=$GOROOT\" make test_crictl\nfi\nshell: /usr/bin/bash -e {0}\nenv:\nGOTOOLCHAIN: local\n##[endgroup]\ngo version go1.25.4 linux/amd64\nTesting crictl\n=== RUN   TestE2E\nRunning Suite: E2E Suite - /home/runner/work/urunc/urunc/tests/e2e\n==================================================================\nRandom Seed: 1779671567\n2026-05-25T01:12:47.6817717Z\nWill run 13 of 72 specs\nSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS\n------------------------------\nCrictl unikernel containers Hvt-rumprun-redis\n/home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56\n2026/05/25 01:12:47 Pulling image: harbor.nbfc.io/nubificus/urunc/net-spt-mirage:latest\n2026/05/25 01:12:57 Pulling image: harbor.nbfc.io/nubificus/urunc/redis-qemu-unikraft-initrd:latest\n2026/05/25 01:13:12 Pulling image: harbor.nbfc.io/nubificus/urunc/net-qemu-mirage:latest\n2026/05/25 01:13:32 Pulling image: harbor.nbfc.io/nubificus/urunc/httpreply-firecracker-unikraft:latest\n2026/05/25 01:13:41 Pulling image: harbor.nbfc.io/nubificus/urunc/redis-hvt-rumprun-raw:latest\nAttempt 1/5 failed to pull harbor.nbfc.io/nubificus/urunc/redis-hvt-rumprun-raw:latest: E0525 01:13:56.392198   13740 remote_image.go:180] \"PullImage from image service failed\" err=\"rpc error: code = Unknown desc = failed to pull and unpack image \\\"harbor.nbfc.io/nubificus/urunc/redis-hvt-rumprun-raw:latest\\\": failed to copy: read tcp 10.1.0.109:51576-\u003e84.254.1.240:443: read: connection reset by peer\" image=\"harbor.nbfc.io/nubificus/urunc/redis-hvt-rumprun-raw:latest\"\ntime=\"2026-05-25T01:13:56Z\" level=fatal msg=\"pulling image: failed to pull and unpack image \\\"harbor.nbfc.io/nubificus/urunc/redis-hvt-rumprun-raw:latest\\\": failed to copy: read tcp 10.1.0.109:51576-\u003e84.254.1.240:443: read: connection reset by peer\" -- exit status 1. Retrying in 2s...\n2026/05/25 01:14:48 Pulling image: harbor.nbfc.io/nubificus/urunc/net-hvt-mirage:latest\n2026/05/25 01:15:02 Pulling image: harbor.nbfc.io/nubificus/urunc/redis-spt-rumprun-raw:latest\n2026/05/25 01:15:30 Pulling image: harbor.nbfc.io/nubificus/urunc/redis-qemu-linux-block:latest\n2026/05/25 01:16:53 Pulling image: harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\nAttempt 1/5 failed to pull harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest: E0525 01:17:23.088625   13858 remote_image.go:180] \"PullImage from image service failed\" err=\"rpc error: code = DeadlineExceeded desc = failed to pull and unpack image \\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\": failed to resolve image: failed to do request: Head \\\"https://harbor.nbfc.io/v2/nubificus/urunc/nginx-firecracker-unikraft-initrd/manifests/latest\\\": dial tcp 84.254.1.240:443: i/o timeout\" image=\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\"\ntime=\"2026-05-25T01:17:23Z\" level=fatal msg=\"pulling image: rpc error: code = DeadlineExceeded desc = failed to pull and unpack image \\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\": failed to resolve image: failed to do request: Head \\\"https://harbor.nbfc.io/v2/nubificus/urunc/nginx-firecracker-unikraft-initrd/manifests/latest\\\": dial tcp 84.254.1.240:443: i/o timeout\" -- exit status 1. Retrying in 2s...\nAttempt 2/5 failed to pull harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest: E0525 01:18:15.598936   13873 remote_image.go:180] \"PullImage from image service failed\" err=\"rpc error: code = DeadlineExceeded desc = failed to pull and unpack image \\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\": failed to copy: httpReadSeeker: failed open: failed to do request: Get \\\"https://harbor.nbfc.io/v2/nubificus/urunc/nginx-firecracker-unikraft-initrd/manifests/sha256:480eac2ce949f2dbd1c195631883d8de8eea8cb20b4a7c78377efcbb0157ce79\\\": dial tcp 84.254.1.240:443: i/o timeout\" image=\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\"\ntime=\"2026-05-25T01:18:15Z\" level=fatal msg=\"pulling image: rpc error: code = DeadlineExceeded desc = failed to pull and unpack image \\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\": failed to copy: httpReadSeeker: failed open: failed to do request: Get \\\"https://harbor.nbfc.io/v2/nubificus/urunc/nginx-firecracker-unikraft-initrd/manifests/sha256:480eac2ce949f2dbd1c195631883d8de8eea8cb20b4a7c78377efcbb0157ce79\\\": dial tcp 84.254.1.240:443: i/o timeout\" -- exit status 1. Retrying in 2s...\nAttempt 3/5 failed to pull harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest: E0525 01:19:08.359337   13884 remote_image.go:180] \"PullImage from image service failed\" err=\"rpc error: code = DeadlineExceeded desc = failed to pull and unpack image \\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\": failed to copy: httpReadSeeker: failed open: failed to do request: Get \\\"https://harbor.nbfc.io/v2/nubificus/urunc/nginx-firecracker-unikraft-initrd/manifests/sha256:480eac2ce949f2dbd1c195631883d8de8eea8cb20b4a7c78377efcbb0157ce79\\\": dial tcp 84.254.1.240:443: i/o timeout\" image=\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\"\ntime=\"2026-05-25T01:19:08Z\" level=fatal msg=\"pulling image: rpc error: code = DeadlineExceeded desc = failed to pull and unpack image \\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\": failed to copy: httpReadSeeker: failed open: failed to do request: Get \\\"https://harbor.nbfc.io/v2/nubificus/urunc/nginx-firecracker-unikraft-initrd/manifests/sha256:480eac2ce949f2dbd1c195631883d8de8eea8cb20b4a7c78377efcbb0157ce79\\\": dial tcp 84.254.1.240:443: i/o timeout\" -- exit status 1. Retrying in 2s...\nAttempt 4/5 failed to pull harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest: E0525 01:20:01.050017   13895 remote_image.go:180] \"PullImage from image service failed\" err=\"rpc error: code = Unknown desc = failed to pull and unpack image \\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\": failed to copy: httpReadSeeker: failed open: failed to do request: Get \\\"https://harbor.nbfc.io/v2/nubificus/urunc/nginx-firecracker-unikraft-initrd/manifests/sha256:480eac2ce949f2dbd1c195631883d8de8eea8cb20b4a7c78377efcbb0157ce79\\\": dial tcp 84.254.1.240:443: i/o timeout\" image=\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\"\ntime=\"2026-05-25T01:20:01Z\" level=fatal msg=\"pulling image: failed to pull and unpack image \\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\": failed to copy: httpReadSeeker: failed open: failed to do request: Get \\\"https://harbor.nbfc.io/v2/nubificus/urunc/nginx-firecracker-unikraft-initrd/manifests/sha256:480eac2ce949f2dbd1c195631883d8de8eea8cb20b4a7c78377efcbb0157ce79\\\": dial tcp 84.254.1.240:443: i/o timeout\" -- exit status 1. Retrying in 2s...\nAttempt 5/5 failed to pull harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest: E0525 01:20:53.830024   13909 remote_image.go:180] \"PullImage from image service failed\" err=\"rpc error: code = DeadlineExceeded desc = failed to pull and unpack image \\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\": failed to copy: httpReadSeeker: failed open: failed to do request: Get \\\"https://harbor.nbfc.io/v2/nubificus/urunc/nginx-firecracker-unikraft-initrd/manifests/sha256:480eac2ce949f2dbd1c195631883d8de8eea8cb20b4a7c78377efcbb0157ce79\\\": dial tcp 84.254.1.240:443: i/o timeout\" image=\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\"\ntime=\"2026-05-25T01:20:53Z\" level=fatal msg=\"pulling image: rpc error: code = DeadlineExceeded desc = failed to pull and unpack image \\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\": failed to copy: httpReadSeeker: failed open: failed to do request: Get \\\"https://harbor.nbfc.io/v2/nubificus/urunc/nginx-firecracker-unikraft-initrd/manifests/sha256:480eac2ce949f2dbd1c195631883d8de8eea8cb20b4a7c78377efcbb0157ce79\\\": dial tcp 84.254.1.240:443: i/o timeout\" -- exit status 1. Retrying in 2s...\n[FAILED] in [BeforeAll] - /home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:29 @ 05/25/26 01:20:55.832\n• [FAILED] [488.149 seconds]\nCrictl [BeforeAll] unikernel containers Hvt-rumprun-redis\n[BeforeAll] /home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:25\n[It] /home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56\n2026-05-25T01:20:55.8334446Z\n[FAILED] Failed to pull crictl images\nUnexpected error:\n\u003c*fmt.wrapError | 0xc00040e160\u003e:\nfailed to pull harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest: failed to pull harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest after 5 attempts: E0525 01:20:53.830024   13909 remote_image.go:180] \"PullImage from image service failed\" err=\"rpc error: code = DeadlineExceeded desc = failed to pull and unpack image \\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\": failed to copy: httpReadSeeker: failed open: failed to do request: Get \\\"https://harbor.nbfc.io/v2/nubificus/urunc/nginx-firecracker-unikraft-initrd/manifests/sha256:480eac2ce949f2dbd1c195631883d8de8eea8cb20b4a7c78377efcbb0157ce79\\\": dial tcp 84.254.1.240:443: i/o timeout\" image=\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\"\ntime=\"2026-05-25T01:20:53Z\" level=fatal msg=\"pulling image: rpc error: code = DeadlineExceeded desc = failed to pull and unpack image \\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\": failed to copy: httpReadSeeker: failed open: failed to do request: Get \\\"https://harbor.nbfc.io/v2/nubificus/urunc/nginx-firecracker-unikraft-initrd/manifests/sha256:480eac2ce949f2dbd1c195631883d8de8eea8cb20b4a7c78377efcbb0157ce79\\\": dial tcp 84.254.1.240:443: i/o timeout\" -- exit status 1\n{\nmsg: \"failed to pull harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest: failed to pull harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest after 5 attempts: E0525 01:20:53.830024   13909 remote_image.go:180] \\\"PullImage from image service failed\\\" err=\\\"rpc error: code = DeadlineExceeded desc = failed to pull and unpack image \\\\\\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\\\\\": failed to copy: httpReadSeeker: failed open: failed to do request: Get \\\\\\\"https://harbor.nbfc.io/v2/nubificus/urunc/nginx-firecracker-unikraft-initrd/manifests/sha256:480eac2ce949f2dbd1c195631883d8de8eea8cb20b4a7c78377efcbb0157ce79\\\\\\\": dial tcp 84.254.1.240:443: i/o timeout\\\" image=\\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\"\\ntime=\\\"2026-05-25T01:20:53Z\\\" level=fatal msg=\\\"pulling image: rpc error: code = DeadlineExceeded desc = failed to pull and unpack image \\\\\\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\\\\\": failed to copy: httpReadSeeker: failed open: failed to do request: Get \\\\\\\"https://harbor.nbfc.io/v2/nubificus/urunc/nginx-firecracker-unikraft-initrd/manifests/sha256:480eac2ce949f2dbd1c195631883d8de8eea8cb20b4a7c78377efcbb0157ce79\\\\\\\": dial tcp 84.254.1.240:443: i/o timeout\\\" -- exit status 1\",\nerr: \u003c*fmt.wrapError | 0xc00040e140\u003e{\nmsg: \"failed to pull harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest after 5 attempts: E0525 01:20:53.830024   13909 remote_image.go:180] \\\"PullImage from image service failed\\\" err=\\\"rpc error: code = DeadlineExceeded desc = failed to pull and unpack image \\\\\\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\\\\\": failed to copy: httpReadSeeker: failed open: failed to do request: Get \\\\\\\"https://harbor.nbfc.io/v2/nubificus/urunc/nginx-firecracker-unikraft-initrd/manifests/sha256:480eac2ce949f2dbd1c195631883d8de8eea8cb20b4a7c78377efcbb0157ce79\\\\\\\": dial tcp 84.254.1.240:443: i/o timeout\\\" image=\\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\"\\ntime=\\\"2026-05-25T01:20:53Z\\\" level=fatal msg=\\\"pulling image: rpc error: code = DeadlineExceeded desc = failed to pull and unpack image \\\\\\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\\\\\": failed to copy: httpReadSeeker: failed open: failed to do request: Get \\\\\\\"https://harbor.nbfc.io/v2/nubificus/urunc/nginx-firecracker-unikraft-initrd/manifests/sha256:480eac2ce949f2dbd1c195631883d8de8eea8cb20b4a7c78377efcbb0157ce79\\\\\\\": dial tcp 84.254.1.240:443: i/o timeout\\\" -- exit status 1\",\nerr: \u003c*errors.errorString | 0xc000050700\u003e{\ns: \"E0525 01:20:53.830024   13909 remote_image.go:180] \\\"PullImage from image service failed\\\" err=\\\"rpc error: code = DeadlineExceeded desc = failed to pull and unpack image \\\\\\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\\\\\": failed to copy: httpReadSeeker: failed open: failed to do request: Get \\\\\\\"https://harbor.nbfc.io/v2/nubificus/urunc/nginx-firecracker-unikraft-initrd/manifests/sha256:480eac2ce949f2dbd1c195631883d8de8eea8cb20b4a7c78377efcbb0157ce79\\\\\\\": dial tcp 84.254.1.240:443: i/o timeout\\\" image=\\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\"\\ntime=\\\"2026-05-25T01:20:53Z\\\" level=fatal msg=\\\"pulling image: rpc error: code = DeadlineExceeded desc = failed to pull and unpack image \\\\\\\"harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\\\\\\\": failed to copy: httpReadSeeker: failed open: failed to do request: Get \\\\\\\"https://harbor.nbfc.io/v2/nubificus/urunc/nginx-firecracker-unikraft-initrd/manifests/sha256:480eac2ce949f2dbd1c195631883d8de8eea8cb20b4a7c78377efcbb0157ce79\\\\\\\": dial tcp 84.254.1.240:443: i/o timeout\\\" -- exit status 1\",\n},\n},\n}\noccurred\nIn [BeforeAll] at: /home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:29 @ 05/25/26 01:20:55.832\n------------------------------\nS [SKIPPED] [0.000 seconds]\nCrictl unikernel containers [It] Hvt-mirage-net\n/home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56\n2026-05-25T01:20:55.8432745Z\n[SKIPPED] Spec skipped because a BeforeAll node failed\nIn [It] at: /home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56 @ 05/25/26 01:20:55.832\n------------------------------\nS [SKIPPED] [0.000 seconds]\nCrictl unikernel containers [It] Spt-rumprun-redis\n/home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56\n2026-05-25T01:20:55.8438406Z\n[SKIPPED] Spec skipped because a BeforeAll node failed\nIn [It] at: /home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56 @ 05/25/26 01:20:55.832\n------------------------------\nS [SKIPPED] [0.000 seconds]\nCrictl unikernel containers [It] Spt-mirage-net\n/home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56\n2026-05-25T01:20:55.8444117Z\n[SKIPPED] Spec skipped because a BeforeAll node failed\nIn [It] at: /home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56 @ 05/25/26 01:20:55.832\n------------------------------\nS [SKIPPED] [0.000 seconds]\nCrictl unikernel containers [It] Spt-mirage-UserGroup\n/home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56\n2026-05-25T01:20:55.8449778Z\n[SKIPPED] Spec skipped because a BeforeAll node failed\nIn [It] at: /home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56 @ 05/25/26 01:20:55.832\n------------------------------\nS [SKIPPED] [0.000 seconds]\nCrictl unikernel containers [It] Qemu-unikraft-redis\n/home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56\n2026-05-25T01:20:55.8455428Z\n[SKIPPED] Spec skipped because a BeforeAll node failed\nIn [It] at: /home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56 @ 05/25/26 01:20:55.832\n------------------------------\nS [SKIPPED] [0.000 seconds]\nCrictl unikernel containers [It] Qemu-mirage-net\n/home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56\n2026-05-25T01:20:55.8461157Z\n[SKIPPED] Spec skipped because a BeforeAll node failed\nIn [It] at: /home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56 @ 05/25/26 01:20:55.832\n------------------------------\nS [SKIPPED] [0.000 seconds]\nCrictl unikernel containers [It] Qemu-linux-redis\n/home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56\n2026-05-25T01:20:55.8467055Z\n[SKIPPED] Spec skipped because a BeforeAll node failed\nIn [It] at: /home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56 @ 05/25/26 01:20:55.832\n------------------------------\nS [SKIPPED] [0.000 seconds]\nCrictl unikernel containers [It] Firecracker-unikraft-nginx\n/home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56\n2026-05-25T01:20:55.8472861Z\n[SKIPPED] Spec skipped because a BeforeAll node failed\nIn [It] at: /home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56 @ 05/25/26 01:20:55.832\n------------------------------\nS [SKIPPED] [0.000 seconds]\nCrictl unikernel containers [It] Firecracker-linux-nginx\n/home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56\n2026-05-25T01:20:55.8478535Z\n[SKIPPED] Spec skipped because a BeforeAll node failed\nIn [It] at: /home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56 @ 05/25/26 01:20:55.832\n------------------------------\nS [SKIPPED] [0.000 seconds]\nCrictl unikernel containers [It] Firecracker-unikraft-httpreply-static-net\n/home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56\n2026-05-25T01:20:55.8484633Z\n[SKIPPED] Spec skipped because a BeforeAll node failed\nIn [It] at: /home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56 @ 05/25/26 01:20:55.833\n------------------------------\nS [SKIPPED] [0.000 seconds]\nCrictl unikernel containers [It] Firecracker-unikraft-namespaces\n/home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56\n2026-05-25T01:20:55.8490410Z\n[SKIPPED] Spec skipped because a BeforeAll node failed\nIn [It] at: /home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56 @ 05/25/26 01:20:55.833\n------------------------------\nS [SKIPPED] [0.000 seconds]\nCrictl unikernel containers [It] Firecracker-unikraft-UserGroup\n/home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56\n2026-05-25T01:20:55.8496490Z\n[SKIPPED] Spec skipped because a BeforeAll node failed\nIn [It] at: /home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56 @ 05/25/26 01:20:55.833\n------------------------------\n2026-05-25T01:20:55.8499655Z\nSummarizing 1 Failure:\n[FAIL] Crictl [BeforeAll] unikernel containers Hvt-rumprun-redis\n/home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:29\n2026-05-25T01:20:55.8502769Z\nRan 1 of 72 Specs in 488.152 seconds\nFAIL! -- 0 Passed | 1 Failed | 0 Pending | 71 Skipped\n--- FAIL: TestE2E (488.15s)\nFAIL\nFAIL\tgithub.com/urunc-dev/urunc/tests/e2e\t488.162s\nFAIL\nmake: *** [Makefile:284: test_crictl] Error 1\n##[error]Process completed with exit code 2."
-            }
-          ],
-          "run_attempt": 1
         }
       ]
     },
@@ -5534,27 +5524,63 @@
       "failure_rate": 5,
       "avg_duration_secs": 307,
       "weather_history": [
-        "success",
+        "action_required",
         "success",
         "action_required",
         "action_required",
-        "success",
+        "action_required",
         "action_required",
         "action_required"
       ],
       "last_run": {
-        "id": 27423594232,
+        "id": 27515041552,
         "name": "urunc CI",
         "status": "completed",
         "conclusion": "action_required",
-        "run_number": 2076,
-        "created_at": "2026-06-12T14:54:48Z",
-        "updated_at": "2026-06-12T14:54:48Z",
-        "run_started_at": "2026-06-12T14:54:48Z",
-        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27423594232",
+        "run_number": 2079,
+        "created_at": "2026-06-14T23:09:41Z",
+        "updated_at": "2026-06-14T23:09:41Z",
+        "run_started_at": "2026-06-14T23:09:41Z",
+        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27515041552",
         "run_attempt": 1
       },
       "recent_runs": [
+        {
+          "id": 27515041552,
+          "name": "urunc CI",
+          "status": "completed",
+          "conclusion": "action_required",
+          "run_number": 2079,
+          "created_at": "2026-06-14T23:09:41Z",
+          "updated_at": "2026-06-14T23:09:41Z",
+          "run_started_at": "2026-06-14T23:09:41Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27515041552",
+          "run_attempt": 1
+        },
+        {
+          "id": 27508374142,
+          "name": "urunc CI",
+          "status": "completed",
+          "conclusion": "action_required",
+          "run_number": 2078,
+          "created_at": "2026-06-14T18:41:00Z",
+          "updated_at": "2026-06-14T18:41:00Z",
+          "run_started_at": "2026-06-14T18:41:00Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27508374142",
+          "run_attempt": 1
+        },
+        {
+          "id": 27495192925,
+          "name": "urunc CI",
+          "status": "completed",
+          "conclusion": "action_required",
+          "run_number": 2077,
+          "created_at": "2026-06-14T09:52:48Z",
+          "updated_at": "2026-06-14T09:52:48Z",
+          "run_started_at": "2026-06-14T09:52:48Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27495192925",
+          "run_attempt": 1
+        },
         {
           "id": 27423594232,
           "name": "urunc CI",
@@ -6678,42 +6704,6 @@
           "run_started_at": "2026-06-08T06:34:54Z",
           "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27120290799",
           "run_attempt": 1
-        },
-        {
-          "id": 27033784650,
-          "name": "urunc CI",
-          "status": "completed",
-          "conclusion": "action_required",
-          "run_number": 2058,
-          "created_at": "2026-06-05T18:48:58Z",
-          "updated_at": "2026-06-05T18:48:58Z",
-          "run_started_at": "2026-06-05T18:48:58Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27033784650",
-          "run_attempt": 1
-        },
-        {
-          "id": 26913577923,
-          "name": "urunc CI",
-          "status": "completed",
-          "conclusion": "action_required",
-          "run_number": 2057,
-          "created_at": "2026-06-03T21:17:26Z",
-          "updated_at": "2026-06-03T21:17:26Z",
-          "run_started_at": "2026-06-03T21:17:26Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26913577923",
-          "run_attempt": 1
-        },
-        {
-          "id": 26913258576,
-          "name": "urunc CI",
-          "status": "completed",
-          "conclusion": "action_required",
-          "run_number": 2056,
-          "created_at": "2026-06-03T21:11:05Z",
-          "updated_at": "2026-06-03T21:11:05Z",
-          "run_started_at": "2026-06-03T21:11:05Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26913258576",
-          "run_attempt": 1
         }
       ]
     },
@@ -6725,29 +6715,105 @@
       "total_runs": 20,
       "failed_runs": 0,
       "failure_rate": 0,
-      "avg_duration_secs": 77.75,
+      "avg_duration_secs": 77.6,
       "weather_history": [
         "success",
         "action_required",
         "action_required",
-        "success",
-        "success",
         "action_required",
-        "action_required"
+        "action_required",
+        "action_required",
+        "success"
       ],
       "last_run": {
-        "id": 27423593249,
+        "id": 27517059152,
         "name": "CodeQL",
         "status": "completed",
-        "conclusion": "action_required",
-        "run_number": 1376,
-        "created_at": "2026-06-12T14:54:47Z",
-        "updated_at": "2026-06-12T14:54:47Z",
-        "run_started_at": "2026-06-12T14:54:47Z",
-        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27423593249",
+        "conclusion": "success",
+        "run_number": 1380,
+        "created_at": "2026-06-15T00:29:18Z",
+        "updated_at": "2026-06-15T00:31:23Z",
+        "run_started_at": "2026-06-15T00:29:18Z",
+        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27517059152",
+        "jobs": [
+          {
+            "name": "Analyze (python)",
+            "conclusion": "success",
+            "duration_sec": 64,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27517059152/job/81327538417"
+          },
+          {
+            "name": "Analyze (go)",
+            "conclusion": "success",
+            "duration_sec": 122,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27517059152/job/81327538446"
+          }
+        ],
         "run_attempt": 1
       },
       "recent_runs": [
+        {
+          "id": 27517059152,
+          "name": "CodeQL",
+          "status": "completed",
+          "conclusion": "success",
+          "run_number": 1380,
+          "created_at": "2026-06-15T00:29:18Z",
+          "updated_at": "2026-06-15T00:31:23Z",
+          "run_started_at": "2026-06-15T00:29:18Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27517059152",
+          "jobs": [
+            {
+              "name": "Analyze (python)",
+              "conclusion": "success",
+              "duration_sec": 64,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27517059152/job/81327538417"
+            },
+            {
+              "name": "Analyze (go)",
+              "conclusion": "success",
+              "duration_sec": 122,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27517059152/job/81327538446"
+            }
+          ],
+          "run_attempt": 1
+        },
+        {
+          "id": 27515041468,
+          "name": "CodeQL",
+          "status": "completed",
+          "conclusion": "action_required",
+          "run_number": 1379,
+          "created_at": "2026-06-14T23:09:41Z",
+          "updated_at": "2026-06-14T23:09:41Z",
+          "run_started_at": "2026-06-14T23:09:41Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27515041468",
+          "run_attempt": 1
+        },
+        {
+          "id": 27508374099,
+          "name": "CodeQL",
+          "status": "completed",
+          "conclusion": "action_required",
+          "run_number": 1378,
+          "created_at": "2026-06-14T18:41:00Z",
+          "updated_at": "2026-06-14T18:41:00Z",
+          "run_started_at": "2026-06-14T18:41:00Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27508374099",
+          "run_attempt": 1
+        },
+        {
+          "id": 27495192897,
+          "name": "CodeQL",
+          "status": "completed",
+          "conclusion": "action_required",
+          "run_number": 1377,
+          "created_at": "2026-06-14T09:52:48Z",
+          "updated_at": "2026-06-14T09:52:48Z",
+          "run_started_at": "2026-06-14T09:52:48Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27495192897",
+          "run_attempt": 1
+        },
         {
           "id": 27423593249,
           "name": "CodeQL",
@@ -7065,68 +7131,6 @@
           "run_started_at": "2026-06-08T06:34:54Z",
           "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27120290585",
           "run_attempt": 1
-        },
-        {
-          "id": 27109453288,
-          "name": "CodeQL",
-          "status": "completed",
-          "conclusion": "success",
-          "run_number": 1359,
-          "created_at": "2026-06-08T00:27:25Z",
-          "updated_at": "2026-06-08T00:29:33Z",
-          "run_started_at": "2026-06-08T00:27:25Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27109453288",
-          "jobs": [
-            {
-              "name": "Analyze (python)",
-              "conclusion": "success",
-              "duration_sec": 67,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27109453288/job/80004355640"
-            },
-            {
-              "name": "Analyze (go)",
-              "conclusion": "success",
-              "duration_sec": 124,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27109453288/job/80004355643"
-            }
-          ],
-          "run_attempt": 1
-        },
-        {
-          "id": 27033784416,
-          "name": "CodeQL",
-          "status": "completed",
-          "conclusion": "action_required",
-          "run_number": 1358,
-          "created_at": "2026-06-05T18:48:58Z",
-          "updated_at": "2026-06-05T18:48:58Z",
-          "run_started_at": "2026-06-05T18:48:58Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27033784416",
-          "run_attempt": 1
-        },
-        {
-          "id": 26913574433,
-          "name": "CodeQL",
-          "status": "completed",
-          "conclusion": "action_required",
-          "run_number": 1357,
-          "created_at": "2026-06-03T21:17:22Z",
-          "updated_at": "2026-06-03T21:17:22Z",
-          "run_started_at": "2026-06-03T21:17:22Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26913574433",
-          "run_attempt": 1
-        },
-        {
-          "id": 26913258654,
-          "name": "CodeQL",
-          "status": "completed",
-          "conclusion": "action_required",
-          "run_number": 1356,
-          "created_at": "2026-06-03T21:11:05Z",
-          "updated_at": "2026-06-03T21:11:05Z",
-          "run_started_at": "2026-06-03T21:11:05Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26913258654",
-          "run_attempt": 1
         }
       ]
     },
@@ -7138,29 +7142,65 @@
       "total_runs": 20,
       "failed_runs": 0,
       "failure_rate": 0,
-      "avg_duration_secs": 8.1,
+      "avg_duration_secs": 5.2,
       "weather_history": [
-        "success",
+        "action_required",
         "success",
         "action_required",
         "action_required",
-        "success",
+        "action_required",
         "action_required",
         "action_required"
       ],
       "last_run": {
-        "id": 27423593238,
+        "id": 27515041453,
         "name": "Dependency Review",
         "status": "completed",
         "conclusion": "action_required",
-        "run_number": 1158,
-        "created_at": "2026-06-12T14:54:47Z",
-        "updated_at": "2026-06-12T14:54:47Z",
-        "run_started_at": "2026-06-12T14:54:47Z",
-        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27423593238",
+        "run_number": 1161,
+        "created_at": "2026-06-14T23:09:41Z",
+        "updated_at": "2026-06-14T23:09:41Z",
+        "run_started_at": "2026-06-14T23:09:41Z",
+        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27515041453",
         "run_attempt": 1
       },
       "recent_runs": [
+        {
+          "id": 27515041453,
+          "name": "Dependency Review",
+          "status": "completed",
+          "conclusion": "action_required",
+          "run_number": 1161,
+          "created_at": "2026-06-14T23:09:41Z",
+          "updated_at": "2026-06-14T23:09:41Z",
+          "run_started_at": "2026-06-14T23:09:41Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27515041453",
+          "run_attempt": 1
+        },
+        {
+          "id": 27508374100,
+          "name": "Dependency Review",
+          "status": "completed",
+          "conclusion": "action_required",
+          "run_number": 1160,
+          "created_at": "2026-06-14T18:41:00Z",
+          "updated_at": "2026-06-14T18:41:00Z",
+          "run_started_at": "2026-06-14T18:41:00Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27508374100",
+          "run_attempt": 1
+        },
+        {
+          "id": 27495192881,
+          "name": "Dependency Review",
+          "status": "completed",
+          "conclusion": "action_required",
+          "run_number": 1159,
+          "created_at": "2026-06-14T09:52:48Z",
+          "updated_at": "2026-06-14T09:52:48Z",
+          "run_started_at": "2026-06-14T09:52:48Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27495192881",
+          "run_attempt": 1
+        },
         {
           "id": 27423593238,
           "name": "Dependency Review",
@@ -7403,66 +7443,6 @@
           "updated_at": "2026-06-03T20:48:57Z",
           "run_started_at": "2026-06-03T20:48:57Z",
           "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26912114035",
-          "run_attempt": 1
-        },
-        {
-          "id": 26886699540,
-          "name": "Dependency Review",
-          "status": "completed",
-          "conclusion": "success",
-          "run_number": 1140,
-          "created_at": "2026-06-03T13:05:41Z",
-          "updated_at": "2026-06-03T13:05:59Z",
-          "run_started_at": "2026-06-03T13:05:41Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886699540",
-          "jobs": [
-            {
-              "name": "dependency-review",
-              "conclusion": "success",
-              "duration_sec": 14,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886699540/job/79300874440"
-            }
-          ],
-          "run_attempt": 1
-        },
-        {
-          "id": 26886675688,
-          "name": "Dependency Review",
-          "status": "completed",
-          "conclusion": "success",
-          "run_number": 1139,
-          "created_at": "2026-06-03T13:05:14Z",
-          "updated_at": "2026-06-03T13:05:36Z",
-          "run_started_at": "2026-06-03T13:05:14Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886675688",
-          "jobs": [
-            {
-              "name": "dependency-review",
-              "conclusion": "success",
-              "duration_sec": 14,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886675688/job/79300786316"
-            }
-          ],
-          "run_attempt": 1
-        },
-        {
-          "id": 26886657934,
-          "name": "Dependency Review",
-          "status": "completed",
-          "conclusion": "success",
-          "run_number": 1138,
-          "created_at": "2026-06-03T13:04:54Z",
-          "updated_at": "2026-06-03T13:05:12Z",
-          "run_started_at": "2026-06-03T13:04:54Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886657934",
-          "jobs": [
-            {
-              "name": "dependency-review",
-              "conclusion": "success",
-              "duration_sec": 14,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26886657934/job/79300723536"
-            }
-          ],
           "run_attempt": 1
         }
       ]
@@ -9562,7 +9542,7 @@
       "total_runs": 20,
       "failed_runs": 0,
       "failure_rate": 0,
-      "avg_duration_secs": 17.65,
+      "avg_duration_secs": 17.8,
       "weather_history": [
         "success",
         "success",
@@ -9573,26 +9553,46 @@
         "success"
       ],
       "last_run": {
-        "id": 27483493695,
+        "id": 27517072259,
         "name": "Automatically close stale PRs",
         "status": "completed",
         "conclusion": "success",
-        "run_number": 462,
-        "created_at": "2026-06-14T00:28:14Z",
-        "updated_at": "2026-06-14T00:28:36Z",
-        "run_started_at": "2026-06-14T00:28:14Z",
-        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27483493695",
+        "run_number": 463,
+        "created_at": "2026-06-15T00:29:48Z",
+        "updated_at": "2026-06-15T00:30:06Z",
+        "run_started_at": "2026-06-15T00:29:48Z",
+        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27517072259",
         "jobs": [
           {
             "name": "stale",
             "conclusion": "success",
-            "duration_sec": 13,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27483493695/job/81235250620"
+            "duration_sec": 15,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27517072259/job/81327575160"
           }
         ],
         "run_attempt": 1
       },
       "recent_runs": [
+        {
+          "id": 27517072259,
+          "name": "Automatically close stale PRs",
+          "status": "completed",
+          "conclusion": "success",
+          "run_number": 463,
+          "created_at": "2026-06-15T00:29:48Z",
+          "updated_at": "2026-06-15T00:30:06Z",
+          "run_started_at": "2026-06-15T00:29:48Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27517072259",
+          "jobs": [
+            {
+              "name": "stale",
+              "conclusion": "success",
+              "duration_sec": 15,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/27517072259/job/81327575160"
+            }
+          ],
+          "run_attempt": 1
+        },
         {
           "id": 27483493695,
           "name": "Automatically close stale PRs",
@@ -9969,26 +9969,6 @@
               "conclusion": "success",
               "duration_sec": 15,
               "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26483098397/job/77984508004"
-            }
-          ],
-          "run_attempt": 1
-        },
-        {
-          "id": 26425332597,
-          "name": "Automatically close stale PRs",
-          "status": "completed",
-          "conclusion": "success",
-          "run_number": 443,
-          "created_at": "2026-05-26T00:24:02Z",
-          "updated_at": "2026-05-26T00:24:17Z",
-          "run_started_at": "2026-05-26T00:24:02Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26425332597",
-          "jobs": [
-            {
-              "name": "stale",
-              "conclusion": "success",
-              "duration_sec": 12,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/26425332597/job/77787671777"
             }
           ],
           "run_attempt": 1
