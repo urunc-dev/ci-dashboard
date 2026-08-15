@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-14T00:35:53.33141403Z",
+  "generated_at": "2026-08-15T00:22:32.253893697Z",
   "repo": "urunc-dev/urunc",
-  "overall_health": 89.16666666666667,
+  "overall_health": 88.69047619047619,
   "workflows": [
     {
       "name": "add-git-trailers",
@@ -2131,139 +2131,259 @@
       "critical": false,
       "required": false,
       "total_runs": 20,
-      "failed_runs": 5,
-      "failure_rate": 25,
-      "avg_duration_secs": 626.2,
+      "failed_runs": 6,
+      "failure_rate": 30,
+      "avg_duration_secs": 622.7,
       "weather_history": [
+        "success",
+        "success",
+        "success",
+        "success",
         "failure",
-        "success",
-        "success",
-        "success",
-        "success",
         "failure",
         "failure"
       ],
       "last_run": {
-        "id": 31654811316,
+        "id": 31757764445,
         "name": "urunc CI (nightly)",
         "status": "completed",
         "conclusion": "failure",
-        "run_number": 299,
-        "created_at": "2026-08-13T00:33:22Z",
-        "updated_at": "2026-08-13T00:39:43Z",
-        "run_started_at": "2026-08-13T00:33:22Z",
-        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31654811316",
+        "run_number": 300,
+        "created_at": "2026-08-14T00:33:49Z",
+        "updated_at": "2026-08-14T00:40:03Z",
+        "run_started_at": "2026-08-14T00:33:49Z",
+        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31757764445",
         "jobs": [
-          {
-            "name": "Unit tests / unit-test (amd64, ubuntu-22.04)",
-            "conclusion": "success",
-            "duration_sec": 44,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31654811316/job/94306834672"
-          },
-          {
-            "name": "Build / build (amd64, ubuntu-22.04)",
-            "conclusion": "success",
-            "duration_sec": 68,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31654811316/job/94306834720"
-          },
           {
             "name": "Unit tests / unit-test (arm64, ubuntu-22.04-arm)",
             "conclusion": "success",
-            "duration_sec": 27,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31654811316/job/94306834857"
+            "duration_sec": 28,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31757764445/job/94637235783"
           },
           {
             "name": "Build / build (arm64, ubuntu-22.04-arm)",
             "conclusion": "success",
-            "duration_sec": 45,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31654811316/job/94306834906"
+            "duration_sec": 50,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31757764445/job/94637235874"
           },
           {
-            "name": "urunc-deploy test / urunc-deploy (arm64, ubuntu-22.04-arm)",
+            "name": "Unit tests / unit-test (amd64, ubuntu-22.04)",
             "conclusion": "success",
-            "duration_sec": 78,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31654811316/job/94307057122"
+            "duration_sec": 45,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31757764445/job/94637235897"
+          },
+          {
+            "name": "Build / build (amd64, ubuntu-22.04)",
+            "conclusion": "success",
+            "duration_sec": 60,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31757764445/job/94637235995"
           },
           {
             "name": "urunc-deploy test / urunc-deploy (amd64, ubuntu-22.04)",
             "conclusion": "success",
-            "duration_sec": 70,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31654811316/job/94307057164"
+            "duration_sec": 78,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31757764445/job/94637422584"
           },
           {
             "name": "Kubernetes test / Kubernetes test (arm64, ubuntu-22.04-arm)",
             "conclusion": "success",
-            "duration_sec": 267,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31654811316/job/94307057230"
-          },
-          {
-            "name": "E2E test / VM test (arm64, test_ctr)",
-            "conclusion": "cancelled",
-            "duration_sec": 209,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31654811316/job/94307057310"
+            "duration_sec": 268,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31757764445/job/94637422585"
           },
           {
             "name": "Kubernetes test / Kubernetes test (amd64, ubuntu-22.04)",
             "conclusion": "success",
-            "duration_sec": 300,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31654811316/job/94307057322"
+            "duration_sec": 308,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31757764445/job/94637422645"
           },
           {
             "name": "E2E test / VM test (amd64, test_docker)",
             "conclusion": "cancelled",
-            "duration_sec": 224,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31654811316/job/94307057335"
+            "duration_sec": 246,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31757764445/job/94637422689"
           },
           {
             "name": "E2E test / VM test (arm64, test_crictl)",
             "conclusion": "failure",
-            "duration_sec": 204,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31654811316/job/94307057340"
+            "duration_sec": 227,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31757764445/job/94637422716"
           },
           {
             "name": "E2E test / VM test (amd64, test_ctr)",
             "conclusion": "cancelled",
-            "duration_sec": 223,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31654811316/job/94307057343"
+            "duration_sec": 246,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31757764445/job/94637422725"
           },
           {
-            "name": "E2E test / VM test (amd64, test_nerdctl)",
-            "conclusion": "cancelled",
-            "duration_sec": 223,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31654811316/job/94307057369"
+            "name": "E2E test / VM test (arm64, test_ctr)",
+            "conclusion": "success",
+            "duration_sec": 201,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31757764445/job/94637422736"
           },
           {
             "name": "E2E test / VM test (arm64, test_docker)",
             "conclusion": "success",
-            "duration_sec": 168,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31654811316/job/94307057446"
+            "duration_sec": 176,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31757764445/job/94637422738"
           },
           {
-            "name": "E2E test / VM test (arm64, test_nerdctl)",
+            "name": "E2E test / VM test (amd64, test_nerdctl)",
             "conclusion": "cancelled",
-            "duration_sec": 222,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31654811316/job/94307057456"
+            "duration_sec": 246,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31757764445/job/94637422739"
+          },
+          {
+            "name": "urunc-deploy test / urunc-deploy (arm64, ubuntu-22.04-arm)",
+            "conclusion": "success",
+            "duration_sec": 71,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31757764445/job/94637422761"
           },
           {
             "name": "E2E test / VM test (amd64, test_crictl)",
             "conclusion": "cancelled",
-            "duration_sec": 223,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31654811316/job/94307057461"
+            "duration_sec": 247,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31757764445/job/94637422792"
+          },
+          {
+            "name": "E2E test / VM test (arm64, test_nerdctl)",
+            "conclusion": "cancelled",
+            "duration_sec": 246,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31757764445/job/94637422795"
           }
         ],
         "failed_jobs": [
           {
-            "id": 94307057340,
+            "id": 94637422716,
             "name": "E2E test / VM test (arm64, test_crictl)",
             "conclusion": "failure",
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31654811316/job/94307057340",
-            "log_snippet": "[Test Failure] — 9 signal(s) found\n────────────────────────────────────────────────\n-\u003e Test Failure\n  Unexpected error:\n  --- FAIL: TestE2E (60.51s)\n  FAIL\tgithub.com/urunc-dev/urunc/tests/e2e\t60.518s\n-\u003e Build Failure\n  exit status 1\n  make: *** [Makefile:318: test_crictl_Spt] Error 1\n  ##[error]Process completed with exit code 2.\n-\u003e Fatal Runtime Error\n  time=\"2026-08-13T00:38:05Z\" level=fatal msg=\"run pod sandbox: rpc error: code = Unknown desc = failed to setup network for sandbox \\\"41d3e7a99a2b41bad80248eb283953ee76dd07fdda8181fc26a5afb24a341571\\\": cni plugin not initialized\"\n  time=\"2026-08-13T00:38:05Z\" level=fatal msg=\"run pod sandbox: rpc error: code = Unknown desc = failed to setup network for sandbox \\\"8d9a548b520fd6e47333978a95420cd1c163bb002ba3a08f6bb7eef9e0e9a066\\\": cni plugin not initialized\"\n  time=\"2026-08-13T00:38:05Z\" level=fatal msg=\"run pod sandbox: rpc error: code = Unknown desc = failed to setup network for sandbox \\\"888ceddedd21835058ab9440e1211150e056d40b3f26b13cc59d7e30ee8989c9\\\": cni plugin not initialized\"",
-            "raw_log": "go mod verify\nall modules verified\n##[group]Run # Set up Go environment properly\n# Set up Go environment properly\nexport GOROOT=$(go env GOROOT)\nexport PATH=\"$GOROOT/bin:$PATH\"\ngo version\ngo env GOROOT\nif [ \"arm64\" = \"arm64\" ]; then\nsudo -E env \"PATH=$PATH\" \"GOROOT=$GOROOT\" make test_crictl_Spt\nelse\nsudo -E env \"PATH=$PATH\" \"GOROOT=$GOROOT\" make test_crictl\nfi\nshell: /usr/bin/bash -e {0}\nenv:\nGOTOOLCHAIN: local\n##[endgroup]\ngo version go1.26.4 linux/arm64\nTesting crictl\n=== RUN   TestE2E\nRunning Suite: E2E Suite - /home/runner/work/urunc/urunc/tests/e2e\n==================================================================\nRandom Seed: 1786581424\n2026-08-13T00:37:04.7441624Z\nWill run 3 of 74 specs\nSS\n------------------------------\nCrictl unikernel containers Spt-rumprun-redis\n/home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56\n2026/08/13 00:37:04 Pulling image: harbor.nbfc.io/nubificus/urunc/net-hvt-mirage:latest\n2026/08/13 00:37:09 Pulling image: harbor.nbfc.io/nubificus/urunc/net-spt-mirage:latest\n2026/08/13 00:37:15 Pulling image: harbor.nbfc.io/nubificus/urunc/redis-qemu-unikraft-initrd:latest\n2026/08/13 00:37:20 Pulling image: harbor.nbfc.io/nubificus/urunc/net-qemu-mirage:latest\n2026/08/13 00:37:25 Pulling image: harbor.nbfc.io/nubificus/urunc/redis-qemu-linux-block:latest\n2026/08/13 00:37:33 Pulling image: harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\n2026/08/13 00:37:38 Pulling image: harbor.nbfc.io/nubificus/urunc/httpreply-firecracker-unikraft:latest\n2026/08/13 00:37:43 Pulling image: harbor.nbfc.io/nubificus/urunc/redis-spt-rumprun-raw:latest\n2026/08/13 00:37:50 Pulling image: harbor.nbfc.io/nubificus/urunc/nginx-firecracker-linux-raw:latest\n2026/08/13 00:37:58 Pulling image: harbor.nbfc.io/nubificus/urunc/redis-hvt-rumprun-raw:latest\nSTEP: Creating pod @ 08/13/26 00:38:04.985\n[FAILED] in [It] - /home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:53 @ 08/13/26 00:38:05.003\ntest-args - /home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:42 @ 08/13/26 00:38:05.003\n{Name:Spt-rumprun-redis Image:harbor.nbfc.io/nubificus/urunc/redis-spt-rumprun-raw:latest Devmapper:true Seccomp:true UID:0 GID:0 Groups:[] Memory: Cli: Volumes:[] StaticNet:false SideContainers:[] Skippable:false TestFunc:0x6a9940 ExpectOut:}\n• [FAILED] [60.260 seconds]\nCrictl unikernel containers [It] Spt-rumprun-redis\n/home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56\n2026-08-13T00:38:05.0045344Z\n[FAILED] Failed to create pod: E0813 00:38:05.001596   11622 remote_runtime.go:193] \"RunPodSandbox from runtime service failed\" err=\"rpc error: code = Unknown desc = failed to setup network for sandbox \\\"41d3e7a99a2b41bad80248eb283953ee76dd07fdda8181fc26a5afb24a341571\\\": cni plugin not initialized\"\ntime=\"2026-08-13T00:38:05Z\" level=fatal msg=\"run pod sandbox: rpc error: code = Unknown desc = failed to setup network for sandbox \\\"41d3e7a99a2b41bad80248eb283953ee76dd07fdda8181fc26a5afb24a341571\\\": cni plugin not initialized\"\nUnexpected error:\n\u003c*exec.ExitError | 0x19223c1e240\u003e:\nexit status 1\n{\nProcessState: {\npid: 11622,\nstatus: 256,\nrusage: {\nUtime: {Sec: 0, Usec: 9620},\nStime: {Sec: 0, Usec: 6122},\nMaxrss: 31232,\nIxrss: 0,\nIdrss: 0,\nIsrss: 0,\nMinflt: 2592,\nMajflt: 0,\nNswap: 0,\nInblock: 0,\nOublock: 0,\nMsgsnd: 0,\nMsgrcv: 0,\nNsignals: 0,\nNvcsw: 236,\nNivcsw: 7,\n},\n},\nStderr: nil,\n}\noccurred\nIn [It] at: /home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:53 @ 08/13/26 00:38:05.003\n------------------------------\nCrictl unikernel containers Spt-mirage-net\n/home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56\nSTEP: Creating pod @ 08/13/26 00:38:05.004\n[FAILED] in [It] - /home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:53 @ 08/13/26 00:38:05.019\ntest-args - /home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:42 @ 08/13/26 00:38:05.02\n{Name:Spt-mirage-net Image:harbor.nbfc.io/nubificus/urunc/net-spt-mirage:latest Devmapper:false Seccomp:true UID:0 GID:0 Groups:[] Memory: Cli: Volumes:[] StaticNet:false SideContainers:[] Skippable:false TestFunc:0x6a9940 ExpectOut:}\n• [FAILED] [0.016 seconds]\nCrictl unikernel containers [It] Spt-mirage-net\n/home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56\n2026-08-13T00:38:05.0206843Z\n[FAILED] Failed to create pod: E0813 00:38:05.018615   11628 remote_runtime.go:193] \"RunPodSandbox from runtime service failed\" err=\"rpc error: code = Unknown desc = failed to setup network for sandbox \\\"8d9a548b520fd6e47333978a95420cd1c163bb002ba3a08f6bb7eef9e0e9a066\\\": cni plugin not initialized\"\ntime=\"2026-08-13T00:38:05Z\" level=fatal msg=\"run pod sandbox: rpc error: code = Unknown desc = failed to setup network for sandbox \\\"8d9a548b520fd6e47333978a95420cd1c163bb002ba3a08f6bb7eef9e0e9a066\\\": cni plugin not initialized\"\nUnexpected error:\n\u003c*exec.ExitError | 0x19223c1e8e0\u003e:\nexit status 1\n{\nProcessState: {\npid: 11628,\nstatus: 256,\nrusage: {\nUtime: {Sec: 0, Usec: 7654},\nStime: {Sec: 0, Usec: 8748},\nMaxrss: 31360,\nIxrss: 0,\nIdrss: 0,\nIsrss: 0,\nMinflt: 2646,\nMajflt: 0,\nNswap: 0,\nInblock: 0,\nOublock: 0,\nMsgsnd: 0,\nMsgrcv: 0,\nNsignals: 0,\nNvcsw: 330,\nNivcsw: 4,\n},\n},\nStderr: nil,\n}\noccurred\nIn [It] at: /home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:53 @ 08/13/26 00:38:05.019\n------------------------------\nCrictl unikernel containers Spt-mirage-UserGroup\n/home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56\nSTEP: Creating pod @ 08/13/26 00:38:05.02\n[FAILED] in [It] - /home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:53 @ 08/13/26 00:38:05.036\n2026/08/13 00:38:05 Removing image: harbor.nbfc.io/nubificus/urunc/net-hvt-mirage:latest\n2026/08/13 00:38:05 Removing image: harbor.nbfc.io/nubificus/urunc/net-spt-mirage:latest\n2026/08/13 00:38:05 Removing image: harbor.nbfc.io/nubificus/urunc/redis-qemu-unikraft-initrd:latest\n2026/08/13 00:38:05 Removing image: harbor.nbfc.io/nubificus/urunc/net-qemu-mirage:latest\n2026/08/13 00:38:05 Removing image: harbor.nbfc.io/nubificus/urunc/redis-qemu-linux-block:latest\n2026/08/13 00:38:05 Removing image: harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\n2026/08/13 00:38:05 Removing image: harbor.nbfc.io/nubificus/urunc/httpreply-firecracker-unikraft:latest\n2026/08/13 00:38:05 Removing image: harbor.nbfc.io/nubificus/urunc/redis-spt-rumprun-raw:latest\n2026/08/13 00:38:05 Removing image: harbor.nbfc.io/nubificus/urunc/nginx-firecracker-linux-raw:latest\n2026/08/13 00:38:05 Removing image: harbor.nbfc.io/nubificus/urunc/redis-hvt-rumprun-raw:latest\ntest-args - /home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:42 @ 08/13/26 00:38:05.25\n{Name:Spt-mirage-UserGroup Image:harbor.nbfc.io/nubificus/urunc/net-spt-mirage:latest Devmapper:false Seccomp:true UID:65534 GID:65534 Groups:[] Memory: Cli: Volumes:[] StaticNet:false SideContainers:[] Skippable:false TestFunc:0x6a8230 ExpectOut:}\n• [FAILED] [0.230 seconds]\nCrictl unikernel containers [It] Spt-mirage-UserGroup\n/home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56\n2026-08-13T00:38:05.2514485Z\n[FAILED] Failed to create pod: E0813 00:38:05.034885   11635 remote_runtime.go:193] \"RunPodSandbox from runtime service failed\" err=\"rpc error: code = Unknown desc = failed to setup network for sandbox \\\"888ceddedd21835058ab9440e1211150e056d40b3f26b13cc59d7e30ee8989c9\\\": cni plugin not initialized\"\ntime=\"2026-08-13T00:38:05Z\" level=fatal msg=\"run pod sandbox: rpc error: code = Unknown desc = failed to setup network for sandbox \\\"888ceddedd21835058ab9440e1211150e056d40b3f26b13cc59d7e30ee8989c9\\\": cni plugin not initialized\"\nUnexpected error:\n\u003c*exec.ExitError | 0x19223c1edc0\u003e:\nexit status 1\n{\nProcessState: {\npid: 11635,\nstatus: 256,\nrusage: {\nUtime: {Sec: 0, Usec: 7378},\nStime: {Sec: 0, Usec: 8432},\nMaxrss: 31616,\nIxrss: 0,\nIdrss: 0,\nIsrss: 0,\nMinflt: 2744,\nMajflt: 0,\nNswap: 0,\nInblock: 0,\nOublock: 0,\nMsgsnd: 0,\nMsgrcv: 0,\nNsignals: 0,\nNvcsw: 245,\nNivcsw: 11,\n},\n},\nStderr: nil,\n}\noccurred\nIn [It] at: /home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:53 @ 08/13/26 00:38:05.036\n------------------------------\nSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS\n2026-08-13T00:38:05.2543943Z\nSummarizing 3 Failures:\n[FAIL] Crictl unikernel containers [It] Spt-rumprun-redis\n/home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:53\n[FAIL] Crictl unikernel containers [It] Spt-mirage-net\n/home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:53\n[FAIL] Crictl unikernel containers [It] Spt-mirage-UserGroup\n/home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:53\n2026-08-13T00:38:05.2548572Z\nRan 3 of 74 Specs in 60.509 seconds\nFAIL! -- 0 Passed | 3 Failed | 0 Pending | 71 Skipped\n--- FAIL: TestE2E (60.51s)\nFAIL\nFAIL\tgithub.com/urunc-dev/urunc/tests/e2e\t60.518s\nFAIL\nmake: *** [Makefile:318: test_crictl_Spt] Error 1\n##[error]Process completed with exit code 2."
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31757764445/job/94637422716",
+            "log_snippet": "[Test Failure] — 9 signal(s) found\n────────────────────────────────────────────────\n-\u003e Test Failure\n  Unexpected error:\n  --- FAIL: TestE2E (58.02s)\n  FAIL\tgithub.com/urunc-dev/urunc/tests/e2e\t58.024s\n-\u003e Build Failure\n  exit status 1\n  make: *** [Makefile:318: test_crictl_Spt] Error 1\n  ##[error]Process completed with exit code 2.\n-\u003e Fatal Runtime Error\n  time=\"2026-08-14T00:38:36Z\" level=fatal msg=\"run pod sandbox: rpc error: code = Unknown desc = failed to setup network for sandbox \\\"b6e6c4934e311df1f0cdb7feb58c871900867292d07c3e57961e6e3db9e67036\\\": cni plugin not initialized\"\n  time=\"2026-08-14T00:38:36Z\" level=fatal msg=\"run pod sandbox: rpc error: code = Unknown desc = failed to setup network for sandbox \\\"a5bbc085e5b3a01d2e3a6755f317901c6377e1a4f8ce8c5b933eef44cb275268\\\": cni plugin not initialized\"\n  time=\"2026-08-14T00:38:36Z\" level=fatal msg=\"run pod sandbox: rpc error: code = Unknown desc = failed to setup network for sandbox \\\"78869b7b963bfaee2a203775c70735d2ffa88ba585e314aa1f00575307818e73\\\": cni plugin not initialized\"",
+            "raw_log": "go mod verify\nall modules verified\n##[group]Run # Set up Go environment properly\n# Set up Go environment properly\nexport GOROOT=$(go env GOROOT)\nexport PATH=\"$GOROOT/bin:$PATH\"\ngo version\ngo env GOROOT\nif [ \"arm64\" = \"arm64\" ]; then\nsudo -E env \"PATH=$PATH\" \"GOROOT=$GOROOT\" make test_crictl_Spt\nelse\nsudo -E env \"PATH=$PATH\" \"GOROOT=$GOROOT\" make test_crictl\nfi\nshell: /usr/bin/bash -e {0}\nenv:\nGOTOOLCHAIN: local\n##[endgroup]\ngo version go1.26.4 linux/arm64\nTesting crictl\n=== RUN   TestE2E\nRunning Suite: E2E Suite - /home/runner/work/urunc/urunc/tests/e2e\n==================================================================\nRandom Seed: 1786667858\n2026-08-14T00:37:38.3837739Z\nWill run 3 of 74 specs\nSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS\n------------------------------\nCrictl unikernel containers Spt-rumprun-redis\n/home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56\n2026/08/14 00:37:38 Pulling image: harbor.nbfc.io/nubificus/urunc/redis-hvt-rumprun-raw:latest\n2026/08/14 00:37:45 Pulling image: harbor.nbfc.io/nubificus/urunc/net-hvt-mirage:latest\n2026/08/14 00:37:50 Pulling image: harbor.nbfc.io/nubificus/urunc/redis-spt-rumprun-raw:latest\n2026/08/14 00:37:56 Pulling image: harbor.nbfc.io/nubificus/urunc/net-qemu-mirage:latest\n2026/08/14 00:38:01 Pulling image: harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\n2026/08/14 00:38:06 Pulling image: harbor.nbfc.io/nubificus/urunc/nginx-firecracker-linux-raw:latest\n2026/08/14 00:38:14 Pulling image: harbor.nbfc.io/nubificus/urunc/net-spt-mirage:latest\n2026/08/14 00:38:19 Pulling image: harbor.nbfc.io/nubificus/urunc/redis-qemu-unikraft-initrd:latest\n2026/08/14 00:38:24 Pulling image: harbor.nbfc.io/nubificus/urunc/redis-qemu-linux-block:latest\n2026/08/14 00:38:32 Pulling image: harbor.nbfc.io/nubificus/urunc/httpreply-firecracker-unikraft:latest\nSTEP: Creating pod @ 08/14/26 00:38:36.132\n[FAILED] in [It] - /home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:53 @ 08/14/26 00:38:36.149\ntest-args - /home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:42 @ 08/14/26 00:38:36.15\n{Name:Spt-rumprun-redis Image:harbor.nbfc.io/nubificus/urunc/redis-spt-rumprun-raw:latest Devmapper:true Seccomp:true UID:0 GID:0 Groups:[] Memory: Cli: Volumes:[] StaticNet:false SideContainers:[] Skippable:false TestFunc:0x6a9940 ExpectOut:}\n• [FAILED] [57.766 seconds]\nCrictl unikernel containers [It] Spt-rumprun-redis\n/home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56\n2026-08-14T00:38:36.1507331Z\n[FAILED] Failed to create pod: E0814 00:38:36.147781   12449 remote_runtime.go:193] \"RunPodSandbox from runtime service failed\" err=\"rpc error: code = Unknown desc = failed to setup network for sandbox \\\"b6e6c4934e311df1f0cdb7feb58c871900867292d07c3e57961e6e3db9e67036\\\": cni plugin not initialized\"\ntime=\"2026-08-14T00:38:36Z\" level=fatal msg=\"run pod sandbox: rpc error: code = Unknown desc = failed to setup network for sandbox \\\"b6e6c4934e311df1f0cdb7feb58c871900867292d07c3e57961e6e3db9e67036\\\": cni plugin not initialized\"\nUnexpected error:\n\u003c*exec.ExitError | 0x142f328b4100\u003e:\nexit status 1\n{\nProcessState: {\npid: 12449,\nstatus: 256,\nrusage: {\nUtime: {Sec: 0, Usec: 8819},\nStime: {Sec: 0, Usec: 7717},\nMaxrss: 31232,\nIxrss: 0,\nIdrss: 0,\nIsrss: 0,\nMinflt: 2666,\nMajflt: 0,\nNswap: 0,\nInblock: 0,\nOublock: 0,\nMsgsnd: 0,\nMsgrcv: 0,\nNsignals: 0,\nNvcsw: 237,\nNivcsw: 2,\n},\n},\nStderr: nil,\n}\noccurred\nIn [It] at: /home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:53 @ 08/14/26 00:38:36.149\n------------------------------\nCrictl unikernel containers Spt-mirage-net\n/home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56\nSTEP: Creating pod @ 08/14/26 00:38:36.15\n[FAILED] in [It] - /home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:53 @ 08/14/26 00:38:36.166\ntest-args - /home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:42 @ 08/14/26 00:38:36.166\n{Name:Spt-mirage-net Image:harbor.nbfc.io/nubificus/urunc/net-spt-mirage:latest Devmapper:false Seccomp:true UID:0 GID:0 Groups:[] Memory: Cli: Volumes:[] StaticNet:false SideContainers:[] Skippable:false TestFunc:0x6a9940 ExpectOut:}\n• [FAILED] [0.016 seconds]\nCrictl unikernel containers [It] Spt-mirage-net\n/home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56\n2026-08-14T00:38:36.1673713Z\n[FAILED] Failed to create pod: E0814 00:38:36.164691   12456 remote_runtime.go:193] \"RunPodSandbox from runtime service failed\" err=\"rpc error: code = Unknown desc = failed to setup network for sandbox \\\"a5bbc085e5b3a01d2e3a6755f317901c6377e1a4f8ce8c5b933eef44cb275268\\\": cni plugin not initialized\"\ntime=\"2026-08-14T00:38:36Z\" level=fatal msg=\"run pod sandbox: rpc error: code = Unknown desc = failed to setup network for sandbox \\\"a5bbc085e5b3a01d2e3a6755f317901c6377e1a4f8ce8c5b933eef44cb275268\\\": cni plugin not initialized\"\nUnexpected error:\n\u003c*exec.ExitError | 0x142f329240c0\u003e:\nexit status 1\n{\nProcessState: {\npid: 12456,\nstatus: 256,\nrusage: {\nUtime: {Sec: 0, Usec: 7952},\nStime: {Sec: 0, Usec: 7952},\nMaxrss: 31232,\nIxrss: 0,\nIdrss: 0,\nIsrss: 0,\nMinflt: 2634,\nMajflt: 0,\nNswap: 0,\nInblock: 0,\nOublock: 0,\nMsgsnd: 0,\nMsgrcv: 0,\nNsignals: 0,\nNvcsw: 228,\nNivcsw: 3,\n},\n},\nStderr: nil,\n}\noccurred\nIn [It] at: /home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:53 @ 08/14/26 00:38:36.166\n------------------------------\nCrictl unikernel containers Spt-mirage-UserGroup\n/home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56\nSTEP: Creating pod @ 08/14/26 00:38:36.166\n[FAILED] in [It] - /home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:53 @ 08/14/26 00:38:36.182\n2026/08/14 00:38:36 Removing image: harbor.nbfc.io/nubificus/urunc/redis-hvt-rumprun-raw:latest\n2026/08/14 00:38:36 Removing image: harbor.nbfc.io/nubificus/urunc/net-hvt-mirage:latest\n2026/08/14 00:38:36 Removing image: harbor.nbfc.io/nubificus/urunc/redis-spt-rumprun-raw:latest\n2026/08/14 00:38:36 Removing image: harbor.nbfc.io/nubificus/urunc/net-qemu-mirage:latest\n2026/08/14 00:38:36 Removing image: harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\n2026/08/14 00:38:36 Removing image: harbor.nbfc.io/nubificus/urunc/nginx-firecracker-linux-raw:latest\n2026/08/14 00:38:36 Removing image: harbor.nbfc.io/nubificus/urunc/net-spt-mirage:latest\n2026/08/14 00:38:36 Removing image: harbor.nbfc.io/nubificus/urunc/redis-qemu-unikraft-initrd:latest\n2026/08/14 00:38:36 Removing image: harbor.nbfc.io/nubificus/urunc/redis-qemu-linux-block:latest\n2026/08/14 00:38:36 Removing image: harbor.nbfc.io/nubificus/urunc/httpreply-firecracker-unikraft:latest\ntest-args - /home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:42 @ 08/14/26 00:38:36.397\n{Name:Spt-mirage-UserGroup Image:harbor.nbfc.io/nubificus/urunc/net-spt-mirage:latest Devmapper:false Seccomp:true UID:65534 GID:65534 Groups:[] Memory: Cli: Volumes:[] StaticNet:false SideContainers:[] Skippable:false TestFunc:0x6a8230 ExpectOut:}\n• [FAILED] [0.231 seconds]\nCrictl unikernel containers [It] Spt-mirage-UserGroup\n/home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56\n2026-08-14T00:38:36.3982484Z\n[FAILED] Failed to create pod: E0814 00:38:36.180966   12462 remote_runtime.go:193] \"RunPodSandbox from runtime service failed\" err=\"rpc error: code = Unknown desc = failed to setup network for sandbox \\\"78869b7b963bfaee2a203775c70735d2ffa88ba585e314aa1f00575307818e73\\\": cni plugin not initialized\"\ntime=\"2026-08-14T00:38:36Z\" level=fatal msg=\"run pod sandbox: rpc error: code = Unknown desc = failed to setup network for sandbox \\\"78869b7b963bfaee2a203775c70735d2ffa88ba585e314aa1f00575307818e73\\\": cni plugin not initialized\"\nUnexpected error:\n\u003c*exec.ExitError | 0x142f32924480\u003e:\nexit status 1\n{\nProcessState: {\npid: 12462,\nstatus: 256,\nrusage: {\nUtime: {Sec: 0, Usec: 8581},\nStime: {Sec: 0, Usec: 7355},\nMaxrss: 31616,\nIxrss: 0,\nIdrss: 0,\nIsrss: 0,\nMinflt: 2572,\nMajflt: 0,\nNswap: 0,\nInblock: 0,\nOublock: 0,\nMsgsnd: 0,\nMsgrcv: 0,\nNsignals: 0,\nNvcsw: 306,\nNivcsw: 0,\n},\n},\nStderr: nil,\n}\noccurred\nIn [It] at: /home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:53 @ 08/14/26 00:38:36.182\n------------------------------\nSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS\n2026-08-14T00:38:36.3999129Z\nSummarizing 3 Failures:\n[FAIL] Crictl unikernel containers [It] Spt-rumprun-redis\n/home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:53\n[FAIL] Crictl unikernel containers [It] Spt-mirage-net\n/home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:53\n[FAIL] Crictl unikernel containers [It] Spt-mirage-UserGroup\n/home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:53\n2026-08-14T00:38:36.4004504Z\nRan 3 of 74 Specs in 58.015 seconds\nFAIL! -- 0 Passed | 3 Failed | 0 Pending | 71 Skipped\n--- FAIL: TestE2E (58.02s)\nFAIL\nFAIL\tgithub.com/urunc-dev/urunc/tests/e2e\t58.024s\nFAIL\nmake: *** [Makefile:318: test_crictl_Spt] Error 1\n##[error]Process completed with exit code 2."
           }
         ],
         "run_attempt": 1
       },
       "recent_runs": [
+        {
+          "id": 31757764445,
+          "name": "urunc CI (nightly)",
+          "status": "completed",
+          "conclusion": "failure",
+          "run_number": 300,
+          "created_at": "2026-08-14T00:33:49Z",
+          "updated_at": "2026-08-14T00:40:03Z",
+          "run_started_at": "2026-08-14T00:33:49Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31757764445",
+          "jobs": [
+            {
+              "name": "Unit tests / unit-test (arm64, ubuntu-22.04-arm)",
+              "conclusion": "success",
+              "duration_sec": 28,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31757764445/job/94637235783"
+            },
+            {
+              "name": "Build / build (arm64, ubuntu-22.04-arm)",
+              "conclusion": "success",
+              "duration_sec": 50,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31757764445/job/94637235874"
+            },
+            {
+              "name": "Unit tests / unit-test (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 45,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31757764445/job/94637235897"
+            },
+            {
+              "name": "Build / build (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 60,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31757764445/job/94637235995"
+            },
+            {
+              "name": "urunc-deploy test / urunc-deploy (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 78,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31757764445/job/94637422584"
+            },
+            {
+              "name": "Kubernetes test / Kubernetes test (arm64, ubuntu-22.04-arm)",
+              "conclusion": "success",
+              "duration_sec": 268,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31757764445/job/94637422585"
+            },
+            {
+              "name": "Kubernetes test / Kubernetes test (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 308,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31757764445/job/94637422645"
+            },
+            {
+              "name": "E2E test / VM test (amd64, test_docker)",
+              "conclusion": "cancelled",
+              "duration_sec": 246,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31757764445/job/94637422689"
+            },
+            {
+              "name": "E2E test / VM test (arm64, test_crictl)",
+              "conclusion": "failure",
+              "duration_sec": 227,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31757764445/job/94637422716"
+            },
+            {
+              "name": "E2E test / VM test (amd64, test_ctr)",
+              "conclusion": "cancelled",
+              "duration_sec": 246,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31757764445/job/94637422725"
+            },
+            {
+              "name": "E2E test / VM test (arm64, test_ctr)",
+              "conclusion": "success",
+              "duration_sec": 201,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31757764445/job/94637422736"
+            },
+            {
+              "name": "E2E test / VM test (arm64, test_docker)",
+              "conclusion": "success",
+              "duration_sec": 176,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31757764445/job/94637422738"
+            },
+            {
+              "name": "E2E test / VM test (amd64, test_nerdctl)",
+              "conclusion": "cancelled",
+              "duration_sec": 246,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31757764445/job/94637422739"
+            },
+            {
+              "name": "urunc-deploy test / urunc-deploy (arm64, ubuntu-22.04-arm)",
+              "conclusion": "success",
+              "duration_sec": 71,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31757764445/job/94637422761"
+            },
+            {
+              "name": "E2E test / VM test (amd64, test_crictl)",
+              "conclusion": "cancelled",
+              "duration_sec": 247,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31757764445/job/94637422792"
+            },
+            {
+              "name": "E2E test / VM test (arm64, test_nerdctl)",
+              "conclusion": "cancelled",
+              "duration_sec": 246,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31757764445/job/94637422795"
+            }
+          ],
+          "failed_jobs": [
+            {
+              "id": 94637422716,
+              "name": "E2E test / VM test (arm64, test_crictl)",
+              "conclusion": "failure",
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31757764445/job/94637422716",
+              "log_snippet": "[Test Failure] — 9 signal(s) found\n────────────────────────────────────────────────\n-\u003e Test Failure\n  Unexpected error:\n  --- FAIL: TestE2E (58.02s)\n  FAIL\tgithub.com/urunc-dev/urunc/tests/e2e\t58.024s\n-\u003e Build Failure\n  exit status 1\n  make: *** [Makefile:318: test_crictl_Spt] Error 1\n  ##[error]Process completed with exit code 2.\n-\u003e Fatal Runtime Error\n  time=\"2026-08-14T00:38:36Z\" level=fatal msg=\"run pod sandbox: rpc error: code = Unknown desc = failed to setup network for sandbox \\\"b6e6c4934e311df1f0cdb7feb58c871900867292d07c3e57961e6e3db9e67036\\\": cni plugin not initialized\"\n  time=\"2026-08-14T00:38:36Z\" level=fatal msg=\"run pod sandbox: rpc error: code = Unknown desc = failed to setup network for sandbox \\\"a5bbc085e5b3a01d2e3a6755f317901c6377e1a4f8ce8c5b933eef44cb275268\\\": cni plugin not initialized\"\n  time=\"2026-08-14T00:38:36Z\" level=fatal msg=\"run pod sandbox: rpc error: code = Unknown desc = failed to setup network for sandbox \\\"78869b7b963bfaee2a203775c70735d2ffa88ba585e314aa1f00575307818e73\\\": cni plugin not initialized\"",
+              "raw_log": "go mod verify\nall modules verified\n##[group]Run # Set up Go environment properly\n# Set up Go environment properly\nexport GOROOT=$(go env GOROOT)\nexport PATH=\"$GOROOT/bin:$PATH\"\ngo version\ngo env GOROOT\nif [ \"arm64\" = \"arm64\" ]; then\nsudo -E env \"PATH=$PATH\" \"GOROOT=$GOROOT\" make test_crictl_Spt\nelse\nsudo -E env \"PATH=$PATH\" \"GOROOT=$GOROOT\" make test_crictl\nfi\nshell: /usr/bin/bash -e {0}\nenv:\nGOTOOLCHAIN: local\n##[endgroup]\ngo version go1.26.4 linux/arm64\nTesting crictl\n=== RUN   TestE2E\nRunning Suite: E2E Suite - /home/runner/work/urunc/urunc/tests/e2e\n==================================================================\nRandom Seed: 1786667858\n2026-08-14T00:37:38.3837739Z\nWill run 3 of 74 specs\nSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS\n------------------------------\nCrictl unikernel containers Spt-rumprun-redis\n/home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56\n2026/08/14 00:37:38 Pulling image: harbor.nbfc.io/nubificus/urunc/redis-hvt-rumprun-raw:latest\n2026/08/14 00:37:45 Pulling image: harbor.nbfc.io/nubificus/urunc/net-hvt-mirage:latest\n2026/08/14 00:37:50 Pulling image: harbor.nbfc.io/nubificus/urunc/redis-spt-rumprun-raw:latest\n2026/08/14 00:37:56 Pulling image: harbor.nbfc.io/nubificus/urunc/net-qemu-mirage:latest\n2026/08/14 00:38:01 Pulling image: harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\n2026/08/14 00:38:06 Pulling image: harbor.nbfc.io/nubificus/urunc/nginx-firecracker-linux-raw:latest\n2026/08/14 00:38:14 Pulling image: harbor.nbfc.io/nubificus/urunc/net-spt-mirage:latest\n2026/08/14 00:38:19 Pulling image: harbor.nbfc.io/nubificus/urunc/redis-qemu-unikraft-initrd:latest\n2026/08/14 00:38:24 Pulling image: harbor.nbfc.io/nubificus/urunc/redis-qemu-linux-block:latest\n2026/08/14 00:38:32 Pulling image: harbor.nbfc.io/nubificus/urunc/httpreply-firecracker-unikraft:latest\nSTEP: Creating pod @ 08/14/26 00:38:36.132\n[FAILED] in [It] - /home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:53 @ 08/14/26 00:38:36.149\ntest-args - /home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:42 @ 08/14/26 00:38:36.15\n{Name:Spt-rumprun-redis Image:harbor.nbfc.io/nubificus/urunc/redis-spt-rumprun-raw:latest Devmapper:true Seccomp:true UID:0 GID:0 Groups:[] Memory: Cli: Volumes:[] StaticNet:false SideContainers:[] Skippable:false TestFunc:0x6a9940 ExpectOut:}\n• [FAILED] [57.766 seconds]\nCrictl unikernel containers [It] Spt-rumprun-redis\n/home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56\n2026-08-14T00:38:36.1507331Z\n[FAILED] Failed to create pod: E0814 00:38:36.147781   12449 remote_runtime.go:193] \"RunPodSandbox from runtime service failed\" err=\"rpc error: code = Unknown desc = failed to setup network for sandbox \\\"b6e6c4934e311df1f0cdb7feb58c871900867292d07c3e57961e6e3db9e67036\\\": cni plugin not initialized\"\ntime=\"2026-08-14T00:38:36Z\" level=fatal msg=\"run pod sandbox: rpc error: code = Unknown desc = failed to setup network for sandbox \\\"b6e6c4934e311df1f0cdb7feb58c871900867292d07c3e57961e6e3db9e67036\\\": cni plugin not initialized\"\nUnexpected error:\n\u003c*exec.ExitError | 0x142f328b4100\u003e:\nexit status 1\n{\nProcessState: {\npid: 12449,\nstatus: 256,\nrusage: {\nUtime: {Sec: 0, Usec: 8819},\nStime: {Sec: 0, Usec: 7717},\nMaxrss: 31232,\nIxrss: 0,\nIdrss: 0,\nIsrss: 0,\nMinflt: 2666,\nMajflt: 0,\nNswap: 0,\nInblock: 0,\nOublock: 0,\nMsgsnd: 0,\nMsgrcv: 0,\nNsignals: 0,\nNvcsw: 237,\nNivcsw: 2,\n},\n},\nStderr: nil,\n}\noccurred\nIn [It] at: /home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:53 @ 08/14/26 00:38:36.149\n------------------------------\nCrictl unikernel containers Spt-mirage-net\n/home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56\nSTEP: Creating pod @ 08/14/26 00:38:36.15\n[FAILED] in [It] - /home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:53 @ 08/14/26 00:38:36.166\ntest-args - /home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:42 @ 08/14/26 00:38:36.166\n{Name:Spt-mirage-net Image:harbor.nbfc.io/nubificus/urunc/net-spt-mirage:latest Devmapper:false Seccomp:true UID:0 GID:0 Groups:[] Memory: Cli: Volumes:[] StaticNet:false SideContainers:[] Skippable:false TestFunc:0x6a9940 ExpectOut:}\n• [FAILED] [0.016 seconds]\nCrictl unikernel containers [It] Spt-mirage-net\n/home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56\n2026-08-14T00:38:36.1673713Z\n[FAILED] Failed to create pod: E0814 00:38:36.164691   12456 remote_runtime.go:193] \"RunPodSandbox from runtime service failed\" err=\"rpc error: code = Unknown desc = failed to setup network for sandbox \\\"a5bbc085e5b3a01d2e3a6755f317901c6377e1a4f8ce8c5b933eef44cb275268\\\": cni plugin not initialized\"\ntime=\"2026-08-14T00:38:36Z\" level=fatal msg=\"run pod sandbox: rpc error: code = Unknown desc = failed to setup network for sandbox \\\"a5bbc085e5b3a01d2e3a6755f317901c6377e1a4f8ce8c5b933eef44cb275268\\\": cni plugin not initialized\"\nUnexpected error:\n\u003c*exec.ExitError | 0x142f329240c0\u003e:\nexit status 1\n{\nProcessState: {\npid: 12456,\nstatus: 256,\nrusage: {\nUtime: {Sec: 0, Usec: 7952},\nStime: {Sec: 0, Usec: 7952},\nMaxrss: 31232,\nIxrss: 0,\nIdrss: 0,\nIsrss: 0,\nMinflt: 2634,\nMajflt: 0,\nNswap: 0,\nInblock: 0,\nOublock: 0,\nMsgsnd: 0,\nMsgrcv: 0,\nNsignals: 0,\nNvcsw: 228,\nNivcsw: 3,\n},\n},\nStderr: nil,\n}\noccurred\nIn [It] at: /home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:53 @ 08/14/26 00:38:36.166\n------------------------------\nCrictl unikernel containers Spt-mirage-UserGroup\n/home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56\nSTEP: Creating pod @ 08/14/26 00:38:36.166\n[FAILED] in [It] - /home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:53 @ 08/14/26 00:38:36.182\n2026/08/14 00:38:36 Removing image: harbor.nbfc.io/nubificus/urunc/redis-hvt-rumprun-raw:latest\n2026/08/14 00:38:36 Removing image: harbor.nbfc.io/nubificus/urunc/net-hvt-mirage:latest\n2026/08/14 00:38:36 Removing image: harbor.nbfc.io/nubificus/urunc/redis-spt-rumprun-raw:latest\n2026/08/14 00:38:36 Removing image: harbor.nbfc.io/nubificus/urunc/net-qemu-mirage:latest\n2026/08/14 00:38:36 Removing image: harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\n2026/08/14 00:38:36 Removing image: harbor.nbfc.io/nubificus/urunc/nginx-firecracker-linux-raw:latest\n2026/08/14 00:38:36 Removing image: harbor.nbfc.io/nubificus/urunc/net-spt-mirage:latest\n2026/08/14 00:38:36 Removing image: harbor.nbfc.io/nubificus/urunc/redis-qemu-unikraft-initrd:latest\n2026/08/14 00:38:36 Removing image: harbor.nbfc.io/nubificus/urunc/redis-qemu-linux-block:latest\n2026/08/14 00:38:36 Removing image: harbor.nbfc.io/nubificus/urunc/httpreply-firecracker-unikraft:latest\ntest-args - /home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:42 @ 08/14/26 00:38:36.397\n{Name:Spt-mirage-UserGroup Image:harbor.nbfc.io/nubificus/urunc/net-spt-mirage:latest Devmapper:false Seccomp:true UID:65534 GID:65534 Groups:[] Memory: Cli: Volumes:[] StaticNet:false SideContainers:[] Skippable:false TestFunc:0x6a8230 ExpectOut:}\n• [FAILED] [0.231 seconds]\nCrictl unikernel containers [It] Spt-mirage-UserGroup\n/home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56\n2026-08-14T00:38:36.3982484Z\n[FAILED] Failed to create pod: E0814 00:38:36.180966   12462 remote_runtime.go:193] \"RunPodSandbox from runtime service failed\" err=\"rpc error: code = Unknown desc = failed to setup network for sandbox \\\"78869b7b963bfaee2a203775c70735d2ffa88ba585e314aa1f00575307818e73\\\": cni plugin not initialized\"\ntime=\"2026-08-14T00:38:36Z\" level=fatal msg=\"run pod sandbox: rpc error: code = Unknown desc = failed to setup network for sandbox \\\"78869b7b963bfaee2a203775c70735d2ffa88ba585e314aa1f00575307818e73\\\": cni plugin not initialized\"\nUnexpected error:\n\u003c*exec.ExitError | 0x142f32924480\u003e:\nexit status 1\n{\nProcessState: {\npid: 12462,\nstatus: 256,\nrusage: {\nUtime: {Sec: 0, Usec: 8581},\nStime: {Sec: 0, Usec: 7355},\nMaxrss: 31616,\nIxrss: 0,\nIdrss: 0,\nIsrss: 0,\nMinflt: 2572,\nMajflt: 0,\nNswap: 0,\nInblock: 0,\nOublock: 0,\nMsgsnd: 0,\nMsgrcv: 0,\nNsignals: 0,\nNvcsw: 306,\nNivcsw: 0,\n},\n},\nStderr: nil,\n}\noccurred\nIn [It] at: /home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:53 @ 08/14/26 00:38:36.182\n------------------------------\nSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS\n2026-08-14T00:38:36.3999129Z\nSummarizing 3 Failures:\n[FAIL] Crictl unikernel containers [It] Spt-rumprun-redis\n/home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:53\n[FAIL] Crictl unikernel containers [It] Spt-mirage-net\n/home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:53\n[FAIL] Crictl unikernel containers [It] Spt-mirage-UserGroup\n/home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:53\n2026-08-14T00:38:36.4004504Z\nRan 3 of 74 Specs in 58.015 seconds\nFAIL! -- 0 Passed | 3 Failed | 0 Pending | 71 Skipped\n--- FAIL: TestE2E (58.02s)\nFAIL\nFAIL\tgithub.com/urunc-dev/urunc/tests/e2e\t58.024s\nFAIL\nmake: *** [Makefile:318: test_crictl_Spt] Error 1\n##[error]Process completed with exit code 2."
+            }
+          ],
+          "run_attempt": 1
+        },
         {
           "id": 31654811316,
           "name": "urunc CI (nightly)",
@@ -4403,116 +4523,6 @@
             }
           ],
           "run_attempt": 1
-        },
-        {
-          "id": 30137108457,
-          "name": "urunc CI (nightly)",
-          "status": "completed",
-          "conclusion": "success",
-          "run_number": 280,
-          "created_at": "2026-07-25T00:47:27Z",
-          "updated_at": "2026-07-25T00:54:51Z",
-          "run_started_at": "2026-07-25T00:47:27Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/30137108457",
-          "jobs": [
-            {
-              "name": "Unit tests / unit-test (arm64, ubuntu-22.04-arm)",
-              "conclusion": "success",
-              "duration_sec": 28,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/30137108457/job/89623106705"
-            },
-            {
-              "name": "Build / build (amd64, ubuntu-22.04)",
-              "conclusion": "success",
-              "duration_sec": 62,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/30137108457/job/89623106725"
-            },
-            {
-              "name": "Unit tests / unit-test (amd64, ubuntu-22.04)",
-              "conclusion": "success",
-              "duration_sec": 45,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/30137108457/job/89623106726"
-            },
-            {
-              "name": "Build / build (arm64, ubuntu-22.04-arm)",
-              "conclusion": "success",
-              "duration_sec": 46,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/30137108457/job/89623106730"
-            },
-            {
-              "name": "Kubernetes test / Kubernetes test (amd64, ubuntu-22.04)",
-              "conclusion": "success",
-              "duration_sec": 345,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/30137108457/job/89623227622"
-            },
-            {
-              "name": "urunc-deploy test / urunc-deploy (amd64, ubuntu-22.04)",
-              "conclusion": "success",
-              "duration_sec": 79,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/30137108457/job/89623227638"
-            },
-            {
-              "name": "Kubernetes test / Kubernetes test (arm64, ubuntu-22.04-arm)",
-              "conclusion": "success",
-              "duration_sec": 261,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/30137108457/job/89623227655"
-            },
-            {
-              "name": "E2E test / VM test (arm64, test_ctr)",
-              "conclusion": "success",
-              "duration_sec": 208,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/30137108457/job/89623227657"
-            },
-            {
-              "name": "E2E test / VM test (arm64, test_nerdctl)",
-              "conclusion": "success",
-              "duration_sec": 240,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/30137108457/job/89623227662"
-            },
-            {
-              "name": "E2E test / VM test (amd64, test_crictl)",
-              "conclusion": "success",
-              "duration_sec": 273,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/30137108457/job/89623227670"
-            },
-            {
-              "name": "urunc-deploy test / urunc-deploy (arm64, ubuntu-22.04-arm)",
-              "conclusion": "success",
-              "duration_sec": 69,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/30137108457/job/89623227672"
-            },
-            {
-              "name": "E2E test / VM test (amd64, test_docker)",
-              "conclusion": "success",
-              "duration_sec": 299,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/30137108457/job/89623227674"
-            },
-            {
-              "name": "E2E test / VM test (arm64, test_crictl)",
-              "conclusion": "success",
-              "duration_sec": 184,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/30137108457/job/89623227678"
-            },
-            {
-              "name": "E2E test / VM test (amd64, test_nerdctl)",
-              "conclusion": "success",
-              "duration_sec": 377,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/30137108457/job/89623227690"
-            },
-            {
-              "name": "E2E test / VM test (arm64, test_docker)",
-              "conclusion": "success",
-              "duration_sec": 187,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/30137108457/job/89623227692"
-            },
-            {
-              "name": "E2E test / VM test (amd64, test_ctr)",
-              "conclusion": "success",
-              "duration_sec": 207,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/30137108457/job/89623227698"
-            }
-          ],
-          "run_attempt": 1
         }
       ]
     },
@@ -4522,147 +4532,241 @@
       "critical": true,
       "required": false,
       "total_runs": 20,
-      "failed_runs": 2,
-      "failure_rate": 10,
-      "avg_duration_secs": 123.75,
+      "failed_runs": 3,
+      "failure_rate": 15,
+      "avg_duration_secs": 132.95,
       "weather_history": [
         "action_required",
         "action_required",
         "action_required",
-        "unknown",
+        "action_required",
+        "action_required",
         "failure",
-        "failure",
-        "success"
+        "action_required"
       ],
       "last_run": {
-        "id": 31724158098,
+        "id": 31833216434,
         "name": "urunc CI",
         "status": "completed",
-        "conclusion": "success",
-        "run_number": 2541,
-        "created_at": "2026-08-13T17:07:51Z",
-        "updated_at": "2026-08-13T18:08:32Z",
-        "run_started_at": "2026-08-13T17:57:42Z",
-        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31724158098",
-        "jobs": [
-          {
-            "name": "check-labels",
-            "conclusion": "success",
-            "duration_sec": 13,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31724158098/job/94542204622"
-          },
-          {
-            "name": "ci-on-push / Lint code / lint (amd64, ubuntu-22.04)",
-            "conclusion": "success",
-            "duration_sec": 66,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31724158098/job/94542205420"
-          },
-          {
-            "name": "ci-on-push / Build / build (amd64, ubuntu-22.04)",
-            "conclusion": "success",
-            "duration_sec": 68,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31724158098/job/94542205430"
-          },
-          {
-            "name": "ci-on-push / Lint Files \u0026 commits / Check License Headers (amd64, ubuntu-22.04)",
-            "conclusion": "success",
-            "duration_sec": 43,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31724158098/job/94542205441"
-          },
-          {
-            "name": "ci-on-push / Lint Files \u0026 commits / Lint Commit Messages (amd64, ubuntu-22.04)",
-            "conclusion": "success",
-            "duration_sec": 27,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31724158098/job/94542205448"
-          },
-          {
-            "name": "ci-on-push / Build / build (arm64, ubuntu-22.04-arm)",
-            "conclusion": "success",
-            "duration_sec": 46,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31724158098/job/94542205601"
-          },
-          {
-            "name": "ci-on-push / Lint Files \u0026 commits / Spell Check Repo (amd64, ubuntu-22.04)",
-            "conclusion": "success",
-            "duration_sec": 26,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31724158098/job/94542205622"
-          },
-          {
-            "name": "ci-on-push / Unit tests / unit-test (amd64, ubuntu-22.04)",
-            "conclusion": "success",
-            "duration_sec": 46,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31724158098/job/94542205762"
-          },
-          {
-            "name": "ci-on-push / Unit tests / unit-test (arm64, ubuntu-22.04-arm)",
-            "conclusion": "success",
-            "duration_sec": 29,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31724158098/job/94542205850"
-          },
-          {
-            "name": "ci-on-push / E2E test / VM test (amd64, test_crictl)",
-            "conclusion": "success",
-            "duration_sec": 291,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31724158098/job/94542206481"
-          },
-          {
-            "name": "ci-on-push / E2E test / VM test (amd64, test_ctr)",
-            "conclusion": "success",
-            "duration_sec": 298,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31724158098/job/94542206494"
-          },
-          {
-            "name": "ci-on-push / E2E test / VM test (amd64, test_docker)",
-            "conclusion": "success",
-            "duration_sec": 362,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31724158098/job/94542206495"
-          },
-          {
-            "name": "ci-on-push / E2E test / VM test (amd64, test_nerdctl)",
-            "conclusion": "success",
-            "duration_sec": 497,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31724158098/job/94542206614"
-          },
-          {
-            "name": "ci-on-push / Kubernetes test / Kubernetes test (amd64, ubuntu-22.04)",
-            "conclusion": "success",
-            "duration_sec": 321,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31724158098/job/94542206746"
-          },
-          {
-            "name": "ci-on-push / E2E test / VM test (arm64, test_nerdctl)",
-            "conclusion": "success",
-            "duration_sec": 275,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31724158098/job/94542206760"
-          },
-          {
-            "name": "ci-on-push / E2E test / VM test (arm64, test_crictl)",
-            "conclusion": "success",
-            "duration_sec": 150,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31724158098/job/94542207091"
-          },
-          {
-            "name": "ci-on-push / E2E test / VM test (arm64, test_ctr)",
-            "conclusion": "success",
-            "duration_sec": 186,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31724158098/job/94542207119"
-          },
-          {
-            "name": "ci-on-push / E2E test / VM test (arm64, test_docker)",
-            "conclusion": "success",
-            "duration_sec": 143,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31724158098/job/94542207135"
-          },
-          {
-            "name": "ci-on-push / Kubernetes test / Kubernetes test (arm64, ubuntu-22.04-arm)",
-            "conclusion": "success",
-            "duration_sec": 270,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31724158098/job/94542207433"
-          }
-        ],
-        "run_attempt": 8
+        "conclusion": "action_required",
+        "run_number": 2548,
+        "created_at": "2026-08-14T19:25:59Z",
+        "updated_at": "2026-08-14T19:25:59Z",
+        "run_started_at": "2026-08-14T19:25:59Z",
+        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31833216434",
+        "run_attempt": 1
       },
       "recent_runs": [
+        {
+          "id": 31833216434,
+          "name": "urunc CI",
+          "status": "completed",
+          "conclusion": "action_required",
+          "run_number": 2548,
+          "created_at": "2026-08-14T19:25:59Z",
+          "updated_at": "2026-08-14T19:25:59Z",
+          "run_started_at": "2026-08-14T19:25:59Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31833216434",
+          "run_attempt": 1
+        },
+        {
+          "id": 31816280491,
+          "name": "urunc CI",
+          "status": "completed",
+          "conclusion": "failure",
+          "run_number": 2547,
+          "created_at": "2026-08-14T15:48:16Z",
+          "updated_at": "2026-08-14T17:45:27Z",
+          "run_started_at": "2026-08-14T17:42:23Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31816280491",
+          "jobs": [
+            {
+              "name": "ci-on-push / E2E test / VM test (arm64, test_crictl)",
+              "conclusion": "failure",
+              "duration_sec": 158,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31816280491/job/94847652736"
+            },
+            {
+              "name": "ci-on-push / E2E test / VM test (amd64, test_docker)",
+              "conclusion": "cancelled",
+              "duration_sec": 178,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31816280491/job/94847652738"
+            },
+            {
+              "name": "ci-on-push / E2E test / VM test (arm64, test_nerdctl)",
+              "conclusion": "cancelled",
+              "duration_sec": 172,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31816280491/job/94847652746"
+            },
+            {
+              "name": "ci-on-push / E2E test / VM test (arm64, test_docker)",
+              "conclusion": "success",
+              "duration_sec": 153,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31816280491/job/94847652759"
+            },
+            {
+              "name": "ci-on-push / E2E test / VM test (amd64, test_ctr)",
+              "conclusion": "cancelled",
+              "duration_sec": 180,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31816280491/job/94847652761"
+            },
+            {
+              "name": "ci-on-push / E2E test / VM test (amd64, test_crictl)",
+              "conclusion": "cancelled",
+              "duration_sec": 178,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31816280491/job/94847652784"
+            },
+            {
+              "name": "ci-on-push / E2E test / VM test (arm64, test_ctr)",
+              "conclusion": "cancelled",
+              "duration_sec": 174,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31816280491/job/94847652797"
+            },
+            {
+              "name": "ci-on-push / E2E test / VM test (amd64, test_nerdctl)",
+              "conclusion": "cancelled",
+              "duration_sec": 170,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31816280491/job/94847652833"
+            },
+            {
+              "name": "check-labels",
+              "conclusion": "success",
+              "duration_sec": 12,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31816280491/job/94847652837"
+            },
+            {
+              "name": "ci-on-push / Unit tests / unit-test (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 40,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31816280491/job/94847652877"
+            },
+            {
+              "name": "ci-on-push / Lint Files \u0026 commits / Spell Check Repo (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 29,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31816280491/job/94847652975"
+            },
+            {
+              "name": "ci-on-push / Unit tests / unit-test (arm64, ubuntu-22.04-arm)",
+              "conclusion": "success",
+              "duration_sec": 31,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31816280491/job/94847653053"
+            },
+            {
+              "name": "ci-on-push / Lint code / lint (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 72,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31816280491/job/94847653062"
+            },
+            {
+              "name": "ci-on-push / Build / build (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 60,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31816280491/job/94847653071"
+            },
+            {
+              "name": "ci-on-push / Lint Files \u0026 commits / Check License Headers (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 57,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31816280491/job/94847653313"
+            },
+            {
+              "name": "ci-on-push / Lint Files \u0026 commits / Lint Commit Messages (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 29,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31816280491/job/94847653345"
+            },
+            {
+              "name": "ci-on-push / Kubernetes test / Kubernetes test (arm64, ubuntu-22.04-arm)",
+              "conclusion": "success",
+              "duration_sec": 257,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31816280491/job/94847653513"
+            },
+            {
+              "name": "ci-on-push / Kubernetes test / Kubernetes test (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 380,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31816280491/job/94847653635"
+            },
+            {
+              "name": "ci-on-push / Build / build (arm64, ubuntu-22.04-arm)",
+              "conclusion": "success",
+              "duration_sec": 47,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31816280491/job/94847692938"
+            }
+          ],
+          "failed_jobs": [
+            {
+              "id": 94847652736,
+              "name": "ci-on-push / E2E test / VM test (arm64, test_crictl)",
+              "conclusion": "failure",
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31816280491/job/94847652736",
+              "log_snippet": "[Test Failure] — 9 signal(s) found\n────────────────────────────────────────────────\n-\u003e Test Failure\n  Unexpected error:\n  --- FAIL: TestE2E (50.60s)\n  FAIL\tgithub.com/urunc-dev/urunc/tests/e2e\t50.609s\n-\u003e Build Failure\n  exit status 1\n  make: *** [Makefile:318: test_crictl_Spt] Error 1\n  ##[error]Process completed with exit code 2.\n-\u003e Fatal Runtime Error\n  time=\"2026-08-14T17:45:05Z\" level=fatal msg=\"run pod sandbox: rpc error: code = Unknown desc = failed to setup network for sandbox \\\"ac82878e17991b14f1d11016b67cedd766489d1d0455b6e31833a3127113aead\\\": cni plugin not initialized\"\n  time=\"2026-08-14T17:45:05Z\" level=fatal msg=\"run pod sandbox: rpc error: code = Unknown desc = failed to setup network for sandbox \\\"4fcfa400a15be081ee57fb13608964af70bc34cddc035c3db70bd42e6673685a\\\": cni plugin not initialized\"\n  time=\"2026-08-14T17:45:05Z\" level=fatal msg=\"run pod sandbox: rpc error: code = Unknown desc = failed to setup network for sandbox \\\"2e1df5ba8fc42592780c0fde92ad97f13ea2e682b6eb332b6f79b6c0aadec696\\\": cni plugin not initialized\"",
+              "raw_log": "go mod verify\nall modules verified\n##[group]Run # Set up Go environment properly\n# Set up Go environment properly\nexport GOROOT=$(go env GOROOT)\nexport PATH=\"$GOROOT/bin:$PATH\"\ngo version\ngo env GOROOT\nif [ \"arm64\" = \"arm64\" ]; then\nsudo -E env \"PATH=$PATH\" \"GOROOT=$GOROOT\" make test_crictl_Spt\nelse\nsudo -E env \"PATH=$PATH\" \"GOROOT=$GOROOT\" make test_crictl\nfi\nshell: /usr/bin/bash -e {0}\nenv:\nGOTOOLCHAIN: local\n##[endgroup]\ngo version go1.26.4 linux/arm64\nTesting crictl\n=== RUN   TestE2E\nRunning Suite: E2E Suite - /home/runner/work/urunc/urunc/tests/e2e\n==================================================================\nRandom Seed: 1786729455\n2026-08-14T17:44:15.0172751Z\nWill run 3 of 74 specs\nSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS\n------------------------------\nCrictl unikernel containers Spt-rumprun-redis\n/home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56\n2026/08/14 17:44:15 Pulling image: harbor.nbfc.io/nubificus/urunc/nginx-firecracker-linux-raw:latest\n2026/08/14 17:44:24 Pulling image: harbor.nbfc.io/nubificus/urunc/redis-hvt-rumprun-raw:latest\n2026/08/14 17:44:29 Pulling image: harbor.nbfc.io/nubificus/urunc/net-hvt-mirage:latest\n2026/08/14 17:44:33 Pulling image: harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\n2026/08/14 17:44:37 Pulling image: harbor.nbfc.io/nubificus/urunc/httpreply-firecracker-unikraft:latest\n2026/08/14 17:44:41 Pulling image: harbor.nbfc.io/nubificus/urunc/redis-spt-rumprun-raw:latest\n2026/08/14 17:44:46 Pulling image: harbor.nbfc.io/nubificus/urunc/net-spt-mirage:latest\n2026/08/14 17:44:50 Pulling image: harbor.nbfc.io/nubificus/urunc/redis-qemu-unikraft-initrd:latest\n2026/08/14 17:44:54 Pulling image: harbor.nbfc.io/nubificus/urunc/net-qemu-mirage:latest\n2026/08/14 17:44:58 Pulling image: harbor.nbfc.io/nubificus/urunc/redis-qemu-linux-block:latest\nSTEP: Creating pod @ 08/14/26 17:45:05.343\n[FAILED] in [It] - /home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:53 @ 08/14/26 17:45:05.362\ntest-args - /home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:42 @ 08/14/26 17:45:05.362\n{Name:Spt-rumprun-redis Image:harbor.nbfc.io/nubificus/urunc/redis-spt-rumprun-raw:latest Devmapper:true Seccomp:true UID:0 GID:0 Groups:[] Memory: Cli: Volumes:[] StaticNet:false SideContainers:[] Skippable:false TestFunc:0x6a9940 ExpectOut:}\n• [FAILED] [50.345 seconds]\nCrictl unikernel containers [It] Spt-rumprun-redis\n/home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56\n2026-08-14T17:45:05.3631894Z\n[FAILED] Failed to create pod: E0814 17:45:05.359966   11654 remote_runtime.go:193] \"RunPodSandbox from runtime service failed\" err=\"rpc error: code = Unknown desc = failed to setup network for sandbox \\\"ac82878e17991b14f1d11016b67cedd766489d1d0455b6e31833a3127113aead\\\": cni plugin not initialized\"\ntime=\"2026-08-14T17:45:05Z\" level=fatal msg=\"run pod sandbox: rpc error: code = Unknown desc = failed to setup network for sandbox \\\"ac82878e17991b14f1d11016b67cedd766489d1d0455b6e31833a3127113aead\\\": cni plugin not initialized\"\nUnexpected error:\n\u003c*exec.ExitError | 0x522ee28b20c0\u003e:\nexit status 1\n{\nProcessState: {\npid: 11654,\nstatus: 256,\nrusage: {\nUtime: {Sec: 0, Usec: 9262},\nStime: {Sec: 0, Usec: 7578},\nMaxrss: 31232,\nIxrss: 0,\nIdrss: 0,\nIsrss: 0,\nMinflt: 2634,\nMajflt: 0,\nNswap: 0,\nInblock: 0,\nOublock: 0,\nMsgsnd: 0,\nMsgrcv: 0,\nNsignals: 0,\nNvcsw: 253,\nNivcsw: 3,\n},\n},\nStderr: nil,\n}\noccurred\nIn [It] at: /home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:53 @ 08/14/26 17:45:05.362\n------------------------------\nCrictl unikernel containers Spt-mirage-net\n/home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56\nSTEP: Creating pod @ 08/14/26 17:45:05.362\n[FAILED] in [It] - /home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:53 @ 08/14/26 17:45:05.381\ntest-args - /home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:42 @ 08/14/26 17:45:05.381\n{Name:Spt-mirage-net Image:harbor.nbfc.io/nubificus/urunc/net-spt-mirage:latest Devmapper:false Seccomp:true UID:0 GID:0 Groups:[] Memory: Cli: Volumes:[] StaticNet:false SideContainers:[] Skippable:false TestFunc:0x6a9940 ExpectOut:}\n• [FAILED] [0.019 seconds]\nCrictl unikernel containers [It] Spt-mirage-net\n/home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56\n2026-08-14T17:45:05.3826512Z\n[FAILED] Failed to create pod: E0814 17:45:05.378870   11660 remote_runtime.go:193] \"RunPodSandbox from runtime service failed\" err=\"rpc error: code = Unknown desc = failed to setup network for sandbox \\\"4fcfa400a15be081ee57fb13608964af70bc34cddc035c3db70bd42e6673685a\\\": cni plugin not initialized\"\ntime=\"2026-08-14T17:45:05Z\" level=fatal msg=\"run pod sandbox: rpc error: code = Unknown desc = failed to setup network for sandbox \\\"4fcfa400a15be081ee57fb13608964af70bc34cddc035c3db70bd42e6673685a\\\": cni plugin not initialized\"\nUnexpected error:\n\u003c*exec.ExitError | 0x522ee2552520\u003e:\nexit status 1\n{\nProcessState: {\npid: 11660,\nstatus: 256,\nrusage: {\nUtime: {Sec: 0, Usec: 11368},\nStime: {Sec: 0, Usec: 5684},\nMaxrss: 31232,\nIxrss: 0,\nIdrss: 0,\nIsrss: 0,\nMinflt: 2666,\nMajflt: 0,\nNswap: 0,\nInblock: 0,\nOublock: 0,\nMsgsnd: 0,\nMsgrcv: 0,\nNsignals: 0,\nNvcsw: 248,\nNivcsw: 5,\n},\n},\nStderr: nil,\n}\noccurred\nIn [It] at: /home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:53 @ 08/14/26 17:45:05.381\n------------------------------\nCrictl unikernel containers Spt-mirage-UserGroup\n/home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56\nSTEP: Creating pod @ 08/14/26 17:45:05.381\n[FAILED] in [It] - /home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:53 @ 08/14/26 17:45:05.398\n2026/08/14 17:45:05 Removing image: harbor.nbfc.io/nubificus/urunc/nginx-firecracker-linux-raw:latest\n2026/08/14 17:45:05 Removing image: harbor.nbfc.io/nubificus/urunc/redis-hvt-rumprun-raw:latest\n2026/08/14 17:45:05 Removing image: harbor.nbfc.io/nubificus/urunc/net-hvt-mirage:latest\n2026/08/14 17:45:05 Removing image: harbor.nbfc.io/nubificus/urunc/nginx-firecracker-unikraft-initrd:latest\n2026/08/14 17:45:05 Removing image: harbor.nbfc.io/nubificus/urunc/httpreply-firecracker-unikraft:latest\n2026/08/14 17:45:05 Removing image: harbor.nbfc.io/nubificus/urunc/redis-spt-rumprun-raw:latest\n2026/08/14 17:45:05 Removing image: harbor.nbfc.io/nubificus/urunc/net-spt-mirage:latest\n2026/08/14 17:45:05 Removing image: harbor.nbfc.io/nubificus/urunc/redis-qemu-unikraft-initrd:latest\n2026/08/14 17:45:05 Removing image: harbor.nbfc.io/nubificus/urunc/net-qemu-mirage:latest\n2026/08/14 17:45:05 Removing image: harbor.nbfc.io/nubificus/urunc/redis-qemu-linux-block:latest\ntest-args - /home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:42 @ 08/14/26 17:45:05.615\n{Name:Spt-mirage-UserGroup Image:harbor.nbfc.io/nubificus/urunc/net-spt-mirage:latest Devmapper:false Seccomp:true UID:65534 GID:65534 Groups:[] Memory: Cli: Volumes:[] StaticNet:false SideContainers:[] Skippable:false TestFunc:0x6a8230 ExpectOut:}\n• [FAILED] [0.234 seconds]\nCrictl unikernel containers [It] Spt-mirage-UserGroup\n/home/runner/work/urunc/urunc/tests/e2e/suite_test.go:56\n2026-08-14T17:45:05.6169358Z\n[FAILED] Failed to create pod: E0814 17:45:05.396724   11666 remote_runtime.go:193] \"RunPodSandbox from runtime service failed\" err=\"rpc error: code = Unknown desc = failed to setup network for sandbox \\\"2e1df5ba8fc42592780c0fde92ad97f13ea2e682b6eb332b6f79b6c0aadec696\\\": cni plugin not initialized\"\ntime=\"2026-08-14T17:45:05Z\" level=fatal msg=\"run pod sandbox: rpc error: code = Unknown desc = failed to setup network for sandbox \\\"2e1df5ba8fc42592780c0fde92ad97f13ea2e682b6eb332b6f79b6c0aadec696\\\": cni plugin not initialized\"\nUnexpected error:\n\u003c*exec.ExitError | 0x522ee2552e00\u003e:\nexit status 1\n{\nProcessState: {\npid: 11666,\nstatus: 256,\nrusage: {\nUtime: {Sec: 0, Usec: 9698},\nStime: {Sec: 0, Usec: 6789},\nMaxrss: 31104,\nIxrss: 0,\nIdrss: 0,\nIsrss: 0,\nMinflt: 2587,\nMajflt: 0,\nNswap: 0,\nInblock: 0,\nOublock: 0,\nMsgsnd: 0,\nMsgrcv: 0,\nNsignals: 0,\nNvcsw: 250,\nNivcsw: 11,\n},\n},\nStderr: nil,\n}\noccurred\nIn [It] at: /home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:53 @ 08/14/26 17:45:05.398\n------------------------------\nSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS\n2026-08-14T17:45:05.6186156Z\nSummarizing 3 Failures:\n[FAIL] Crictl unikernel containers [It] Spt-rumprun-redis\n/home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:53\n[FAIL] Crictl unikernel containers [It] Spt-mirage-net\n/home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:53\n[FAIL] Crictl unikernel containers [It] Spt-mirage-UserGroup\n/home/runner/work/urunc/urunc/tests/e2e/crictl_test.go:53\n2026-08-14T17:45:05.6190741Z\nRan 3 of 74 Specs in 50.600 seconds\nFAIL! -- 0 Passed | 3 Failed | 0 Pending | 71 Skipped\n--- FAIL: TestE2E (50.60s)\nFAIL\nFAIL\tgithub.com/urunc-dev/urunc/tests/e2e\t50.609s\nFAIL\nmake: *** [Makefile:318: test_crictl_Spt] Error 1\n##[error]Process completed with exit code 2."
+            }
+          ],
+          "run_attempt": 4
+        },
+        {
+          "id": 31805813407,
+          "name": "urunc CI",
+          "status": "completed",
+          "conclusion": "action_required",
+          "run_number": 2546,
+          "created_at": "2026-08-14T13:40:26Z",
+          "updated_at": "2026-08-14T13:40:26Z",
+          "run_started_at": "2026-08-14T13:40:26Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31805813407",
+          "run_attempt": 1
+        },
+        {
+          "id": 31798282644,
+          "name": "urunc CI",
+          "status": "completed",
+          "conclusion": "action_required",
+          "run_number": 2545,
+          "created_at": "2026-08-14T11:57:09Z",
+          "updated_at": "2026-08-14T11:57:09Z",
+          "run_started_at": "2026-08-14T11:57:09Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31798282644",
+          "run_attempt": 1
+        },
+        {
+          "id": 31798277383,
+          "name": "urunc CI",
+          "status": "completed",
+          "conclusion": "action_required",
+          "run_number": 2544,
+          "created_at": "2026-08-14T11:57:04Z",
+          "updated_at": "2026-08-14T11:57:04Z",
+          "run_started_at": "2026-08-14T11:57:04Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31798277383",
+          "run_attempt": 1
+        },
+        {
+          "id": 31797311969,
+          "name": "urunc CI",
+          "status": "completed",
+          "conclusion": "action_required",
+          "run_number": 2543,
+          "created_at": "2026-08-14T11:42:39Z",
+          "updated_at": "2026-08-14T11:42:39Z",
+          "run_started_at": "2026-08-14T11:42:39Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31797311969",
+          "run_attempt": 1
+        },
+        {
+          "id": 31778963989,
+          "name": "urunc CI",
+          "status": "completed",
+          "conclusion": "action_required",
+          "run_number": 2542,
+          "created_at": "2026-08-14T07:11:11Z",
+          "updated_at": "2026-08-14T07:11:11Z",
+          "run_started_at": "2026-08-14T07:11:11Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31778963989",
+          "run_attempt": 1
+        },
         {
           "id": 31724158098,
           "name": "urunc CI",
@@ -5464,90 +5568,6 @@
           "run_started_at": "2026-08-13T07:05:26Z",
           "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31676344264",
           "run_attempt": 1
-        },
-        {
-          "id": 31675451346,
-          "name": "urunc CI",
-          "status": "completed",
-          "conclusion": "action_required",
-          "run_number": 2527,
-          "created_at": "2026-08-13T06:51:50Z",
-          "updated_at": "2026-08-13T06:51:50Z",
-          "run_started_at": "2026-08-13T06:51:50Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31675451346",
-          "run_attempt": 1
-        },
-        {
-          "id": 31675446835,
-          "name": "urunc CI",
-          "status": "completed",
-          "conclusion": "action_required",
-          "run_number": 2526,
-          "created_at": "2026-08-13T06:51:46Z",
-          "updated_at": "2026-08-13T06:51:46Z",
-          "run_started_at": "2026-08-13T06:51:46Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31675446835",
-          "run_attempt": 1
-        },
-        {
-          "id": 31628491830,
-          "name": "urunc CI",
-          "status": "completed",
-          "conclusion": "action_required",
-          "run_number": 2525,
-          "created_at": "2026-08-12T18:36:26Z",
-          "updated_at": "2026-08-12T18:36:26Z",
-          "run_started_at": "2026-08-12T18:36:26Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31628491830",
-          "run_attempt": 1
-        },
-        {
-          "id": 31627590657,
-          "name": "urunc CI",
-          "status": "completed",
-          "conclusion": "action_required",
-          "run_number": 2524,
-          "created_at": "2026-08-12T18:25:52Z",
-          "updated_at": "2026-08-12T18:25:52Z",
-          "run_started_at": "2026-08-12T18:25:52Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31627590657",
-          "run_attempt": 1
-        },
-        {
-          "id": 31608318094,
-          "name": "urunc CI",
-          "status": "completed",
-          "conclusion": "action_required",
-          "run_number": 2523,
-          "created_at": "2026-08-12T14:43:09Z",
-          "updated_at": "2026-08-12T14:43:09Z",
-          "run_started_at": "2026-08-12T14:43:09Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31608318094",
-          "run_attempt": 1
-        },
-        {
-          "id": 31608310470,
-          "name": "urunc CI",
-          "status": "completed",
-          "conclusion": "action_required",
-          "run_number": 2522,
-          "created_at": "2026-08-12T14:43:04Z",
-          "updated_at": "2026-08-12T14:43:04Z",
-          "run_started_at": "2026-08-12T14:43:04Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31608310470",
-          "run_attempt": 1
-        },
-        {
-          "id": 31578649564,
-          "name": "urunc CI",
-          "status": "completed",
-          "conclusion": "action_required",
-          "run_number": 2520,
-          "created_at": "2026-08-12T08:30:38Z",
-          "updated_at": "2026-08-12T08:30:38Z",
-          "run_started_at": "2026-08-12T08:30:38Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31578649564",
-          "run_attempt": 1
         }
       ]
     },
@@ -5559,43 +5579,65 @@
       "total_runs": 20,
       "failed_runs": 0,
       "failure_rate": 0,
-      "avg_duration_secs": 49.3,
+      "avg_duration_secs": 43.7,
       "weather_history": [
         "action_required",
         "success",
         "success",
+        "success",
         "action_required",
-        "success",
-        "success",
-        "success"
+        "action_required",
+        "action_required"
       ],
       "last_run": {
-        "id": 31724157605,
+        "id": 31833216122,
         "name": "CodeQL",
         "status": "completed",
-        "conclusion": "success",
-        "run_number": 1698,
-        "created_at": "2026-08-13T17:07:51Z",
-        "updated_at": "2026-08-13T17:10:14Z",
-        "run_started_at": "2026-08-13T17:07:51Z",
-        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31724157605",
-        "jobs": [
-          {
-            "name": "Analyze (go)",
-            "conclusion": "success",
-            "duration_sec": 111,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31724157605/job/94528255477"
-          },
-          {
-            "name": "Analyze (python)",
-            "conclusion": "success",
-            "duration_sec": 58,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31724157605/job/94528255529"
-          }
-        ],
+        "conclusion": "action_required",
+        "run_number": 1701,
+        "created_at": "2026-08-14T19:25:58Z",
+        "updated_at": "2026-08-14T19:25:58Z",
+        "run_started_at": "2026-08-14T19:25:58Z",
+        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31833216122",
         "run_attempt": 1
       },
       "recent_runs": [
+        {
+          "id": 31833216122,
+          "name": "CodeQL",
+          "status": "completed",
+          "conclusion": "action_required",
+          "run_number": 1701,
+          "created_at": "2026-08-14T19:25:58Z",
+          "updated_at": "2026-08-14T19:25:58Z",
+          "run_started_at": "2026-08-14T19:25:58Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31833216122",
+          "run_attempt": 1
+        },
+        {
+          "id": 31805812727,
+          "name": "CodeQL",
+          "status": "completed",
+          "conclusion": "action_required",
+          "run_number": 1700,
+          "created_at": "2026-08-14T13:40:25Z",
+          "updated_at": "2026-08-14T13:40:25Z",
+          "run_started_at": "2026-08-14T13:40:25Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31805812727",
+          "run_attempt": 1
+        },
+        {
+          "id": 31797311657,
+          "name": "CodeQL",
+          "status": "completed",
+          "conclusion": "action_required",
+          "run_number": 1699,
+          "created_at": "2026-08-14T11:42:39Z",
+          "updated_at": "2026-08-14T11:42:39Z",
+          "run_started_at": "2026-08-14T11:42:39Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31797311657",
+          "run_attempt": 1
+        },
         {
           "id": 31724157605,
           "name": "CodeQL",
@@ -5883,56 +5925,6 @@
           "run_started_at": "2026-08-11T20:31:17Z",
           "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31533358192",
           "run_attempt": 1
-        },
-        {
-          "id": 31533018425,
-          "name": "CodeQL",
-          "status": "completed",
-          "conclusion": "action_required",
-          "run_number": 1679,
-          "created_at": "2026-08-11T20:27:23Z",
-          "updated_at": "2026-08-11T20:27:23Z",
-          "run_started_at": "2026-08-11T20:27:23Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31533018425",
-          "run_attempt": 1
-        },
-        {
-          "id": 31531367223,
-          "name": "CodeQL",
-          "status": "completed",
-          "conclusion": "action_required",
-          "run_number": 1678,
-          "created_at": "2026-08-11T20:07:58Z",
-          "updated_at": "2026-08-11T20:07:58Z",
-          "run_started_at": "2026-08-11T20:07:58Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31531367223",
-          "run_attempt": 1
-        },
-        {
-          "id": 31489400156,
-          "name": "CodeQL",
-          "status": "completed",
-          "conclusion": "success",
-          "run_number": 1677,
-          "created_at": "2026-08-11T12:03:11Z",
-          "updated_at": "2026-08-11T12:05:03Z",
-          "run_started_at": "2026-08-11T12:03:11Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31489400156",
-          "jobs": [
-            {
-              "name": "Analyze (python)",
-              "conclusion": "success",
-              "duration_sec": 57,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31489400156/job/93772073209"
-            },
-            {
-              "name": "Analyze (go)",
-              "conclusion": "success",
-              "duration_sec": 107,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31489400156/job/93772073249"
-            }
-          ],
-          "run_attempt": 1
         }
       ]
     },
@@ -5947,34 +5939,62 @@
       "avg_duration_secs": 13.25,
       "weather_history": [
         "action_required",
-        "action_required",
+        "success",
+        "success",
         "success",
         "action_required",
-        "success",
-        "success",
-        "success"
+        "action_required",
+        "action_required"
       ],
       "last_run": {
-        "id": 31724157660,
+        "id": 31833216034,
         "name": "Dependency Review",
         "status": "completed",
-        "conclusion": "success",
-        "run_number": 1439,
-        "created_at": "2026-08-13T17:07:51Z",
-        "updated_at": "2026-08-13T17:09:58Z",
-        "run_started_at": "2026-08-13T17:07:51Z",
-        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31724157660",
-        "jobs": [
-          {
-            "name": "dependency-review",
-            "conclusion": "success",
-            "duration_sec": 15,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31724157660/job/94528255666"
-          }
-        ],
+        "conclusion": "action_required",
+        "run_number": 1442,
+        "created_at": "2026-08-14T19:25:58Z",
+        "updated_at": "2026-08-14T19:25:58Z",
+        "run_started_at": "2026-08-14T19:25:58Z",
+        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31833216034",
         "run_attempt": 1
       },
       "recent_runs": [
+        {
+          "id": 31833216034,
+          "name": "Dependency Review",
+          "status": "completed",
+          "conclusion": "action_required",
+          "run_number": 1442,
+          "created_at": "2026-08-14T19:25:58Z",
+          "updated_at": "2026-08-14T19:25:58Z",
+          "run_started_at": "2026-08-14T19:25:58Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31833216034",
+          "run_attempt": 1
+        },
+        {
+          "id": 31805812803,
+          "name": "Dependency Review",
+          "status": "completed",
+          "conclusion": "action_required",
+          "run_number": 1441,
+          "created_at": "2026-08-14T13:40:25Z",
+          "updated_at": "2026-08-14T13:40:25Z",
+          "run_started_at": "2026-08-14T13:40:25Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31805812803",
+          "run_attempt": 1
+        },
+        {
+          "id": 31797311608,
+          "name": "Dependency Review",
+          "status": "completed",
+          "conclusion": "action_required",
+          "run_number": 1440,
+          "created_at": "2026-08-14T11:42:39Z",
+          "updated_at": "2026-08-14T11:42:39Z",
+          "run_started_at": "2026-08-14T11:42:39Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31797311608",
+          "run_attempt": 1
+        },
         {
           "id": 31724157660,
           "name": "Dependency Review",
@@ -6209,42 +6229,6 @@
           "updated_at": "2026-08-11T20:07:58Z",
           "run_started_at": "2026-08-11T20:07:58Z",
           "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31531367387",
-          "run_attempt": 1
-        },
-        {
-          "id": 31468922753,
-          "name": "Dependency Review",
-          "status": "completed",
-          "conclusion": "action_required",
-          "run_number": 1419,
-          "created_at": "2026-08-11T07:26:05Z",
-          "updated_at": "2026-08-11T07:26:05Z",
-          "run_started_at": "2026-08-11T07:26:05Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31468922753",
-          "run_attempt": 1
-        },
-        {
-          "id": 31467765415,
-          "name": "Dependency Review",
-          "status": "completed",
-          "conclusion": "action_required",
-          "run_number": 1418,
-          "created_at": "2026-08-11T07:08:34Z",
-          "updated_at": "2026-08-11T07:08:34Z",
-          "run_started_at": "2026-08-11T07:08:34Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31467765415",
-          "run_attempt": 1
-        },
-        {
-          "id": 31461915411,
-          "name": "Dependency Review",
-          "status": "completed",
-          "conclusion": "action_required",
-          "run_number": 1417,
-          "created_at": "2026-08-11T05:31:22Z",
-          "updated_at": "2026-08-11T05:31:22Z",
-          "run_started_at": "2026-08-11T05:31:22Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31461915411",
           "run_attempt": 1
         }
       ]
@@ -6708,7 +6692,7 @@
       "total_runs": 20,
       "failed_runs": 0,
       "failure_rate": 0,
-      "avg_duration_secs": 2.05,
+      "avg_duration_secs": 2.9,
       "weather_history": [
         "skipped",
         "skipped",
@@ -6719,26 +6703,106 @@
         "skipped"
       ],
       "last_run": {
-        "id": 31719523429,
+        "id": 31816280269,
         "name": "PR Takeover on Label",
         "status": "completed",
         "conclusion": "skipped",
-        "run_number": 842,
-        "created_at": "2026-08-13T16:12:52Z",
-        "updated_at": "2026-08-13T16:12:59Z",
-        "run_started_at": "2026-08-13T16:12:52Z",
-        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31719523429",
+        "run_number": 846,
+        "created_at": "2026-08-14T15:48:16Z",
+        "updated_at": "2026-08-14T15:48:26Z",
+        "run_started_at": "2026-08-14T15:48:16Z",
+        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31816280269",
         "jobs": [
           {
             "name": "pr-takeover",
             "conclusion": "skipped",
             "duration_sec": 0,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31719523429/job/94512662007"
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31816280269/job/94818627958"
           }
         ],
         "run_attempt": 1
       },
       "recent_runs": [
+        {
+          "id": 31816280269,
+          "name": "PR Takeover on Label",
+          "status": "completed",
+          "conclusion": "skipped",
+          "run_number": 846,
+          "created_at": "2026-08-14T15:48:16Z",
+          "updated_at": "2026-08-14T15:48:26Z",
+          "run_started_at": "2026-08-14T15:48:16Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31816280269",
+          "jobs": [
+            {
+              "name": "pr-takeover",
+              "conclusion": "skipped",
+              "duration_sec": 0,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31816280269/job/94818627958"
+            }
+          ],
+          "run_attempt": 1
+        },
+        {
+          "id": 31798282298,
+          "name": "PR Takeover on Label",
+          "status": "completed",
+          "conclusion": "skipped",
+          "run_number": 845,
+          "created_at": "2026-08-14T11:57:08Z",
+          "updated_at": "2026-08-14T11:57:09Z",
+          "run_started_at": "2026-08-14T11:57:08Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31798282298",
+          "jobs": [
+            {
+              "name": "pr-takeover",
+              "conclusion": "skipped",
+              "duration_sec": 0,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31798282298/job/94760143505"
+            }
+          ],
+          "run_attempt": 1
+        },
+        {
+          "id": 31798277179,
+          "name": "PR Takeover on Label",
+          "status": "completed",
+          "conclusion": "skipped",
+          "run_number": 844,
+          "created_at": "2026-08-14T11:57:04Z",
+          "updated_at": "2026-08-14T11:57:13Z",
+          "run_started_at": "2026-08-14T11:57:04Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31798277179",
+          "jobs": [
+            {
+              "name": "pr-takeover",
+              "conclusion": "skipped",
+              "duration_sec": 0,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31798277179/job/94760106146"
+            }
+          ],
+          "run_attempt": 1
+        },
+        {
+          "id": 31778963949,
+          "name": "PR Takeover on Label",
+          "status": "completed",
+          "conclusion": "skipped",
+          "run_number": 843,
+          "created_at": "2026-08-14T07:11:11Z",
+          "updated_at": "2026-08-14T07:11:12Z",
+          "run_started_at": "2026-08-14T07:11:11Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31778963949",
+          "jobs": [
+            {
+              "name": "pr-takeover",
+              "conclusion": "skipped",
+              "duration_sec": 0,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31778963949/job/94700345851"
+            }
+          ],
+          "run_attempt": 1
+        },
         {
           "id": 31719523429,
           "name": "PR Takeover on Label",
@@ -7055,86 +7119,6 @@
               "conclusion": "skipped",
               "duration_sec": 0,
               "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31464867154/job/93695573049"
-            }
-          ],
-          "run_attempt": 1
-        },
-        {
-          "id": 31464809756,
-          "name": "PR Takeover on Label",
-          "status": "completed",
-          "conclusion": "skipped",
-          "run_number": 826,
-          "created_at": "2026-08-11T06:22:05Z",
-          "updated_at": "2026-08-11T06:22:05Z",
-          "run_started_at": "2026-08-11T06:22:05Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31464809756",
-          "jobs": [
-            {
-              "name": "pr-takeover",
-              "conclusion": "skipped",
-              "duration_sec": 0,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31464809756/job/93695405815"
-            }
-          ],
-          "run_attempt": 1
-        },
-        {
-          "id": 31464805783,
-          "name": "PR Takeover on Label",
-          "status": "completed",
-          "conclusion": "skipped",
-          "run_number": 825,
-          "created_at": "2026-08-11T06:22:00Z",
-          "updated_at": "2026-08-11T06:22:01Z",
-          "run_started_at": "2026-08-11T06:22:00Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31464805783",
-          "jobs": [
-            {
-              "name": "pr-takeover",
-              "conclusion": "skipped",
-              "duration_sec": 0,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31464805783/job/93695393125"
-            }
-          ],
-          "run_attempt": 1
-        },
-        {
-          "id": 31464680444,
-          "name": "PR Takeover on Label",
-          "status": "completed",
-          "conclusion": "skipped",
-          "run_number": 824,
-          "created_at": "2026-08-11T06:19:53Z",
-          "updated_at": "2026-08-11T06:19:55Z",
-          "run_started_at": "2026-08-11T06:19:53Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31464680444",
-          "jobs": [
-            {
-              "name": "pr-takeover",
-              "conclusion": "skipped",
-              "duration_sec": 0,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31464680444/job/93695023940"
-            }
-          ],
-          "run_attempt": 1
-        },
-        {
-          "id": 31464675728,
-          "name": "PR Takeover on Label",
-          "status": "completed",
-          "conclusion": "skipped",
-          "run_number": 823,
-          "created_at": "2026-08-11T06:19:49Z",
-          "updated_at": "2026-08-11T06:19:50Z",
-          "run_started_at": "2026-08-11T06:19:49Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31464675728",
-          "jobs": [
-            {
-              "name": "pr-takeover",
-              "conclusion": "skipped",
-              "duration_sec": 0,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31464675728/job/93695021333"
             }
           ],
           "run_attempt": 1
@@ -7903,7 +7887,7 @@
       "total_runs": 20,
       "failed_runs": 0,
       "failure_rate": 0,
-      "avg_duration_secs": 99.45,
+      "avg_duration_secs": 100.35,
       "weather_history": [
         "success",
         "success",
@@ -7914,26 +7898,46 @@
         "success"
       ],
       "last_run": {
-        "id": 31696181758,
+        "id": 31822093307,
         "name": "Scorecard supply-chain security",
         "status": "completed",
         "conclusion": "success",
-        "run_number": 290,
-        "created_at": "2026-08-13T11:35:29Z",
-        "updated_at": "2026-08-13T11:36:29Z",
-        "run_started_at": "2026-08-13T11:35:29Z",
-        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31696181758",
+        "run_number": 291,
+        "created_at": "2026-08-14T17:01:47Z",
+        "updated_at": "2026-08-14T17:02:50Z",
+        "run_started_at": "2026-08-14T17:01:47Z",
+        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31822093307",
         "jobs": [
           {
             "name": "Scorecard analysis",
             "conclusion": "success",
-            "duration_sec": 57,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31696181758/job/94434362184"
+            "duration_sec": 56,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31822093307/job/94837517291"
           }
         ],
         "run_attempt": 1
       },
       "recent_runs": [
+        {
+          "id": 31822093307,
+          "name": "Scorecard supply-chain security",
+          "status": "completed",
+          "conclusion": "success",
+          "run_number": 291,
+          "created_at": "2026-08-14T17:01:47Z",
+          "updated_at": "2026-08-14T17:02:50Z",
+          "run_started_at": "2026-08-14T17:01:47Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31822093307",
+          "jobs": [
+            {
+              "name": "Scorecard analysis",
+              "conclusion": "success",
+              "duration_sec": 56,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31822093307/job/94837517291"
+            }
+          ],
+          "run_attempt": 1
+        },
         {
           "id": 31696181758,
           "name": "Scorecard supply-chain security",
@@ -8313,26 +8317,6 @@
             }
           ],
           "run_attempt": 1
-        },
-        {
-          "id": 30112026002,
-          "name": "Scorecard supply-chain security",
-          "status": "completed",
-          "conclusion": "success",
-          "run_number": 271,
-          "created_at": "2026-07-24T17:11:29Z",
-          "updated_at": "2026-07-24T17:12:14Z",
-          "run_started_at": "2026-07-24T17:11:29Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/30112026002",
-          "jobs": [
-            {
-              "name": "Scorecard analysis",
-              "conclusion": "success",
-              "duration_sec": 41,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/30112026002/job/89543611044"
-            }
-          ],
-          "run_attempt": 1
         }
       ]
     },
@@ -8344,7 +8328,7 @@
       "total_runs": 20,
       "failed_runs": 0,
       "failure_rate": 0,
-      "avg_duration_secs": 25.85,
+      "avg_duration_secs": 25.9,
       "weather_history": [
         "success",
         "success",
@@ -8355,26 +8339,46 @@
         "success"
       ],
       "last_run": {
-        "id": 31756607270,
+        "id": 31852488795,
         "name": "Automatically close stale PRs",
         "status": "completed",
         "conclusion": "success",
-        "run_number": 523,
-        "created_at": "2026-08-14T00:13:08Z",
-        "updated_at": "2026-08-14T00:13:36Z",
-        "run_started_at": "2026-08-14T00:13:08Z",
-        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31756607270",
+        "run_number": 524,
+        "created_at": "2026-08-15T00:04:44Z",
+        "updated_at": "2026-08-15T00:05:08Z",
+        "run_started_at": "2026-08-15T00:04:44Z",
+        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31852488795",
         "jobs": [
           {
             "name": "stale",
             "conclusion": "success",
-            "duration_sec": 25,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31756607270/job/94633580498"
+            "duration_sec": 21,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31852488795/job/94930724592"
           }
         ],
         "run_attempt": 1
       },
       "recent_runs": [
+        {
+          "id": 31852488795,
+          "name": "Automatically close stale PRs",
+          "status": "completed",
+          "conclusion": "success",
+          "run_number": 524,
+          "created_at": "2026-08-15T00:04:44Z",
+          "updated_at": "2026-08-15T00:05:08Z",
+          "run_started_at": "2026-08-15T00:04:44Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31852488795",
+          "jobs": [
+            {
+              "name": "stale",
+              "conclusion": "success",
+              "duration_sec": 21,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31852488795/job/94930724592"
+            }
+          ],
+          "run_attempt": 1
+        },
         {
           "id": 31756607270,
           "name": "Automatically close stale PRs",
@@ -8751,26 +8755,6 @@
               "conclusion": "success",
               "duration_sec": 18,
               "html_url": "https://github.com/urunc-dev/urunc/actions/runs/30227265652/job/89859431961"
-            }
-          ],
-          "run_attempt": 1
-        },
-        {
-          "id": 30181034650,
-          "name": "Automatically close stale PRs",
-          "status": "completed",
-          "conclusion": "success",
-          "run_number": 504,
-          "created_at": "2026-07-26T00:22:02Z",
-          "updated_at": "2026-07-26T00:22:25Z",
-          "run_started_at": "2026-07-26T00:22:02Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/30181034650",
-          "jobs": [
-            {
-              "name": "stale",
-              "conclusion": "success",
-              "duration_sec": 19,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/30181034650/job/89737453270"
             }
           ],
           "run_attempt": 1
