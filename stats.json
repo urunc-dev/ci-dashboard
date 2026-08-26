@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T00:23:18.997239546Z",
+  "generated_at": "2026-08-26T00:24:45.68958774Z",
   "repo": "urunc-dev/urunc",
-  "overall_health": 86.19047619047619,
+  "overall_health": 85.95238095238095,
   "workflows": [
     {
       "name": "add-git-trailers",
@@ -2115,129 +2115,259 @@
       "critical": false,
       "required": false,
       "total_runs": 20,
-      "failed_runs": 8,
-      "failure_rate": 40,
-      "avg_duration_secs": 512.65,
+      "failed_runs": 9,
+      "failure_rate": 45,
+      "avg_duration_secs": 508.1,
       "weather_history": [
-        "success",
         "success",
         "success",
         "success",
         "failure",
         "success",
-        "success"
+        "success",
+        "failure"
       ],
       "last_run": {
-        "id": 32676393235,
+        "id": 32793184654,
         "name": "urunc CI (nightly)",
         "status": "completed",
-        "conclusion": "success",
-        "run_number": 310,
-        "created_at": "2026-08-24T00:20:53Z",
-        "updated_at": "2026-08-24T00:30:42Z",
-        "run_started_at": "2026-08-24T00:20:53Z",
-        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32676393235",
+        "conclusion": "failure",
+        "run_number": 311,
+        "created_at": "2026-08-25T00:19:58Z",
+        "updated_at": "2026-08-25T00:26:52Z",
+        "run_started_at": "2026-08-25T00:19:58Z",
+        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32793184654",
         "jobs": [
           {
-            "name": "Build / build (arm64, ubuntu-22.04-arm)",
+            "name": "Build / build (amd64, ubuntu-22.04)",
             "conclusion": "success",
-            "duration_sec": 45,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32676393235/job/97285214173"
+            "duration_sec": 53,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32793184654/job/97638907982"
           },
           {
             "name": "Unit tests / unit-test (arm64, ubuntu-22.04-arm)",
             "conclusion": "success",
-            "duration_sec": 31,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32676393235/job/97285214326"
-          },
-          {
-            "name": "Build / build (amd64, ubuntu-22.04)",
-            "conclusion": "success",
-            "duration_sec": 68,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32676393235/job/97285214345"
+            "duration_sec": 28,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32793184654/job/97638908119"
           },
           {
             "name": "Unit tests / unit-test (amd64, ubuntu-22.04)",
             "conclusion": "success",
-            "duration_sec": 45,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32676393235/job/97285214365"
+            "duration_sec": 44,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32793184654/job/97638908145"
           },
           {
-            "name": "urunc-deploy test / urunc-deploy (amd64, ubuntu-22.04)",
+            "name": "Build / build (arm64, ubuntu-22.04-arm)",
             "conclusion": "success",
-            "duration_sec": 92,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32676393235/job/97285382104"
+            "duration_sec": 48,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32793184654/job/97638908235"
           },
           {
             "name": "urunc-deploy test / urunc-deploy (arm64, ubuntu-22.04-arm)",
             "conclusion": "success",
-            "duration_sec": 81,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32676393235/job/97285382105"
+            "duration_sec": 75,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32793184654/job/97639115943"
+          },
+          {
+            "name": "E2E test / VM test (arm64, test_nerdctl)",
+            "conclusion": "cancelled",
+            "duration_sec": 46,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32793184654/job/97639115971"
           },
           {
             "name": "Kubernetes test / Kubernetes test (arm64, ubuntu-22.04-arm)",
             "conclusion": "success",
-            "duration_sec": 261,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32676393235/job/97285382142"
-          },
-          {
-            "name": "E2E test / VM test (amd64, test_crictl)",
-            "conclusion": "success",
-            "duration_sec": 300,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32676393235/job/97285382174"
-          },
-          {
-            "name": "E2E test / VM test (arm64, test_ctr)",
-            "conclusion": "success",
-            "duration_sec": 203,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32676393235/job/97285382180"
+            "duration_sec": 259,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32793184654/job/97639115991"
           },
           {
             "name": "E2E test / VM test (arm64, test_docker)",
-            "conclusion": "success",
-            "duration_sec": 150,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32676393235/job/97285382182"
+            "conclusion": "failure",
+            "duration_sec": 37,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32793184654/job/97639115994"
           },
           {
-            "name": "E2E test / VM test (amd64, test_ctr)",
-            "conclusion": "success",
-            "duration_sec": 312,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32676393235/job/97285382194"
-          },
-          {
-            "name": "E2E test / VM test (arm64, test_crictl)",
-            "conclusion": "success",
-            "duration_sec": 163,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32676393235/job/97285382201"
+            "name": "E2E test / VM test (arm64, test_ctr)",
+            "conclusion": "cancelled",
+            "duration_sec": 45,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32793184654/job/97639115996"
           },
           {
             "name": "E2E test / VM test (amd64, test_docker)",
-            "conclusion": "success",
-            "duration_sec": 374,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32676393235/job/97285382231"
+            "conclusion": "cancelled",
+            "duration_sec": 56,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32793184654/job/97639115997"
           },
           {
-            "name": "E2E test / VM test (arm64, test_nerdctl)",
-            "conclusion": "success",
-            "duration_sec": 247,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32676393235/job/97285382238"
+            "name": "E2E test / VM test (amd64, test_nerdctl)",
+            "conclusion": "cancelled",
+            "duration_sec": 49,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32793184654/job/97639116006"
           },
           {
             "name": "Kubernetes test / Kubernetes test (amd64, ubuntu-22.04)",
             "conclusion": "success",
-            "duration_sec": 309,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32676393235/job/97285382244"
+            "duration_sec": 356,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32793184654/job/97639116035"
           },
           {
-            "name": "E2E test / VM test (amd64, test_nerdctl)",
+            "name": "E2E test / VM test (amd64, test_ctr)",
+            "conclusion": "cancelled",
+            "duration_sec": 52,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32793184654/job/97639116048"
+          },
+          {
+            "name": "E2E test / VM test (amd64, test_crictl)",
+            "conclusion": "cancelled",
+            "duration_sec": 50,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32793184654/job/97639116051"
+          },
+          {
+            "name": "E2E test / VM test (arm64, test_crictl)",
+            "conclusion": "cancelled",
+            "duration_sec": 50,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32793184654/job/97639116055"
+          },
+          {
+            "name": "urunc-deploy test / urunc-deploy (amd64, ubuntu-22.04)",
             "conclusion": "success",
-            "duration_sec": 515,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32676393235/job/97285382251"
+            "duration_sec": 74,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32793184654/job/97639116234"
+          }
+        ],
+        "failed_jobs": [
+          {
+            "id": 97639115994,
+            "name": "E2E test / VM test (arm64, test_docker)",
+            "conclusion": "failure",
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32793184654/job/97639115994",
+            "log_snippet": "[Build Failure] — 1 signal(s) found\n────────────────────────────────────────────────\n-\u003e Build Failure\n  ##[error]Process completed with exit code 5.",
+            "raw_log": "Added go to the path\nSuccessfully set up Go version 1.26.4\ngo version go1.26.4 linux/arm64\n2026-08-25T00:21:09.6886279Z\n##[group]go env\nAR='ar'\nCC='gcc'\nCGO_CFLAGS='-O2 -g'\nCGO_CPPFLAGS=''\nCGO_CXXFLAGS='-O2 -g'\nCGO_ENABLED='1'\nCGO_FFLAGS='-O2 -g'\nCGO_LDFLAGS='-O2 -g'\nCXX='g++'\nGCCGO='gccgo'\nGO111MODULE=''\nGOARCH='arm64'\nGOARM64='v8.0'\nGOAUTH='netrc'\nGOBIN=''\nGOCACHE='/home/runner/.cache/go-build'\nGOCACHEPROG=''\nGODEBUG=''\nGOENV='/home/runner/.config/go/env'\nGOEXE=''\nGOEXPERIMENT=''\nGOFIPS140='off'\nGOFLAGS=''\nGOGCCFLAGS='-fPIC -pthread -Wl,--no-gc-sections -fmessage-length=0 -ffile-prefix-map=/tmp/go-build3410794948=/tmp/go-build -gno-record-gcc-switches'\nGOHOSTARCH='arm64'\nGOHOSTOS='linux'\nGOINSECURE=''\nGOMOD='/home/runner/work/urunc/urunc/go.mod'\nGOMODCACHE='/home/runner/go/pkg/mod'\nGONOPROXY=''\nGONOSUMDB=''\nGOOS='linux'\nGOPATH='/home/runner/go'\nGOPRIVATE=''\nGOPROXY='https://proxy.golang.org,direct'\nGOSUMDB='sum.golang.org'\nGOTELEMETRY='local'\nGOTELEMETRYDIR='/home/runner/.config/go/telemetry'\nGOTMPDIR=''\nGOTOOLCHAIN='local'\nGOVCS=''\nGOVERSION='go1.26.4'\nGOWORK=''\nPKG_CONFIG='pkg-config'\n2026-08-25T00:21:09.7928662Z\n##[endgroup]\n##[group]Run sudo apt-get update\nsudo apt-get update\nsudo apt-get install -y git wget build-essential libseccomp-dev pkg-config bc make qemu-system jq\nwget https://s3.nbfc.io/nbfc-assets/github/urunc/bin/virtiofsd\nsudo chmod +x virtiofsd\nsudo mv virtiofsd /usr/libexec/virtiofsd\nshell: /usr/bin/bash -e {0}\nenv:\nGOTOOLCHAIN: local\n##[endgroup]\nHit:1 https://packages.microsoft.com/repos/azure-cli jammy InRelease\nGet:2 https://packages.microsoft.com/ubuntu/22.04/prod jammy InRelease [3632 B]\nGet:3 https://packages.microsoft.com/ubuntu/22.04/prod jammy/main all Packages [1331 B]\nGet:4 https://packages.microsoft.com/ubuntu/22.04/prod jammy/main amd64 Packages [687 kB]\nGet:5 https://packages.microsoft.com/ubuntu/22.04/prod jammy/main arm64 Packages [456 kB]\nGet:6 https://packages.microsoft.com/ubuntu/22.04/prod jammy/main armhf Packages [23.1 kB]\nHit:7 http://ports.ubuntu.com/ubuntu-ports jammy InRelease\nGet:8 http://ports.ubuntu.com/ubuntu-ports jammy-updates InRelease [128 kB]\nGet:9 http://ports.ubuntu.com/ubuntu-ports jammy-backports InRelease [127 kB]\nGet:10 http://ports.ubuntu.com/ubuntu-ports jammy-security InRelease [129 kB]\nGet:11 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 Packages [3625 kB]\nGet:12 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main Translation-en [559 kB]\nGet:13 http://ports.ubuntu.com/ubuntu-ports jammy-updates/restricted arm64 Packages [6662 kB]\nGet:14 http://ports.ubuntu.com/ubuntu-ports jammy-updates/restricted Translation-en [1249 kB]\nGet:15 http://ports.ubuntu.com/ubuntu-ports jammy-updates/universe arm64 Packages [1350 kB]\nGet:16 http://ports.ubuntu.com/ubuntu-ports jammy-updates/universe Translation-en [322 kB]\nGet:17 http://ports.ubuntu.com/ubuntu-ports jammy-security/main arm64 Packages [3366 kB]\nGet:18 http://ports.ubuntu.com/ubuntu-ports jammy-security/main Translation-en [490 kB]\nGet:19 http://ports.ubuntu.com/ubuntu-ports jammy-security/restricted arm64 Packages [6402 kB]\nGet:20 http://ports.ubuntu.com/ubuntu-ports jammy-security/restricted Translation-en [1204 kB]\nGet:21 http://ports.ubuntu.com/ubuntu-ports jammy-security/universe arm64 Packages [1121 kB]\nGet:22 http://ports.ubuntu.com/ubuntu-ports jammy-security/universe Translation-en [235 kB]\nFetched 28.1 MB in 2s (11.3 MB/s)\nReading package lists...\nReading package lists...\nBuilding dependency tree...\nReading state information...\nbc is already the newest version (1.07.1-3build1).\nbc set to manually installed.\nmake is already the newest version (4.3-4.1build1).\npkg-config is already the newest version (0.29.2-1ubuntu3).\njq is already the newest version (1.6-2.1ubuntu3.2).\ngit is already the newest version (1:2.55.0-0ppa1~ubuntu22.04.2).\nThe following additional packages will be installed:\ncpu-checker gstreamer1.0-plugins-base gstreamer1.0-plugins-good\ngstreamer1.0-x ibverbs-providers ipxe-qemu ipxe-qemu-256k-compat-efi-roms\nlibaa1 libasyncns0 libavc1394-0 libboost-iostreams1.74.0\nlibboost-thread1.74.0 libbrlapi0.8 libcaca0 libcacard0 libcdparanoia0\nlibdaxctl1 libdecor-0-0 libdecor-0-plugin-1-cairo libdv4 libflac8 libgfapi0\nlibgfrpc0 libgfxdr0 libglusterfs0 libgstreamer-plugins-base1.0-0\nlibgstreamer-plugins-good1.0-0 libibverbs1 libiec61883-0 libiscsi7\nlibjack-jackd2-0 libmp3lame0 libmpg123-0 libndctl6 libnl-route-3-200\nlibopus0 liborc-0.4-0 libpcsclite1 libpmem1 libpmemobj1 libpulse0 librados2\nlibraw1394-11 librbd1 librdmacm1 libsamplerate0 libsdl2-2.0-0 libshout3\nlibslirp0 libsndfile1 libspeex1 libspice-server1 libtag1v5 libtag1v5-vanilla\nlibtheora0 libtwolame0 liburing2 libusbredirparser1 libv4l-0 libv4lconvert0\nlibvirglrenderer1 libvisual-0.4-0 libvorbisenc2 libvpx7 libvte-2.91-0\nlibvte-2.91-common libwavpack1 libxv1 ovmf qemu-block-extra qemu-efi-aarch64\nqemu-efi-arm qemu-system-arm qemu-system-common qemu-system-data\nqemu-system-gui qemu-system-mips qemu-system-misc qemu-system-ppc\nqemu-system-s390x qemu-system-sparc qemu-system-x86 qemu-utils seabios\nSuggested packages:\ngvfs libdv-bin oss-compat libvisual-0.4-plugins jackd2 opus-tools pcscd\npulseaudio libraw1394-doc xdg-utils seccomp speex gstreamer1.0-libav\ngstreamer1.0-plugins-ugly samba vde2 debootstrap\nThe following NEW packages will be installed:\nbuild-essential cpu-checker gstreamer1.0-plugins-base\ngstreamer1.0-plugins-good gstreamer1.0-x ibverbs-providers ipxe-qemu\nipxe-qemu-256k-compat-efi-roms libaa1 libasyncns0 libavc1394-0\nlibboost-iostreams1.74.0 libboost-thread1.74.0 libbrlapi0.8 libcaca0\nlibcacard0 libcdparanoia0 libdaxctl1 libdecor-0-0 libdecor-0-plugin-1-cairo\nlibdv4 libflac8 libgfapi0 libgfrpc0 libgfxdr0 libglusterfs0\nlibgstreamer-plugins-base1.0-0 libgstreamer-plugins-good1.0-0 libibverbs1\nlibiec61883-0 libiscsi7 libjack-jackd2-0 libmp3lame0 libmpg123-0 libndctl6\nlibnl-route-3-200 libopus0 liborc-0.4-0 libpcsclite1 libpmem1 libpmemobj1\nlibpulse0 librados2 libraw1394-11 librbd1 librdmacm1 libsamplerate0\nlibsdl2-2.0-0 libseccomp-dev libshout3 libslirp0 libsndfile1 libspeex1\nlibspice-server1 libtag1v5 libtag1v5-vanilla libtheora0 libtwolame0\nliburing2 libusbredirparser1 libv4l-0 libv4lconvert0 libvirglrenderer1\nlibvisual-0.4-0 libvorbisenc2 libvpx7 libvte-2.91-0 libvte-2.91-common\nlibwavpack1 libxv1 ovmf qemu-block-extra qemu-efi-aarch64 qemu-efi-arm\nqemu-system qemu-system-arm qemu-system-common qemu-system-data\nqemu-system-gui qemu-system-mips qemu-system-misc qemu-system-ppc\nqemu-system-s390x qemu-system-sparc qemu-system-x86 qemu-utils seabios\nThe following packages will be upgraded:\nwget\n1 upgraded, 87 newly installed, 0 to remove and 28 not upgraded.\nNeed to get 123 MB of archives.\nAfter this operation, 883 MB of additional disk space will be used.\nGet:1 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 wget arm64 1.21.2-2ubuntu1.5 [335 kB]\nGet:2 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 build-essential arm64 12.9ubuntu3 [4740 B]\nGet:3 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 cpu-checker arm64 0.7-1.3build1 [6784 B]\nGet:4 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libcdparanoia0 arm64 3.10.2+debian-14build2 [48.1 kB]\nGet:5 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 liborc-0.4-0 arm64 1:0.4.32-2ubuntu0.1 [222 kB]\nGet:6 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libgstreamer-plugins-base1.0-0 arm64 1.20.1-1ubuntu0.6 [793 kB]\nGet:7 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libopus0 arm64 1.3.1-0.1build2 [195 kB]\nGet:8 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libtheora0 arm64 1.1.1+dfsg.1-15ubuntu4 [223 kB]\nGet:9 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libvisual-0.4-0 arm64 0.4.0-17build2 [105 kB]\nGet:10 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libvorbisenc2 arm64 1.3.7-1build2 [82.3 kB]\nGet:11 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 gstreamer1.0-plugins-base arm64 1.20.1-1ubuntu0.6 [656 kB]\nGet:12 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libaa1 arm64 1.4p5-50build1 [51.2 kB]\nGet:13 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libraw1394-11 arm64 2.1.2-2build2 [27.2 kB]\nGet:14 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libavc1394-0 arm64 0.5.4-5build2 [16.6 kB]\nGet:15 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libcaca0 arm64 0.99.beta19-2.2ubuntu4.2 [221 kB]\nGet:16 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libdv4 arm64 1.0.0-14build1 [59.2 kB]\nGet:17 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libflac8 arm64 1.3.3-2ubuntu0.2 [96.6 kB]\nGet:18 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libgstreamer-plugins-good1.0-0 arm64 1.20.3-0ubuntu1.7 [29.3 kB]\nGet:19 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libiec61883-0 arm64 1.2.0-4build3 [24.9 kB]\nGet:20 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libsamplerate0 arm64 0.2.2-1build1 [1359 kB]\nGet:21 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libjack-jackd2-0 arm64 1.9.20~dfsg-1 [284 kB]\nGet:22 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libmp3lame0 arm64 3.100-3build2 [142 kB]\nGet:23 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libmpg123-0 arm64 1.29.3-1ubuntu0.1 [170 kB]\nGet:24 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libasyncns0 arm64 0.8-6build2 [12.5 kB]\nGet:25 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libsndfile1 arm64 1.0.31-2ubuntu0.2 [197 kB]\nGet:26 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libpulse0 arm64 1:15.99.1+dfsg1-1ubuntu2.2 [265 kB]\nGet:27 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libspeex1 arm64 1.2~rc1.2-1.1ubuntu3 [52.6 kB]\nGet:28 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libshout3 arm64 2.4.5-1build3 [53.9 kB]\nGet:29 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libtag1v5-vanilla arm64 1.11.1+dfsg.1-3ubuntu3 [286 kB]\nGet:30 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libtag1v5 arm64 1.11.1+dfsg.1-3ubuntu3 [11.5 kB]\nGet:31 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libtwolame0 arm64 0.4.0-2build2 [51.7 kB]\nGet:32 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libv4lconvert0 arm64 1.22.1-2build1 [82.1 kB]\nGet:33 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libv4l-0 arm64 1.22.1-2build1 [44.4 kB]\nGet:34 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libvpx7 arm64 1.11.0-2ubuntu2.5 [1038 kB]\nGet:35 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libwavpack1 arm64 5.4.0-1build2 [77.6 kB]\nGet:36 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 gstreamer1.0-plugins-good arm64 1.20.3-0ubuntu1.7 [1866 kB]\nGet:37 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libxv1 arm64 2:1.0.11-1build2 [11.0 kB]\nGet:38 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 gstreamer1.0-x arm64 1.20.1-1ubuntu0.6 [81.3 kB]\nGet:39 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libnl-route-3-200 arm64 3.5.0-0.1 [173 kB]\nGet:40 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libibverbs1 arm64 39.0-1 [66.3 kB]\nGet:41 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 ibverbs-providers arm64 39.0-1 [334 kB]\nGet:42 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 ipxe-qemu all 1.21.1+git-20220113.fbbdc3926-0ubuntu1 [1569 kB]\nGet:43 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 ipxe-qemu-256k-compat-efi-roms all 1.0.0+git-20150424.a25a16d-0ubuntu4 [552 kB]\nGet:44 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libboost-iostreams1.74.0 arm64 1.74.0-14ubuntu3 [243 kB]\nGet:45 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libboost-thread1.74.0 arm64 1.74.0-14ubuntu3 [260 kB]\nGet:46 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libbrlapi0.8 arm64 6.4-4ubuntu3 [27.4 kB]\nGet:47 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libpcsclite1 arm64 1.9.5-3ubuntu1 [20.0 kB]\nGet:48 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libcacard0 arm64 1:2.8.0-3build2 [37.4 kB]\nGet:49 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libdaxctl1 arm64 72.1-1 [18.9 kB]\nGet:50 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libdecor-0-0 arm64 0.1.0-3build1 [14.9 kB]\nGet:51 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libdecor-0-plugin-1-cairo arm64 0.1.0-3build1 [18.8 kB]\nGet:52 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libgfxdr0 arm64 10.1-1ubuntu0.2 [21.5 kB]\nGet:53 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libglusterfs0 arm64 10.1-1ubuntu0.2 [276 kB]\nGet:54 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libgfrpc0 arm64 10.1-1ubuntu0.2 [46.7 kB]\nGet:55 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libgfapi0 arm64 10.1-1ubuntu0.2 [74.4 kB]\nGet:56 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 librdmacm1 arm64 39.0-1 [70.4 kB]\nGet:57 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libiscsi7 arm64 1.19.0-3build2 [69.1 kB]\nGet:58 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libndctl6 arm64 72.1-1 [56.7 kB]\nGet:59 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libpmem1 arm64 1.11.1-3build1 [34.7 kB]\nGet:60 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libpmemobj1 arm64 1.11.1-3build1 [123 kB]\nGet:61 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 librados2 arm64 17.2.9-0ubuntu0.22.04.3 [3455 kB]\nGet:62 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 librbd1 arm64 17.2.9-0ubuntu0.22.04.3 [3309 kB]\nGet:63 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libsdl2-2.0-0 arm64 2.0.20+dfsg-2ubuntu1.22.04.1 [558 kB]\nGet:64 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libseccomp-dev arm64 2.5.3-2ubuntu3~22.04.1 [93.1 kB]\nGet:65 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libslirp0 arm64 4.6.1-1ubuntu0.2 [60.9 kB]\nGet:66 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libspice-server1 arm64 0.15.0-2ubuntu4 [340 kB]\nGet:67 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 liburing2 arm64 2.1-2build1 [10.0 kB]\nGet:68 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libusbredirparser1 arm64 0.11.0-2build1 [15.9 kB]\nGet:69 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libvirglrenderer1 arm64 0.9.1-1~exp1ubuntu2 [188 kB]\nGet:70 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libvte-2.91-common arm64 0.68.0-1ubuntu0.1 [9326 B]\nGet:71 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libvte-2.91-0 arm64 0.68.0-1ubuntu0.1 [198 kB]\nGet:72 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 qemu-system-common arm64 1:6.2+dfsg-2ubuntu6.31 [1940 kB]\nGet:73 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 qemu-system-data all 1:6.2+dfsg-2ubuntu6.31 [1430 kB]\nGet:74 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 seabios all 1.15.0-1 [174 kB]\nGet:75 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 qemu-system-x86 arm64 1:6.2+dfsg-2ubuntu6.31 [7284 kB]\nGet:76 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 qemu-system-arm arm64 1:6.2+dfsg-2ubuntu6.31 [9400 kB]\nGet:77 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 qemu-system-mips arm64 1:6.2+dfsg-2ubuntu6.31 [14.0 MB]\nGet:78 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 qemu-system-ppc arm64 1:6.2+dfsg-2ubuntu6.31 [7772 kB]\nGet:79 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 qemu-system-sparc arm64 1:6.2+dfsg-2ubuntu6.31 [5214 kB]\nGet:80 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 qemu-system-s390x arm64 1:6.2+dfsg-2ubuntu6.31 [2648 kB]\nGet:81 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 qemu-system-misc arm64 1:6.2+dfsg-2ubuntu6.31 [38.2 MB]\nGet:82 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 qemu-utils arm64 1:6.2+dfsg-2ubuntu6.31 [1389 kB]\nGet:83 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 qemu-block-extra arm64 1:6.2+dfsg-2ubuntu6.31 [65.7 kB]\nGet:84 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 qemu-system arm64 1:6.2+dfsg-2ubuntu6.31 [12.7 kB]\nGet:85 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 qemu-system-gui arm64 1:6.2+dfsg-2ubuntu6.31 [211 kB]\nGet:86 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 ovmf all 2022.02-3ubuntu0.22.04.6 [7625 kB]\nGet:87 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 qemu-efi-aarch64 all 2022.02-3ubuntu0.22.04.6 [2603 kB]\nGet:88 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 qemu-efi-arm all 2022.02-3ubuntu0.22.04.6 [1308 kB]\nFetched 123 MB in 2s (69.0 MB/s)\n(Reading database ...\n(Reading database ... 5%\n(Reading database ... 10%\n(Reading database ... 15%\n(Reading database ... 20%\n(Reading database ... 25%\n(Reading database ... 30%\n(Reading database ... 35%\n(Reading database ... 40%\n(Reading database ... 45%\n(Reading database ... 50%\n(Reading database ... 55%\n(Reading database ... 60%\n(Reading database ... 65%\n(Reading database ... 70%\n(Reading database ... 75%\n(Reading database ... 80%\n(Reading database ... 85%\n(Reading database ... 90%\n(Reading database ... 95%\n(Reading database ... 100%\n(Reading database ... 200059 files and directories currently installed.)\nPreparing to unpack .../00-wget_1.21.2-2ubuntu1.5_arm64.deb ...\nUnpacking wget (1.21.2-2ubuntu1.5) over (1.21.2-2ubuntu1.4) ...\nSelecting previously unselected package build-essential.\nPreparing to unpack .../01-build-essential_12.9ubuntu3_arm64.deb ...\nUnpacking build-essential (12.9ubuntu3) ...\nSelecting previously unselected package cpu-checker.\nPreparing to unpack .../02-cpu-checker_0.7-1.3build1_arm64.deb ...\nUnpacking cpu-checker (0.7-1.3build1) ...\nSelecting previously unselected package libcdparanoia0:arm64.\nPreparing to unpack .../03-libcdparanoia0_3.10.2+debian-14build2_arm64.deb ...\nUnpacking libcdparanoia0:arm64 (3.10.2+debian-14build2) ...\nSelecting previously unselected package liborc-0.4-0:arm64.\nPreparing to unpack .../04-liborc-0.4-0_1%3a0.4.32-2ubuntu0.1_arm64.deb ...\nUnpacking liborc-0.4-0:arm64 (1:0.4.32-2ubuntu0.1) ...\nSelecting previously unselected package libgstreamer-plugins-base1.0-0:arm64.\nPreparing to unpack .../05-libgstreamer-plugins-base1.0-0_1.20.1-1ubuntu0.6_arm64.deb ...\nUnpacking libgstreamer-plugins-base1.0-0:arm64 (1.20.1-1ubuntu0.6) ...\nSelecting previously unselected package libopus0:arm64.\nPreparing to unpack .../06-libopus0_1.3.1-0.1build2_arm64.deb ...\nUnpacking libopus0:arm64 (1.3.1-0.1build2) ...\nSelecting previously unselected package libtheora0:arm64.\nPreparing to unpack .../07-libtheora0_1.1.1+dfsg.1-15ubuntu4_arm64.deb ...\nUnpacking libtheora0:arm64 (1.1.1+dfsg.1-15ubuntu4) ...\nSelecting previously unselected package libvisual-0.4-0:arm64.\nPreparing to unpack .../08-libvisual-0.4-0_0.4.0-17build2_arm64.deb ...\nUnpacking libvisual-0.4-0:arm64 (0.4.0-17build2) ...\nSelecting previously unselected package libvorbisenc2:arm64.\nPreparing to unpack .../09-libvorbisenc2_1.3.7-1build2_arm64.deb ...\nUnpacking libvorbisenc2:arm64 (1.3.7-1build2) ...\nSelecting previously unselected package gstreamer1.0-plugins-base:arm64.\nPreparing to unpack .../10-gstreamer1.0-plugins-base_1.20.1-1ubuntu0.6_arm64.deb ...\nUnpacking gstreamer1.0-plugins-base:arm64 (1.20.1-1ubuntu0.6) ...\nSelecting previously unselected package libaa1:arm64.\nPreparing to unpack .../11-libaa1_1.4p5-50build1_arm64.deb ...\nUnpacking libaa1:arm64 (1.4p5-50build1) ...\nSelecting previously unselected package libraw1394-11:arm64.\nPreparing to unpack .../12-libraw1394-11_2.1.2-2build2_arm64.deb ...\nUnpacking libraw1394-11:arm64 (2.1.2-2build2) ...\nSelecting previously unselected package libavc1394-0:arm64.\nPreparing to unpack .../13-libavc1394-0_0.5.4-5build2_arm64.deb ...\nUnpacking libavc1394-0:arm64 (0.5.4-5build2) ...\nSelecting previously unselected package libcaca0:arm64.\nPreparing to unpack .../14-libcaca0_0.99.beta19-2.2ubuntu4.2_arm64.deb ...\nUnpacking libcaca0:arm64 (0.99.beta19-2.2ubuntu4.2) ...\nSelecting previously unselected package libdv4:arm64.\nPreparing to unpack .../15-libdv4_1.0.0-14build1_arm64.deb ...\nUnpacking libdv4:arm64 (1.0.0-14build1) ...\nSelecting previously unselected package libflac8:arm64.\nPreparing to unpack .../16-libflac8_1.3.3-2ubuntu0.2_arm64.deb ...\nUnpacking libflac8:arm64 (1.3.3-2ubuntu0.2) ...\nSelecting previously unselected package libgstreamer-plugins-good1.0-0:arm64.\nPreparing to unpack .../17-libgstreamer-plugins-good1.0-0_1.20.3-0ubuntu1.7_arm64.deb ...\nUnpacking libgstreamer-plugins-good1.0-0:arm64 (1.20.3-0ubuntu1.7) ...\nSelecting previously unselected package libiec61883-0:arm64.\nPreparing to unpack .../18-libiec61883-0_1.2.0-4build3_arm64.deb ...\nUnpacking libiec61883-0:arm64 (1.2.0-4build3) ...\nSelecting previously unselected package libsamplerate0:arm64.\nPreparing to unpack .../19-libsamplerate0_0.2.2-1build1_arm64.deb ...\nUnpacking libsamplerate0:arm64 (0.2.2-1build1) ...\nSelecting previously unselected package libjack-jackd2-0:arm64.\nPreparing to unpack .../20-libjack-jackd2-0_1.9.20~dfsg-1_arm64.deb ...\nUnpacking libjack-jackd2-0:arm64 (1.9.20~dfsg-1) ...\nSelecting previously unselected package libmp3lame0:arm64.\nPreparing to unpack .../21-libmp3lame0_3.100-3build2_arm64.deb ...\nUnpacking libmp3lame0:arm64 (3.100-3build2) ...\nSelecting previously unselected package libmpg123-0:arm64.\nPreparing to unpack .../22-libmpg123-0_1.29.3-1ubuntu0.1_arm64.deb ...\nUnpacking libmpg123-0:arm64 (1.29.3-1ubuntu0.1) ...\nSelecting previously unselected package libasyncns0:arm64.\nPreparing to unpack .../23-libasyncns0_0.8-6build2_arm64.deb ...\nUnpacking libasyncns0:arm64 (0.8-6build2) ...\nSelecting previously unselected package libsndfile1:arm64.\nPreparing to unpack .../24-libsndfile1_1.0.31-2ubuntu0.2_arm64.deb ...\nUnpacking libsndfile1:arm64 (1.0.31-2ubuntu0.2) ...\nSelecting previously unselected package libpulse0:arm64.\nPreparing to unpack .../25-libpulse0_1%3a15.99.1+dfsg1-1ubuntu2.2_arm64.deb ...\nUnpacking libpulse0:arm64 (1:15.99.1+dfsg1-1ubuntu2.2) ...\nSelecting previously unselected package libspeex1:arm64.\nPreparing to unpack .../26-libspeex1_1.2~rc1.2-1.1ubuntu3_arm64.deb ...\nUnpacking libspeex1:arm64 (1.2~rc1.2-1.1ubuntu3) ...\nSelecting previously unselected package libshout3:arm64.\nPreparing to unpack .../27-libshout3_2.4.5-1build3_arm64.deb ...\nUnpacking libshout3:arm64 (2.4.5-1build3) ...\nSelecting previously unselected package libtag1v5-vanilla:arm64.\nPreparing to unpack .../28-libtag1v5-vanilla_1.11.1+dfsg.1-3ubuntu3_arm64.deb ...\nUnpacking libtag1v5-vanilla:arm64 (1.11.1+dfsg.1-3ubuntu3) ...\nSelecting previously unselected package libtag1v5:arm64.\nPreparing to unpack .../29-libtag1v5_1.11.1+dfsg.1-3ubuntu3_arm64.deb ...\nUnpacking libtag1v5:arm64 (1.11.1+dfsg.1-3ubuntu3) ...\nSelecting previously unselected package libtwolame0:arm64.\nPreparing to unpack .../30-libtwolame0_0.4.0-2build2_arm64.deb ...\nUnpacking libtwolame0:arm64 (0.4.0-2build2) ...\nSelecting previously unselected package libv4lconvert0:arm64.\nPreparing to unpack .../31-libv4lconvert0_1.22.1-2build1_arm64.deb ...\nUnpacking libv4lconvert0:arm64 (1.22.1-2build1) ...\nSelecting previously unselected package libv4l-0:arm64.\nPreparing to unpack .../32-libv4l-0_1.22.1-2build1_arm64.deb ...\nUnpacking libv4l-0:arm64 (1.22.1-2build1) ...\nSelecting previously unselected package libvpx7:arm64.\nPreparing to unpack .../33-libvpx7_1.11.0-2ubuntu2.5_arm64.deb ...\nUnpacking libvpx7:arm64 (1.11.0-2ubuntu2.5) ...\nSelecting previously unselected package libwavpack1:arm64.\nPreparing to unpack .../34-libwavpack1_5.4.0-1build2_arm64.deb ...\nUnpacking libwavpack1:arm64 (5.4.0-1build2) ...\nSelecting previously unselected package gstreamer1.0-plugins-good:arm64.\nPreparing to unpack .../35-gstreamer1.0-plugins-good_1.20.3-0ubuntu1.7_arm64.deb ...\nUnpacking gstreamer1.0-plugins-good:arm64 (1.20.3-0ubuntu1.7) ...\nSelecting previously unselected package libxv1:arm64.\nPreparing to unpack .../36-libxv1_2%3a1.0.11-1build2_arm64.deb ...\nUnpacking libxv1:arm64 (2:1.0.11-1build2) ...\nSelecting previously unselected package gstreamer1.0-x:arm64.\nPreparing to unpack .../37-gstreamer1.0-x_1.20.1-1ubuntu0.6_arm64.deb ...\nUnpacking gstreamer1.0-x:arm64 (1.20.1-1ubuntu0.6) ...\nSelecting previously unselected package libnl-route-3-200:arm64.\nPreparing to unpack .../38-libnl-route-3-200_3.5.0-0.1_arm64.deb ...\nUnpacking libnl-route-3-200:arm64 (3.5.0-0.1) ...\nSelecting previously unselected package libibverbs1:arm64.\nPreparing to unpack .../39-libibverbs1_39.0-1_arm64.deb ...\nUnpacking libibverbs1:arm64 (39.0-1) ...\nSelecting previously unselected package ibverbs-providers:arm64.\nPreparing to unpack .../40-ibverbs-providers_39.0-1_arm64.deb ...\nUnpacking ibverbs-providers:arm64 (39.0-1) ...\nSelecting previously unselected package ipxe-qemu.\nPreparing to unpack .../41-ipxe-qemu_1.21.1+git-20220113.fbbdc3926-0ubuntu1_all.deb ...\nUnpacking ipxe-qemu (1.21.1+git-20220113.fbbdc3926-0ubuntu1) ...\nSelecting previously unselected package ipxe-qemu-256k-compat-efi-roms.\nPreparing to unpack .../42-ipxe-qemu-256k-compat-efi-roms_1.0.0+git-20150424.a25a16d-0ubuntu4_all.deb ...\nUnpacking ipxe-qemu-256k-compat-efi-roms (1.0.0+git-20150424.a25a16d-0ubuntu4) ...\nSelecting previously unselected package libboost-iostreams1.74.0:arm64.\nPreparing to unpack .../43-libboost-iostreams1.74.0_1.74.0-14ubuntu3_arm64.deb ...\nUnpacking libboost-iostreams1.74.0:arm64 (1.74.0-14ubuntu3) ...\nSelecting previously unselected package libboost-thread1.74.0:arm64.\nPreparing to unpack .../44-libboost-thread1.74.0_1.74.0-14ubuntu3_arm64.deb ...\nUnpacking libboost-thread1.74.0:arm64 (1.74.0-14ubuntu3) ...\nSelecting previously unselected package libbrlapi0.8:arm64.\nPreparing to unpack .../45-libbrlapi0.8_6.4-4ubuntu3_arm64.deb ...\nUnpacking libbrlapi0.8:arm64 (6.4-4ubuntu3) ...\nSelecting previously unselected package libpcsclite1:arm64.\nPreparing to unpack .../46-libpcsclite1_1.9.5-3ubuntu1_arm64.deb ...\nUnpacking libpcsclite1:arm64 (1.9.5-3ubuntu1) ...\nSelecting previously unselected package libcacard0:arm64.\nPreparing to unpack .../47-libcacard0_1%3a2.8.0-3build2_arm64.deb ...\nUnpacking libcacard0:arm64 (1:2.8.0-3build2) ...\nSelecting previously unselected package libdaxctl1:arm64.\nPreparing to unpack .../48-libdaxctl1_72.1-1_arm64.deb ...\nUnpacking libdaxctl1:arm64 (72.1-1) ...\nSelecting previously unselected package libdecor-0-0:arm64.\nPreparing to unpack .../49-libdecor-0-0_0.1.0-3build1_arm64.deb ...\nUnpacking libdecor-0-0:arm64 (0.1.0-3build1) ...\nSelecting previously unselected package libdecor-0-plugin-1-cairo:arm64.\nPreparing to unpack .../50-libdecor-0-plugin-1-cairo_0.1.0-3build1_arm64.deb ...\nUnpacking libdecor-0-plugin-1-cairo:arm64 (0.1.0-3build1) ...\nSelecting previously unselected package libgfxdr0:arm64.\nPreparing to unpack .../51-libgfxdr0_10.1-1ubuntu0.2_arm64.deb ...\nUnpacking libgfxdr0:arm64 (10.1-1ubuntu0.2) ...\nSelecting previously unselected package libglusterfs0:arm64.\nPreparing to unpack .../52-libglusterfs0_10.1-1ubuntu0.2_arm64.deb ...\nUnpacking libglusterfs0:arm64 (10.1-1ubuntu0.2) ...\nSelecting previously unselected package libgfrpc0:arm64.\nPreparing to unpack .../53-libgfrpc0_10.1-1ubuntu0.2_arm64.deb ...\nUnpacking libgfrpc0:arm64 (10.1-1ubuntu0.2) ...\nSelecting previously unselected package libgfapi0:arm64.\nPreparing to unpack .../54-libgfapi0_10.1-1ubuntu0.2_arm64.deb ...\nUnpacking libgfapi0:arm64 (10.1-1ubuntu0.2) ...\nSelecting previously unselected package librdmacm1:arm64.\nPreparing to unpack .../55-librdmacm1_39.0-1_arm64.deb ...\nUnpacking librdmacm1:arm64 (39.0-1) ...\nSelecting previously unselected package libiscsi7:arm64.\nPreparing to unpack .../56-libiscsi7_1.19.0-3build2_arm64.deb ...\nUnpacking libiscsi7:arm64 (1.19.0-3build2) ...\nSelecting previously unselected package libndctl6:arm64.\nPreparing to unpack .../57-libndctl6_72.1-1_arm64.deb ...\nUnpacking libndctl6:arm64 (72.1-1) ...\nSelecting previously unselected package libpmem1:arm64.\nPreparing to unpack .../58-libpmem1_1.11.1-3build1_arm64.deb ...\nUnpacking libpmem1:arm64 (1.11.1-3build1) ...\nSelecting previously unselected package libpmemobj1:arm64.\nPreparing to unpack .../59-libpmemobj1_1.11.1-3build1_arm64.deb ...\nUnpacking libpmemobj1:arm64 (1.11.1-3build1) ...\nSelecting previously unselected package librados2.\nPreparing to unpack .../60-librados2_17.2.9-0ubuntu0.22.04.3_arm64.deb ...\nUnpacking librados2 (17.2.9-0ubuntu0.22.04.3) ...\nSelecting previously unselected package librbd1.\nPreparing to unpack .../61-librbd1_17.2.9-0ubuntu0.22.04.3_arm64.deb ...\nUnpacking librbd1 (17.2.9-0ubuntu0.22.04.3) ...\nSelecting previously unselected package libsdl2-2.0-0:arm64.\nPreparing to unpack .../62-libsdl2-2.0-0_2.0.20+dfsg-2ubuntu1.22.04.1_arm64.deb ...\nUnpacking libsdl2-2.0-0:arm64 (2.0.20+dfsg-2ubuntu1.22.04.1) ...\nSelecting previously unselected package libseccomp-dev:arm64.\nPreparing to unpack .../63-libseccomp-dev_2.5.3-2ubuntu3~22.04.1_arm64.deb ...\nUnpacking libseccomp-dev:arm64 (2.5.3-2ubuntu3~22.04.1) ...\nSelecting previously unselected package libslirp0:arm64.\nPreparing to unpack .../64-libslirp0_4.6.1-1ubuntu0.2_arm64.deb ...\nUnpacking libslirp0:arm64 (4.6.1-1ubuntu0.2) ...\nSelecting previously unselected package libspice-server1:arm64.\nPreparing to unpack .../65-libspice-server1_0.15.0-2ubuntu4_arm64.deb ...\nUnpacking libspice-server1:arm64 (0.15.0-2ubuntu4) ...\nSelecting previously unselected package liburing2:arm64.\nPreparing to unpack .../66-liburing2_2.1-2build1_arm64.deb ...\nUnpacking liburing2:arm64 (2.1-2build1) ...\nSelecting previously unselected package libusbredirparser1:arm64.\nPreparing to unpack .../67-libusbredirparser1_0.11.0-2build1_arm64.deb ...\nUnpacking libusbredirparser1:arm64 (0.11.0-2build1) ...\nSelecting previously unselected package libvirglrenderer1:arm64.\nPreparing to unpack .../68-libvirglrenderer1_0.9.1-1~exp1ubuntu2_arm64.deb ...\nUnpacking libvirglrenderer1:arm64 (0.9.1-1~exp1ubuntu2) ...\nSelecting previously unselected package libvte-2.91-common.\nPreparing to unpack .../69-libvte-2.91-common_0.68.0-1ubuntu0.1_arm64.deb ...\nUnpacking libvte-2.91-common (0.68.0-1ubuntu0.1) ...\nSelecting previously unselected package libvte-2.91-0:arm64.\nPreparing to unpack .../70-libvte-2.91-0_0.68.0-1ubuntu0.1_arm64.deb ...\nUnpacking libvte-2.91-0:arm64 (0.68.0-1ubuntu0.1) ...\nSelecting previously unselected package qemu-system-common.\nPreparing to unpack .../71-qemu-system-common_1%3a6.2+dfsg-2ubuntu6.31_arm64.deb ...\nUnpacking qemu-system-common (1:6.2+dfsg-2ubuntu6.31) ...\nSelecting previously unselected package qemu-system-data.\nPreparing to unpack .../72-qemu-system-data_1%3a6.2+dfsg-2ubuntu6.31_all.deb ...\nUnpacking qemu-system-data (1:6.2+dfsg-2ubuntu6.31) ...\nSelecting previously unselected package seabios.\nPreparing to unpack .../73-seabios_1.15.0-1_all.deb ...\nUnpacking seabios (1.15.0-1) ...\nSelecting previously unselected package qemu-system-x86.\nPreparing to unpack .../74-qemu-system-x86_1%3a6.2+dfsg-2ubuntu6.31_arm64.deb ...\nUnpacking qemu-system-x86 (1:6.2+dfsg-2ubuntu6.31) ...\nSelecting previously unselected package qemu-system-arm.\nPreparing to unpack .../75-qemu-system-arm_1%3a6.2+dfsg-2ubuntu6.31_arm64.deb ...\nUnpacking qemu-system-arm (1:6.2+dfsg-2ubuntu6.31) ...\nSelecting previously unselected package qemu-system-mips.\nPreparing to unpack .../76-qemu-system-mips_1%3a6.2+dfsg-2ubuntu6.31_arm64.deb ...\nUnpacking qemu-system-mips (1:6.2+dfsg-2ubuntu6.31) ...\nSelecting previously unselected package qemu-system-ppc.\nPreparing to unpack .../77-qemu-system-ppc_1%3a6.2+dfsg-2ubuntu6.31_arm64.deb ...\nUnpacking qemu-system-ppc (1:6.2+dfsg-2ubuntu6.31) ...\nSelecting previously unselected package qemu-system-sparc.\nPreparing to unpack .../78-qemu-system-sparc_1%3a6.2+dfsg-2ubuntu6.31_arm64.deb ...\nUnpacking qemu-system-sparc (1:6.2+dfsg-2ubuntu6.31) ...\nSelecting previously unselected package qemu-system-s390x.\nPreparing to unpack .../79-qemu-system-s390x_1%3a6.2+dfsg-2ubuntu6.31_arm64.deb ...\nUnpacking qemu-system-s390x (1:6.2+dfsg-2ubuntu6.31) ...\nSelecting previously unselected package qemu-system-misc.\nPreparing to unpack .../80-qemu-system-misc_1%3a6.2+dfsg-2ubuntu6.31_arm64.deb ...\nUnpacking qemu-system-misc (1:6.2+dfsg-2ubuntu6.31) ...\nSelecting previously unselected package qemu-utils.\nPreparing to unpack .../81-qemu-utils_1%3a6.2+dfsg-2ubuntu6.31_arm64.deb ...\nUnpacking qemu-utils (1:6.2+dfsg-2ubuntu6.31) ...\nSelecting previously unselected package qemu-block-extra.\nPreparing to unpack .../82-qemu-block-extra_1%3a6.2+dfsg-2ubuntu6.31_arm64.deb ...\nUnpacking qemu-block-extra (1:6.2+dfsg-2ubuntu6.31) ...\nSelecting previously unselected package qemu-system.\nPreparing to unpack .../83-qemu-system_1%3a6.2+dfsg-2ubuntu6.31_arm64.deb ...\nUnpacking qemu-system (1:6.2+dfsg-2ubuntu6.31) ...\nSelecting previously unselected package qemu-system-gui.\nPreparing to unpack .../84-qemu-system-gui_1%3a6.2+dfsg-2ubuntu6.31_arm64.deb ...\nUnpacking qemu-system-gui (1:6.2+dfsg-2ubuntu6.31) ...\nSelecting previously unselected package ovmf.\nPreparing to unpack .../85-ovmf_2022.02-3ubuntu0.22.04.6_all.deb ...\nUnpacking ovmf (2022.02-3ubuntu0.22.04.6) ...\nSelecting previously unselected package qemu-efi-aarch64.\nPreparing to unpack .../86-qemu-efi-aarch64_2022.02-3ubuntu0.22.04.6_all.deb ...\nUnpacking qemu-efi-aarch64 (2022.02-3ubuntu0.22.04.6) ...\nSelecting previously unselected package qemu-efi-arm.\nPreparing to unpack .../87-qemu-efi-arm_2022.02-3ubuntu0.22.04.6_all.deb ...\nUnpacking qemu-efi-arm (2022.02-3ubuntu0.22.04.6) ...\nSetting up libcdparanoia0:arm64 (3.10.2+debian-14build2) ...\nSetting up libseccomp-dev:arm64 (2.5.3-2ubuntu3~22.04.1) ...\nSetting up libraw1394-11:arm64 (2.1.2-2build2) ...\nSetting up libtag1v5-vanilla:arm64 (1.11.1+dfsg.1-3ubuntu3) ...\nSetting up libmpg123-0:arm64 (1.29.3-1ubuntu0.1) ...\nSetting up libspeex1:arm64 (1.2~rc1.2-1.1ubuntu3) ...\nSetting up libcaca0:arm64 (0.99.beta19-2.2ubuntu4.2) ...\nSetting up wget (1.21.2-2ubuntu1.5) ...\nSetting up libtwolame0:arm64 (0.4.0-2build2) ...\nSetting up libvte-2.91-common (0.68.0-1ubuntu0.1) ...\nSetting up libvisual-0.4-0:arm64 (0.4.0-17build2) ...\nSetting up libboost-iostreams1.74.0:arm64 (1.74.0-14ubuntu3) ...\nSetting up qemu-efi-aarch64 (2022.02-3ubuntu0.22.04.6) ...\nSetting up libvte-2.91-0:arm64 (0.68.0-1ubuntu0.1) ...\nSetting up libusbredirparser1:arm64 (0.11.0-2build1) ...\nSetting up libflac8:arm64 (1.3.3-2ubuntu0.2) ...\nSetting up libnl-route-3-200:arm64 (3.5.0-0.1) ...\nSetting up ovmf (2022.02-3ubuntu0.22.04.6) ...\nSetting up libglusterfs0:arm64 (10.1-1ubuntu0.2) ...\nSetting up libvirglrenderer1:arm64 (0.9.1-1~exp1ubuntu2) ...\nSetting up libopus0:arm64 (1.3.1-0.1build2) ...\nSetting up libxv1:arm64 (2:1.0.11-1build2) ...\nSetting up liborc-0.4-0:arm64 (1:0.4.32-2ubuntu0.1) ...\nSetting up libpcsclite1:arm64 (1.9.5-3ubuntu1) ...\nSetting up libdaxctl1:arm64 (72.1-1) ...\nSetting up qemu-system-data (1:6.2+dfsg-2ubuntu6.31) ...\nSetting up seabios (1.15.0-1) ...\nSetting up libslirp0:arm64 (4.6.1-1ubuntu0.2) ...\nSetting up libtag1v5:arm64 (1.11.1+dfsg.1-3ubuntu3) ...\nSetting up cpu-checker (0.7-1.3build1) ...\nSetting up libdv4:arm64 (1.0.0-14build1) ...\nSetting up libasyncns0:arm64 (0.8-6build2) ...\nSetting up libwavpack1:arm64 (5.4.0-1build2) ...\nSetting up ipxe-qemu (1.21.1+git-20220113.fbbdc3926-0ubuntu1) ...\nSetting up libtheora0:arm64 (1.1.1+dfsg.1-15ubuntu4) ...\nSetting up libv4lconvert0:arm64 (1.22.1-2build1) ...\nSetting up libdecor-0-0:arm64 (0.1.0-3build1) ...\nSetting up qemu-efi-arm (2022.02-3ubuntu0.22.04.6) ...\nSetting up libndctl6:arm64 (72.1-1) ...\nSetting up build-essential (12.9ubuntu3) ...\nSetting up ipxe-qemu-256k-compat-efi-roms (1.0.0+git-20150424.a25a16d-0ubuntu4) ...\nSetting up libvpx7:arm64 (1.11.0-2ubuntu2.5) ...\nSetting up libbrlapi0.8:arm64 (6.4-4ubuntu3) ...\nSetting up liburing2:arm64 (2.1-2build1) ...\nSetting up libsamplerate0:arm64 (0.2.2-1build1) ...\nSetting up libpmem1:arm64 (1.11.1-3build1) ...\nSetting up libmp3lame0:arm64 (3.100-3build2) ...\nSetting up libvorbisenc2:arm64 (1.3.7-1build2) ...\nSetting up libgfxdr0:arm64 (10.1-1ubuntu0.2) ...\nSetting up libboost-thread1.74.0:arm64 (1.74.0-14ubuntu3) ...\nSetting up libaa1:arm64 (1.4p5-50build1) ...\nSetting up libiec61883-0:arm64 (1.2.0-4build3) ...\nSetting up libavc1394-0:arm64 (0.5.4-5build2) ...\nSetting up libibverbs1:arm64 (39.0-1) ...\nSetting up ibverbs-providers:arm64 (39.0-1) ...\nSetting up libgstreamer-plugins-base1.0-0:arm64 (1.20.1-1ubuntu0.6) ...\nSetting up libcacard0:arm64 (1:2.8.0-3build2) ...\nSetting up libv4l-0:arm64 (1.22.1-2build1) ...\nSetting up libgstreamer-plugins-good1.0-0:arm64 (1.20.3-0ubuntu1.7) ...\nSetting up gstreamer1.0-plugins-base:arm64 (1.20.1-1ubuntu0.6) ...\nSetting up libshout3:arm64 (2.4.5-1build3) ...\nSetting up libpmemobj1:arm64 (1.11.1-3build1) ...\nSetting up libdecor-0-plugin-1-cairo:arm64 (0.1.0-3build1) ...\nSetting up libjack-jackd2-0:arm64 (1.9.20~dfsg-1) ...\nSetting up libsndfile1:arm64 (1.0.31-2ubuntu0.2) ...\nSetting up qemu-utils (1:6.2+dfsg-2ubuntu6.31) ...\nSetting up libgfrpc0:arm64 (10.1-1ubuntu0.2) ...\nSetting up librdmacm1:arm64 (39.0-1) ...\nSetting up librados2 (17.2.9-0ubuntu0.22.04.3) ...\nSetting up gstreamer1.0-x:arm64 (1.20.1-1ubuntu0.6) ...\nSetting up libpulse0:arm64 (1:15.99.1+dfsg1-1ubuntu2.2) ...\nSetting up gstreamer1.0-plugins-good:arm64 (1.20.3-0ubuntu1.7) ...\nSetting up libspice-server1:arm64 (0.15.0-2ubuntu4) ...\nSetting up librbd1 (17.2.9-0ubuntu0.22.04.3) ...\nSetting up libgfapi0:arm64 (10.1-1ubuntu0.2) ...\nSetting up libiscsi7:arm64 (1.19.0-3build2) ...\nSetting up libsdl2-2.0-0:arm64 (2.0.20+dfsg-2ubuntu1.22.04.1) ...\nSetting up qemu-block-extra (1:6.2+dfsg-2ubuntu6.31) ...\nCreated symlink /etc/systemd/system/multi-user.target.wants/run-qemu.mount → /lib/systemd/system/run-qemu.mount.\nSetting up qemu-system-common (1:6.2+dfsg-2ubuntu6.31) ...\nCreated symlink /etc/systemd/system/multi-user.target.wants/qemu-kvm.service → /lib/systemd/system/qemu-kvm.service.\nSetting up qemu-system-mips (1:6.2+dfsg-2ubuntu6.31) ...\nSetting up qemu-system-sparc (1:6.2+dfsg-2ubuntu6.31) ...\nSetting up qemu-system-x86 (1:6.2+dfsg-2ubuntu6.31) ...\nSetting up qemu-system-ppc (1:6.2+dfsg-2ubuntu6.31) ...\nSetting up qemu-system-misc (1:6.2+dfsg-2ubuntu6.31) ...\nSetting up qemu-system-arm (1:6.2+dfsg-2ubuntu6.31) ...\nSetting up qemu-system-s390x (1:6.2+dfsg-2ubuntu6.31) ...\nSetting up qemu-system-gui (1:6.2+dfsg-2ubuntu6.31) ...\nSetting up qemu-system (1:6.2+dfsg-2ubuntu6.31) ...\nProcessing triggers for hicolor-icon-theme (0.17-2) ...\nProcessing triggers for libc-bin (2.35-0ubuntu3.14) ...\nProcessing triggers for man-db (2.10.2-1) ...\nNot building database; man-db/auto-update is not 'true'.\nProcessing triggers for install-info (6.8-4build1) ...\n2026-08-25T00:21:30.8495597Z\nRunning kernel seems to be up-to-date.\n2026-08-25T00:21:30.8497212Z\nNo services need to be restarted.\n2026-08-25T00:21:30.8504210Z\nNo containers need to be restarted.\n2026-08-25T00:21:30.8504477Z\nNo user sessions are running outdated binaries.\n2026-08-25T00:21:30.8504837Z\nNo VM guests are running outdated hypervisor (qemu) binaries on this host.\n--2026-08-25 00:21:32--  https://s3.nbfc.io/nbfc-assets/github/urunc/bin/virtiofsd\nResolving s3.nbfc.io (s3.nbfc.io)... 85.73.152.209\nConnecting to s3.nbfc.io (s3.nbfc.io)|85.73.152.209|:443... connected.\nERROR: cannot verify s3.nbfc.io's certificate, issued by ‘CN=R12,O=Let's Encrypt,C=US’:\nIssued certificate has expired.\nTo connect to s3.nbfc.io insecurely, use `--no-check-certificate'.\n##[error]Process completed with exit code 5."
           }
         ],
         "run_attempt": 1
       },
       "recent_runs": [
+        {
+          "id": 32793184654,
+          "name": "urunc CI (nightly)",
+          "status": "completed",
+          "conclusion": "failure",
+          "run_number": 311,
+          "created_at": "2026-08-25T00:19:58Z",
+          "updated_at": "2026-08-25T00:26:52Z",
+          "run_started_at": "2026-08-25T00:19:58Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32793184654",
+          "jobs": [
+            {
+              "name": "Build / build (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 53,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32793184654/job/97638907982"
+            },
+            {
+              "name": "Unit tests / unit-test (arm64, ubuntu-22.04-arm)",
+              "conclusion": "success",
+              "duration_sec": 28,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32793184654/job/97638908119"
+            },
+            {
+              "name": "Unit tests / unit-test (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 44,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32793184654/job/97638908145"
+            },
+            {
+              "name": "Build / build (arm64, ubuntu-22.04-arm)",
+              "conclusion": "success",
+              "duration_sec": 48,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32793184654/job/97638908235"
+            },
+            {
+              "name": "urunc-deploy test / urunc-deploy (arm64, ubuntu-22.04-arm)",
+              "conclusion": "success",
+              "duration_sec": 75,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32793184654/job/97639115943"
+            },
+            {
+              "name": "E2E test / VM test (arm64, test_nerdctl)",
+              "conclusion": "cancelled",
+              "duration_sec": 46,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32793184654/job/97639115971"
+            },
+            {
+              "name": "Kubernetes test / Kubernetes test (arm64, ubuntu-22.04-arm)",
+              "conclusion": "success",
+              "duration_sec": 259,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32793184654/job/97639115991"
+            },
+            {
+              "name": "E2E test / VM test (arm64, test_docker)",
+              "conclusion": "failure",
+              "duration_sec": 37,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32793184654/job/97639115994"
+            },
+            {
+              "name": "E2E test / VM test (arm64, test_ctr)",
+              "conclusion": "cancelled",
+              "duration_sec": 45,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32793184654/job/97639115996"
+            },
+            {
+              "name": "E2E test / VM test (amd64, test_docker)",
+              "conclusion": "cancelled",
+              "duration_sec": 56,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32793184654/job/97639115997"
+            },
+            {
+              "name": "E2E test / VM test (amd64, test_nerdctl)",
+              "conclusion": "cancelled",
+              "duration_sec": 49,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32793184654/job/97639116006"
+            },
+            {
+              "name": "Kubernetes test / Kubernetes test (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 356,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32793184654/job/97639116035"
+            },
+            {
+              "name": "E2E test / VM test (amd64, test_ctr)",
+              "conclusion": "cancelled",
+              "duration_sec": 52,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32793184654/job/97639116048"
+            },
+            {
+              "name": "E2E test / VM test (amd64, test_crictl)",
+              "conclusion": "cancelled",
+              "duration_sec": 50,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32793184654/job/97639116051"
+            },
+            {
+              "name": "E2E test / VM test (arm64, test_crictl)",
+              "conclusion": "cancelled",
+              "duration_sec": 50,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32793184654/job/97639116055"
+            },
+            {
+              "name": "urunc-deploy test / urunc-deploy (amd64, ubuntu-22.04)",
+              "conclusion": "success",
+              "duration_sec": 74,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32793184654/job/97639116234"
+            }
+          ],
+          "failed_jobs": [
+            {
+              "id": 97639115994,
+              "name": "E2E test / VM test (arm64, test_docker)",
+              "conclusion": "failure",
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32793184654/job/97639115994",
+              "log_snippet": "[Build Failure] — 1 signal(s) found\n────────────────────────────────────────────────\n-\u003e Build Failure\n  ##[error]Process completed with exit code 5.",
+              "raw_log": "Added go to the path\nSuccessfully set up Go version 1.26.4\ngo version go1.26.4 linux/arm64\n2026-08-25T00:21:09.6886279Z\n##[group]go env\nAR='ar'\nCC='gcc'\nCGO_CFLAGS='-O2 -g'\nCGO_CPPFLAGS=''\nCGO_CXXFLAGS='-O2 -g'\nCGO_ENABLED='1'\nCGO_FFLAGS='-O2 -g'\nCGO_LDFLAGS='-O2 -g'\nCXX='g++'\nGCCGO='gccgo'\nGO111MODULE=''\nGOARCH='arm64'\nGOARM64='v8.0'\nGOAUTH='netrc'\nGOBIN=''\nGOCACHE='/home/runner/.cache/go-build'\nGOCACHEPROG=''\nGODEBUG=''\nGOENV='/home/runner/.config/go/env'\nGOEXE=''\nGOEXPERIMENT=''\nGOFIPS140='off'\nGOFLAGS=''\nGOGCCFLAGS='-fPIC -pthread -Wl,--no-gc-sections -fmessage-length=0 -ffile-prefix-map=/tmp/go-build3410794948=/tmp/go-build -gno-record-gcc-switches'\nGOHOSTARCH='arm64'\nGOHOSTOS='linux'\nGOINSECURE=''\nGOMOD='/home/runner/work/urunc/urunc/go.mod'\nGOMODCACHE='/home/runner/go/pkg/mod'\nGONOPROXY=''\nGONOSUMDB=''\nGOOS='linux'\nGOPATH='/home/runner/go'\nGOPRIVATE=''\nGOPROXY='https://proxy.golang.org,direct'\nGOSUMDB='sum.golang.org'\nGOTELEMETRY='local'\nGOTELEMETRYDIR='/home/runner/.config/go/telemetry'\nGOTMPDIR=''\nGOTOOLCHAIN='local'\nGOVCS=''\nGOVERSION='go1.26.4'\nGOWORK=''\nPKG_CONFIG='pkg-config'\n2026-08-25T00:21:09.7928662Z\n##[endgroup]\n##[group]Run sudo apt-get update\nsudo apt-get update\nsudo apt-get install -y git wget build-essential libseccomp-dev pkg-config bc make qemu-system jq\nwget https://s3.nbfc.io/nbfc-assets/github/urunc/bin/virtiofsd\nsudo chmod +x virtiofsd\nsudo mv virtiofsd /usr/libexec/virtiofsd\nshell: /usr/bin/bash -e {0}\nenv:\nGOTOOLCHAIN: local\n##[endgroup]\nHit:1 https://packages.microsoft.com/repos/azure-cli jammy InRelease\nGet:2 https://packages.microsoft.com/ubuntu/22.04/prod jammy InRelease [3632 B]\nGet:3 https://packages.microsoft.com/ubuntu/22.04/prod jammy/main all Packages [1331 B]\nGet:4 https://packages.microsoft.com/ubuntu/22.04/prod jammy/main amd64 Packages [687 kB]\nGet:5 https://packages.microsoft.com/ubuntu/22.04/prod jammy/main arm64 Packages [456 kB]\nGet:6 https://packages.microsoft.com/ubuntu/22.04/prod jammy/main armhf Packages [23.1 kB]\nHit:7 http://ports.ubuntu.com/ubuntu-ports jammy InRelease\nGet:8 http://ports.ubuntu.com/ubuntu-ports jammy-updates InRelease [128 kB]\nGet:9 http://ports.ubuntu.com/ubuntu-ports jammy-backports InRelease [127 kB]\nGet:10 http://ports.ubuntu.com/ubuntu-ports jammy-security InRelease [129 kB]\nGet:11 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 Packages [3625 kB]\nGet:12 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main Translation-en [559 kB]\nGet:13 http://ports.ubuntu.com/ubuntu-ports jammy-updates/restricted arm64 Packages [6662 kB]\nGet:14 http://ports.ubuntu.com/ubuntu-ports jammy-updates/restricted Translation-en [1249 kB]\nGet:15 http://ports.ubuntu.com/ubuntu-ports jammy-updates/universe arm64 Packages [1350 kB]\nGet:16 http://ports.ubuntu.com/ubuntu-ports jammy-updates/universe Translation-en [322 kB]\nGet:17 http://ports.ubuntu.com/ubuntu-ports jammy-security/main arm64 Packages [3366 kB]\nGet:18 http://ports.ubuntu.com/ubuntu-ports jammy-security/main Translation-en [490 kB]\nGet:19 http://ports.ubuntu.com/ubuntu-ports jammy-security/restricted arm64 Packages [6402 kB]\nGet:20 http://ports.ubuntu.com/ubuntu-ports jammy-security/restricted Translation-en [1204 kB]\nGet:21 http://ports.ubuntu.com/ubuntu-ports jammy-security/universe arm64 Packages [1121 kB]\nGet:22 http://ports.ubuntu.com/ubuntu-ports jammy-security/universe Translation-en [235 kB]\nFetched 28.1 MB in 2s (11.3 MB/s)\nReading package lists...\nReading package lists...\nBuilding dependency tree...\nReading state information...\nbc is already the newest version (1.07.1-3build1).\nbc set to manually installed.\nmake is already the newest version (4.3-4.1build1).\npkg-config is already the newest version (0.29.2-1ubuntu3).\njq is already the newest version (1.6-2.1ubuntu3.2).\ngit is already the newest version (1:2.55.0-0ppa1~ubuntu22.04.2).\nThe following additional packages will be installed:\ncpu-checker gstreamer1.0-plugins-base gstreamer1.0-plugins-good\ngstreamer1.0-x ibverbs-providers ipxe-qemu ipxe-qemu-256k-compat-efi-roms\nlibaa1 libasyncns0 libavc1394-0 libboost-iostreams1.74.0\nlibboost-thread1.74.0 libbrlapi0.8 libcaca0 libcacard0 libcdparanoia0\nlibdaxctl1 libdecor-0-0 libdecor-0-plugin-1-cairo libdv4 libflac8 libgfapi0\nlibgfrpc0 libgfxdr0 libglusterfs0 libgstreamer-plugins-base1.0-0\nlibgstreamer-plugins-good1.0-0 libibverbs1 libiec61883-0 libiscsi7\nlibjack-jackd2-0 libmp3lame0 libmpg123-0 libndctl6 libnl-route-3-200\nlibopus0 liborc-0.4-0 libpcsclite1 libpmem1 libpmemobj1 libpulse0 librados2\nlibraw1394-11 librbd1 librdmacm1 libsamplerate0 libsdl2-2.0-0 libshout3\nlibslirp0 libsndfile1 libspeex1 libspice-server1 libtag1v5 libtag1v5-vanilla\nlibtheora0 libtwolame0 liburing2 libusbredirparser1 libv4l-0 libv4lconvert0\nlibvirglrenderer1 libvisual-0.4-0 libvorbisenc2 libvpx7 libvte-2.91-0\nlibvte-2.91-common libwavpack1 libxv1 ovmf qemu-block-extra qemu-efi-aarch64\nqemu-efi-arm qemu-system-arm qemu-system-common qemu-system-data\nqemu-system-gui qemu-system-mips qemu-system-misc qemu-system-ppc\nqemu-system-s390x qemu-system-sparc qemu-system-x86 qemu-utils seabios\nSuggested packages:\ngvfs libdv-bin oss-compat libvisual-0.4-plugins jackd2 opus-tools pcscd\npulseaudio libraw1394-doc xdg-utils seccomp speex gstreamer1.0-libav\ngstreamer1.0-plugins-ugly samba vde2 debootstrap\nThe following NEW packages will be installed:\nbuild-essential cpu-checker gstreamer1.0-plugins-base\ngstreamer1.0-plugins-good gstreamer1.0-x ibverbs-providers ipxe-qemu\nipxe-qemu-256k-compat-efi-roms libaa1 libasyncns0 libavc1394-0\nlibboost-iostreams1.74.0 libboost-thread1.74.0 libbrlapi0.8 libcaca0\nlibcacard0 libcdparanoia0 libdaxctl1 libdecor-0-0 libdecor-0-plugin-1-cairo\nlibdv4 libflac8 libgfapi0 libgfrpc0 libgfxdr0 libglusterfs0\nlibgstreamer-plugins-base1.0-0 libgstreamer-plugins-good1.0-0 libibverbs1\nlibiec61883-0 libiscsi7 libjack-jackd2-0 libmp3lame0 libmpg123-0 libndctl6\nlibnl-route-3-200 libopus0 liborc-0.4-0 libpcsclite1 libpmem1 libpmemobj1\nlibpulse0 librados2 libraw1394-11 librbd1 librdmacm1 libsamplerate0\nlibsdl2-2.0-0 libseccomp-dev libshout3 libslirp0 libsndfile1 libspeex1\nlibspice-server1 libtag1v5 libtag1v5-vanilla libtheora0 libtwolame0\nliburing2 libusbredirparser1 libv4l-0 libv4lconvert0 libvirglrenderer1\nlibvisual-0.4-0 libvorbisenc2 libvpx7 libvte-2.91-0 libvte-2.91-common\nlibwavpack1 libxv1 ovmf qemu-block-extra qemu-efi-aarch64 qemu-efi-arm\nqemu-system qemu-system-arm qemu-system-common qemu-system-data\nqemu-system-gui qemu-system-mips qemu-system-misc qemu-system-ppc\nqemu-system-s390x qemu-system-sparc qemu-system-x86 qemu-utils seabios\nThe following packages will be upgraded:\nwget\n1 upgraded, 87 newly installed, 0 to remove and 28 not upgraded.\nNeed to get 123 MB of archives.\nAfter this operation, 883 MB of additional disk space will be used.\nGet:1 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 wget arm64 1.21.2-2ubuntu1.5 [335 kB]\nGet:2 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 build-essential arm64 12.9ubuntu3 [4740 B]\nGet:3 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 cpu-checker arm64 0.7-1.3build1 [6784 B]\nGet:4 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libcdparanoia0 arm64 3.10.2+debian-14build2 [48.1 kB]\nGet:5 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 liborc-0.4-0 arm64 1:0.4.32-2ubuntu0.1 [222 kB]\nGet:6 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libgstreamer-plugins-base1.0-0 arm64 1.20.1-1ubuntu0.6 [793 kB]\nGet:7 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libopus0 arm64 1.3.1-0.1build2 [195 kB]\nGet:8 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libtheora0 arm64 1.1.1+dfsg.1-15ubuntu4 [223 kB]\nGet:9 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libvisual-0.4-0 arm64 0.4.0-17build2 [105 kB]\nGet:10 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libvorbisenc2 arm64 1.3.7-1build2 [82.3 kB]\nGet:11 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 gstreamer1.0-plugins-base arm64 1.20.1-1ubuntu0.6 [656 kB]\nGet:12 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libaa1 arm64 1.4p5-50build1 [51.2 kB]\nGet:13 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libraw1394-11 arm64 2.1.2-2build2 [27.2 kB]\nGet:14 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libavc1394-0 arm64 0.5.4-5build2 [16.6 kB]\nGet:15 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libcaca0 arm64 0.99.beta19-2.2ubuntu4.2 [221 kB]\nGet:16 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libdv4 arm64 1.0.0-14build1 [59.2 kB]\nGet:17 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libflac8 arm64 1.3.3-2ubuntu0.2 [96.6 kB]\nGet:18 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libgstreamer-plugins-good1.0-0 arm64 1.20.3-0ubuntu1.7 [29.3 kB]\nGet:19 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libiec61883-0 arm64 1.2.0-4build3 [24.9 kB]\nGet:20 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libsamplerate0 arm64 0.2.2-1build1 [1359 kB]\nGet:21 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libjack-jackd2-0 arm64 1.9.20~dfsg-1 [284 kB]\nGet:22 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libmp3lame0 arm64 3.100-3build2 [142 kB]\nGet:23 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libmpg123-0 arm64 1.29.3-1ubuntu0.1 [170 kB]\nGet:24 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libasyncns0 arm64 0.8-6build2 [12.5 kB]\nGet:25 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libsndfile1 arm64 1.0.31-2ubuntu0.2 [197 kB]\nGet:26 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libpulse0 arm64 1:15.99.1+dfsg1-1ubuntu2.2 [265 kB]\nGet:27 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libspeex1 arm64 1.2~rc1.2-1.1ubuntu3 [52.6 kB]\nGet:28 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libshout3 arm64 2.4.5-1build3 [53.9 kB]\nGet:29 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libtag1v5-vanilla arm64 1.11.1+dfsg.1-3ubuntu3 [286 kB]\nGet:30 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libtag1v5 arm64 1.11.1+dfsg.1-3ubuntu3 [11.5 kB]\nGet:31 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libtwolame0 arm64 0.4.0-2build2 [51.7 kB]\nGet:32 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libv4lconvert0 arm64 1.22.1-2build1 [82.1 kB]\nGet:33 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libv4l-0 arm64 1.22.1-2build1 [44.4 kB]\nGet:34 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libvpx7 arm64 1.11.0-2ubuntu2.5 [1038 kB]\nGet:35 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libwavpack1 arm64 5.4.0-1build2 [77.6 kB]\nGet:36 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 gstreamer1.0-plugins-good arm64 1.20.3-0ubuntu1.7 [1866 kB]\nGet:37 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libxv1 arm64 2:1.0.11-1build2 [11.0 kB]\nGet:38 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 gstreamer1.0-x arm64 1.20.1-1ubuntu0.6 [81.3 kB]\nGet:39 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libnl-route-3-200 arm64 3.5.0-0.1 [173 kB]\nGet:40 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libibverbs1 arm64 39.0-1 [66.3 kB]\nGet:41 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 ibverbs-providers arm64 39.0-1 [334 kB]\nGet:42 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 ipxe-qemu all 1.21.1+git-20220113.fbbdc3926-0ubuntu1 [1569 kB]\nGet:43 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 ipxe-qemu-256k-compat-efi-roms all 1.0.0+git-20150424.a25a16d-0ubuntu4 [552 kB]\nGet:44 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libboost-iostreams1.74.0 arm64 1.74.0-14ubuntu3 [243 kB]\nGet:45 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libboost-thread1.74.0 arm64 1.74.0-14ubuntu3 [260 kB]\nGet:46 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libbrlapi0.8 arm64 6.4-4ubuntu3 [27.4 kB]\nGet:47 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libpcsclite1 arm64 1.9.5-3ubuntu1 [20.0 kB]\nGet:48 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libcacard0 arm64 1:2.8.0-3build2 [37.4 kB]\nGet:49 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libdaxctl1 arm64 72.1-1 [18.9 kB]\nGet:50 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libdecor-0-0 arm64 0.1.0-3build1 [14.9 kB]\nGet:51 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libdecor-0-plugin-1-cairo arm64 0.1.0-3build1 [18.8 kB]\nGet:52 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libgfxdr0 arm64 10.1-1ubuntu0.2 [21.5 kB]\nGet:53 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libglusterfs0 arm64 10.1-1ubuntu0.2 [276 kB]\nGet:54 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libgfrpc0 arm64 10.1-1ubuntu0.2 [46.7 kB]\nGet:55 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libgfapi0 arm64 10.1-1ubuntu0.2 [74.4 kB]\nGet:56 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 librdmacm1 arm64 39.0-1 [70.4 kB]\nGet:57 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libiscsi7 arm64 1.19.0-3build2 [69.1 kB]\nGet:58 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libndctl6 arm64 72.1-1 [56.7 kB]\nGet:59 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libpmem1 arm64 1.11.1-3build1 [34.7 kB]\nGet:60 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libpmemobj1 arm64 1.11.1-3build1 [123 kB]\nGet:61 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 librados2 arm64 17.2.9-0ubuntu0.22.04.3 [3455 kB]\nGet:62 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 librbd1 arm64 17.2.9-0ubuntu0.22.04.3 [3309 kB]\nGet:63 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libsdl2-2.0-0 arm64 2.0.20+dfsg-2ubuntu1.22.04.1 [558 kB]\nGet:64 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libseccomp-dev arm64 2.5.3-2ubuntu3~22.04.1 [93.1 kB]\nGet:65 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libslirp0 arm64 4.6.1-1ubuntu0.2 [60.9 kB]\nGet:66 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libspice-server1 arm64 0.15.0-2ubuntu4 [340 kB]\nGet:67 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 liburing2 arm64 2.1-2build1 [10.0 kB]\nGet:68 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libusbredirparser1 arm64 0.11.0-2build1 [15.9 kB]\nGet:69 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 libvirglrenderer1 arm64 0.9.1-1~exp1ubuntu2 [188 kB]\nGet:70 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libvte-2.91-common arm64 0.68.0-1ubuntu0.1 [9326 B]\nGet:71 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 libvte-2.91-0 arm64 0.68.0-1ubuntu0.1 [198 kB]\nGet:72 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 qemu-system-common arm64 1:6.2+dfsg-2ubuntu6.31 [1940 kB]\nGet:73 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 qemu-system-data all 1:6.2+dfsg-2ubuntu6.31 [1430 kB]\nGet:74 http://ports.ubuntu.com/ubuntu-ports jammy/main arm64 seabios all 1.15.0-1 [174 kB]\nGet:75 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 qemu-system-x86 arm64 1:6.2+dfsg-2ubuntu6.31 [7284 kB]\nGet:76 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 qemu-system-arm arm64 1:6.2+dfsg-2ubuntu6.31 [9400 kB]\nGet:77 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 qemu-system-mips arm64 1:6.2+dfsg-2ubuntu6.31 [14.0 MB]\nGet:78 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 qemu-system-ppc arm64 1:6.2+dfsg-2ubuntu6.31 [7772 kB]\nGet:79 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 qemu-system-sparc arm64 1:6.2+dfsg-2ubuntu6.31 [5214 kB]\nGet:80 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 qemu-system-s390x arm64 1:6.2+dfsg-2ubuntu6.31 [2648 kB]\nGet:81 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 qemu-system-misc arm64 1:6.2+dfsg-2ubuntu6.31 [38.2 MB]\nGet:82 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 qemu-utils arm64 1:6.2+dfsg-2ubuntu6.31 [1389 kB]\nGet:83 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 qemu-block-extra arm64 1:6.2+dfsg-2ubuntu6.31 [65.7 kB]\nGet:84 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 qemu-system arm64 1:6.2+dfsg-2ubuntu6.31 [12.7 kB]\nGet:85 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 qemu-system-gui arm64 1:6.2+dfsg-2ubuntu6.31 [211 kB]\nGet:86 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 ovmf all 2022.02-3ubuntu0.22.04.6 [7625 kB]\nGet:87 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 qemu-efi-aarch64 all 2022.02-3ubuntu0.22.04.6 [2603 kB]\nGet:88 http://ports.ubuntu.com/ubuntu-ports jammy-updates/main arm64 qemu-efi-arm all 2022.02-3ubuntu0.22.04.6 [1308 kB]\nFetched 123 MB in 2s (69.0 MB/s)\n(Reading database ...\n(Reading database ... 5%\n(Reading database ... 10%\n(Reading database ... 15%\n(Reading database ... 20%\n(Reading database ... 25%\n(Reading database ... 30%\n(Reading database ... 35%\n(Reading database ... 40%\n(Reading database ... 45%\n(Reading database ... 50%\n(Reading database ... 55%\n(Reading database ... 60%\n(Reading database ... 65%\n(Reading database ... 70%\n(Reading database ... 75%\n(Reading database ... 80%\n(Reading database ... 85%\n(Reading database ... 90%\n(Reading database ... 95%\n(Reading database ... 100%\n(Reading database ... 200059 files and directories currently installed.)\nPreparing to unpack .../00-wget_1.21.2-2ubuntu1.5_arm64.deb ...\nUnpacking wget (1.21.2-2ubuntu1.5) over (1.21.2-2ubuntu1.4) ...\nSelecting previously unselected package build-essential.\nPreparing to unpack .../01-build-essential_12.9ubuntu3_arm64.deb ...\nUnpacking build-essential (12.9ubuntu3) ...\nSelecting previously unselected package cpu-checker.\nPreparing to unpack .../02-cpu-checker_0.7-1.3build1_arm64.deb ...\nUnpacking cpu-checker (0.7-1.3build1) ...\nSelecting previously unselected package libcdparanoia0:arm64.\nPreparing to unpack .../03-libcdparanoia0_3.10.2+debian-14build2_arm64.deb ...\nUnpacking libcdparanoia0:arm64 (3.10.2+debian-14build2) ...\nSelecting previously unselected package liborc-0.4-0:arm64.\nPreparing to unpack .../04-liborc-0.4-0_1%3a0.4.32-2ubuntu0.1_arm64.deb ...\nUnpacking liborc-0.4-0:arm64 (1:0.4.32-2ubuntu0.1) ...\nSelecting previously unselected package libgstreamer-plugins-base1.0-0:arm64.\nPreparing to unpack .../05-libgstreamer-plugins-base1.0-0_1.20.1-1ubuntu0.6_arm64.deb ...\nUnpacking libgstreamer-plugins-base1.0-0:arm64 (1.20.1-1ubuntu0.6) ...\nSelecting previously unselected package libopus0:arm64.\nPreparing to unpack .../06-libopus0_1.3.1-0.1build2_arm64.deb ...\nUnpacking libopus0:arm64 (1.3.1-0.1build2) ...\nSelecting previously unselected package libtheora0:arm64.\nPreparing to unpack .../07-libtheora0_1.1.1+dfsg.1-15ubuntu4_arm64.deb ...\nUnpacking libtheora0:arm64 (1.1.1+dfsg.1-15ubuntu4) ...\nSelecting previously unselected package libvisual-0.4-0:arm64.\nPreparing to unpack .../08-libvisual-0.4-0_0.4.0-17build2_arm64.deb ...\nUnpacking libvisual-0.4-0:arm64 (0.4.0-17build2) ...\nSelecting previously unselected package libvorbisenc2:arm64.\nPreparing to unpack .../09-libvorbisenc2_1.3.7-1build2_arm64.deb ...\nUnpacking libvorbisenc2:arm64 (1.3.7-1build2) ...\nSelecting previously unselected package gstreamer1.0-plugins-base:arm64.\nPreparing to unpack .../10-gstreamer1.0-plugins-base_1.20.1-1ubuntu0.6_arm64.deb ...\nUnpacking gstreamer1.0-plugins-base:arm64 (1.20.1-1ubuntu0.6) ...\nSelecting previously unselected package libaa1:arm64.\nPreparing to unpack .../11-libaa1_1.4p5-50build1_arm64.deb ...\nUnpacking libaa1:arm64 (1.4p5-50build1) ...\nSelecting previously unselected package libraw1394-11:arm64.\nPreparing to unpack .../12-libraw1394-11_2.1.2-2build2_arm64.deb ...\nUnpacking libraw1394-11:arm64 (2.1.2-2build2) ...\nSelecting previously unselected package libavc1394-0:arm64.\nPreparing to unpack .../13-libavc1394-0_0.5.4-5build2_arm64.deb ...\nUnpacking libavc1394-0:arm64 (0.5.4-5build2) ...\nSelecting previously unselected package libcaca0:arm64.\nPreparing to unpack .../14-libcaca0_0.99.beta19-2.2ubuntu4.2_arm64.deb ...\nUnpacking libcaca0:arm64 (0.99.beta19-2.2ubuntu4.2) ...\nSelecting previously unselected package libdv4:arm64.\nPreparing to unpack .../15-libdv4_1.0.0-14build1_arm64.deb ...\nUnpacking libdv4:arm64 (1.0.0-14build1) ...\nSelecting previously unselected package libflac8:arm64.\nPreparing to unpack .../16-libflac8_1.3.3-2ubuntu0.2_arm64.deb ...\nUnpacking libflac8:arm64 (1.3.3-2ubuntu0.2) ...\nSelecting previously unselected package libgstreamer-plugins-good1.0-0:arm64.\nPreparing to unpack .../17-libgstreamer-plugins-good1.0-0_1.20.3-0ubuntu1.7_arm64.deb ...\nUnpacking libgstreamer-plugins-good1.0-0:arm64 (1.20.3-0ubuntu1.7) ...\nSelecting previously unselected package libiec61883-0:arm64.\nPreparing to unpack .../18-libiec61883-0_1.2.0-4build3_arm64.deb ...\nUnpacking libiec61883-0:arm64 (1.2.0-4build3) ...\nSelecting previously unselected package libsamplerate0:arm64.\nPreparing to unpack .../19-libsamplerate0_0.2.2-1build1_arm64.deb ...\nUnpacking libsamplerate0:arm64 (0.2.2-1build1) ...\nSelecting previously unselected package libjack-jackd2-0:arm64.\nPreparing to unpack .../20-libjack-jackd2-0_1.9.20~dfsg-1_arm64.deb ...\nUnpacking libjack-jackd2-0:arm64 (1.9.20~dfsg-1) ...\nSelecting previously unselected package libmp3lame0:arm64.\nPreparing to unpack .../21-libmp3lame0_3.100-3build2_arm64.deb ...\nUnpacking libmp3lame0:arm64 (3.100-3build2) ...\nSelecting previously unselected package libmpg123-0:arm64.\nPreparing to unpack .../22-libmpg123-0_1.29.3-1ubuntu0.1_arm64.deb ...\nUnpacking libmpg123-0:arm64 (1.29.3-1ubuntu0.1) ...\nSelecting previously unselected package libasyncns0:arm64.\nPreparing to unpack .../23-libasyncns0_0.8-6build2_arm64.deb ...\nUnpacking libasyncns0:arm64 (0.8-6build2) ...\nSelecting previously unselected package libsndfile1:arm64.\nPreparing to unpack .../24-libsndfile1_1.0.31-2ubuntu0.2_arm64.deb ...\nUnpacking libsndfile1:arm64 (1.0.31-2ubuntu0.2) ...\nSelecting previously unselected package libpulse0:arm64.\nPreparing to unpack .../25-libpulse0_1%3a15.99.1+dfsg1-1ubuntu2.2_arm64.deb ...\nUnpacking libpulse0:arm64 (1:15.99.1+dfsg1-1ubuntu2.2) ...\nSelecting previously unselected package libspeex1:arm64.\nPreparing to unpack .../26-libspeex1_1.2~rc1.2-1.1ubuntu3_arm64.deb ...\nUnpacking libspeex1:arm64 (1.2~rc1.2-1.1ubuntu3) ...\nSelecting previously unselected package libshout3:arm64.\nPreparing to unpack .../27-libshout3_2.4.5-1build3_arm64.deb ...\nUnpacking libshout3:arm64 (2.4.5-1build3) ...\nSelecting previously unselected package libtag1v5-vanilla:arm64.\nPreparing to unpack .../28-libtag1v5-vanilla_1.11.1+dfsg.1-3ubuntu3_arm64.deb ...\nUnpacking libtag1v5-vanilla:arm64 (1.11.1+dfsg.1-3ubuntu3) ...\nSelecting previously unselected package libtag1v5:arm64.\nPreparing to unpack .../29-libtag1v5_1.11.1+dfsg.1-3ubuntu3_arm64.deb ...\nUnpacking libtag1v5:arm64 (1.11.1+dfsg.1-3ubuntu3) ...\nSelecting previously unselected package libtwolame0:arm64.\nPreparing to unpack .../30-libtwolame0_0.4.0-2build2_arm64.deb ...\nUnpacking libtwolame0:arm64 (0.4.0-2build2) ...\nSelecting previously unselected package libv4lconvert0:arm64.\nPreparing to unpack .../31-libv4lconvert0_1.22.1-2build1_arm64.deb ...\nUnpacking libv4lconvert0:arm64 (1.22.1-2build1) ...\nSelecting previously unselected package libv4l-0:arm64.\nPreparing to unpack .../32-libv4l-0_1.22.1-2build1_arm64.deb ...\nUnpacking libv4l-0:arm64 (1.22.1-2build1) ...\nSelecting previously unselected package libvpx7:arm64.\nPreparing to unpack .../33-libvpx7_1.11.0-2ubuntu2.5_arm64.deb ...\nUnpacking libvpx7:arm64 (1.11.0-2ubuntu2.5) ...\nSelecting previously unselected package libwavpack1:arm64.\nPreparing to unpack .../34-libwavpack1_5.4.0-1build2_arm64.deb ...\nUnpacking libwavpack1:arm64 (5.4.0-1build2) ...\nSelecting previously unselected package gstreamer1.0-plugins-good:arm64.\nPreparing to unpack .../35-gstreamer1.0-plugins-good_1.20.3-0ubuntu1.7_arm64.deb ...\nUnpacking gstreamer1.0-plugins-good:arm64 (1.20.3-0ubuntu1.7) ...\nSelecting previously unselected package libxv1:arm64.\nPreparing to unpack .../36-libxv1_2%3a1.0.11-1build2_arm64.deb ...\nUnpacking libxv1:arm64 (2:1.0.11-1build2) ...\nSelecting previously unselected package gstreamer1.0-x:arm64.\nPreparing to unpack .../37-gstreamer1.0-x_1.20.1-1ubuntu0.6_arm64.deb ...\nUnpacking gstreamer1.0-x:arm64 (1.20.1-1ubuntu0.6) ...\nSelecting previously unselected package libnl-route-3-200:arm64.\nPreparing to unpack .../38-libnl-route-3-200_3.5.0-0.1_arm64.deb ...\nUnpacking libnl-route-3-200:arm64 (3.5.0-0.1) ...\nSelecting previously unselected package libibverbs1:arm64.\nPreparing to unpack .../39-libibverbs1_39.0-1_arm64.deb ...\nUnpacking libibverbs1:arm64 (39.0-1) ...\nSelecting previously unselected package ibverbs-providers:arm64.\nPreparing to unpack .../40-ibverbs-providers_39.0-1_arm64.deb ...\nUnpacking ibverbs-providers:arm64 (39.0-1) ...\nSelecting previously unselected package ipxe-qemu.\nPreparing to unpack .../41-ipxe-qemu_1.21.1+git-20220113.fbbdc3926-0ubuntu1_all.deb ...\nUnpacking ipxe-qemu (1.21.1+git-20220113.fbbdc3926-0ubuntu1) ...\nSelecting previously unselected package ipxe-qemu-256k-compat-efi-roms.\nPreparing to unpack .../42-ipxe-qemu-256k-compat-efi-roms_1.0.0+git-20150424.a25a16d-0ubuntu4_all.deb ...\nUnpacking ipxe-qemu-256k-compat-efi-roms (1.0.0+git-20150424.a25a16d-0ubuntu4) ...\nSelecting previously unselected package libboost-iostreams1.74.0:arm64.\nPreparing to unpack .../43-libboost-iostreams1.74.0_1.74.0-14ubuntu3_arm64.deb ...\nUnpacking libboost-iostreams1.74.0:arm64 (1.74.0-14ubuntu3) ...\nSelecting previously unselected package libboost-thread1.74.0:arm64.\nPreparing to unpack .../44-libboost-thread1.74.0_1.74.0-14ubuntu3_arm64.deb ...\nUnpacking libboost-thread1.74.0:arm64 (1.74.0-14ubuntu3) ...\nSelecting previously unselected package libbrlapi0.8:arm64.\nPreparing to unpack .../45-libbrlapi0.8_6.4-4ubuntu3_arm64.deb ...\nUnpacking libbrlapi0.8:arm64 (6.4-4ubuntu3) ...\nSelecting previously unselected package libpcsclite1:arm64.\nPreparing to unpack .../46-libpcsclite1_1.9.5-3ubuntu1_arm64.deb ...\nUnpacking libpcsclite1:arm64 (1.9.5-3ubuntu1) ...\nSelecting previously unselected package libcacard0:arm64.\nPreparing to unpack .../47-libcacard0_1%3a2.8.0-3build2_arm64.deb ...\nUnpacking libcacard0:arm64 (1:2.8.0-3build2) ...\nSelecting previously unselected package libdaxctl1:arm64.\nPreparing to unpack .../48-libdaxctl1_72.1-1_arm64.deb ...\nUnpacking libdaxctl1:arm64 (72.1-1) ...\nSelecting previously unselected package libdecor-0-0:arm64.\nPreparing to unpack .../49-libdecor-0-0_0.1.0-3build1_arm64.deb ...\nUnpacking libdecor-0-0:arm64 (0.1.0-3build1) ...\nSelecting previously unselected package libdecor-0-plugin-1-cairo:arm64.\nPreparing to unpack .../50-libdecor-0-plugin-1-cairo_0.1.0-3build1_arm64.deb ...\nUnpacking libdecor-0-plugin-1-cairo:arm64 (0.1.0-3build1) ...\nSelecting previously unselected package libgfxdr0:arm64.\nPreparing to unpack .../51-libgfxdr0_10.1-1ubuntu0.2_arm64.deb ...\nUnpacking libgfxdr0:arm64 (10.1-1ubuntu0.2) ...\nSelecting previously unselected package libglusterfs0:arm64.\nPreparing to unpack .../52-libglusterfs0_10.1-1ubuntu0.2_arm64.deb ...\nUnpacking libglusterfs0:arm64 (10.1-1ubuntu0.2) ...\nSelecting previously unselected package libgfrpc0:arm64.\nPreparing to unpack .../53-libgfrpc0_10.1-1ubuntu0.2_arm64.deb ...\nUnpacking libgfrpc0:arm64 (10.1-1ubuntu0.2) ...\nSelecting previously unselected package libgfapi0:arm64.\nPreparing to unpack .../54-libgfapi0_10.1-1ubuntu0.2_arm64.deb ...\nUnpacking libgfapi0:arm64 (10.1-1ubuntu0.2) ...\nSelecting previously unselected package librdmacm1:arm64.\nPreparing to unpack .../55-librdmacm1_39.0-1_arm64.deb ...\nUnpacking librdmacm1:arm64 (39.0-1) ...\nSelecting previously unselected package libiscsi7:arm64.\nPreparing to unpack .../56-libiscsi7_1.19.0-3build2_arm64.deb ...\nUnpacking libiscsi7:arm64 (1.19.0-3build2) ...\nSelecting previously unselected package libndctl6:arm64.\nPreparing to unpack .../57-libndctl6_72.1-1_arm64.deb ...\nUnpacking libndctl6:arm64 (72.1-1) ...\nSelecting previously unselected package libpmem1:arm64.\nPreparing to unpack .../58-libpmem1_1.11.1-3build1_arm64.deb ...\nUnpacking libpmem1:arm64 (1.11.1-3build1) ...\nSelecting previously unselected package libpmemobj1:arm64.\nPreparing to unpack .../59-libpmemobj1_1.11.1-3build1_arm64.deb ...\nUnpacking libpmemobj1:arm64 (1.11.1-3build1) ...\nSelecting previously unselected package librados2.\nPreparing to unpack .../60-librados2_17.2.9-0ubuntu0.22.04.3_arm64.deb ...\nUnpacking librados2 (17.2.9-0ubuntu0.22.04.3) ...\nSelecting previously unselected package librbd1.\nPreparing to unpack .../61-librbd1_17.2.9-0ubuntu0.22.04.3_arm64.deb ...\nUnpacking librbd1 (17.2.9-0ubuntu0.22.04.3) ...\nSelecting previously unselected package libsdl2-2.0-0:arm64.\nPreparing to unpack .../62-libsdl2-2.0-0_2.0.20+dfsg-2ubuntu1.22.04.1_arm64.deb ...\nUnpacking libsdl2-2.0-0:arm64 (2.0.20+dfsg-2ubuntu1.22.04.1) ...\nSelecting previously unselected package libseccomp-dev:arm64.\nPreparing to unpack .../63-libseccomp-dev_2.5.3-2ubuntu3~22.04.1_arm64.deb ...\nUnpacking libseccomp-dev:arm64 (2.5.3-2ubuntu3~22.04.1) ...\nSelecting previously unselected package libslirp0:arm64.\nPreparing to unpack .../64-libslirp0_4.6.1-1ubuntu0.2_arm64.deb ...\nUnpacking libslirp0:arm64 (4.6.1-1ubuntu0.2) ...\nSelecting previously unselected package libspice-server1:arm64.\nPreparing to unpack .../65-libspice-server1_0.15.0-2ubuntu4_arm64.deb ...\nUnpacking libspice-server1:arm64 (0.15.0-2ubuntu4) ...\nSelecting previously unselected package liburing2:arm64.\nPreparing to unpack .../66-liburing2_2.1-2build1_arm64.deb ...\nUnpacking liburing2:arm64 (2.1-2build1) ...\nSelecting previously unselected package libusbredirparser1:arm64.\nPreparing to unpack .../67-libusbredirparser1_0.11.0-2build1_arm64.deb ...\nUnpacking libusbredirparser1:arm64 (0.11.0-2build1) ...\nSelecting previously unselected package libvirglrenderer1:arm64.\nPreparing to unpack .../68-libvirglrenderer1_0.9.1-1~exp1ubuntu2_arm64.deb ...\nUnpacking libvirglrenderer1:arm64 (0.9.1-1~exp1ubuntu2) ...\nSelecting previously unselected package libvte-2.91-common.\nPreparing to unpack .../69-libvte-2.91-common_0.68.0-1ubuntu0.1_arm64.deb ...\nUnpacking libvte-2.91-common (0.68.0-1ubuntu0.1) ...\nSelecting previously unselected package libvte-2.91-0:arm64.\nPreparing to unpack .../70-libvte-2.91-0_0.68.0-1ubuntu0.1_arm64.deb ...\nUnpacking libvte-2.91-0:arm64 (0.68.0-1ubuntu0.1) ...\nSelecting previously unselected package qemu-system-common.\nPreparing to unpack .../71-qemu-system-common_1%3a6.2+dfsg-2ubuntu6.31_arm64.deb ...\nUnpacking qemu-system-common (1:6.2+dfsg-2ubuntu6.31) ...\nSelecting previously unselected package qemu-system-data.\nPreparing to unpack .../72-qemu-system-data_1%3a6.2+dfsg-2ubuntu6.31_all.deb ...\nUnpacking qemu-system-data (1:6.2+dfsg-2ubuntu6.31) ...\nSelecting previously unselected package seabios.\nPreparing to unpack .../73-seabios_1.15.0-1_all.deb ...\nUnpacking seabios (1.15.0-1) ...\nSelecting previously unselected package qemu-system-x86.\nPreparing to unpack .../74-qemu-system-x86_1%3a6.2+dfsg-2ubuntu6.31_arm64.deb ...\nUnpacking qemu-system-x86 (1:6.2+dfsg-2ubuntu6.31) ...\nSelecting previously unselected package qemu-system-arm.\nPreparing to unpack .../75-qemu-system-arm_1%3a6.2+dfsg-2ubuntu6.31_arm64.deb ...\nUnpacking qemu-system-arm (1:6.2+dfsg-2ubuntu6.31) ...\nSelecting previously unselected package qemu-system-mips.\nPreparing to unpack .../76-qemu-system-mips_1%3a6.2+dfsg-2ubuntu6.31_arm64.deb ...\nUnpacking qemu-system-mips (1:6.2+dfsg-2ubuntu6.31) ...\nSelecting previously unselected package qemu-system-ppc.\nPreparing to unpack .../77-qemu-system-ppc_1%3a6.2+dfsg-2ubuntu6.31_arm64.deb ...\nUnpacking qemu-system-ppc (1:6.2+dfsg-2ubuntu6.31) ...\nSelecting previously unselected package qemu-system-sparc.\nPreparing to unpack .../78-qemu-system-sparc_1%3a6.2+dfsg-2ubuntu6.31_arm64.deb ...\nUnpacking qemu-system-sparc (1:6.2+dfsg-2ubuntu6.31) ...\nSelecting previously unselected package qemu-system-s390x.\nPreparing to unpack .../79-qemu-system-s390x_1%3a6.2+dfsg-2ubuntu6.31_arm64.deb ...\nUnpacking qemu-system-s390x (1:6.2+dfsg-2ubuntu6.31) ...\nSelecting previously unselected package qemu-system-misc.\nPreparing to unpack .../80-qemu-system-misc_1%3a6.2+dfsg-2ubuntu6.31_arm64.deb ...\nUnpacking qemu-system-misc (1:6.2+dfsg-2ubuntu6.31) ...\nSelecting previously unselected package qemu-utils.\nPreparing to unpack .../81-qemu-utils_1%3a6.2+dfsg-2ubuntu6.31_arm64.deb ...\nUnpacking qemu-utils (1:6.2+dfsg-2ubuntu6.31) ...\nSelecting previously unselected package qemu-block-extra.\nPreparing to unpack .../82-qemu-block-extra_1%3a6.2+dfsg-2ubuntu6.31_arm64.deb ...\nUnpacking qemu-block-extra (1:6.2+dfsg-2ubuntu6.31) ...\nSelecting previously unselected package qemu-system.\nPreparing to unpack .../83-qemu-system_1%3a6.2+dfsg-2ubuntu6.31_arm64.deb ...\nUnpacking qemu-system (1:6.2+dfsg-2ubuntu6.31) ...\nSelecting previously unselected package qemu-system-gui.\nPreparing to unpack .../84-qemu-system-gui_1%3a6.2+dfsg-2ubuntu6.31_arm64.deb ...\nUnpacking qemu-system-gui (1:6.2+dfsg-2ubuntu6.31) ...\nSelecting previously unselected package ovmf.\nPreparing to unpack .../85-ovmf_2022.02-3ubuntu0.22.04.6_all.deb ...\nUnpacking ovmf (2022.02-3ubuntu0.22.04.6) ...\nSelecting previously unselected package qemu-efi-aarch64.\nPreparing to unpack .../86-qemu-efi-aarch64_2022.02-3ubuntu0.22.04.6_all.deb ...\nUnpacking qemu-efi-aarch64 (2022.02-3ubuntu0.22.04.6) ...\nSelecting previously unselected package qemu-efi-arm.\nPreparing to unpack .../87-qemu-efi-arm_2022.02-3ubuntu0.22.04.6_all.deb ...\nUnpacking qemu-efi-arm (2022.02-3ubuntu0.22.04.6) ...\nSetting up libcdparanoia0:arm64 (3.10.2+debian-14build2) ...\nSetting up libseccomp-dev:arm64 (2.5.3-2ubuntu3~22.04.1) ...\nSetting up libraw1394-11:arm64 (2.1.2-2build2) ...\nSetting up libtag1v5-vanilla:arm64 (1.11.1+dfsg.1-3ubuntu3) ...\nSetting up libmpg123-0:arm64 (1.29.3-1ubuntu0.1) ...\nSetting up libspeex1:arm64 (1.2~rc1.2-1.1ubuntu3) ...\nSetting up libcaca0:arm64 (0.99.beta19-2.2ubuntu4.2) ...\nSetting up wget (1.21.2-2ubuntu1.5) ...\nSetting up libtwolame0:arm64 (0.4.0-2build2) ...\nSetting up libvte-2.91-common (0.68.0-1ubuntu0.1) ...\nSetting up libvisual-0.4-0:arm64 (0.4.0-17build2) ...\nSetting up libboost-iostreams1.74.0:arm64 (1.74.0-14ubuntu3) ...\nSetting up qemu-efi-aarch64 (2022.02-3ubuntu0.22.04.6) ...\nSetting up libvte-2.91-0:arm64 (0.68.0-1ubuntu0.1) ...\nSetting up libusbredirparser1:arm64 (0.11.0-2build1) ...\nSetting up libflac8:arm64 (1.3.3-2ubuntu0.2) ...\nSetting up libnl-route-3-200:arm64 (3.5.0-0.1) ...\nSetting up ovmf (2022.02-3ubuntu0.22.04.6) ...\nSetting up libglusterfs0:arm64 (10.1-1ubuntu0.2) ...\nSetting up libvirglrenderer1:arm64 (0.9.1-1~exp1ubuntu2) ...\nSetting up libopus0:arm64 (1.3.1-0.1build2) ...\nSetting up libxv1:arm64 (2:1.0.11-1build2) ...\nSetting up liborc-0.4-0:arm64 (1:0.4.32-2ubuntu0.1) ...\nSetting up libpcsclite1:arm64 (1.9.5-3ubuntu1) ...\nSetting up libdaxctl1:arm64 (72.1-1) ...\nSetting up qemu-system-data (1:6.2+dfsg-2ubuntu6.31) ...\nSetting up seabios (1.15.0-1) ...\nSetting up libslirp0:arm64 (4.6.1-1ubuntu0.2) ...\nSetting up libtag1v5:arm64 (1.11.1+dfsg.1-3ubuntu3) ...\nSetting up cpu-checker (0.7-1.3build1) ...\nSetting up libdv4:arm64 (1.0.0-14build1) ...\nSetting up libasyncns0:arm64 (0.8-6build2) ...\nSetting up libwavpack1:arm64 (5.4.0-1build2) ...\nSetting up ipxe-qemu (1.21.1+git-20220113.fbbdc3926-0ubuntu1) ...\nSetting up libtheora0:arm64 (1.1.1+dfsg.1-15ubuntu4) ...\nSetting up libv4lconvert0:arm64 (1.22.1-2build1) ...\nSetting up libdecor-0-0:arm64 (0.1.0-3build1) ...\nSetting up qemu-efi-arm (2022.02-3ubuntu0.22.04.6) ...\nSetting up libndctl6:arm64 (72.1-1) ...\nSetting up build-essential (12.9ubuntu3) ...\nSetting up ipxe-qemu-256k-compat-efi-roms (1.0.0+git-20150424.a25a16d-0ubuntu4) ...\nSetting up libvpx7:arm64 (1.11.0-2ubuntu2.5) ...\nSetting up libbrlapi0.8:arm64 (6.4-4ubuntu3) ...\nSetting up liburing2:arm64 (2.1-2build1) ...\nSetting up libsamplerate0:arm64 (0.2.2-1build1) ...\nSetting up libpmem1:arm64 (1.11.1-3build1) ...\nSetting up libmp3lame0:arm64 (3.100-3build2) ...\nSetting up libvorbisenc2:arm64 (1.3.7-1build2) ...\nSetting up libgfxdr0:arm64 (10.1-1ubuntu0.2) ...\nSetting up libboost-thread1.74.0:arm64 (1.74.0-14ubuntu3) ...\nSetting up libaa1:arm64 (1.4p5-50build1) ...\nSetting up libiec61883-0:arm64 (1.2.0-4build3) ...\nSetting up libavc1394-0:arm64 (0.5.4-5build2) ...\nSetting up libibverbs1:arm64 (39.0-1) ...\nSetting up ibverbs-providers:arm64 (39.0-1) ...\nSetting up libgstreamer-plugins-base1.0-0:arm64 (1.20.1-1ubuntu0.6) ...\nSetting up libcacard0:arm64 (1:2.8.0-3build2) ...\nSetting up libv4l-0:arm64 (1.22.1-2build1) ...\nSetting up libgstreamer-plugins-good1.0-0:arm64 (1.20.3-0ubuntu1.7) ...\nSetting up gstreamer1.0-plugins-base:arm64 (1.20.1-1ubuntu0.6) ...\nSetting up libshout3:arm64 (2.4.5-1build3) ...\nSetting up libpmemobj1:arm64 (1.11.1-3build1) ...\nSetting up libdecor-0-plugin-1-cairo:arm64 (0.1.0-3build1) ...\nSetting up libjack-jackd2-0:arm64 (1.9.20~dfsg-1) ...\nSetting up libsndfile1:arm64 (1.0.31-2ubuntu0.2) ...\nSetting up qemu-utils (1:6.2+dfsg-2ubuntu6.31) ...\nSetting up libgfrpc0:arm64 (10.1-1ubuntu0.2) ...\nSetting up librdmacm1:arm64 (39.0-1) ...\nSetting up librados2 (17.2.9-0ubuntu0.22.04.3) ...\nSetting up gstreamer1.0-x:arm64 (1.20.1-1ubuntu0.6) ...\nSetting up libpulse0:arm64 (1:15.99.1+dfsg1-1ubuntu2.2) ...\nSetting up gstreamer1.0-plugins-good:arm64 (1.20.3-0ubuntu1.7) ...\nSetting up libspice-server1:arm64 (0.15.0-2ubuntu4) ...\nSetting up librbd1 (17.2.9-0ubuntu0.22.04.3) ...\nSetting up libgfapi0:arm64 (10.1-1ubuntu0.2) ...\nSetting up libiscsi7:arm64 (1.19.0-3build2) ...\nSetting up libsdl2-2.0-0:arm64 (2.0.20+dfsg-2ubuntu1.22.04.1) ...\nSetting up qemu-block-extra (1:6.2+dfsg-2ubuntu6.31) ...\nCreated symlink /etc/systemd/system/multi-user.target.wants/run-qemu.mount → /lib/systemd/system/run-qemu.mount.\nSetting up qemu-system-common (1:6.2+dfsg-2ubuntu6.31) ...\nCreated symlink /etc/systemd/system/multi-user.target.wants/qemu-kvm.service → /lib/systemd/system/qemu-kvm.service.\nSetting up qemu-system-mips (1:6.2+dfsg-2ubuntu6.31) ...\nSetting up qemu-system-sparc (1:6.2+dfsg-2ubuntu6.31) ...\nSetting up qemu-system-x86 (1:6.2+dfsg-2ubuntu6.31) ...\nSetting up qemu-system-ppc (1:6.2+dfsg-2ubuntu6.31) ...\nSetting up qemu-system-misc (1:6.2+dfsg-2ubuntu6.31) ...\nSetting up qemu-system-arm (1:6.2+dfsg-2ubuntu6.31) ...\nSetting up qemu-system-s390x (1:6.2+dfsg-2ubuntu6.31) ...\nSetting up qemu-system-gui (1:6.2+dfsg-2ubuntu6.31) ...\nSetting up qemu-system (1:6.2+dfsg-2ubuntu6.31) ...\nProcessing triggers for hicolor-icon-theme (0.17-2) ...\nProcessing triggers for libc-bin (2.35-0ubuntu3.14) ...\nProcessing triggers for man-db (2.10.2-1) ...\nNot building database; man-db/auto-update is not 'true'.\nProcessing triggers for install-info (6.8-4build1) ...\n2026-08-25T00:21:30.8495597Z\nRunning kernel seems to be up-to-date.\n2026-08-25T00:21:30.8497212Z\nNo services need to be restarted.\n2026-08-25T00:21:30.8504210Z\nNo containers need to be restarted.\n2026-08-25T00:21:30.8504477Z\nNo user sessions are running outdated binaries.\n2026-08-25T00:21:30.8504837Z\nNo VM guests are running outdated hypervisor (qemu) binaries on this host.\n--2026-08-25 00:21:32--  https://s3.nbfc.io/nbfc-assets/github/urunc/bin/virtiofsd\nResolving s3.nbfc.io (s3.nbfc.io)... 85.73.152.209\nConnecting to s3.nbfc.io (s3.nbfc.io)|85.73.152.209|:443... connected.\nERROR: cannot verify s3.nbfc.io's certificate, issued by ‘CN=R12,O=Let's Encrypt,C=US’:\nIssued certificate has expired.\nTo connect to s3.nbfc.io insecurely, use `--no-check-certificate'.\n##[error]Process completed with exit code 5."
+            }
+          ],
+          "run_attempt": 1
+        },
         {
           "id": 32676393235,
           "name": "urunc CI (nightly)",
@@ -4404,116 +4534,6 @@
               "conclusion": "success",
               "duration_sec": 252,
               "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31060478188/job/92487321923"
-            }
-          ],
-          "run_attempt": 1
-        },
-        {
-          "id": 30964185331,
-          "name": "urunc CI (nightly)",
-          "status": "completed",
-          "conclusion": "success",
-          "run_number": 291,
-          "created_at": "2026-08-05T00:43:10Z",
-          "updated_at": "2026-08-05T00:51:35Z",
-          "run_started_at": "2026-08-05T00:43:10Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/30964185331",
-          "jobs": [
-            {
-              "name": "Unit tests / unit-test (arm64, ubuntu-22.04-arm)",
-              "conclusion": "success",
-              "duration_sec": 31,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/30964185331/job/92174446373"
-            },
-            {
-              "name": "Build / build (arm64, ubuntu-22.04-arm)",
-              "conclusion": "success",
-              "duration_sec": 45,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/30964185331/job/92174446406"
-            },
-            {
-              "name": "Build / build (amd64, ubuntu-22.04)",
-              "conclusion": "success",
-              "duration_sec": 59,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/30964185331/job/92174446414"
-            },
-            {
-              "name": "Unit tests / unit-test (amd64, ubuntu-22.04)",
-              "conclusion": "success",
-              "duration_sec": 43,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/30964185331/job/92174446434"
-            },
-            {
-              "name": "urunc-deploy test / urunc-deploy (amd64, ubuntu-22.04)",
-              "conclusion": "success",
-              "duration_sec": 69,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/30964185331/job/92174628399"
-            },
-            {
-              "name": "urunc-deploy test / urunc-deploy (arm64, ubuntu-22.04-arm)",
-              "conclusion": "success",
-              "duration_sec": 68,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/30964185331/job/92174628423"
-            },
-            {
-              "name": "Kubernetes test / Kubernetes test (arm64, ubuntu-22.04-arm)",
-              "conclusion": "success",
-              "duration_sec": 252,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/30964185331/job/92174628450"
-            },
-            {
-              "name": "Kubernetes test / Kubernetes test (amd64, ubuntu-22.04)",
-              "conclusion": "success",
-              "duration_sec": 308,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/30964185331/job/92174628455"
-            },
-            {
-              "name": "E2E test / VM test (arm64, test_ctr)",
-              "conclusion": "success",
-              "duration_sec": 179,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/30964185331/job/92174628514"
-            },
-            {
-              "name": "E2E test / VM test (amd64, test_docker)",
-              "conclusion": "success",
-              "duration_sec": 240,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/30964185331/job/92174628516"
-            },
-            {
-              "name": "E2E test / VM test (arm64, test_docker)",
-              "conclusion": "success",
-              "duration_sec": 155,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/30964185331/job/92174628531"
-            },
-            {
-              "name": "E2E test / VM test (arm64, test_nerdctl)",
-              "conclusion": "success",
-              "duration_sec": 220,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/30964185331/job/92174628540"
-            },
-            {
-              "name": "E2E test / VM test (amd64, test_ctr)",
-              "conclusion": "success",
-              "duration_sec": 219,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/30964185331/job/92174628544"
-            },
-            {
-              "name": "E2E test / VM test (arm64, test_crictl)",
-              "conclusion": "success",
-              "duration_sec": 145,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/30964185331/job/92174628547"
-            },
-            {
-              "name": "E2E test / VM test (amd64, test_crictl)",
-              "conclusion": "success",
-              "duration_sec": 222,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/30964185331/job/92174628552"
-            },
-            {
-              "name": "E2E test / VM test (amd64, test_nerdctl)",
-              "conclusion": "success",
-              "duration_sec": 433,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/30964185331/job/92174628560"
             }
           ],
           "run_attempt": 1
@@ -9264,7 +9284,7 @@
       "total_runs": 20,
       "failed_runs": 0,
       "failure_rate": 0,
-      "avg_duration_secs": 26.65,
+      "avg_duration_secs": 26.75,
       "weather_history": [
         "success",
         "success",
@@ -9275,26 +9295,46 @@
         "success"
       ],
       "last_run": {
-        "id": 32792123000,
+        "id": 32913574400,
         "name": "Automatically close stale PRs",
         "status": "completed",
         "conclusion": "success",
-        "run_number": 534,
-        "created_at": "2026-08-25T00:04:37Z",
-        "updated_at": "2026-08-25T00:05:03Z",
-        "run_started_at": "2026-08-25T00:04:37Z",
-        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32792123000",
+        "run_number": 535,
+        "created_at": "2026-08-26T00:04:55Z",
+        "updated_at": "2026-08-26T00:05:24Z",
+        "run_started_at": "2026-08-26T00:04:55Z",
+        "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32913574400",
         "jobs": [
           {
             "name": "stale",
             "conclusion": "success",
-            "duration_sec": 21,
-            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32792123000/job/97635614467"
+            "duration_sec": 25,
+            "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32913574400/job/98012405911"
           }
         ],
         "run_attempt": 1
       },
       "recent_runs": [
+        {
+          "id": 32913574400,
+          "name": "Automatically close stale PRs",
+          "status": "completed",
+          "conclusion": "success",
+          "run_number": 535,
+          "created_at": "2026-08-26T00:04:55Z",
+          "updated_at": "2026-08-26T00:05:24Z",
+          "run_started_at": "2026-08-26T00:04:55Z",
+          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32913574400",
+          "jobs": [
+            {
+              "name": "stale",
+              "conclusion": "success",
+              "duration_sec": 25,
+              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/32913574400/job/98012405911"
+            }
+          ],
+          "run_attempt": 1
+        },
         {
           "id": 32792123000,
           "name": "Automatically close stale PRs",
@@ -9671,26 +9711,6 @@
               "conclusion": "success",
               "duration_sec": 20,
               "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31136940434/job/92738273488"
-            }
-          ],
-          "run_attempt": 1
-        },
-        {
-          "id": 31059261090,
-          "name": "Automatically close stale PRs",
-          "status": "completed",
-          "conclusion": "success",
-          "run_number": 515,
-          "created_at": "2026-08-06T00:18:11Z",
-          "updated_at": "2026-08-06T00:18:38Z",
-          "run_started_at": "2026-08-06T00:18:11Z",
-          "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31059261090",
-          "jobs": [
-            {
-              "name": "stale",
-              "conclusion": "success",
-              "duration_sec": 23,
-              "html_url": "https://github.com/urunc-dev/urunc/actions/runs/31059261090/job/92483370866"
             }
           ],
           "run_attempt": 1
