@@ -117,13 +117,13 @@ workflows:
     description: "Dependency checks"
     critical: false
 
-  # - name: "kind_test"
-  #   description: "Kubernetes tests"
-  #   critical: true
+  - name: "kind_test"
+    description: "Kubernetes tests"
+    critical: true
 
-  # - name: "lint"
-  #   description: "Lint checks"
-  #   critical: true
+  - name: "lint"
+    description: "Lint checks"
+    critical: true
 
   - name: "pr-merge"
     description: "PR merge checks"
