@@ -5,11 +5,13 @@
     var btn = document.getElementById('themeToggle');
     var iconSun = document.getElementById('iconSun');
     var iconMoon = document.getElementById('iconMoon');
+    var logo = document.getElementById('headerLogo');
 
     function syncIcons() {
         var isLight = document.body.classList.contains('light');
         iconSun.style.display = isLight ? 'none' : '';
         iconMoon.style.display = isLight ? '' : 'none';
+        if (logo) logo.src = isLight ? './images/urunc-logo-light.svg' : './images/urunc-logo-dark.svg';
     }
     syncIcons();
 
