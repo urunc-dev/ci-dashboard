@@ -50,7 +50,35 @@ function fmtDate(iso) {
 function conclusionHtml(c) {
     if (!c) return '<span class="conclusion unknown">—</span>';
     var cls = ['success', 'failure', 'skipped', 'action_required'].includes(c) ? c : 'unknown';
-    return '<span class="conclusion ' + cls + '">' + c.replace(/_/g, ' ') + '</span>';
+    var label = c.replace(/_/g, ' ');
+    if (c === 'action_required') label = '⚠ needs review';
+    if (c === 'skipped') label = '⏭ skipped';
+    return '<span class="conclusion ' + cls + '">' + label + '</span>';
+}
+
+function eventBadge(run) {
+    if (!run || !run.event) return '';
+    var e = run.event;
+    var branch = run.head_branch || '';
+    var isPR = e.indexOf('pull_request') === 0;
+    var isSchedule = e === 'schedule';
+    var isMain = !isPR && (branch === 'main' || branch === 'master');
+
+    var cls, label;
+    if (isPR) {
+        cls = 'badge-pr';
+        label = 'PR';
+    } else if (isSchedule) {
+        cls = 'badge-schedule';
+        label = 'scheduled';
+    } else if (isMain) {
+        cls = 'badge-main';
+        label = 'main';
+    } else {
+        cls = 'badge-branch';
+        label = branch || e;
+    }
+    return '<span class="badge event-badge ' + cls + '" title="' + esc(e) + (branch ? ' · ' + esc(branch) : '') + '">' + esc(label) + '</span>';
 }
 
 function rateColorClass(r) {
@@ -298,6 +326,7 @@ function renderStructuredLog(snippet) {
 
 // State
 var allWorkflows = [];
+var staleWorkflows = [];
 var activeFilter = 'all';
 var searchQuery = '';
 var chartsBuilt = false;
@@ -311,7 +340,7 @@ function buildCharts(workflows) {
         return w.total_runs > 0;
     });
     var labels = active.map(function(w) {
-        return w.name;
+        return w.description || w.name;
     });
     var successRates = active.map(function(w) {
         return parseFloat((100 - w.failure_rate).toFixed(1));
@@ -379,7 +408,7 @@ function buildCharts(workflows) {
         var recent = (w.recent_runs || []).slice(0, 7).reverse();
         var color = palette[wi % palette.length];
         return {
-            label: w.name,
+            label: w.description || w.name,
             data: recent.map(function(r) {
                 var started = r.run_started_at || r.created_at;
                 return parseFloat(((new Date(r.updated_at) - new Date(started)) / 60000).toFixed(2));
@@ -460,7 +489,7 @@ function buildCharts(workflows) {
     var durationValues = [];
     active.forEach(function(w) {
         if (w.avg_duration_secs > 0) {
-            durationLabels.push(w.name);
+            durationLabels.push(w.description || w.name);
             durationValues.push(parseFloat((w.avg_duration_secs / 60).toFixed(2)));
         }
     });
@@ -582,6 +611,8 @@ function matchesFilter(wf) {
             return isRecentFailure(wf);
         case 'no-runs':
             return wf.total_runs === 0;
+        case 'stale':
+            return true;
         default:
             return true;
     }
@@ -625,12 +656,14 @@ function sortList(list) {
 }
 
 function applyFilters() {
-    var filtered = allWorkflows.filter(function(wf) {
+    var source = activeFilter === 'stale' ? staleWorkflows : allWorkflows;
+    var filtered = source.filter(function(wf) {
         return matchesFilter(wf) && matchesSearch(wf);
     });
     var sorted = sortList(filtered);
     renderTable(sorted);
-    document.getElementById('filterCount').textContent = sorted.length + ' of ' + allWorkflows.length + ' workflows';
+    var total = activeFilter === 'stale' ? staleWorkflows.length : allWorkflows.length;
+    document.getElementById('filterCount').textContent = sorted.length + ' of ' + total + ' workflows';
 }
 
 // Table renderer
@@ -660,15 +693,15 @@ function renderTable(list) {
             '<div class="wf-name-wrap">' +
             '<svg class="chevron" viewBox="0 0 16 16" fill="currentColor"><path d="M6.22 3.22a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.749.749 0 0 1-1.06-1.06L10 8 6.22 4.22a.75.75 0 0 1 0-1Z"/></svg>' +
             '<span class="wf-name">' +
-            esc(wf.name) +
+            esc(wf.description || wf.name) +
             (wf.critical ? '<span class="badge badge-critical">critical</span>' : '') +
             (ranWithin24h(wf) ? '<span class="badge badge-recent">recent</span>' : '') +
             '</span>' +
             '</div>' +
-            '<div class="wf-desc">' + esc(wf.description || '') + '</div>' +
+            '<div class="wf-desc">' + esc(wf.name) + '</div>' +
             '</td>' +
             '<td>' +
-            (lr ? conclusionHtml(lr.conclusion) + '<div class="run-date">#' + lr.run_number + ' · ' + fmtDate(lr.run_started_at || lr.created_at) + '</div>' :
+            (lr ? conclusionHtml(lr.conclusion) + eventBadge(lr) + '<div class="run-date">#' + lr.run_number + ' · ' + fmtDate(lr.run_started_at || lr.created_at) + '</div>' :
                 '<span class="conclusion unknown">no runs</span>') +
             '</td>' +
             '<td><div class="rate-wrap">' +
@@ -790,7 +823,7 @@ function renderDrawer(wf, drawerEl) {
     var runsPanel = document.getElementById('panel-runs-' + safeWfName);
     var html = '<div class="runs-title">Past Runs (' + runs.length + ')</div>' +
         '<table class="runs-table"><thead><tr>' +
-        '<th>#</th><th>Conclusion</th><th>Started</th><th>Duration</th><th>Link</th><th>Failure Logs</th>' +
+        '<th>#</th><th>Trigger</th><th>Conclusion</th><th>Started</th><th>Duration</th><th>Link</th><th>Failure Logs</th>' +
         '</tr></thead><tbody>';
 
     runs.forEach(function(run, ri) {
@@ -803,6 +836,7 @@ function renderDrawer(wf, drawerEl) {
             '<td style="color:var(--muted);font-family:\'JetBrains Mono\',monospace">#' + run.run_number +
             (run.run_attempt > 1 ? ' <span style="font-size:10px;background:rgba(88,166,255,.15);color:var(--blue);border:1px solid rgba(88,166,255,.3);border-radius:3px;padding:1px 4px">attempt ' + run.run_attempt + '</span>' : '') +
             '</td>' +
+            '<td>' + eventBadge(run) + '</td>' +
             '<td>' + conclusionHtml(run.conclusion) + '</td>' +
             '<td style="color:var(--muted);font-family:\'JetBrains Mono\',monospace;font-size:12px">' + fmtDate(started) + '</td>' +
             '<td><span class="dur">' + fmtDur(dur) + '</span></td>' +
@@ -811,7 +845,7 @@ function renderDrawer(wf, drawerEl) {
             '</tr>';
 
         if (hasFailed) {
-            html += '<tr><td colspan="6" style="padding:0 12px 0"><div class="log-panel" id="' + logPanelId + '">';
+            html += '<tr><td colspan="7" style="padding:0 12px 0"><div class="log-panel" id="' + logPanelId + '">';
             run.failed_jobs.forEach(function(job) {
                 html += '<div class="log-job-block">' +
                     '<div class="log-job-header">' +
@@ -1157,7 +1191,25 @@ fetch('stats.json')
         fill.style.width = health + '%';
         fill.style.background = healthColor(health);
 
-        allWorkflows = data.workflows || [];
+        var STALE_DAYS = 90;
+        var staleCutoff = new Date(Date.now() - STALE_DAYS * 24 * 60 * 60 * 1000);
+
+        function isStaleOrInactive(wf) {
+            if (!wf.last_run) return true;
+            var lastDate = new Date(wf.last_run.run_started_at || wf.last_run.created_at);
+            if (lastDate < staleCutoff) return true;
+            // Mostly-skipped workflows: last run skipped + >70% history skipped
+            var hist = wf.weather_history || [];
+            if (hist.length > 0 && wf.last_run.conclusion === 'skipped') {
+                var skippedCount = hist.filter(function(h) { return h === 'skipped'; }).length;
+                if (skippedCount / hist.length > 0.7) return true;
+            }
+            return false;
+        }
+
+        var rawWorkflows = data.workflows || [];
+        allWorkflows = rawWorkflows.filter(function(wf) { return !isStaleOrInactive(wf); });
+        staleWorkflows = rawWorkflows.filter(isStaleOrInactive);
         document.getElementById('totalVal').textContent = allWorkflows.length;
         document.getElementById('passVal').textContent = allWorkflows.filter(function(w) {
             return w.failure_rate <= 20 && w.total_runs > 0;

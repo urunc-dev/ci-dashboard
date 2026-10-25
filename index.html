@@ -84,7 +84,7 @@
       <span class="chip red-chip"    data-filter="critical">Critical</span>
       <span class="chip orange-chip" data-filter="recent-failure">Recent Failure</span>
       <span class="chip"             data-filter="recent-run">Recent Run</span>
-      <span class="chip"             data-filter="no-runs">No Runs</span>
+      <span class="chip"             data-filter="stale">Stale</span>
       <span class="chip purple-chip" data-filter="chart">Charts</span>
     </div>
     <span class="filter-count" id="filterCount"></span>
@@ -115,10 +115,10 @@
     <table>
       <thead>
         <tr>
-          <th>Workflow</th>
+          <th style="width:30%">Workflow</th>
           <th>Last Run</th>
           <th>Success Rate</th>
-          <th>History (oldest → newest)</th>
+          <th style="width:12%">History</th>
           <th>Avg Duration</th>
           <th>Link</th>
         </tr>

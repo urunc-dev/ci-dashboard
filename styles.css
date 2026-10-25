@@ -339,16 +339,22 @@ td { padding: 13px 16px; font-size: 10px; vertical-align: middle; }
 .badge { display: inline-block; font-size: 11px; font-family: 'JetBrains Mono', monospace; padding: 1px 5px; border-radius: 3px; margin-left: 6px; }
 .badge-critical { background: rgba(248,81,73,.15); color: var(--red); border: 1px solid rgba(248,81,73,.3); }
 
+.event-badge { font-size: 10px; font-weight: 600; padding: 1px 6px; border-radius: 3px; vertical-align: middle; }
+.badge-pr       { background: rgba(188,140,255,.15); color: var(--purple); border: 1px solid rgba(188,140,255,.3); }
+.badge-main     { background: rgba(63,185,80,.12);   color: var(--green);  border: 1px solid rgba(63,185,80,.3); }
+.badge-schedule { background: rgba(88,166,255,.12);   color: var(--blue);   border: 1px solid rgba(88,166,255,.3); }
+.badge-branch   { background: rgba(139,148,158,.12);  color: var(--muted);  border: 1px solid rgba(139,148,158,.25); }
+
 .conclusion { display: inline-flex; align-items: center; gap: 5px; font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 600; padding: 3px 7px; border-radius: 4px; }
 .conclusion.success         { color: var(--green);  background: rgba(63,185,80,.12); }
 .conclusion.failure         { color: var(--red);    background: rgba(248,81,73,.12); }
 .conclusion.skipped         { color: var(--muted);  background: rgba(139,148,158,.1); }
 .conclusion.unknown         { color: var(--muted);  background: rgba(139,148,158,.1); }
-.conclusion.action_required { color: var(--orange); background: rgba(210,153,34,.12); }
+.conclusion.action_required { color: var(--orange); background: rgba(210,153,34,.18); border: 1px solid rgba(210,153,34,.35); font-weight: 700; }
 
 .run-date { font-size: 13px; color: var(--muted); margin-top: 3px; font-family: 'JetBrains Mono', monospace; }
 .rate-wrap { display: flex; align-items: center; gap: 8px; }
-.rate-bar-track { width: 56px; height: 4px; background: var(--surface2); border-radius: 2px; overflow: hidden; flex-shrink: 0; }
+.rate-bar-track { width: 96px; height: 4px; background: var(--surface2); border-radius: 2px; overflow: hidden; flex-shrink: 0; }
 .rate-bar-fill  { height: 100%; border-radius: 2px; }
 .rate-num { font-family: 'JetBrains Mono', monospace; font-size: 14px; font-weight: 600; }
 .rate-num.green  { color: var(--green); }
@@ -361,7 +367,7 @@ td { padding: 13px 16px; font-size: 10px; vertical-align: middle; }
 .dot.failure         { background: var(--red); }
 .dot.unknown         { background: var(--surface2); border: 1px solid var(--border); }
 .dot.skipped         { background: var(--muted); opacity: .5; }
-.dot.action_required { background: var(--orange); }
+.dot.action_required { background: var(--orange); box-shadow: 0 0 0 2px rgba(210,153,34,.3); }
 
 .dur { font-family: 'JetBrains Mono', monospace; font-size: 13px; color: var(--muted); }
 .run-link { color: var(--blue); text-decoration: none; font-size: 12px; font-family: 'JetBrains Mono', monospace; }
@@ -556,4 +562,104 @@ footer a:hover { text-decoration: underline; }
 @keyframes rowIn {
   from { opacity: 0; transform: translateY(6px); }
   to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ── Responsive ─────────────────────────────────────── */
+
+/* Tablet / medium screens */
+@media (max-width: 900px) {
+  header { padding: 14px 18px; flex-wrap: wrap; }
+  header h1 { font-size: 22px; }
+
+  main { padding: 20px 14px; }
+
+  .stats-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; margin-bottom: 20px; }
+
+  .stat-label { font-size: 16px; }
+  .stat-value { font-size: 26px; }
+
+  .stats-section-label { font-size: 15px; }
+
+  .charts-overview-grid { grid-template-columns: 1fr; gap: 14px; }
+
+  .filter-bar { gap: 8px; }
+  .filter-chips { gap: 5px; }
+  .chip { font-size: 11px; padding: 4px 8px; }
+  .filter-count { font-size: 13px; }
+
+  .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  table { min-width: 700px; }
+
+  thead th { font-size: 14px; padding: 9px 12px; }
+  td { padding: 10px 12px; }
+  .wf-name { font-size: 14px; }
+  .wf-desc { font-size: 11px; }
+}
+
+/* Mobile / small screens */
+@media (max-width: 560px) {
+  header {
+    padding: 12px 14px;
+    gap: 8px;
+  }
+  header h1 { font-size: 18px; flex-basis: 100%; }
+
+  .theme-toggle { margin-left: 0; }
+
+  .last-updated { margin-left: auto; font-size: 10px; padding: 2px 6px; }
+
+  main { padding: 14px 10px; }
+
+  .stats-grid { grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 16px; }
+
+  .stat-card { padding: 14px 14px; }
+  .stat-label { font-size: 13px; letter-spacing: .4px; margin-bottom: 4px; }
+  .stat-value { font-size: 22px; }
+
+  .stats-section-label { font-size: 13px; margin-bottom: 6px; }
+
+  .filter-bar { flex-direction: column; align-items: stretch; gap: 8px; }
+  .search-wrap { min-width: unset; }
+  .search-input { font-size: 14px; padding: 7px 10px 7px 30px; }
+  .filter-chips { overflow-x: auto; flex-wrap: nowrap; padding-bottom: 4px; -webkit-overflow-scrolling: touch; }
+  .chip { flex-shrink: 0; font-size: 11px; padding: 4px 8px; }
+  .filter-count { margin-left: 0; font-size: 12px; text-align: right; }
+
+  .charts-overview-grid { grid-template-columns: 1fr; gap: 10px; }
+  .chart-card { padding: 14px 12px; }
+  .chart-card h3 { font-size: 11px; margin-bottom: 10px; }
+  .chart-card canvas { max-height: 200px; }
+
+  .wf-chart-block { padding: 14px 12px; }
+  .wf-chart-block canvas { min-height: 200px; max-height: 300px; }
+
+  table { min-width: 600px; }
+  thead th { font-size: 12px; padding: 8px 10px; letter-spacing: .4px; }
+  td { padding: 8px 10px; font-size: 9px; }
+  .wf-name { font-size: 13px; }
+  .wf-desc { font-size: 10px; padding-left: 20px; }
+  .conclusion { font-size: 10px; padding: 2px 5px; }
+  .run-date { font-size: 11px; }
+  .rate-num { font-size: 12px; }
+  .rate-bar-track { width: 64px; }
+  .dur { font-size: 11px; }
+  .run-link { font-size: 10px; }
+
+  .drawer { padding: 14px 12px; }
+  .runs-table th { font-size: 11px; padding: 6px 8px; }
+  .runs-table td { padding: 8px; font-size: 11px; }
+
+  .log-body { max-height: 320px; }
+  .log-signal-line { font-size: 11px; }
+
+  footer { padding: 16px 10px; font-size: 11px; margin-top: 24px; }
+}
+
+/* Very small phones */
+@media (max-width: 380px) {
+  .stats-grid { grid-template-columns: 1fr; gap: 8px; }
+  .stat-value { font-size: 20px; }
+
+  header h1 { font-size: 16px; }
+  .last-updated { font-size: 9px; }
 }
